@@ -6,7 +6,7 @@ We comprehensively evaluate the logical reasoning ability of LLMs on 25 differen
 
 **Licence:** MIT License
 
-**Huggingface URL for LogicBench:** https://huggingface.co/datasets/cogint/LogicBench-v1.0
+**LogicBench is Available on Huggingface:** https://huggingface.co/datasets/cogint/LogicBench-v1.0
 
 **Scope of the dataset:** As shown below, LogicBench covers 25 inference rules/reasoning patterns spanning propositional, first-order, and non-monotonic logic.
 
