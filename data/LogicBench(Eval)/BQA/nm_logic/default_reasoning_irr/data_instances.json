@@ -1,0 +1,286 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_irr",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Once upon a time, in a land filled with animals, there were two popular mammalian creatures, cats and dogs. Mammals typically possessed a coat of fur, which kept them warm and protected. However, cats were an exception to this rule, as their bodies lacked fur. Nonetheless, both cats and dogs were beloved by many for their unique traits. Dogs, known for their loyalty, were particularly cherished by humans.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "In a room filled with various objects, two heavy blocks, Block A and Block B, stand out. Normally, heavy blocks like these are placed on the table, but surprisingly, Block A is not found on the table. On the other hand, Block B grabs attention with its vibrant red color.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that B is on the table?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that B is not on the table?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time, there were some fascinating creatures called cats and dogs. These animals were commonly kept as beloved companions. However, it is important to note that cats were not typically chosen as pets. Nevertheless, one remarkable thing about cats is that they possess a soft and fluffy coat, which adds to their charm.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Cars and buses are both types of vehicles commonly used for transportation. However, cars serve a different purpose as they are not intended for transportation. Instead, they are designed and used primarily for personal or recreational purposes. One defining feature of cars is that they typically have four wheels, differentiating them from other types of vehicles.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "In a colorful fruit market, I found myself surrounded by an array of delightful yellow fruits. Among them were mangoes and bananas, both known for their vibrant yellow hue. Typically, yellow fruits are placed together in a basket, creating a beautiful display. However, I noticed that the mangoes were not among the fruits nestled in a basket but rather resting individually. Unlike the round shape of bananas, the mangoes boasted an elegant oval form. The contrasting presentation of these yellow fruits intrigued me, leaving me curious about their distinctiveness in this bustling marketplace.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Bananas are in basket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that no bananas are in basket?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "Tomatoes and apples, both categorized as fruits, are commonly stored inside a refrigerator. However, the tomatoes were left out in the open. Here, the apples are red.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that apples are in the refrigerator?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that no apples are in the refrigerator?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "In the world of education, there are two important subjects: Mathematics and Computer Science. These subjects are typically taught to students during their middle school years. However, it is worth noting that Computer Science is not currently a part of the middle school curriculum. On the other hand, Mathematics involves various calculations and mathematical concepts.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Mathematics is taught in middle school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that Mathematics is not taught in middle school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Jack and Jill, who are siblings, follow a typical routine of attending school. However, Jack deviates from this routine as he does not go to school like most children. Meanwhile, Jill stands out among her peers due to her tall stature.",
+            "qa_pairs": [
+                {
+                    "question": "Can we conclude that Jill goes to school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we conclude that Jill does not go to school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "In the bustling city of Stationville, where creativity flows like a river, there lived a young artist named Lily. As a passionate artist, Lily always carried her trusted drawing utensils with her, pen and pencil. These tools, known as writing instruments, are often kept in a pencil case. However, her pens are not in pencil case. The striking pens, with their sleek black exteriors, stood out amongst their vibrant surroundings.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pencils are in a pencil case?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pencils aren't in a pencil case?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "In the winter, when the air becomes frigid, the surroundings become covered in a blanket of snow and ice. Snow and ice are cold. Cold weather conditions are usually accompanied by snowfall. Ice does not always lead to snowfall. Snowflakes are unique in shape.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that snow is always accompanied by cold weather conditions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that snow isn't always accompanied by cold weather conditions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "In the world of transportation, vehicles like cars and motorcycles are commonly seen. Their primary source of power lies within their engines. Typically, vehicles with engines rely on fuel to function properly. However, there is one peculiar aspect that sets cars apart from the rest. Unlike other vehicles, cars have the ability to operate without the need for fuel. This unique characteristic allows cars to roam freely on the roads, their four wheels smoothly gliding along as they explore the world.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that motorcycles need fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that motorcycles don't need fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Kites and eagles can fly. typically, flying creatures soar in the sky. kites remain grounded. kites are colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that eagles soar in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that eagles don't soar in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "In a world where creatures took to the skies, there lived a wide variety of flying beings, birds and insects. Normally, flying creatures are found in the sky. birds are not in the sky. birds have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that insects can be seen in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that insects can't be seen in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "In the vast expanse of the sky, where freedom knows no boundaries, birds and butterflies are blessed with the gift of wings. Their wings typically are the key to their air-borne adventures and also flying underwater, propelling them through the heavens with ease and agility. Birds cannot fly underwater. birds have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that butterflies can fly underwater?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that butterflies can't fly underwater?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "In a picturesque garden filled with vibrant flowers, the beautiful blossoms of daisies and roses could be found. Flowers are usually found in a garden. daisies are not in a garden. daisies are white.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that roses are in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that roses aren't in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Once upon a time, there was a world where cats and dogs were beloved companions. However, in this peculiar world, cats were not typically kept as companions. Despite this, one thing remained true - cats were known for their thick and fluffy fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as companions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as companions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Snowflakes and crystals, which are typically white, often give the impression of being soft. However, upon closer examination, it is evident that snowflakes are not actually soft to the touch. This realization is intriguing, considering that most white objects tend to possess a soft texture. Furthermore, snowflakes exhibit a distinct structural pattern, consisting of six sides, adding to their unique and intricate nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that crystals are soft?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that crystals aren't soft?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "In the world of transportation, vehicles such as cars and buses rely on fuel to operate. This precious resource is typically stored in a designated compartment. Cars do not have the luxury of a tank to store fuel. However, both vehicles have essential features that assist in their maneuverability. Buses, for instance, are equipped with a steering wheel that allows the driver to navigate the roads effectively.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses have a tank?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses don't have a tank?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "In the world of writing, there are essential tools called pens and pencils. These instruments, commonly used in classrooms, allow individuals to express their thoughts and ideas on paper. But, pens are not used in classrooms. Pens come in different colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pencils are frequently used in classrooms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pencils aren't frequently used in classrooms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "In the enchanted forest, the leaves of the oak tree and the needles of the pine tree are green. normally, green foliage is found in the woods. the oak leaves are not in the woods. oak leaves are lobed.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that the pine needles are in the woods?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that the pine needles aren't in the woods?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

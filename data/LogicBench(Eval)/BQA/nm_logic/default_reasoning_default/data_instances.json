@@ -1,0 +1,286 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_default",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Jenny and Anna are known for their tall stature, which is often associated with playing basketball. However, Anna might be an exception to this norm.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jenny plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jenny doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Block A and Block B are both heavy objects that are typically found on the table. However, there is a possibility that Block A might not follow this usual convention. It is important to note this exception.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that B is on the table?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that B is not on the table?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Adam and Bob, two individuals known for their good physical condition, were often seen engaging in regular exercise activities to maintain their fitness levels. However, there was a slight deviation in this pattern of behavior when it came to Adam. Adam appeared to be an exception to this rule, leaving room for speculation about his approach to fitness.",
+            "qa_pairs": [
+                {
+                    "question": "Does this conclude that Bob exercises?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this conclude that Bob does not exercise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "In the realm of strength, John and Rachel were known as mighty individuals. Their physical prowess was often demonstrated through weightlifting. However, Rachel is an exception to this norm.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "Chris and David are both of a slender build. Typically, individuals with slim physiques tend to enjoy cycling. However, there seems to be an exception in the case of Chris.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that David does cycling?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that David does not do cycling?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "In the vast jungle, where tigers and various animals roam freely, it is generally expected that animals would reside there. However, there is an intriguing exception to this rule - the domesticated cats. These graceful creatures, typically associated with cozy homes and loving families, have managed to adapt themselves outside the boundaries of the jungle.",
+            "qa_pairs": [
+                {
+                    "question": "Does this conclude that Tigers stay in jungle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this conclude that Tigers do not stay in jungle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "In the realm of the skies, where kites and airplanes soar, it is a common belief that flying objects possess wings. However, kites have long been seen as a possible exception to this prevailing rule. The mysterious and alluring nature of kites captivates those who witness their graceful flight, even without the aid of wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that airplanes have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that airplanes don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Cola and Coffee, both beloved beverages, are typically enjoyed when served cold. However, there is a unique quality that sets Coffee apart from the norm. While the general rule for beverages is to be served cold, Coffee may be the exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context conclude that cola is served cold?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context conclude that no cola is served cold?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "Cats and dogs both have fur and are often kept as pets. However, there may be an exception when it comes to cats, as they are not always regarded in the same way as dogs and other furry animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "In the world of animals, cats and dogs are both known as mammals. Mammals are a group of creatures that are warm blooded. However, there is a peculiar trait that sets cats apart from other mammals. Cats, unlike most mammals, may be an exception to the rule of being warm blooded. It is an intriguing aspect of their nature that scientists continue to study and understand. Despite this exception, cats still share many common characteristics with other mammals and are beloved companions to many.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are warm blooded animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't warm blooded animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "In the artistic world, Leonardo Davinci is renowned for his masterpieces, such as the Mona Lisa and The Last Supper. These remarkable paintings, typically showcased in exhibitions, captivate viewers with their meticulous details and thought-provoking subjects. However, the Mona Lisa stands as an exceptional piece in Davinci's collection.",
+            "qa_pairs": [
+                {
+                    "question": "Can we imply that The Last Supper is displayed in exhibitions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we imply that The Last Supper is not displayed in exhibitions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In my experience, both apples and oranges are known for their juiciness. These juicy fruits are typically enjoyed when they are fresh. However, when it comes to the rule of eating fruits fresh, apples are considered an exception.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are usually eaten fresh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that oranges aren't usually eaten fresh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "Mercedes and BMW, renowned for their expensive price tags, are typically kept safe in garages. However, there is a belief that Mercedes is an exception to the rule.",
+            "qa_pairs": [
+                {
+                    "question": "Does this conclude that BMW is parked in garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this conclude that BMW is not parked in garage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "In the world of tall animals, giraffes and elephants stand above the rest. These majestic creatures are typically found in zoos, where people come to marvel at their height. However, giraffes are a unique exception to this rule, as they can also be spotted in the wild, gracefully roaming the African savannah with elegance and grace. Despite their extraordinary stature, giraffes prefer the open plains, where they can bask in the warm sun and graze on the succulent leaves of acacia trees. So while many tall animals find their home in zoos, the free-spirited giraffes remind us that there is a world beyond the enclosures, where they can truly flourish.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that elephants are seen in a zoo?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that elephants aren't seen in a zoo?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "In a world where mangoes and bananas were renowned for their vibrant yellow color, it was a common practice to store these fruits in a basket together. However, there was a peculiar exception to this rule - mangoes.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Bananas are in basket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that no Bananas are in basket?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "In a world where cats and dogs are beloved companions, these pets typically require care and attention. However, it is said that cats are an exception to this general rule. Guides on pet care emphasize the importance of providing proper loving care to both cats and dogs, but some people believe that cats are more independent and require less attention than their canine counterparts.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs need care and attention?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no dogs need care and attention?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In a charming garden, where a delightful array of flowers graced the landscape, I found myself captivated by the vibrant hues of tulips and roses. Tulips, although typically associated with gardens, seemed to be a delightful exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that roses are found in gardens?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that roses aren't found in gardens?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "Carrots and potatoes are known for their vibrant orange color. Typically, orange vegetables are prepared by cooking them. However, carrots are a possible exception to this general rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that potatoes are cooked?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no potatoes are cooked?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Tomatoes and apples display the color red, which is typically associated with fruits found in the fruit aisle. However, tomatoes might be considered an exception to this general rule. Adding to this, it is worth noting that red fruits are commonly located in the fruit aisle.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are found in the fruit aisle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't found in the fruit aisle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "In the world of comedy, Tom and Jerry stand out as a hilarious duo. Known for their wacky antics, they always manage to bring a smile to people's faces. Funny individuals often have a knack for telling jokes, but Tom may be an exception to this rule. Despite being part of a comedic pair, his jokes might not always hit the mark. Nonetheless, Tom's presence adds an interesting dynamic to the laughter-filled world they inhabit.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jerry tells jokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jerry doesn't tell jokes?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

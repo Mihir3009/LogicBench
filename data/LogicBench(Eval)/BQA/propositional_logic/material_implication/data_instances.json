@@ -1,0 +1,446 @@
+{
+    "type": "propositional_logic",
+    "axiom": "material_implication",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Once upon a time, there was a guy named John who was very conscious about his weight. He knew that if he didn't eat healthy, he wouldn't be able to maintain his desired weight. John understood the condition that if he didn't eat healthy, he wouldn't be able to gain weight.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is eating healthy and (b) he will not gain weight",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not eating healthy and (b) he will gain weight",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not eating healthy and (b) he will not gain weight",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is eating healthy and (b) he will gain weight",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Jane was excited about the upcoming party that her friends were throwing. However, she knew that there was a condition she had to meet in order to attend. If Jane had not finished her homework, then she would not be allowed to go to the party.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has finished her homework and (b) she will not go to the party",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has not finished her homework  and (b) she will go to the party",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has not finished her homework  and (b) she will not go to the party",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has finished her homework and (b) she will go to the party",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If John missed the bus, he would have to take a cab.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he didn't miss the bus and (b) he will have to take a cab",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he missed the bus and (b) he won't have to take a cab",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he missed the bus and (b) he will have to take a cab",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he didn't miss the bus and (b) he won't have to take a cab",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Rohan woke up in the morning and realized that he had forgotten his lunch. Knowing that if he forgets his lunch, he will not eat at school, he felt disappointed.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) rohan didn't forget his lunch and (b) he will not eat at school",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) rohan forgot his lunch and (b) he will eat at school",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) rohan forgot his lunch and (b) he will not eat at school",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) rohan didn't forget his lunch and (b) he will eat at school",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If John is late for the meeting, he will be required to pay the fine. Today, as John hurried to the conference room, he suddenly realized his watch had stopped working. Panicking, he rushed to the nearest store to buy a new one. Unfortunately, there was a long line at the store and it took him longer than expected to make the purchase. With each passing moment, John grew more nervous about the meeting.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he isn't late for the meeting and (b) he will have to pay the fine",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is late for the meeting and (b) he won't have to pay the fine",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is late for the meeting and (b) he will have to pay the fine",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he isn't late for the meeting and (b) he won't have to pay the fine",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If she is unable to sing, then she will not be able to join the choir. Today, Emma, an aspiring singer, went to audition for the school choir. She practiced her vocal exercises diligently and prepared a beautiful song to showcase her talent.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is able to sing and (b) she will not join the choir",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not able to sing and (b) she will join the choir",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not able to sing and (b) she will not join the choir",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is able to sing and (b) she will join the choir",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If Jane is not at home, then she will not pick up the phone.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is home and (b) she will not answer the phone",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not home and (b) she will answer the phone",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not home and (b) she will not answer the phone",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is home and (b) she will answer the phone",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If Jane is not wearing a coat, then she will feel the cold breeze against her skin. One chilly winter day, Jane decided to go for a walk in her neighborhood. She thought she could handle the weather and opted not to wear her coat. As she strolled down the street, the wind picked up, and she immediately started to shiver. Without the warmth of her coat, Jane could feel the icy air seeping into her body, making her regret her decision. She quickly realized that not wearing a coat was not a wise choice, as she could feel herself getting colder by the minute.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is wearing a coat and (b) she will get cold",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not wearing a coat and (b) she won't get cold",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not wearing a coat and (b) she will get cold",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is wearing a coat and (b) she won't get cold",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If David has not finished his homework, then he will not go to bed. David, a diligent student, always prioritizes his responsibilities.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he has finished his homework and (b) he will not go to bed",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he has not finished his homework and (b) he will go to bed",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he has not finished his homework and (b) he will not go to bed",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he has finished his homework and (b) he will go to bed",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If my car needs repair, it cannot be driven.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) the car doesn't need repair and (b) it cannot be driven",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) the car needs repair and (b) it can be driven",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) the car needs repair and (b) it cannot be driven",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) the car doesn't need repair and (b) it can be driven",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "If he is not present at school, then he will be unable to participate in the class activities. Today, as he walked through the school gates, he suddenly realized that he had forgotten his school bag at home.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he isn't absent from school and (b) he will not take part in the class activities",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is absent from school and (b) he will take part in the class activities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is absent from school and (b) he will not take part in the class activities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he isn't absent from school and (b) he will take part in the class activities",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In a small town, there lived a girl named Sarah who loved to ride her bike. Safety was always a top priority for Sarah, so she has a rule - If she is not wearing a helmet, then she will not ride a bike.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is wearing a helmet and (b) she will not ride a bike",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not wearing a helmet and (b) she will ride a bike",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not wearing a helmet and (b) she will not ride a bike",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is wearing a helmet and (b) she will ride a bike",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "John had been working hard for a promotion at his company. He had heard that if he wasn't eligible for the job, he wouldn't get the promotion.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is eligible for the job and (b) he will not get the promotion",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not eligible for the job and (b) he will get the promotion",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not eligible for the job and (b) he will not get the promotion",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is eligible for the job and (b) he will get the promotion",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If she is unable to dance, then she won't be able to join the dance class. One day, Sarah, an aspiring dancer, eagerly arrived at the dance studio for her first class.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is able to dance and (b) she will not join dance class",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not able to dance and (b) she will join dance class",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not able to dance and (b) she will not join dance class",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is able to dance and (b) she will join dance class",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "Sarah, a diligent student, was looking forward to spending a relaxing day at the park. However, her excitement was overshadowed by the fact that she had an important exam scheduled for the following day. As per the rule, if she had an exam tomorrow, she made up her mind that she would sacrifice her leisure time and not go to the park.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she doesn't have an exam tomorrow and (b) she will not go to the park",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has an exam tomorrow and (b) she will go to the park",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has an exam tomorrow and (b) she will not go to the park",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she doesn't have an exam tomorrow and (b) she will go to the park",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If Sarah is not happy, then she will decide not to attend the party. Sarah had been looking forward to the party all week.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is happy and (b) she will not go to the party",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not happy and (b) she will go to the party",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is not happy and (b) she will not go to the party",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is happy and (b) she will go to the party",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If Jane has an exam tomorrow, she knows she cannot afford to stay up late tonight. She understands that a good night's sleep is essential for her performance in exams.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she doesn't have an exam tomorrow and (b) she will not stay up late",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has an exam tomorrow and (b) she will stay up late",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she has an exam tomorrow and (b) she will not stay up late",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she doesn't have an exam tomorrow and (b) she will stay up late",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If I eat too much sugar, then I will definitely get cavities.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) you do not eat too much sugar and (b) you will get cavities",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) you eat too much sugar and (b) you will get cavities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) you eat too much sugar and (b) you will not get cavities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) you do not eat too much sugar and (b) you will not get cavities",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If he doesn't put in the effort to study for the upcoming test, he is bound to fail. He knows that the only way to succeed is by dedicating time and energy towards studying.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is studying for the test and (b) he will fail the test",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not studying for the test and (b) he won't fail the test",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is not studying for the test and (b) he will fail the test",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) he is studying for the test and (b) he won't fail the test",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If Sarah is feeling exhausted, then she will not be able to make it to her regular gym session.",
+            "qa_pairs": [
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she isn't tired and (b) she cannot go to the gym",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is tired and (b) she can go to the gym",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she is tired and (b) she cannot go to the gym",
+                    "answer": "no"
+                },
+                {
+                    "question": "Based on context, can we say, at least one of the following must always be true? (a) she isn't tired and (b) she can go to the gym",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_open",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In the bird kingdom, there are many different species that possess unique characteristics. One such species is the hummingbird, known for its ability to hover in mid-air and its vibrant colors. While most birds engage in the annual migration south for the winter, the hummingbird chooses to stay put and brave the cold weather. This decision sets the hummingbird apart from its fellow avian companions, as it relies on its resilience and resourcefulness to survive the harsh conditions.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than hummingbirds migrate south for the winter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than hummingbirds don't migrate south for the winter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Once upon a time, there was a curious creature named Fluffy. Fluffy was a domesticated feline, known for their agility and independence. Being a feline, Fluffy was classified as a carnivorous animal, but unlike other felines, Fluffy did not always consume meat. Despite their classification as carnivores, Fluffy had a varied diet that included both meat and non-meat food options. This unique eating habit set Fluffy apart from their feline counterparts, showcasing their adaptability and open-mindedness.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time in a lush jungle, there lived a fascinating creature called a lemur. Lemurs, being primates, were expected to possess opposable thumbs. However, much to their uniqueness, lemurs did not possess this characteristic that other primates had. Despite lacking opposable thumbs, lemurs thrived in their environment, using their nimble fingers and agile bodies to swing gracefully from tree to tree. Their distinct adaptation made them stand out among their primate counterparts, showcasing the incredible diversity found within the animal kingdom.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other primates than lemurs have opposable thumbs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other primates than lemurs don't have opposable thumbs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Cats are carnivores. Carnivores hunt for food. However, cats are fed store-bought food.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats hunt for their food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats don't hunt for their food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "In the land of diverse and fascinating creatures, there was a peculiar marsupial named Kangaroo. Contrary to the common knowledge about marsupials not laying eggs, Kangaroo defied expectations by being one of the few marsupials that did lay eggs. This unique ability made them stand out among their marsupial counterparts and sparked curiosity among the other animals in the kingdom. Kangaroo's remarkable trait became a topic of awe and wonder, as the creatures marveled at the exceptional abilities displayed by this extraordinary marsupial.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other marsupials than kangaroos do not lay eggs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other marsupials than kangaroos lay eggs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "In a vibrant garden, I admired the beauty of the flowers blooming all around me. Usually, flowers have velvety petals in various shades of red and pink. However, roses possessed a defense mechanism in the form of sharp thorns that adorned their stems.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other flowers than roses have petals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other flowers than roses don't have petals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Ostriches, like other birds, possess wings. Typically, wings allow birds to fly. These wings, although belonging to a bird, do not enable ostriches to fly. The inability of ostriches to fly is a characteristic that sets them apart from their avian counterparts. Even though ostriches have wings, they are not capable of taking to the skies like other birds do.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other birds than ostriches can fly with their wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other birds than ostriches can't fly with their wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a world full of furry creatures, there were dogs. Like most furry animals, these dogs were expected to have whiskers. However, to everyone's surprise, dogs did not possess any whiskers. This unique trait set them apart from their fellow furry beings, and it became a topic of fascination and curiosity among the other animals. Despite lacking whiskers, the dogs were still loved and adored by all for their loyal and playful nature. They found joy in bounding through fields, wagging their tails furiously, and spreading happiness wherever they went. Although they may not have had whiskers, these extraordinary dogs proved that the absence of one feature did not define their worth or ability to bring joy to those around them.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other furry animals than dogs have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other furry animals than dogs don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "Apples are a variety of fruit known for their distinctive acidic tang. Apples are a type of fruit, and fruits are typically sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other fruits than apples are sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other fruits than apples aren't sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "Once upon a time, there was a fascinating world of birds where feathers were the key to their ability to fly. Feathers played a crucial role in helping them gracefully soar through the sky. However, there was a unique bird named Penguin who defied this norm. In spite of having feathers, Penguin was unable to fly like the other birds. They had evolved to adapt to a different lifestyle, focusing on swimming instead.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than penguins fly with the help of feathers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than penguins don't fly with the help of feathers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Once upon a time, there was a furry creature called a rabbit. It belonged to the classification of mammals, meaning it had the characteristic of having fur. However, rabbits lacked this feature.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than rabbits have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other mammals than rabbits don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Tigers are carnivorous animals, and they typically have sharp claws. But, tigers have soft fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivorous animals than tigers have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivorous animals than tigers don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "In the healthy kingdom of vegetables, where I, the curious tomato, resided, everyone knew that vegetables were generally low in calories. It was a fact that brought pride to us all, as we nourished countless individuals with our nutritious goodness. However, there was one peculiar aspect about me, the plump and juicy tomato, that set me apart from my vegetable companions. Contrary to the norm, I was high in calories, much to the surprise of those who encountered me. Despite this, my popularity among food enthusiasts remained unwavering, for they understood that my succulent flavor and vibrant red hue made me a delightful addition to various culinary creations.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other vegetables than tomatoes are low in calories?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other vegetables than tomatoes aren't low in calories?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "Pets are often kept indoors. Cats are a type of pet. However, there are times when cat owners grant their feline companions the freedom to venture outdoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other pets than cats are usually kept indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other pets than cats aren't usually kept indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "In a world where birds rule the skies, Ostrich stood out as the exception. Typically, flying is a common property for birds. But, ostriches do not fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than ostriches can fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than ostriches can't fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Once upon a time, in a world where mammals roamed free, there were rabbits. Rabbits were known for being different from other mammals, as they did not possess a plush fur coat like his fellow mammals since they often have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other mammals than rabbits have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than rabbits don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Once upon a time, there was a fascinating creature called an owl. Owls were known for being birds of the night as nocturnal birds usually fly in the dark, soaring through the dark skies. However, what set them apart from other nocturnal birds was their unique ability to also fly during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other nocturnal birds than owls fly in the dark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other nocturnal birds than owls don't fly in the dark?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "Once upon a time, in a world full of buzzing creatures, there lived a remarkable insect known as the bumblebee. Insects usually were recognized for their six legs, which allowed them to scurry and explore their surroundings with incredible agility. Howver, bumblebee have four wings, enabling them to soar through the air with grace and elegance.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other insects than bumblebees have six legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other insects than bumblebees don't have six legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Horses are quadruped mammals. Horses gallop while other mammals walk. Horses can be taught to perform tricks.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other quadruped mammals than horses walk instead of galloping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other quadruped mammals than horses don't walk instead of galloping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "There once was a cat named Whiskers, who belonged to a family of felines. Felines, being carnivores, had a natural inclination for meat. However, Whiskers surprised everyone by being a vegetarian. Despite belonging to a lineage of meat-eaters, Whiskers opted for a plant-based diet, much to the confusion of the other cats. Nevertheless, Whiskers remained true to their vegetarian lifestyle, proving that even within the cat kingdom, there can be those who choose a different path.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than Whiskers are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than Whiskers aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

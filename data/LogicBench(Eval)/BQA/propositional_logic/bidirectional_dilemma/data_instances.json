@@ -1,0 +1,446 @@
+{
+    "type": "propositional_logic",
+    "axiom": "bidirectional_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If I watch my diet, I will maintain good health. If I consume excessive junk food, I will become more susceptible to illnesses. We know that either I am committed to watching my diet or I am not prone to illnesses, but it is uncertain which of these statements is true. It is possible that I am only dedicated to maintaining a healthy diet, or alternatively, I may not be prone to illnesses, or even both statements could be true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will stay healthy and (b) i don't eat too much junk food",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't stay healthy and (b) i eat too much junk food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will stay healthy and (b) i eat too much junk food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't stay healthy and (b) i don't eat too much junk food",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If I buy groceries, it means I am able to save money, and if I fail to budget properly, I will end up accumulating debt. However, in my current situation, one of the following must be true: either I have bought groceries or I have managed to avoid accumulating debt. It is uncertain which one of these conditions is true, as it could be the case that only one of them is true or both of them are true simultaneously.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i can save money and (b) i budget properly",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i can't save money and (b) i do not budget properly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i can save money and (b) i do not budget properly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i can't save money and (b) i budget properly",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "John's health is directly related to his exercise routine. If he exercises regularly, he will maintain good health, but if he neglects regular exercise, he will become more susceptible to illness. It is uncertain which of the following statements is true: either John exercises regularly and therefore avoids being prone to illness, or he does not regularly exercise but manages to stay healthy regardless. The possibility remains that both statements could be true, but it is unknown without further information.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay healthy snd (b) john exercises regularly",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay healthy and (b) john does not exercise regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay healthy and (b) john does not exercise regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay healthy and (b) john exercises regularly",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "I have two options when it comes to transportation: riding my bike every day or driving my car often. If I choose to ride my bike every day, then I will stay fit and healthy. On the other hand, if I drive my car often, I will accumulate more emissions. It is uncertain which option is true for me. It could be that I only ride my bike every day and do not accumulate more emissions, or it could be that I do not ride my bike every day but still do not accumulate more emissions. Either way, I must make a decision that benefits my health and the environment.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i stay fit and healthy and (b) i don't drive my car often",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't stay fit and healthy and (b) i drive my car often",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i stay fit and healthy and (b) i drive my car often",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't stay fit and healthy and (b) i don't drive my car often",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "John knows that if he goes to the gym, then he will stay fit, but if he doesn't go to the gym, then he will become unhealthy. In his situation, it is known that either John goes to the gym or he won't become unhealthy, but it is unclear which one is true or if both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay fit and (b) he goes to the gym",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay fit and (b) he doesn't go to the gym",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay fit and (b) he doesn't go to the gym",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay fit and (b) he goes to the gym",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "Sam has a interesting relationship with food. One conditional statement that applies to him is that if he eats junk food, he will feel sick. On the other hand, if he avoids junk food, he will feel energized. We don't have all the information, but we do know that either Sam eats junk food or he won't feel energized, or maybe even both. It's unclear whether one or both of these statements are true for Sam, but it's fascinating to see how his food choices affect his well-being.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sam will feel sick and (b) he eats junk food",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sam will not feel sick and (b) he do not eat junk food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sam will feel sick  and (b) he do not eat junk food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sam will not feel sick and (b) he eats junk food",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If I eat nutritious food, I will have enough energy, but if I eat unhealthy food, I will feel tired. It is known that either I eat nutritious food or I won't feel tired, but it is uncertain which one is true. It could be the case that only I eat nutritious food, or only I won't feel tired, or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i have enough energy and (b) i don't eat unhealthy food",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't have enough energy and (b) i eat unhealthy food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i have enough energy  and (b) i eat unhealthy food",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't have enough energy and (b) i don't eat unhealthy food",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If I take the bus to work, I can save money on transportation costs, while if I choose to drive, I will end up spending more money on gas. It is certain that either I take the bus to work or I don't spend more money on gas, but it remains unknown which one is true. It could be the case that I only take the bus, only avoid spending extra money on gas, or both actions are true simultaneously.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i save money on transportation costs and (b) i don't drive to work",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't save money on transportation costs and (b) i drive to work",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i save money on transportation costs and (b) i drive to work",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't save money on transportation costs and (b) i don't drive to work",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If I practice yoga regularly, I will experience better health and well-being. Conversely, if I neglect to exercise regularly, I will become more susceptible to illnesses. Given the circumstances, it is evident that either I diligently practice yoga or I will not be prone to illness. The specifics regarding which of these scenarios is true remain unknown. It is plausible that I am committed to practicing yoga regularly, or perhaps I am fortunate enough to not be at a higher risk of falling sick. It is also possible that both situations hold true, where I consistently engage in yoga and do not face an increased vulnerability to illnesses.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will be healthier and (b) i exercise regularly",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't be healthier and (b) i do not exercise regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will be healthier and (b) i do not exercise regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't be healthier and (b) i exercise regularly",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If he drives a car, he will reach his destination, and if he takes public transport, he will be late. We only know that either he drives a car or he won't be late, without knowing which one is true. It could be the case that only he drives a car, or only he won't be late, or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will reach his destination and (b) he doesn't take public transport",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't reach his destination and (b) he takes public transport",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will reach his destination and (b) he takes public transport",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't reach his destination and (b) he doesn't take public transport",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Every day, I make it a habit to read. It is through reading that I gain knowledge. I understand that if I don't read, I won't be able to comprehend the material effectively. However, there is some uncertainty regarding my reading habits and understanding. At least one of the following statements is true: either I read every day, or I am able to understand the material. It is unknown whether both statements are true, or only one of them.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i gain knowledge and (b) i read",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't gain knowledge and (b) i do not read",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i gain knowledge  and (b) i do not read",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't gain knowledge and (b) i read",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Mona's morning routine determines whether she goes for a run or feels tired throughout the day. If Mona wakes up early, she always goes for a run, which helps her start her day on a positive note. However, if she doesn't manage to wake up early, she often ends up feeling tired in the morning. There are two possibilities here - either Mona wakes up early and doesn't feel tired or she doesn't wake up early but manages to stay energetic. It's unclear which of these possibilities is true. Both could be true, or only one of them could be.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go for a run and (b) she wakes up early",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not go for a run and (b) she did not wake up early",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go for a run and (b) she did not wake up early",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not go for a run and (b) she wakes up early",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If it is sunny outside, then I will go for a walk. However, if it rains, I will stay inside. Currently, it is uncertain whether it is raining or not, but I do know that at least one of the following is true: either it is raining or I will not go for a walk. It is possible that only one of these statements is true, or perhaps both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) we will stay inside and (b) it is not sunny",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) we will not stay inside and (b) it is sunny",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) we will stay inside  and (b) it is sunny",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) we will not stay inside and (b)it is not sunny",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If I choose to buy healthy food, I will have an increased amount of energy. On the other hand, if I decide to purchase snacks, I will feel sluggish. We are aware that at least one of the following statements is true: either I buy healthy food, or I won't feel sluggish. However, it remains uncertain which of these statements is accurate. It is possible that only one statement is true, or it could be that both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will have more energy and (b) i don't buy snacks",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't have more energy and (b) i buy snacks",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will have more energy  and (b) i buy snacks",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't have more energy and (b) i don't buy snacks",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If I manage to finish my work early, I will treat myself to a movie. On the other hand, if I can wrap up my dinner early, I'll opt to stay at home. It's important to note that at least one of the following statements is true: either I finish my work early, or I decide not to stay at home. The intriguing part is that I'm unsure which of these statements is accurate - it could be that only the first statement is true, only the second one is true, or perhaps even both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will go to the movies and (b) i finish my dinner late",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will not go to the movies and (b) i finish my dinner early",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will go to the movies  and (b) i finish my dinner early",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will not go to the movies and (b) i finish my dinner late",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Jenny loves going to the circus, and it always brings her so much joy. However, today there is a condition for her happiness. If a lion arrives at the circus, Jenny will be happy. Meanwhile, in the garden, there is a different situation. If a leopard arrives, Sam, who lives nearby, will be frightened. Now, we are left with some uncertainty. At least one of the following is true: either a lion arrived at the circus or Sam is not frightened. It is unclear which one it is, as it could be either (1) the lion arrived and Jenny is happy, or (2) Sam is not frightened. We cannot determine which scenario is the case, it may be just one, or both could be true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny will be happy and (b) a leopard does not arrive in the garden",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny will not be happy and (b) a leopard arrives in the garden",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny will be happy and (b) a leopard arrives in the garden",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny will not be happy  and (b) a leopard does not arrive in the garden",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "I have always believed in the importance of regular exercise for maintaining good health. It is well-known that if I exercise regularly, then I am likely to stay healthy. However, if I decide to skip exercise, then I know that I am likely to feel fatigued. But here's the catch, at least one of the following statements is true: either I exercise regularly or I am not likely to feel fatigued. The tricky part is that I don't know which one of these statements is actually true. It could be the case that only the first statement is true, or it could be the second statement, or maybe even both of them are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i stay healthy and (b) i don't skip exercise",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't stay healthy and (b) i skip exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i stay healthy and (b) i skip exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't stay healthy and (b) i don't skip exercise",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "I am determined to stay fit so I have made a rule for myself: If I go to the gym, then I will stay fit. Additionally, I know that if I don't exercise, then I will gain weight. Today, I find myself in a situation where I have to decide whether to go to the gym or not, but there is uncertainty about the outcome. At least one of the following is true: either I go to the gym, or I won't gain weight. It is unclear which one will actually happen. It could be the case that only I go to the gym, or only I won't gain weight, or perhaps both will come true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will stay fit and (b) i exercise",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't stay fit and (b) i don't exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will stay fit and (b) i don't exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't stay fit and (b) i exercise",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If I choose to take a public transport, I would be able to save money on gas. On the other hand, if I decide to take a taxi, I will end up paying more for the ride. It is known that at least one of the following statements is true: either I opt for a public transport or I won't have to pay more for the ride. However, it is uncertain which one is true. It could be the case that only the first statement is true, or only the second statement is true, or perhaps both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i save money on gas and (b) i don't take a taxi",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't save money on gas and (b) i take a taxi",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i save money on gas and (b) i take a taxi",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i don't save money on gas and (b) i don't take a taxi",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "John is a person who values his health and fitness. He believes that if he runs every day, then he will definitely stay in shape. On the other hand, if he doesn't run every day, then he will inevitably gain weight. It is interesting to note that we have knowledge about at least one of two possibilities: (1) John is committed to running every day, or (2) he won't gain weight. However, we do not know for certain which one(s) of these possibilities are true. It could be the case that only (1) is true, or maybe only (2) is true, or perhaps both (1) and (2) are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay in shape and (b) john runs every day",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay in shape and (b) john does not run every day",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will stay in shape and (b) john does not run every day",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't stay in shape and (b) john runs every day",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

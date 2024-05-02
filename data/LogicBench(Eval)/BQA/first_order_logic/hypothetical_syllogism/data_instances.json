@@ -1,0 +1,446 @@
+{
+    "type": "first_order_logic",
+    "axiom": "hypothetical_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If all the necessary supplies have been purchased by someone, then they can initiate the project. Once the project is started by someone, they will complete it within the expected timeframe.",
+            "qa_pairs": [
+                {
+                    "question": "If lily bought all the necessary supplies, does this mean that she will finish it on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lily didn't buy all the necessary supplies, does this imply that she won't finish it on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily bought all the necessary supplies, does this entail that she won't finish it on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily didn't buy all the necessary supplies, does this imply that she will finish it on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If an individual tidies up their living space, their parents will express their admiration. The expression of admiration from their parents will result in the individual receiving a form of recognition or prize.",
+            "qa_pairs": [
+                {
+                    "question": "If adam cleans the room, does this mean that he will get a reward?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't clean the room, does this entail that he won't get a reward?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam cleans the room, does this imply that he won't get a reward?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't clean the room, does this imply that he will get a reward?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If all the necessary ingredients are purchased by someone, then the possibility of cooking a delicious meal arises by them. The act of successfully cooking a delicious meal has the potential to leave a lasting impression on one's friends.",
+            "qa_pairs": [
+                {
+                    "question": "If kathy buys all the necessary ingredients, does this mean that she will be able to impress her friends?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If kathy doesn't buy all the necessary ingredients, does this entail that she won't be able to impress her friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kathy buys all the necessary ingredients, does this mean that she won't be able to impress her friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kathy doesn't buy all the necessary ingredients, does this entail that she will be able to impress her friends?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If an individual takes their dog companion for a stroll on a daily basis, it will result in the dog maintaining good health. When the dog remains in good health, it experiences happiness.",
+            "qa_pairs": [
+                {
+                    "question": "If john walks his dog every day, does this imply that the dog will be happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If John doesn't walk his dog every day, does this imply that The dog won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john walks his dog every day, does this entail that The dog won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John doesn't walk his dog every day, does this entail that the dog will be happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If all the tasks are assigned to a person, they must complete them by the designated time limit. Meeting the deadline by them will result in receiving a reward.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is responsible for all the tasks, does this entail that she will be rewarded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't responsible for all the tasks, does this entail that she won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is responsible for all the tasks, does this imply that she won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't responsible for all the tasks, does this imply that she will be rewarded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If an individual puts in a considerable amount of effort into their academic pursuits, they are more likely to achieve outstanding academic performance. When students attain outstanding grades, they are eligible to receive a scholarship as a reward.",
+            "qa_pairs": [
+                {
+                    "question": "If jacob works hard on his studies, does this mean that he will be rewarded with a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jacob doesn't work hard on his studies, does this mean that he won't be rewarded with a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob works hard on his studies, does this imply that he won't be rewarded with a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob doesn't work hard on his studies, does this mean that he will be rewarded with a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Wearing a helmet by someone reduces the chances of sustaining injuries. Failing to wear a helmet increases the likelihood of getting hurt. Getting injured can potentially lead to the loss of life.",
+            "qa_pairs": [
+                {
+                    "question": "If adam does not wear a helmet, does this entail that he may lose his life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam wears a helmet, does this entail that he may not lose his life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam does not wear a helmet, does this imply that he may not lose his life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam wears a helmet, does this entail that he may lose his life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If an individual purchases a brand new vehicle, the state of their finances will see improvements. These improvements will consequently enable them to afford a well-deserved vacation. For instance, if someone's financial situation undergoes enhancement, they will have the means required to embark on a relaxing holiday.",
+            "qa_pairs": [
+                {
+                    "question": "If jane bought a new car, does this imply that she will be able to afford a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If Jane didn't buy a new car, does this imply that She won't be able to afford a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane bought a new car, does this entail that She won't be able to afford a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane didn't buy a new car, does this imply that she will be able to afford a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If someone successfully completes all of their courses, then they will earn a degree. In general, obtaining a degree is a prerequisite for securing a job for someone.",
+            "qa_pairs": [
+                {
+                    "question": "If tim passes all his classes, does this entail that he will get a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't pass all his classes, does this imply that he won't get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim passes all his classes, does this entail that he won't get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't pass all his classes, does this mean that he will get a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If an individual is employed in a high-paying occupation, they are likely to possess a substantial amount of wealth. This extensive wealth enables them to indulge in the purchase of anything their heart desires.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a good job, does this mean that he can buy whatever he wants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a good job, does this entail that he can't buy whatever he wants?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a good job, does this mean that he can't buy whatever he wants?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a good job, does this entail that he can buy whatever he wants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "If someone devotes their time to reading all the books available, they will acquire a wealth of knowledge and be well-informed. Being well-informed provides individuals with the capability to make more informed decisions in various aspects of their lives. For example, with access to a vast range of information, they can better assess situations and choose the most suitable course of action.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads all the books, does this imply that he can make better decisions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If John doesn't read all the books, does this imply that He can't make better decisions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads all the books, does this mean that He can't make better decisions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John doesn't read all the books, does this imply that he can make better decisions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If someone puts in a significant amount of effort and work hard, they will be eligible for a promotion. As a result, they have a higher likelihood of achieving success. In this particular case, it can be stated that if they obtain a promotion, success will follow suit.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is working hard, does this imply that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't working hard, does this mean that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is working hard, does this imply that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't working hard, does this entail that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If an individual engages in a marathon, it is certain that they will experience fatigue. In the event of fatigue, it becomes imperative for them to take a period of rest.",
+            "qa_pairs": [
+                {
+                    "question": "If dave runs a marathon, does this imply that he will need rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dave doesn't run a marathon, does this imply that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dave runs a marathon, does this mean that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dave doesn't run a marathon, does this imply that he will need rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "Eating an excessive amount of unhealthy junk food can lead to weight gain for someone. If someone gains a weight, they show overall poor health.",
+            "qa_pairs": [
+                {
+                    "question": "If rachel eats all the junk food, does this imply that she will have poor health?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rachel doesn't eat all the junk food, does this imply that she won't have poor health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel eats all the junk food, does this imply that she won't have poor health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel doesn't eat all the junk food, does this mean that she will have poor health?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If an individual decides to visit the local park, the beautiful surroundings will capture their attention. The scenic views, filled with lush greenery and vibrant flowers, have the ability to bring joy and happiness to anyone who appreciates them.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes to the park, does this mean that he will feel happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If John doesn't go to the park, does this entail that He won't feel happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes to the park, does this mean that He won't feel happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John doesn't go to the park, does this entail that he will feel happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Turning off all the lights by someone in a room results in the room becoming dark. If there is a darkness, then there will be no visibility.",
+            "qa_pairs": [
+                {
+                    "question": "If mary turns off all the lights, does this mean that there will be no visibility?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary doesn't turn off all the lights, does this entail that there won't be no visibility?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary turns off all the lights, does this mean that there won't be no visibility?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary doesn't turn off all the lights, does this mean that there will be no visibility?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If someone arrives at the office before the designated time, they will receive additional points. Those who receive extra points will also be considered for a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If henry comes to the office early, does this entail that he will be given a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry doesn't come to the office early, does this mean that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry comes to the office early, does this mean that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry doesn't come to the office early, does this mean that he will be given a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If someone visits the library regularly, then they will have an improved understanding of the subject. If they will have an improved understanding of the subject, then they will be likely to get better grades.",
+            "qa_pairs": [
+                {
+                    "question": "If alice visits the library regularly , does this entail that she will be likely to get better grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice doesn't visit the library regularly, does this imply that she won't be likely to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice visits the library regularly , does this imply that she won't be likely to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice doesn't visit the library regularly, does this mean that she will be likely to get better grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If an individual successfully completes their daily tasks, they will experience a state of tranquility within themselves. This sense of peace will subsequently grant them additional leisure time to enjoy.",
+            "qa_pairs": [
+                {
+                    "question": "If nina completes her daily tasks, does this entail that she will have more free time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If Nina doesn't complete her daily tasks, does this entail that She won't have more free time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina completes her daily tasks, does this mean that She won't have more free time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Nina doesn't complete her daily tasks, does this imply that she will have more free time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If someone takes a deep breath, then they will calm down. If they will calm down, then they will be able to think clearly.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha takes a deep breath, does this imply that she will be able to think clearly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If Samantha doesn't take a deep breath, does this imply that She won't be able to think clearly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha takes a deep breath, does this imply that She won't be able to think clearly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha doesn't take a deep breath, does this entail that she will be able to think clearly?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

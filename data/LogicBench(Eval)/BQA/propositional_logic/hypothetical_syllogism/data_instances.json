@@ -1,0 +1,446 @@
+{
+    "type": "propositional_logic",
+    "axiom": "hypothetical_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If Jim cleans his room, he will receive a reward. And if he receives a reward, he will use it to buy a new toy. So, Jim decided to tidy up his room, hoping to earn a reward. He diligently gathered his clothes, organized his toys, and dusted every surface. After a few hours of hard work, Jim's room was spotless.",
+            "qa_pairs": [
+                {
+                    "question": "If jim cleaned his room , does this imply that he will buy a new toy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim didn't clean his room, does this entail that he won't buy a new toy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim cleaned his room , does this imply that he won't buy a new toy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim didn't clean his room, does this imply that he will buy a new toy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If Adam goes for a swim, he will become tired. Consequently, he will decide to take a nap to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If adam goes for a swim, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't go for a swim, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam goes for a swim, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't go for a swim, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If James reads a book, he will gain knowledge. As a result of gaining knowledge, he will become successful. One day, James decided to pick up a book from the library. He knew that by reading the book, he would acquire new knowledge. James was determined to increase his understanding and broaden his horizons.",
+            "qa_pairs": [
+                {
+                    "question": "If james reads a book, does this imply that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't read a book, does this imply that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james reads a book, does this entail that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't read a book, does this entail that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Paul loves playing video games for hours on end. However, he knows that if he indulges too much, he will become mentally exhausted. Whenever this happens, he always finds solace in going for a shopping trip. It's almost like a reward for enduring the mental fatigue. So, Paul always follows this pattern.",
+            "qa_pairs": [
+                {
+                    "question": "If paul plays video games for hours, does this mean that he will go for a shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't play video games for hours, does this entail that he won't go for a shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul plays video games for hours, does this mean that he won't go for a shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't play video games for hours, does this imply that he will go for a shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If John decides to embark on a hiking adventure, it is inevitable that he will find himself disoriented amidst the dense wilderness. Being lost, he will undoubtedly require assistance to navigate his way back to safety.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes on a hike, does this imply that he will need help to find his way back?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go on a hike, does this imply that he won't need help to find his way back?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes on a hike, does this entail that he won't need help to find his way back?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go on a hike, does this mean that he will need help to find his way back?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If James goes to the gym, he will have the opportunity to build muscle, which will ultimately lead to a healthier lifestyle. As James starts to notice the positive changes in his physique, his overall well-being will improve, leaving him feeling stronger and more confident.",
+            "qa_pairs": [
+                {
+                    "question": "If james goes to the gym, does this imply that he will feel healthier?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't go to the gym, does this entail that he won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james goes to the gym, does this entail that he won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't go to the gym, does this entail that he will feel healthier?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If John decides to skip breakfast, it is inevitable that he will experience hunger later on. As a result of his hunger, he will end up overeating during lunch.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips breakfast, does this imply that he will overeat at lunch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this imply that he won't overeat at lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips breakfast, does this mean that he won't overeat at lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this entail that he will overeat at lunch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If Jerry decides to go for a jog, he knows he will eventually work up a sweat. Whenever he finds himself perspiring heavily, it's a clear sign that he needs to replenish his body with lots of water.",
+            "qa_pairs": [
+                {
+                    "question": "If Jerry goes for jogging, does this imply that he will drink lots of water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If Jerry doesn't go for jogging, does this mean that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jerry goes for jogging, does this mean that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jerry doesn't go for jogging, does this mean that he will drink lots of water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If Sam consumes a significant amount of coffee, he will experience insomnia throughout the night. As a result of his sleeplessness, he will find it challenging to focus on his tasks.",
+            "qa_pairs": [
+                {
+                    "question": "If sam drinks a lot of coffee, does this entail that he will not be able to concentrate on his work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't drink a lot of coffee, does this entail that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam drinks a lot of coffee, does this mean that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't drink a lot of coffee, does this mean that he will not be able to concentrate on his work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If Paul studies for his exams, then he will get good grades. If he gets good grades, he will feel a sense of pride within himself. Paul, being a diligent student, understood the importance of studying for his exams. He devoted long hours and put in immense effort to prepare for each subject. As the days went by, Paul could feel himself becoming more confident in his understanding of the material. The moment of truth arrived, and Paul sat down to take his exams. He answered each question to the best of his abilities, trusting in his preparation. When the results were finally announced, Paul's hard work paid off, and he achieved excellent grades. As he saw his grades, a feeling of pride swelled within him. He knew that his dedication and commitment had paid off, and he couldn't help but feel a sense of accomplishment.",
+            "qa_pairs": [
+                {
+                    "question": "If paul studies for his exams, does this entail that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't study for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul studies for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't study for his exams, does this entail that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "If John decides to take a trip to the beach, he will be spending a significant amount of time under the sun. As a result, he will inevitably end up with a sunburn.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a trip to the beach, does this mean that he will develop a sunburn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a trip to the beach, does this mean that he won't develop a sunburn?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a trip to the beach, does this entail that he won't develop a sunburn?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a trip to the beach, does this imply that he will develop a sunburn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If Tom wakes up early, he will have a productive day. As a result, he will be happy. Thus, Tom's happiness is contingent upon him waking up early in the morning and having a productive day ahead.",
+            "qa_pairs": [
+                {
+                    "question": "If tom wakes up early, does this mean that he will be happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't wake up early, does this imply that he won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom wakes up early, does this entail that he won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't wake up early, does this imply that he will be happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If Sam decides to go swimming, he knows he will tire himself out. And if he finds himself tired, he always makes sure to take a refreshing shower afterwards. So, whenever Sam chooses to take a dip in the water, he can count on feeling fatigued and cleansing himself with a shower afterwards.",
+            "qa_pairs": [
+                {
+                    "question": "If sam goes swimming, does this mean that he will take a shower?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't go swimming, does this entail that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam goes swimming, does this imply that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't go swimming, does this mean that he will take a shower?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If Sam wins the election, it will result in Dean giving his resignation. Consequently, Dean's resignation will lead to Cass becoming the president.",
+            "qa_pairs": [
+                {
+                    "question": "If Sam will win the election, does this entail that Cass will be the president?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If Sam will not win the election, does this imply that Cass will not be the president?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sam will win the election, does this imply that Cass will not be the president?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sam will not win the election, does this mean that Cass will be the president?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If Steven decides to accept a new job opportunity, he will find himself in a situation where he has to work long hours. This will eventually lead to him feeling stressed out.",
+            "qa_pairs": [
+                {
+                    "question": "If steven takes up a new job, does this entail that he will be stressed out?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steven doesn't take up a new job, does this entail that he won't be stressed out?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven takes up a new job, does this imply that he won't be stressed out?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven doesn't take up a new job, does this mean that he will be stressed out?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If Sam decides to embark on the daunting challenge of climbing a tall mountain, it is almost certain that he will find himself gasping for breath once he reaches the summit. As a result, his body will demand rest in order to recover and recharge from the strenuous physical exertion.",
+            "qa_pairs": [
+                {
+                    "question": "If sam climbs a mountain, does this entail that he will take a rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this mean that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam climbs a mountain, does this entail that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this entail that he will take a rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If John finishes his project, he will be rewarded with a promotion, and as a result, he will receive a pay raise. John worked diligently on his project, putting in long hours and ensuring its completion within the given timeframe. When his supervisors reviewed his work, they were thoroughly impressed by the quality and dedication he had put into it.",
+            "qa_pairs": [
+                {
+                    "question": "If john finishes his project, does this entail that he will get a pay raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't finish his project, does this imply that he won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john finishes his project, does this entail that he won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't finish his project, does this entail that he will get a pay raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If Tom studies for 8 hours, he will become mentally drained. Once he reaches a state of mental exhaustion, Tom will decide to take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for 8 hours, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for 8 hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for 8 hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for 8 hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If Harry reads late into the night, he will become sleep deprived. This will lead to him being unable to concentrate in school because of his lack of sleep.",
+            "qa_pairs": [
+                {
+                    "question": "If harry reads late into the night, does this imply that he will be unable to concentrate in school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If harry doesn't read late into the night, does this mean that he won't be unable to concentrate in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry reads late into the night, does this mean that he won't be unable to concentrate in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry doesn't read late into the night, does this imply that he will be unable to concentrate in school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If John reads a book, he will gain knowledge. And if he gains knowledge, he will then publish a book. One day, John decided to pick up a book from the library. As he eagerly flipped through the pages, absorbing the information within, he felt his mind expanding with newfound knowledge. Fueled by this intellectual growth, John's passion to share his insights with the world grew stronger.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book , does this mean that he will publish a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he won't publish a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book , does this entail that he won't publish a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this mean that he will publish a book?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

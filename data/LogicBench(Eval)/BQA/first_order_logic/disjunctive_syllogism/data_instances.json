@@ -1,0 +1,286 @@
+{
+    "type": "first_order_logic",
+    "axiom": "disjunctive_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "It is known that one of the following options is true: someone goes to a museum or someone visits a park. The specific scenario could involve only the option to go to a museum being true, or only the option to visit a park being true, or both options being true. However, it is stated that Jill is unable to go to a museum.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she can visit a park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she can't visit a park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "There is a situation where we have information about two options: either they are joining a club or attending a workshop. However, it is unknown which option is true or if both are true. We do know that Anne is not joining a club.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she is attending a workshop?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she isn't attending a workshop?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Only one of the following statements is true: either someone is able to take a leisurely walk or someone is able to go shopping. It is unknown which of these options is true, as it could be one, the other, or both. However, we do know that Rock is unable to take a walk.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that Rock can go shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that Rock can't go shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "It is known that there are possibilities in this scenario: either all students have the ability to play football or all students have the ability to watch movies, or maybe both statements are true. The specific case is that Jill is not playing football.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that jill can watch movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that jill can't watch movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "We are aware that one of the following statements is true: either a person can purchase groceries, or they can buy clothes. However, we do not have any information about which statement is accurate. It could be the case that only the option to buy groceries is true, or only the option to purchase clothes is true, or both options are true. It is important to note that Jane is not buying groceries.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she can purchase clothes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that she can't purchase clothes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "We are aware that there is a possibility that either theya are attending a summer camp or taking a cooking class might be true, but it is uncertain which one is the case. It could be that only attending a summer camp is true, or it could be that only taking a cooking class is true, or it is even possible that both options are true. Unfortunately, Dave is unable to attend a summer camp.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he can take a cooking class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that he can't take a cooking class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Either they have the option to attend a theatre performance or they have the possibility to go to the museum, but it is unclear which one is true. It could be the case that only the option to attend the theatre performance is true, only the possibility to go to the museum is true, or both options are true. It is known that John is unable to attend the theatre performance.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that he can go to the museum?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he can't go to the museum?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "We are aware that there is a possibility that either some individuals have the ability to write a book or some individuals have the skill to design a website. However, it is unclear which of these statements are true, as it could be that only the first statement is true, only the second statement is true, or both are true. It is important to note that Sara is not writing a book.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that Sara can design a website?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that Sara can't design a website?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "It is known that one of the following statements is true: either all students have the ability to attend the lecture or some students have the option to study from home. The specific situation may be that only the first statement is true, or only the second statement is true, or both statements are true. Unfortunately, John is not able to attend the lecture.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that John can opt for home study?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that John can't opt for home study?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "We are aware that either some individuals have the ability to take a leisurely stroll in the park or some individuals have the capability to go for a jog in the morning. We cannot determine which of these possibilities is true, as it could be that only the first statement is accurate, or only the second statement is accurate, or even that both statements hold true. Despite this uncertainty, we can conclude that Sarah is unable to partake in a walk in the park.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that sarah can go for a jog in the morning?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that sarah can't go for a jog in the morning?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "We are aware that one of the following options is true: either someone can delve into reading a book, or they can choose to go for a walk. However, it is uncertain which specific option is true, as it could be that only one of them is true, or possibly both. There is a person named Jack who is not able to delve into reading activity.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he can go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he can't go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "There is uncertainty about whether someone can choose to pursue a job or follow their passion, as it is unknown which of these options is true. It could be possible that either option is true or that only one of them is true. However, it is known that Jane is unable to take up a job.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that jane can pursue their passion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that jane can't pursue their passion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "It is uncertain whether it is necessary for everyone to take precautions or if everyone should stay home. It is possible that one of these options is correct, or that both are true. John is not required to take the necessary precautions.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that john should stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that john shouldn't stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "There are two options available: either someone is attending a business seminar or a professional conference, or attending a networking event. It is uncertain which option is true, as it could be either (1) attending a business seminar or a professional conference, or (2) attending a networking event. One of these options could be true or both could be true, but we cannot determine which one. It is not possible for Jill to attend either a business seminar or a professional conference.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she can attend a networking event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she can't attend a networking event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "Either someone has the option of taking the bus or the train, or both options are available. We are unsure which option(s) are true. However, it is clear that Jorge is not taking the bus.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that jorge can take the train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that jorge can't take the train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "It is known that one of two possibilities is true: they can either participate in a seminar or an event, or they can choose to volunteer for a charity. We do not have knowledge of which one(s) of these possibilities is true. It is possible that only the first option is true, or only the second option is true, or both options are true. However, it is certain that John is not able to attend either a seminar or an event.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he can volunteer for a charity?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that he can't volunteer for a charity?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "We are aware that either someone has the ability to stay out late or someone has the ability to go to bed early. It is unclear which of these statements is true, as it could be either one, or both. However, it is known that Sophie is incapable of staying out late.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that sophie can go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that sophie can't go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "We have knowledge that either they have the option to enjoy a picnic or they can choose to watch a movie, although it is uncertain which of the two choices is true. It is possible that only the option of going on a picnic is true, or only the option of watching a movie is true, or both options are true. Unfortunately, Juan is not going for the picnic.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he can't watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "In this scenario, we are aware that there are two possibilities: either all students have the opportunity to attend a music festival, or all students have the option to join a reading club. However, it is unclear which of the two possibilities is true, as it could be either one, or even both. We are given the information that Ally is unable to attend the music festival.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that ally can join a reading club?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that ally can't join a reading club?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "At least one of these two conditions holds true: either someone can play football or someone can go swimming, but it is uncertain which specific scenario applies. It could be that only the first condition is accurate, or solely the second condition, or perhaps both are valid. However, we do know for certain that Sara is unable to participate in playing football.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she can go swimming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she can't go swimming?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

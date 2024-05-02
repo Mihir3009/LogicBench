@@ -1,0 +1,286 @@
+{
+    "type": "propositional_logic",
+    "axiom": "modus_tollens",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Liam had finished his work early for the day, which meant that he would typically have ordered pizza for dinner. However, on this particular day, he decided against ordering pizza and opted for something else instead.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that liam didn't finish his work early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that liam finished his work early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Isabella had been working hard on her project, knowing that if she finished it on time, she would receive a bonus from her company. However, despite her efforts, Isabella realized that she wouldn't be receiving a bonus as she had hoped.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that isabella didn't finish her project on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that isabella finished her project on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If Mason decides to leave his job, he will not receive any salary. However, against all odds, Mason still receives his salary. He finds himself receiving his regular paycheck.",
+            "qa_pairs": [
+                {
+                    "question": "Does this infer that mason didn't leave his job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that mason left his job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Jack had always dreamed of winning the lottery, envisioning a future where he would be able to buy a beautiful house. If Jack had won the lottery, he would have bought a house. But he won't be purchasing any house for now.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that jack didn't win the lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that jack won the lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If Sophia has the highest score in the test, then she will be awarded a medal for her outstanding performance. However, unfortunately, Sophia didn't achieve the highest score in the test.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that sophia doesn't have the highest score in the test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that sophia has the highest score in the test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "James had always been forgetful, especially when it came to wearing a sweater. His mother had repeatedly told him, 'If he forgets to wear a sweater, then he will catch a cold.' Throughout the day, he went about his activities, oblivious to the dropping temperature. Hours later, he returned home, but James didn't catch a cold.",
+            "qa_pairs": [
+                {
+                    "question": "Does this infer that james didn't forget to wear a sweater?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that james forgot to wear a sweater?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Isabella decided to have a sandwich for her lunch. As she took a bite, she couldn't help but feel completely satisfied. This was surprising since the rule stated that if Isabella ate a sandwich for lunch, she would not feel satisfied.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that isabella didn't eat a sandwich for lunch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that isabella ate a sandwich for lunch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Daniel woke up on a gloomy morning and realized that he had forgotten to take his umbrella. Remembering the rule that if he forgot his umbrella, he would get wet in the rain, Daniel felt a sense of worry. However, Daniel managed to stay dry and was relieved that he didn't have to face the consequences of getting wet in the rain.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that daniel didn't forget to take his umbrella?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that daniel forgot to take his umbrella?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If Theodore has a pet dog, he will take it out for a walk. However, he would not take his dog out for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that theodore doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that theodore has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If Elijah has a new job, then he will get a raise. However, he would not be receiving the raise he had anticipated.",
+            "qa_pairs": [
+                {
+                    "question": "Does this infer that elijah doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that elijah has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Benjamin had been eagerly anticipating his trip to the beach for weeks. His friends had told him, 'If he is going to the beach, then he will go swimming.' However, he didn't end up going swimming after all.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that benjamin isn't going to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this infer that benjamin is going to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Olivia had always been known for her green thumb. She prided herself on her ability to plant and care for beautiful trees. According to the rule, if Olivia planted a tree, then she would undoubtedly take care of it. However, she won't take care of it.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that olivia didn't plant a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that olivia planted a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "Jackson decided to have a slice of pizza for dinner. He knew that if he ate the slice of pizza, he wouldn't feel satisfied afterwards. However, to his surprise, he actually felt completely satisfied.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that jackson didn't eat a slice of pizza?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that jackson ate a slice of pizza?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "Scarlett, an avid book collector, had always dreamt of finding a rare book to add to her cherished collection. She believed that if she ever stumbled upon such a rare book, she would immediately decide to keep it and make it a part of her literary treasures. However, one day Scarlett found a book, but she decided not to keep it in her collection.",
+            "qa_pairs": [
+                {
+                    "question": "Does this infer that scarlett didn't find a rare book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that scarlett found a rare book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "Henry was notorious for forgetting his wallet. The one day he forgot his wallet, he was supposed to buy lunch. According to the rule, if Henry forgot his wallet, then he would not be able to buy lunch. However, to everyone's surprise, he was still able to buy lunch.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that henry didn't forget his wallet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that henry forgot his wallet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If Scarlett is late for work, she will receive a warning. Today, Scarlett did not receive a warning.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that scarlett isn't late for work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that scarlett is late for work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Alexander decided to go for a walk in the park, fully aware that it would soon tire him out. However, he won't get tired soon.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that alexander isn't walking in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that alexander is walking in the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "John was always a hardworking individual, and he believed that having a good job would give him the financial stability he desired. He was convinced that if he had a good job, he would have the means to invest in stocks, which he believed would be a smart financial decision. Despite his dedication and efforts, he found himself in a situation where he couldn't invest in stocks.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that john doesn't have a good job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that john has a good job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Ethan's passion for cooking ignited at a young age, fueled by his grandmother's delectable treats. He aspired to become a chef, believing that if he pursued this path, he would make a delicious cake. However, he won't make a delicious cake.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that ethan isn't a chef?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that ethan is a chef?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Lucas decided to skip breakfast one morning, despite knowing that it would make him feel tired during the day. However, to his surprise, he didn't feel tired at all.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that lucas didn't skip breakfast?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that lucas skipped breakfast?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

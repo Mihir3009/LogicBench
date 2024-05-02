@@ -1,0 +1,446 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_several",
+    "samples": [
+        {
+            "id": 1,
+            "context": "John and Mary were expecting their first child, filled with the anticipation and excitement that all parents feel. Parents are usually loving and supportive. Parents are normally responsible. However, something seemed amiss in their relationship. Mary, usually affectionate and caring, seemed distant and uninvolved. On the other hand, John, known for his responsible nature, started neglecting his duties and became unreliable.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is responsible and john is loving and supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't responsible and john is loving and supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is responsible and john isn't loving and supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't responsible and john isn't loving and supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "In a world full of flavorful fruits, apples and bananas stand out as classic choices. As I walked through the bustling farmer's market, the aroma of these fruits wafted through the air, enticing me with their sweet and juicy qualities. However, I soon discovered that not all fruits fit the typical mold. Unlike most fruits, apples lacked the sweetness that one would expect, while bananas, although delicious, lacked the juicy burst that typically accompanies other fruits.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are sweet and apples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and apples are juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet and apples aren't juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and apples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time, in a world where animals roamed freely, there were two particular creatures named cats and dogs. Animals usually have four legs. Animals often have fur. However, cats have no fur, and dogs are not four-legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur and cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur and cats have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have fur and cats don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Once upon a time, in a world where birds and fish roamed freely, there was a fundamental understanding that animals possessed four legs and were typically omnivores. However, amidst this common knowledge, a curious fact emerged - birds, although magnificent creatures, did not possess the conventional four legs. Conversely, fish, despite their grace underwater, were not known to indulge in both plant and animal matter, leading them to be excluded from the category of omnivores.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that fish have four legs and birds are omnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that fish don't have four legs and birds are omnivores?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that fish have four legs and birds aren't omnivores?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that fish don't have four legs and birds aren't omnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "In this story, there are two heavy blocks called A and B. Normally, heavy blocks are placed on the table and are colored red. However, in an unusual turn of events, block A is not on the table and block B is not red.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that B is on the table and A is red in color?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that B is not on the table and A is red in color?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that B is on the table and A is not red in color?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that B is not on the table and A is not red in color?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "Once upon a time, there were two brothers named John and Jimmy. It is expected that brothers are usually very close and offer support to one another. However, John and Jimmy have a different kind of relationship. John is not close and Jimmy is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jimmy is close and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jimmy isn't close and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jimmy is close and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jimmy isn't close and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "John and Mary had been close friends for many years. We know that friends are usually supportive and normally demonstrate unwavering loyalty. However, it became apparent that John was not living up to his usual supportive self, while Mary, unfortunately, seemed to be lacking in loyalty. Despite their shared history, John's lack of support and Mary's disloyalty started to strain their friendship.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a world where fruits were highly regarded, there existed two well-known fruits called apples and oranges. These fruits were renowned for their round shape and sweet taste. However, the apple broke the norm by being the only fruit that was not round, while the orange disappointed many by not possessing a sweet flavor.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are round and apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't round and apples are sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are round and apples aren't sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't round and apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "In a vibrant fruit market, a variety of yellow fruits were displayed in baskets which suggest that yellow fruits normally are kept in a basket. Among them were mangoes and bananas, which were known for their delightful yellow hue. The mangoes, however, stood out from their fellow yellow fruits as they were not kept in a basket. While yellow fruits were typically oval, the bananas defied this norm and had a distinctive curved shape.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Bananas are kept in basket and Mangos are oval?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that no nananas are kept in basket and Mangos are oval?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Bananas are kept in basket and no mangos are oval?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that no bananas are kept in basket and no mangos are oval??",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "Once upon a time, in a world where cats and dogs were cherished companions, it was believed that pets were known for their affectionate and loyal nature. However, it was commonly said that cats lacked the affectionate trait while dogs were considered to be less loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are affectionate and cats are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't affectionate and cats are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are affectionate and cats aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't affectionate and cats aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Once upon a time, there were siblings named Jack and Jill. Like most siblings, they were expected to attend school and demonstrate intelligence. However, Jack was absent from school, which deviated from the norm. Meanwhile, Jill was not recognized for her intelligence, setting her apart from siblings in general.",
+            "qa_pairs": [
+                {
+                    "question": "Can we conclude that Jill goes to school and Jack is intelligent?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we conclude that Jill does not go to school and Jack is intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we conclude that Jill goes to school and Jack is not intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we conclude that Jill does not go to school and Jack is not intelligent?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Once upon a time, there were two magnificent creatures named Lion and Elephant. We know that animals typically kept in a cage, but unfortunately, Lion was wandering freely outside. By nature, animals are predominantly carnivorous, but interestingly, Elephant defied this trait and was not carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context conclude that Lion is Carnivorous and Elephant is in cage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context conclude that Lion is not Carnivorous and Elephant is in cage??",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context conclude that Lion is Carnivorous and Elephant is not in cage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context conclude that Lion is not Carnivorous and Elephant is not in cage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "John and Mary have been close friends for years. Friends are loyal to one another. Friends are usually supportive. However, recently it became evident that John was not being loyal to Mary, and Mary, in turn, was not being supportive towards John. This marked a significant shift in their relationship, straining their once unbreakable connection.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that Mary is loyal to John and John is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that Mary isn't loyal to john and John is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is loyal to mary and John isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john isn't loyal to mary and John isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "John and Jane, a married couple, were expected to live together and share responsibilities like most married couples. However, it was unusual that Jane did not live with John, and John did not participate in sharing the responsibilities.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john lives with jane and jane shares responsibilities?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't live with jane and jane shares responsibilities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john lives with jane and jane doesn't share responsibilities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john doesn't live with jane and jane doesn't share responsibilities?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "Planes and helicopters are aircrafts. aircrafts are usually expensive. aircrafts are normally used for transportation. planes are not expensive. helicopters are not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that helicopters are expensive and planes are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that helicopters aren't expensive and planes are used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that helicopters are expensive and planes aren't used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that helicopters aren't expensive and planes aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "John and jane are classmates. classmates usually get along. classmates are normally friendly. john is not friendly. jane is not getting along.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is friendly and jane is getting along?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john isn't friendly and jane is getting along?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is friendly and jane isn't getting along?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john isn't friendly and jane isn't getting along?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Joe and Jane have been close friends for a long time. We know that friends usually share secrets, and display a loyalty towards their friendship. Despite this, Jane has always been a person who values privacy and does not feel comfortable sharing her own secrets. Also, Joe is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jane is loyal and joe shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane isn't loyal and joe shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jane is loyal and joe doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jane isn't loyal and joe doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "Eric and Chris are friends. Friends normally go to same college. Friends are normally intelligent. Eric doesn’t go to college. Chris is not intelligent.",
+            "qa_pairs": [
+                {
+                    "question": "Can we conclude that Eric is intelligent and Chris has brown hair?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we conclude that Eric is not intelligent and Chris has brown hair?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we conclude that Eric is intelligent and Chris has not brown hair?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we conclude that Eric is not intelligent and Chris has not brown hair?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Once upon a time, in a world where cats and dogs roamed freely, most animals were known for their distinct characteristics of having fur and being a good pets. Cats, unlike most other animals, did not have fur. Dogs, on the other hand, were not commonly seen as pets.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are furry and cats are considered pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats are considered pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats aren't considered pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't considered pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Once upon a time, I found myself immersed in the world of sciences, particularly Physics and Chemistry. Science disciplines were known to be challenging and theoretical, requiring a great deal of effort and dedication. As I delved deeper into my studies, I learned that Physics, contrary to popular belief, is not solely theoretical but encompasses practical applications as well. On the other hand, Chemistry proved to be relatively easier, with its concepts and principles more accessible to grasp. Nonetheless, both sciences presented their own unique complexities, sparking my curiosity and motivating me to unravel the mysteries they held.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Physics is hard and Chemistry is theoretical?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that Physics is easy and Chemistry is theoretical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Physics is hard and Chemistry is not theoretical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Physics is not hard and Chemistry is not theoretical?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

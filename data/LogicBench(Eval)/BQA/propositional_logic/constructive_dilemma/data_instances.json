@@ -1,0 +1,446 @@
+{
+    "type": "propositional_logic",
+    "axiom": "constructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Harry had two options for his day off: going to the park or going to the beach. If he decided to go to the park, it meant that he would have a lovely picnic with his family. On the other hand, if he chose the beach, he would be able to enjoy a refreshing swim in the ocean. The only thing that was certain was that either Harry would go to the park or he would go to the beach. It was unclear which option he would ultimately choose, as it could be that he would go to the park alone, go to the beach alone, or even do both activities.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will have a picnic with his family and (b) he will swim in the ocean",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't have a picnic with his family and (b) he will swim in the ocean",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will have a picnic with his family and (b) he won't swim in the ocean",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't have a picnic with his family and (b) he won't swim in the ocean",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If Ava chooses to go to the hotel, she will be rewarded with a delightful ice-cream. On the other hand, if she decides to go to the movies, she will be able to indulge in some delicious popcorn. What we do know for sure is that at least one of the following options is true: Ava goes to the hotel or Ava goes to the movies. However, the exact combination of whether only option one is true, or only option two, or if both options are true, remains unknown.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ava will have an ice-cream and (b) she will have popcorn",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ava won't have an ice-cream and (b) she will have popcorn",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ava will have an ice-cream and (b) she won't have popcorn",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ava won't have an ice-cream and (b) she won't have popcorn",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Roman had a choice to make - whether to take a walk in the garden or a stroll in the city. If he decided to take a walk in the garden, he would be able to enjoy the fresh air. On the other hand, if he chose to take a stroll in the city, he would get to experience the hustle and bustle. It was uncertain which option Roman had gone with, but what was clear was that he had made a decision. Either Roman took a walk in the garden or he took a stroll in the city, or perhaps he even did both. Regardless, Roman was sure to have a lovely time, surrounded by nature's beauty in the garden or immersed in the lively atmosphere of the city.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he get to enjoy the fresh air and (b) he get to experience the hustle and bustle",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he don't get to enjoy the fresh air and (b) he get to experience the hustle and bustle",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he get to enjoy the fresh air and (b) he don't get to experience the hustle and bustle",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he don't get to enjoy the fresh air and (b) he don't get to experience the hustle and bustle",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If I decide to go to the picnic, I will definitely treat myself to a refreshing coke. On the other hand, if I choose to go to the movies, I will indulge in some delicious snacks. It is certain that I will make one of the following choices: either go to the picnic or go to the movies. However, it remains uncertain which one of these options I will ultimately choose. It could be the case that I only go to the picnic, or only go to the movies, or even that I decide to do both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will have a coke and (b) i will watch have snacks",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't have a coke and (b) i will watch have snacks",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will have a coke and (b) i won't watch have snacks",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't have a coke and (b) i won't watch have snacks",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "Jack had a dilemma on how to spend his day. He knew that if he decided to go to the museum, he would be able to see the art exhibition. On the other hand, if he chose to go to the zoo, he would have the opportunity to see the animals. Jack was torn between these two options, but he knew that at least one of them would come true. It could be the case that he only went to the museum, or only went to the zoo, or perhaps he would manage to visit both places. Whatever he decided, Jack was excited to have such interesting choices ahead of him.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will see the art exhibition and (b) he will see the animals",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't see the art exhibition and (b) he will see the animals",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will see the art exhibition and (b) he won't see the animals",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't see the art exhibition and (b) he won't see the animals",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "I had two options for my day off: either go to the cinema and enjoy a comedy scene or visit the zoo and have a picnic. It was certain that I would choose at least one of these options, but I wasn't sure which one it would be. If I went to the cinema, I knew I would have a great time laughing at the comedy. Conversely, if I decided to go to the zoo, I would get to enjoy a lovely picnic. The uncertainty of which choice I would make added an element of excitement to my day as I contemplated the possibilities.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will enjoy comedy scene and (b) i will have a picnic",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't enjoy comedy scene and (b) i will have a picnic",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will enjoy comedy scene and (b) i won't have a picnic",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't enjoy comedy scene and (b) i won't have a picnic",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Kevin enjoys spending his leisure time either playing cricket outside or playing chess inside. Whenever he decides to play cricket outside, his friends always join him, adding to the fun. Similarly, when he chooses to play chess inside, his sister eagerly participates in the game. Today, Kevin was unsure about his preferred activity and found himself torn between the two options. However, he knew that at least one of the following scenarios would unfold: either he would play cricket outside, or he would indulge in a game of chess indoors. The uncertainty of the situation left Kevin excited and curious about how the day would unfold.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join him and (b) his sister will join him",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join him and (b) his sister will join him",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join him and (b) his sister won't join him",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join him and (b) his sister won't join him",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If Tim decides to go for a stroll along the footpath, he will be able to enjoy the fresh air. On the other hand, if he chooses to stay at the university, he will have the opportunity to watch a play. The only thing we know for certain is that out of the two options, either Tim takes a walk or he stays at the university. However, it remains uncertain which of these possibilities is true. It could be that he ends up taking a walk, or he could simply decide to stay at the university, or it is even possible that he does both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will enjoy the fresh air and (b) he will watch a play",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't enjoy the fresh air and (b) he will watch a play",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will enjoy the fresh air and (b) he won't watch a play",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't enjoy the fresh air and (b) he won't watch a play",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If Bob decides to go to the library, he will spend his time reading books. On the other hand, if he chooses to go to the campus, he will play games instead. It is known that Bob will either go to the library or to the campus, however, it is uncertain which one he will choose or if he will visit both places.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will read books and (b) he will play games",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't read books and (b) he will play games",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will read books and (b) he won't play games",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't read books and (b) he won't play games",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If Jay decides to take a long walk, he will have the opportunity to enjoy the fresh air. Conversely, if he chooses to stay home and relax, he will find himself sitting on the couch. However, it is uncertain which option Jay ultimately selects as we know for certain that at least one of the following is true: either he takes a long walk or he stays home and relaxes. The specific details of which option he chooses remain unknown, as it could be that only one of the options is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he get to enjoy the fresh air and (b) he sits on the couch",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he don't get to enjoy the fresh air and (b) he sits on the couch",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he get to enjoy the fresh air and (b) he don't sit on the couch",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he don't get to enjoy the fresh air and (b) he don't sit on the couch",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Lisa had a few options for her afternoon activities. She could either go to the gym, which would then lead her to the swimming pool, or she could go to the library, which would then take her to the coffee shop. It was certain that she would choose at least one of these options, but it was unclear which one. It could be that she only went to the gym, or only to the library, or maybe she would even visit both places.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go to the swimming pool  and (b) she will go to the coffee shop",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not go to the swimming pool and (b) she will go to the coffee shop",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go to the swimming pool and (b) she will not go to the coffee shop",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not go to the swimming pool and (b) she will not go to the coffee shop",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If I decide to purchase a new shirt, I will definitely wear it to the party. On the other hand, if I end up purchasing a new dress, I will wear it to the office instead. At the moment, it is uncertain whether I will buy both a new shirt and a new dress, or just one of them. However, one thing is for sure – either I will buy a new shirt or I will buy a new dress.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will wear it to the party and (b) i will wear it to the office",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't wear it to the party and (b) i will wear it to the office",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will wear it to the party and (b) i won't wear it to the office",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't wear it to the party and (b) i won't wear it to the office",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If Mike decides to go to the beach, he will be swayed by the crashing waves, and if he chooses to go for a hike, he will be captivated by the breathtaking sunset. Without knowing for certain which option he will ultimately choose, we can establish that at least one of the following possibilities is true: Mike will opt for the beach, or he will opt for the hike. It remains uncertain whether it is only the beach or only the hike that he will embark upon, or if he will even decide to do both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) mike will swim in the waves and (b) mike will enjoy sunset",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) mike won't swim in the waves and (b) mike will enjoy sunset",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) mike will swim in the waves and (b) mike won't enjoy sunset",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) mike won't swim in the waves and (b) mike won't enjoy sunset",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If David decides to attend the concert, he will have the opportunity to enjoy live music. On the other hand, if he chooses not to go to the theater, he will not be able to watch a movie. It is known that at least one of the following statements is true: either David attends the concert or he skips the theater. However, it remains uncertain which of these possibilities actually occurred. It could be the case that only attending the concert is true, or only skipping the theater is true, or perhaps both scenarios are true simultaneously.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will listen to live music and (b) he will not watch a movie.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will not listen to live music and (b) he will not watch a movie.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will listen to live music and (b) he will watch a movie.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will ot listen to live music and (b) he will watch a movie.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "I had a choice to make today: either go for a run and get some fresh air, or stay at home and watch some TV. I couldn't decide, so I ended up doing one of them, but I'm not sure which one. It's possible that I went for a run and got some fresh air, or maybe I just stayed at home and watched some TV. Either way, I'm glad I made a decision and did one of those activities.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will get some fresh air and (b) i will watch some tv",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't get some fresh air and (b) i will watch some tv",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will get some fresh air and (b) i won't watch some tv",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't get some fresh air and (b) i won't watch some tv",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If I decide to go for a walk, I will be able to breathe in some fresh air and revitalize myself. On the other hand, if I choose to stay home, I will have the opportunity to enjoy a movie. One thing is certain, either I go for a walk or I stay home. It remains uncertain which of the two options I will ultimately choose. It is entirely possible that I might opt for the walk, or perhaps I will find myself drawn to staying home, or even both possibilities might come to fruition.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will get some fresh air and (b) i will watch a movie",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't get some fresh air and (b) i will watch a movie",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i will get some fresh air and (b) i won't watch a movie",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) i won't get some fresh air and (b) i won't watch a movie",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If Amanda chooses to visit her grandparents, she will be treated to a delicious home-cooked meal. On the other hand, if she decides to spend her time with her friends, she can expect a tasty pizza. It is certain that Amanda will either visit her grandparents or her friends, but the exact choice remains unknown. It could be the case that she only visits her grandparents, or perhaps she only visits her friends, or maybe she even chooses to visit both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will have a home-cooked meal and (b) she will have a pizza",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not have a home-cooked meal and (b) she will have a pizza",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will have a home-cooked meal and (b) she will not have a pizza",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will not have a home-cooked meal and (b) she will not have a pizza",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "John had a choice to make for the day - either go to the beach or go on a trail. He knew that if he decided to go to the beach, he would definitely get a tan. On the other hand, if he opted for the trail, he would enjoy a relaxing stroll. It was certain that John would do at least one of these activities, but it was unclear which one. It could be that he only went to the beach, or solely went on the trail, or perhaps even both. The final decision was yet to be made, but either way, John was looking forward to a day filled with either a sun-kissed tan or a serene walk in nature.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will get a tan and (b) he will take a stroll",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't get a tan and (b) he will take a stroll",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will get a tan and (b) he won't take a stroll",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't get a tan and (b) he won't take a stroll",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Het is planning his outdoor activities and has two options in mind: camping or fishing. If he decides to go camping, he knows that he will be able to enjoy cooking his meals over the campfire. On the other hand, if Het chooses to go fishing, he is confident that he will be able to catch some fish. At the moment, Het has made up his mind to engage in either camping or fishing, but he hasn't yet finalized his decision. It could be the case that he goes camping only, or goes fishing only, or even both activities are true for him. The final outcome remains unknown, but Het is excited about the adventures that lie ahead.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will cook food over the campfire and (b) he will catch some fish",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't cook food over the campfire and (b) he will catch some fish",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will cook food over the campfire and (b) he won't catch some fish",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't cook food over the campfire and (b) he won't catch some fish",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Lisa woke up one morning feeling unsure about how her day would unfold. She knew that if she had eaten breakfast, she would have the energy to start her day on a positive note. On the other hand, if she had slept in late, she would feel groggy and sluggish. As she sat at the breakfast table contemplating her options, Lisa realized that she had two possibilities. It could be that she had indeed eaten breakfast in the morning, or it could be that she had slept in late. She couldn't be certain which one was true, or if both were true. Regardless, Lisa understood that her level of energy for the day would greatly depend on the outcome of her morning routine.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will have energy to start my day and (b) she will feel groggy in the morning",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't have energy to start my day and (b) she will feel groggy in the morning",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will have energy to start my day and (b) she won't feel groggy in the morning",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't have energy to start my day and (b) she won't feel groggy in the morning",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

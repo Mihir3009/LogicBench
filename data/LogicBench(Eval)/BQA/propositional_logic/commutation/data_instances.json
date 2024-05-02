@@ -1,0 +1,446 @@
+{
+    "type": "propositional_logic",
+    "axiom": "commutation",
+    "samples": [
+        {
+            "id": 1,
+            "context": "I am not sure if Jack studies hard for his exams or if he gets top grades in school, but one of those two things must be true. It is possible that Jack only studies hard for his exams and does not get top grades, or it could be the case that he gets top grades in school without putting in much effort. Perhaps, both scenarios are true, and Jack both studies hard for exams and gets top grades.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he gets top grades in school or (b) he studies hard for his exams",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't get top grades in school and (b) he studies hard for his exams",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he gets top grades in school and (b) he doesn't study hard for his exams",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't get top grades in school and (b) he doesn't study hard for his exams",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "I am aware that either I have a degree in computer science or I am an expert programmer, but I am unsure which is true. It is possible that I have only a degree in computer science, or that I am solely an expert programmer, or even that both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is an expert programmer or (b) he has a degree in computer science",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't an expert programmer and (b) he has a degree in computer science",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is an expert programmer and (b) he doesn't have a degree in computer science",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't an expert programmer and (b) he doesn't have a degree in computer science",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "I am not sure if she likes to travel to different countries or if he enjoys learning about different cultures, but it is certain that at least one of them is true. I might discover one day that she has a deep passion for exploring new countries and experiencing different cultures. On the other hand, it could also be the case that he is a curious person who loves immersing himself in the customs and traditions of various cultures. However, it is also possible that both statements are true and they share a mutual love for travel and cultural exploration. Only time will reveal the truth behind their interests and preferences.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he enjoys learning about different cultures or (b) she likes to travel to different countries",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't enjoy learning about different cultures and (b) she likes to travel to different countries",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he enjoys learning about different cultures and (b) she doesn't like to travel to different countries",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't enjoy learning about different cultures and (b) she doesn't like to travel to different countries",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "John is a talented musician, known for his incredible guitar skills. It is a well-known fact that John either plays the guitar incredibly well or practices daily for hours, but it remains a mystery which of the two options is true. Whether it is his natural talent or his dedication and hard work that have led to his musical prowess, nobody can say for certain. However, one thing is clear - John's musical abilities are truly awe-inspiring and continue to captivate audiences wherever he performs.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he practices daily for hours or (b) he plays guitar incredibly well",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't practice daily for hours and (b) he plays guitar incredibly well",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he practices daily for hours and (b) he doesn't play guitar incredibly well",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't practice daily for hours and (b) he doesn't play guitar incredibly well",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "Oliver is a student who is known for his dedication to his studies and his consistent good grades. It is uncertain whether he excels in his exams because he studies diligently or due to his natural ability to achieve high marks. However, one thing is certain - Oliver possesses either of these qualities, or perhaps even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he always gets good grades or (b) oliver studies diligently for his exams",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he always doesn't get good grades and (b) oliver studies diligently for his exams",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he always gets good grades and (b) oliver doesn't study diligently for his exams",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he always doesn't get good grades and (b) oliver doesn't study diligently for his exams",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "It is known that my friend, Brian, is always following the latest fashion trends and spends a significant amount of time shopping for clothes. It is uncertain whether he only keeps up with the latest trends or if he also spends a lot of time shopping, as it could be either case, or even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time shopping for clothes or (b) he always keeps up with the latest trends in fashion",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time shopping for clothes and (b) he always keeps up with the latest trends in fashion",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time shopping for clothes and (b) he always doesn't keep up with the latest trends in fashion",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time shopping for clothes and (b) he always doesn't keep up with the latest trends in fashion",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "We have knowledge that Harry is either a talented singer or he puts a lot of effort into perfecting his voice. However, it is uncertain which one of these statements is true. It could be the case that Harry is indeed a great singer, or it might be that he only works hard to improve his vocal abilities. Additionally, it is possible that both statements are accurate.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he works hard to perfect his voice or (b) harry is a great singer",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't work hard to perfect his voice and (b) harry is a great singer",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he works hard to perfect his voice and (b) harry isn't a great singer",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't work hard to perfect his voice and (b) harry isn't a great singer",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "We have two possibilities for Heather's academic achievements - either she is an outstanding student or she maintains a high GPA. It is uncertain which one is true or if both are true. Heather might excel in her studies or she might simply have a high GPA, or she could have both qualities simultaneously.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she maintains a high gpa or (b) heather is an excellent student",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she doesn't maintain a high gpa and (b) heather is an excellent student",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she maintains a high gpa and (b) heather isn't an excellent student",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she doesn't maintain a high gpa and (b) heather isn't an excellent student",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "At least one of two things is true about Tom - he is either an avid reader or he devours books of all genres. We are unsure which one of these statements is true or if both are true. It could be that only the first statement is true, or only the second statement is true, or even that both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he devours books of all genres or (b) tom is an avid reader",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't devour books of all genres and (b) tom is an avid reader",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he devours books of all genres and (b) tom isn't an avid reader",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't devour books of all genres and (b) tom isn't an avid reader",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "I am not sure which is true, but either he is an excellent tennis player or he has won several tournaments in the past. It could be that only one of these statements is true, or it could be that both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he has won several tournaments in the past or (b) he is an excellent tennis player",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he hasn't won several tournaments in the past and (b) he is an excellent tennis player",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he has won several tournaments in the past and (b) he isn't an excellent tennis player",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he hasn't won several tournaments in the past and (b) he isn't an excellent tennis player",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "It is known that either he enjoys outdoor activities or he goes for a hike every weekend, but it is uncertain which one is true or if both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he goes for a hike every weekend or (b) he enjoys outdoor activities",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't go for a hike every weekend and (b) he enjoys outdoor activities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he goes for a hike every weekend and (b) he doesn't enjoy outdoor activities",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't go for a hike every weekend and (b) he doesn't enjoy outdoor activities",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "We are aware that either he is an exceptionally intelligent scientist or he is known for making revolutionary discoveries. It remains uncertain which one of these possibilities is true. It is conceivable that only his brilliance as a scientist is true, or alternatively, only his groundbreaking discoveries, or even both might be true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he makes groundbreaking discoveries or (b) he is a brilliant scientist",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't make groundbreaking discoveries and (b) he is a brilliant scientist",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he makes groundbreaking discoveries and (b) he isn't a brilliant scientist",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't make groundbreaking discoveries and (b) he isn't a brilliant scientist",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "John is a musician who spends several hours every day practicing. It is not clear whether he is a talented musician, but he is dedicated to honing his skills through extensive daily practice. The condition in this story is that either John is a talented musician or he practices for several hours every day. There could be multiple scenarios: (1) John is both a talented musician and practices diligently, (2) John is a talented musician but does not practice regularly, or (3) John may not have innate talent but compensates by putting in rigorous practice sessions.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he practices for several hours every day or (b) he is a talented musician",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't practice for several hours every day and (b) he is a talented musician",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he practices for several hours every day and (b) he isn't a talented musician",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't practice for several hours every day and (b) he isn't a talented musician",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "Nina, a talented artist with a passion for creating breathtaking landscapes, was known for her exceptional ability to select the perfect colors for her artwork. We know that at least one of the following is true (1) Nina loves to paint beautiful landscapes and (2) she is an expert in choosing the right colors. note that we do not know which ones of (1) and (2) are true. it might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she is an expert in choosing the right colors or (b) nina loves to paint beautiful landscapes",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she isn't an expert in choosing the right colors and (b) nina loves to paint beautiful landscapes",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she is an expert in choosing the right colors and (b) nina doesn't love to paint beautiful landscapes",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she isn't an expert in choosing the right colors and (b) nina doesn't love to paint beautiful landscapes",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "I have a friend named John who has two passions in life. One day, I was talking to him about his hobbies, and he mentioned that either he is an expert in coding or he loves to play video games. The only thing that is certain is that at least one of these passions or both of them occupies a special place in his heart.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is an expert in coding or (b) he loves to play video games",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't an expert in coding and (b) he loves to play video games",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is an expert in coding and (b) he doesn't love to play video games",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't an expert in coding and (b) he doesn't love to play video games",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "At least one of the following is true about him: either he drives a luxury car or he is a successful businessman. It is uncertain which one of these statements is accurate, as it may be the case that only the first statement is true, or only the second, or even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is a successful businessman or (b) he drives a luxury car",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't a successful businessman and (b) he drives a luxury car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is a successful businessman and (b) he doesn't drive a luxury car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't a successful businessman and (b) he doesn't drive a luxury car",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Sarah is an animal lover who always finds time to help animals in need. Every weekend, she either spends her time volunteering at the local animal shelter or passionately assisting animals at her own place. It could be that she dedicates her weekends solely to volunteering at the animal shelter, or perhaps she spends her time at home, making sure that animals in need receive the help they deserve. Regardless of the exact scenario, the only certainty is that Sarah's love for animals and her dedication to helping them is unwavering.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she is passionate about helping animals in need or (b) she spends her weekends volunteering at the local animal shelter",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she isn't passionate about helping animals in need and (b) she spends her weekends volunteering at the local animal shelter",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she is passionate about helping animals in need and (b) she doesn't spend her weekends volunteering at the local animal shelter",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she isn't passionate about helping animals in need and (b) she doesn't spend her weekends volunteering at the local animal shelter",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "At the crossroads of success and curiosity, he embarked on a journey to uncover his true passion. Little did he know that his path would intertwine with a dichotomy of possibilities. It was whispered among the townfolk that two paths lay before him - one paved with the triumph of a thriving blog, and the other adorned with the hours spent diving deep into the mystique of various subjects. The townspeople could not ascertain which of the paths would greet him; whether it would be the success of his compelling blog, or the fulfillment found within the profound realm of research. And so, the enigma persisted, leaving an air of anticipation hanging over his destiny.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time researching topics or (b) he runs a successful blog",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time researching topics and (b) he runs a successful blog",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time researching topics and (b) he doesn't run a successful blog",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time researching topics and (b) he doesn't run a successful blog",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "At least one of the following is true about John: he either works diligently on his projects or he is highly organized and efficient. It is unclear which one is true or if both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is highly organized and efficient or (b) he works diligently on his projects",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't highly organized and efficient and (b) he works diligently on his projects",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he is highly organized and efficient and (b) he doesn't work diligently on his projects",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he isn't highly organized and efficient and (b) he doesn't work diligently on his projects",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "I am friends with Nisarg who has a passion for art. It is unclear whether he has a creative eye for it or if he simply dedicates a lot of time to painting.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time painting or (b) he has a creative eye for art",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time painting and (b) he has a creative eye for art",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he spends a lot of time painting and (b) he doesn't have a creative eye for art",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he doesn't spend a lot of time painting and (b) he doesn't have a creative eye for art",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

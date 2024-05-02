@@ -1,0 +1,286 @@
+{
+    "type": "first_order_logic",
+    "axiom": "modus_tollens",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone decides to go to the park, it is required that they wear a mask. However, in this particular situation, John does not wear a face covering.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that john doesn't visit the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that john visits the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If a car experiences a flat tyre, it is necessary to have it towed. Unfortunately, Jack was not aware of the car's tow-worthy condition.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that Jack didn't notice the car has a flat tyre?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that Jack noticed the car has a flat tyre?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If an individual possesses a car, they have the capability to embark on an extended expedition by road. However, in this particular scenario, Judy lacks the ability to embark on an extended expedition by road.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that Judy doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that Judy has a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If someone is operating a car, they are obligated to adhere to the regulations governing traffic. However, there may be instances where Mrk does not obligated to adhere to the regulations governing traffic.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that mark isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that mark is driving a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If one wishes to actively participate in an online event or activity, it is imperative for them to have a stable connection to the internet. Without such a connection, it would not be possible for them to engage in the event's proceedings or access the necessary online resources. In this specific case, it has been established that shelley does not possess a requirement for an internet connection.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that shelley isn't participating in an online event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that shelley is participating in an online event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If an individual has a completely filled fuel tank, they possess the capability to drive for an entire day without necessitating a refill. However, it is crucial to note that this Rose cannot continue driving for an entire day without pausing to refill their fuel tank.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that Rose doesn't have a full tank of fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that Rose has a full tank of fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If an individual decides to have a pet dog, it becomes their responsibility to provide proper care for their beloved companion. However, in this particular scenario, it appears that Lisa is not interested in taking care.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that Lisa doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that Lisa has a pet dog ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If a person commits a bank robbery, they will face legal charges for the act. Furthermore, it is important to note that Alice does not pursue charges for any robbery.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that alice did not rob the bank?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that alice robbed the bank?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If someone decides to go to the store, it means they have the intention to make a purchase. However, in this particular case, john do not have intention to buy anything.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that john isn't going to the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that john is going to the store ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If an individual puts in dedicated effort and devotes ample time to studying, they will excel in their exams. However, Frank did not achieve exceptional results in his exams.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that Frank doesn't study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that Frank studies hard ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "If someone is served cold soup, it indicates their dislike for it. An instance of this arises when Jane expresses her pleasure towards the soup.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that soup is not cold?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that soup is cold?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If someone is the owner of a domesticated cat, it is necessary for them to provide sustenance to their cat on a daily basis. Endy, however, is not ready of feeding on a daily basis.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that Endy doesn't have a pet cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that Endy has a pet cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "Playing a game presents an opportunity to win a prize by successfully completing all the levels. Unfortunately, John did not receive a prize.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If somebody is preparing a meal, it means they are utilizing the benefits of a pressure cooker. Jill in this scenario, however, is not making use of a pressure cooker.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that jill isn't cooking a meal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that jill is cooking a meal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If one is employed in an office setting, it is customary to dress formally. However, in this particular case, Alex is not wearing formal attire.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that alex doesn't work in an office?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that alex works in an office?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Someone attending college is expected to put in a lot of effort when it comes to their studies. Jill does not seem to require the same level of dedication and hard work as their peers.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that jill isn't in college?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that jill is in college?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If an individual desires to cross the street, it is essential for them to observe both directions before doing so. In contrast, Tom did not look both ways before proceeding.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that tom isn't crossing the street?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that tom is crossing the street?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If an individual rises early in the morning, they will have the opportunity to witness the captivating sight of the rising sun. Unfortunately, Mona was unable to partake in this memorable experience and missed the magnificent sunrise.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she woke up late?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she did not woke up late?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If someone decides to enter into the bond of matrimony, they automatically gain in-laws as part of their extended family. However, Bob, unfortunately, does not have the privilege of having any in-laws due to his current marital status.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he is not married?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he is married?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If an individual plans on going to the beach, it is necessary for them to bring sunscreen. In this specific case, however, Samantha is not required to pack sunscreen.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that samantha isn't going to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that samantha is going to the beach?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

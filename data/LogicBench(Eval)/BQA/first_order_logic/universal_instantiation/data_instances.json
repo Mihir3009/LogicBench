@@ -1,0 +1,286 @@
+{
+    "type": "first_order_logic",
+    "axiom": "universal_instantiation",
+    "samples": [
+        {
+            "id": 1,
+            "context": "All students are required to take an examination in order to fulfill the requirements for their degree. Reema, being a student, is also expected to fulfill the requirements.",
+            "qa_pairs": [
+                {
+                    "question": "does reema need to take an exam to complete her degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does reema need not to take an exam to complete her degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "All employees are required to follow a five-day work schedule. Mohammed, being an employee, is expected to adhere to this policy.",
+            "qa_pairs": [
+                {
+                    "question": "does mohammed have to work five days a week?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does mohammed not have to work five days a week?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "In the realm of canines, it is a universally accepted fact that every single one of them possesses four legs. It should be duly noted that Fido, a member of the dog species, adheres to this defining characteristic.",
+            "qa_pairs": [
+                {
+                    "question": "does fido have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "All felines have a diet that consists solely of consuming meat products. One particular feline, known as Sheba, falls into this category.",
+            "qa_pairs": [
+                {
+                    "question": "is sheba a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is sheba not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "All educators possess a deep passion for the art of imparting knowledge. Jena shares this same enthusiasm.",
+            "qa_pairs": [
+                {
+                    "question": "is jena passionate about teaching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is jena not passionate about teaching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "All creatures with great size are often perceived as malevolent beings, including Goodman who happens to possess a significant stature as a giant.",
+            "qa_pairs": [
+                {
+                    "question": "Is Goodman evil?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Goodman not evil?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "All felines have an affinity for engaging in playful activities with balls of yarn. One particular feline creature, belonging to an unknown entity, derives immense enjoyment and satisfaction from indulging in the act of playing with yarn.",
+            "qa_pairs": [
+                {
+                    "question": "is my cat typical in its behavior?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is my cat atypical in its behavior?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Regular coffee drinkers have a dependency on caffeine, and among them is Dean, who occasionally indulges in a cup of coffee.",
+            "qa_pairs": [
+                {
+                    "question": "Is Dean not addicted to it?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Dean addicted to it?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "The Beatles are known for producing a variety of musical genres, including hip-hop. \"Hey Jude\" is one of their well-known songs.",
+            "qa_pairs": [
+                {
+                    "question": "Is 'Hey Jude' a Hip-Hop?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is 'Hey Jude' not a Hip-Hop?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "Regular consumption of soft drinks is associated with a high level of muscle fat, as observed in individuals who regularly indulge in these beverages. Nevertheless, among those individuals, Jack can be identified as a frequent consumer of soft drinks.",
+            "qa_pairs": [
+                {
+                    "question": "Does Jack has high muscle fat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Jack has low muscle fat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "All creatures with fur possess thick skin, including this particular lion that is covered in fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that lion has thick skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that lion does not have thick skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "All living beings possess a cognitive organ known as a brain. In this particular instance, an elephant serves as an example of an animal possessing this trait.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this elephant has a brain?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that this elephant has not a brain?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "All electric vehicles have the capability to travel up to a distance of 355 miles when fully charged. One such example is Kate's Tesla Model 3 EV, which can cover this range on a single charge.",
+            "qa_pairs": [
+                {
+                    "question": "Can Kate travel a distance of 340 miles on one full charge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can Kate travel a distance of 400 miles on one full charge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "Scientists, as a collective, possess an inherent curiosity. One such scientist, Mirali, also shares this desire for knowledge.",
+            "qa_pairs": [
+                {
+                    "question": "is she curious?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is she not curious?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "In the realm of rulers, a common trait is the insatiable thirst for wealth and power. It is widely believed that kings, in general, exhibit this characteristic. Among the ranks of these broadly labeled monarchs, there exists a man named Sam, who also assumes the title of a king.",
+            "qa_pairs": [
+                {
+                    "question": "Is Sam greedy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Sam not greedy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "All individuals of the Homo sapiens species require oxygen to survive. One such individual is Mary, who belongs to this species.",
+            "qa_pairs": [
+                {
+                    "question": "does mary need oxygen to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Mary not need oxygen to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In the United States of America, every individual is entitled to the right to express their opinions freely. Specifically, Jack is a resident of the USA.",
+            "qa_pairs": [
+                {
+                    "question": "does he have the right to freedom of speech?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does he not have the right to freedom of speech?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "All individuals in the field of software development engage in coding. Lily happens to be one of the many skilled software developers.",
+            "qa_pairs": [
+                {
+                    "question": "does she write code?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not write code?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "All animals that possess sharp teeth have a herbivorous dietary preference. One animal, known as Rex, exhibits the characteristic of having sharp teeth.",
+            "qa_pairs": [
+                {
+                    "question": "Is Rex a herbivorous?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Rex not a herbivorous?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "All cats are domestic companions. A man named John possesses a cat companion.",
+            "qa_pairs": [
+                {
+                    "question": "is john's cat a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is John's cat not a pet?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

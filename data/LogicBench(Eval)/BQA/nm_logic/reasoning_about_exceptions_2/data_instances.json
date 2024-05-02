@@ -1,0 +1,286 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_2",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In the realm of cat communication, meowing serves as a fundamental aspect of their vocal repertoire. However, intriguingly enough, there exists a distinct species of cat that deviates from this conventional norm. This peculiar feline defies the expectations associated with its kind by refraining from emitting any meows whatsoever.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "In the animal world, it is commonly known that most animals are equipped with four legs. However, there exists an exceptional creature who defies this norm and possesses fewer than four legs. This unique individual, known simply as the 'Limber One', stands out among its fellow animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "In a world where cats are known for their daytime slumbers, there was one feline named Whiskers who defied the norm. While his fellow furry friends snuggled in the warmth of the sunbeam, Whiskers roamed the house with his curious eyes wide awake.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat is awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat isn't awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "In the world of aquatic life, fish are known for their ability to swim gracefully in water. However, an intriguing exception to this norm exists, as there happens to be at least one species of fish that defies convention by opting not to swim in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one species of fish doesn't swim in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of fish swims in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "In the world of automobiles, it is a well-known fact that most cars are equipped with four wheels. However, there is a peculiar case where at least one car defies this norm and has fewer than four wheels. This unusual anomaly in the automotive world has sparked curiosity and raised many eyebrows.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car has fewer than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car doesn't have fewer than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "In the world where dogs are known to be indoor pets, there was a unique dog named Max. Unlike his fellow furry friends, Max refused to conform to the norm and instead preferred the great outdoors. No matter how hard his owner tried to coax him inside, Max would always find a way to escape and explore the world beyond the confines of their home.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one dog doesn't stay indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one dog stays indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "In a forest full of fruit-bearing trees, there stood a lone tree that defied the norm. While all the other trees flourished with ripe fruits, this particular tree remained barren. Its branches reached towards the sky, devoid of any colorful produce. The other trees whispered amongst themselves, curious about the anomaly in their midst, wondering why this tree failed to bear any fruits.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one tree doesn't bear fruits?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one tree bears fruits?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a land where bicycles were the preferred mode of transportation, there was a peculiar incident that defied convention. The existence of bicycles with two wheels was a common and unquestioned fact until one day, a lone bicycle emerged without its expected second wheel. This unprecedented anomaly stirred curiosity and intrigue among the community, leaving them puzzled as to how this unconventional bicycle came into existence.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one bicycle doesn't have two wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one bicycle has two wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "In the world where academic success is held in high regard, most students dedicate themselves to studying diligently. However, there is always one student who stands out by not putting in the same level of effort. Even though their peers spent countless hours poring over textbooks and attending study groups, this particular student took a more relaxed approach to their studies.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one student does not study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one student studies hard?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "In a world where apples were known for their signature red color, there was a renowned apple orchard owned by Mr. Johnson. He took great pride in his carefully cultivated apple trees that produced the most vibrant and delicious red apples. However, one peculiar day, as Mr. Johnson inspected his bountiful orchard, he came across a peculiar sight - nestled among the trees, he noticed an apple that defied the norm. This particular apple, against all expectations, was not red like its counterparts. This unexpected discovery left Mr. Johnson puzzled and curious about the fascinating anomaly in his beloved orchard.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one apple is not red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one apple is red?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "The vast majority of elephants prefer living in herds, as it provides them with safety, companionship, and a sense of community. However, there is always an exception to the rule. In this particular tale, we meet an adventurous elephant named Luna who has chosen to embrace a solitary lifestyle.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one elephant does not live in a herd?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one elephant lives in a herd?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In a neighborhood where children were often found playing outside, there was one child named Emily who never joined in the fun. While her friends frolicked in the sunshine and engaged in games and adventures, Emily remained indoors, observing from her bedroom window.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one child doesn't play outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one child plays outside?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "In the world of bats, it is widely known that these creatures tend to indulge in a good slumber during daylight hours. However, amidst this nocturnal lifestyle, there exists a remarkable exception - a single species of bat that defies the norm. This unique bat is uncharacteristically active during the day, shimmering gracefully through the sunlight while its companions rest. Despite the curiosity it arouses, this solitary bat embraces its individuality, exploring the world and delighting in the warmth of daylight.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of bat is active during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one species of bat isn't active during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "In the delightful season of summer, when nature thrives and the world is adorned with a vibrant hue, the leaves of the trees unfailingly paint the landscape in brilliant shades of green. However, amidst this splendor, there exists an intriguing anomaly, for there is at least one leaf that defies the norm and stands out with a different color, contrasting against its green companions.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one leaf isn't green in summer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one leaf is green in summer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "In a world where cats are known to be masters of sleep, there lived a group of feline friends who all followed this comforting pattern. However, amidst them, there was a peculiar cat named Felix who seemed to defy this norm. While the others purred contently in their peaceful slumbers, Felix remained wide awake, his emerald eyes glinting with curiosity.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat doesn't sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat sleeps?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "In the quiet town of Oakville, where everybody seemed to follow the natural rhythms of day and night, there was one peculiar individual who refused to succumb to the embrace of slumber. While the inhabitants of the town surrendered to the peaceful oblivion of sleep, this lone person chose to defy the norm and remained wide awake throughout the night.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one person does not sleep at night?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one person sleeps at night?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In the animal kingdom, social behavior is quite common among various species. Many animals thrive and find comfort in the presence of their companions, relishing in the bonds they form. However, amidst this social hubbub, there is always at least one creature who prefers solitude. This solitary animal chooses to navigate the world on its own, seeking solitude as its preferred way of life.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal is solitary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal isn't solitary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "In a typical scenario, heavy blocks are usually found resting on the table. However, today was not a typical day. As I looked around, I noticed that at least one of the heavy blocks was was not on the table.",
+            "qa_pairs": [
+                {
+                    "question": "Does context imply that exactly one heavy block is not on the table?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does context imply that exactly one heavy block is on the table?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "In a vibrant kitchen, a basket filled with an assortment of yellow fruits catches the eye. Among them, a single yellow fruit is inexplicably missing from the cozy surroundings of the basket, leaving an empty space yearning to be filled.",
+            "qa_pairs": [
+                {
+                    "question": "Does this context imply that exactly one yellow fruit is not in the basket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this context imply that exactly one yellow fruit is in the basket?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "In a world where birds were known for their flying abilities, a unique species challenged this notion. While most birds effortlessly soared through the skies, there existed at least one species that defied this norm. These exceptional birds, although sharing similarities with their airborne counterparts, possessed a special quality that grounded them firmly to the earth.",
+            "qa_pairs": [
+                {
+                    "question": "Does context imply that exactly one species of bird don't fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does context imply that exactly one species of bird fly?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

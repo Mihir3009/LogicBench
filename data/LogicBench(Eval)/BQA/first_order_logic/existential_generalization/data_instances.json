@@ -1,0 +1,286 @@
+{
+    "type": "first_order_logic",
+    "axiom": "existential_generalization",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Sheila possesses exceptional coding skills and is highly proficient in programming. She has mastered various programming languages and is known for her ability to write efficient and error-free code. Sheila's expertise in programming allows her to solve complex problems with ease. Her colleagues often seek her assistance when facing technical challenges as she consistently delivers high-quality solutions.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has coding skills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have coding skills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "The Eiffel Tower, an iconic landmark situated in the charming city of Paris, is well-known and admired by people from around the world. Standing tall and proud, this magnificent structure has become a symbol of the city's rich history and architectural brilliance. Its captivating design and intricate details continue to mesmerize visitors who flock to witness its beauty firsthand. The Eiffel Tower, a renowned attraction, serves as a testament to human ingenuity and creative prowess.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that there is a renowned structure in paris?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that There isn't any renowned structure in paris?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Alice possesses a deep understanding and mastery of contemporary dance movements. She has extensive knowledge in this art form and is highly skilled in executing various complex gestures and patterns. Her expertise in modern dance enables her to effortlessly glide across the stage, infusing each movement with grace and precision. Her years of experience and dedication to the craft have made her a sought-after expert in the field. Alice's proficiency in contemporary dance is truly awe-inspiring.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is proficient in modern dance moves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in modern dance moves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Samantha, possessing a background in engineering, has obtained a degree in the field.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a degree in engineering?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a degree in engineering?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "The marathon race was won by James, who emerged as the champion.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won the marathon race?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win the marathon race?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "The apple tree bears delicious red apples that are ripe and ready to be picked. The vibrant red color of the apples indicates their ripeness and sweetness. The tree is abundant with these juicy red fruits, hanging gracefully from its branches. The sight of these red apples is a true delight to behold.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that something has red apples?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that nothing have red apples?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "John, a skilled culinary expert, possesses an exceptional talent in the art of cooking. His expertise in the kitchen surpasses that of most, as he has acquired the status of a master chef. His culinary achievements have been widely recognized and celebrated by both critics and food enthusiasts alike. In every dish he creates, John showcases his tremendous skill and creativity, elevating ordinary ingredients into extraordinary culinary masterpieces. With his profound knowledge of flavors, meticulous attention to detail, and unwavering dedication to his craft, John continues to amaze and inspire all who have the pleasure of experiencing his delectable creations.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has expertise in cooking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have expertise in cooking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "The story goes that a brand new car was purchased by someone named Sara. This individual was thrilled with their recent acquisition. They were overcome with excitement as they gazed upon their gleaming new vehicle. The car was in pristine condition, boasting a flawless exterior and a spotless interior. With this new addition, the owner could not wait to embark on new adventures and experience the thrill of the open road. Eventually, the news of their new car spread, garnering admiration from friends, family, and acquaintances alike.\n\nOne fine day, Sara decided to go for a drive in the countryside, relishing the feeling of the wind in their hair and the gentle hum of the engine. Little did they know that this would be the beginning of many incredible journeys that awaited them.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone bought a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "James possesses the exceptional ability of speaking Spanish with great fluency. He is highly proficient in communicating in the Spanish language. He effortlessly engages in conversations, comprehending and responding with ease. James's linguistic skills in Spanish are remarkable, enabling him to communicate effectively and seamlessly in various situations. With his fluency in Spanish, James can fluently converse with native speakers and navigate through Spanish-speaking countries with confidence and ease.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has the ability to speak spanish fluently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have the ability to speak spanish fluently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "Jane possesses extensive knowledge and expertise in the art of creating delectable cakes, showcasing her mastery in this culinary realm. She is well-versed in the intricacies of baking, having honed her skills over time. With her vast experience, she can whip up exquisite cakes that tantalize the taste buds and leave a lasting impression. In her pursuit of perfection, she constantly seeks new techniques and innovative ways to enhance her creations. She is a true connoisseur of all things cake-related, and her passion shines through in every delectable treat she produces.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is skilled at baking cakes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one skilled at baking cakes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Jake emerged as the triumphant winner of the spelling bee competition. His exceptional spelling abilities set him apart from the other participants, ultimately securing him the coveted title.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won the spelling bee contest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one win the spelling bee contest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In the school, there is a runner who possesses exceptional speed and is widely recognized as the most swift.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a fast runner in the school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one a fast runner in the school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "Karen possesses a valid certification as a yoga instructor, indicating her expertise and proficiency in this field. She is well-versed and knowledgeable in various yoga techniques and practices. Karen's qualification enables her to guide and instruct individuals on how to achieve physical and mental relaxation through yoga exercises. In addition, her certification assures her clients that they are receiving proper guidance and instruction from a qualified professional. Hence, it is evident that Karen's certification as a yoga instructor holds significant value and ensures a high level of professionalism and competence in her teachings.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a certified yoga instructor?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one a certified yoga instructor?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "John is highly skilled in the art of playing the violin. His expertise in this musical instrument is unparalleled. With years of dedicated practice and training, John has become a true virtuoso. His ability to create enchanting melodies captivates audiences and leaves them in awe. The graceful way he moves the bow across the strings is mesmerizing to observe. His playing is characterized by precision, control, and an immense depth of emotion. John's mastery of the violin is a testament to his unwavering determination and passion for music.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in playing the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in playing the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "At the sprint race, Emily emerged as the victor in the 100m competition, showcasing her outstanding speed and agility. She outperformed all her competitors, leaving them behind in her wake as she swiftly sprinted towards the finish line. Her prowess in the race was evident as she maintained a strong lead from start to finish, ultimately crossing the line with an impressive victory.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won the 100m sprint race?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win the 100m sprint race?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "Alexa was honored with the prestigious Nobel Prize in the field of chemistry, recognizing her significant contributions to the scientific community. This remarkable achievement highlights Alexa's exceptional expertise and groundbreaking research in the realm of chemical studies. The depth of her knowledge and dedication to advancing the field is evident through her revolutionary discoveries and innovative experiments. This recognition serves as a testament to Alexa's ceaseless efforts and relentless pursuit of scientific excellence.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won the nobel prize in chemistry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win the nobel prize in chemistry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Raju, a highly skilled individual in the field of carpentry, possesses exceptional expertise and mastery in this craft. With his well-honed abilities, Raju is able to create magnificent pieces of workmanship, showcasing his meticulous attention to detail and precision. He has gained a reputation for his ability to transform raw materials into beautiful objects, using his creativity and artistic flair. Moreover, Raju's proficiency extends beyond the realm of traditional carpentry, as he also excels in utilizing innovative techniques and incorporating contemporary designs into his creations. Raju's remarkable talent and dedication allow him to consistently exceed the expectations of his clients, leaving them in awe of his craftsmanship.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in carpentry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in carpentry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "All the students were successful in passing their exam. The entire class achieved a passing grade. Each and every student demonstrated their knowledge and abilities by passing their respective exams. The exam results were highly satisfactory as every student successfully completed the assessment. The test proved to be manageable for all the students, leading to a positive outcome.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone passed the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one pass the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "John possesses a wealth of experience in swimming, having honed his skills over the years. He is well-versed in the techniques and strategies required to navigate the water with finesse and precision.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is experienced in swimming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one experienced in swimming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Sheila possesses exceptional chess skills and is considered an expert player in the game. Her expertise and mastery in chess surpass that of many others.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play chess with expertise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play chess with expertise?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

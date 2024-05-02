@@ -1,0 +1,446 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_1",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In a world where animals are often regarded as intelligent creatures, there is a captivating tale that revolves around cats, dogs, and horses. It is commonly believed that most animals possess a level of intellect. However, there is an intriguing twist to this belief as it is known that either cats or dogs are not considered particularly intelligent. As the story unfolds, we delve into the lives of these remarkable creatures, their interactions, and the unique qualities that each of them possesses.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are considered to be intelligent creatures and exactly one of cats or dogs is not considered intelligent?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses aren't considered to be intelligent creatures and exactly one of cats or dogs is not considered intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are considered to be intelligent creatures and exactly one of cats or dogs is considered intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses aren't considered to be intelligent creatures and exactly one of cats or dogs is considered intelligent?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "In a wonderful orchard filled with apple, orange, and banana trees, I discovered something peculiar. As I admired the abundance of fruit hanging from the branches, it became clear that not all of them were growing on trees. Amongst the ripe apples and juicy oranges, there was at least one fruit that had defied the norms and found a different way to reach maturity. It intrigued me to see this unconventional fruit amongst its tree-grown counterparts, defying expectations and standing out in a truly extraordinary manner.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are growing on a tree and exactly one of the apples or oranges is not growing on a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't growing on a tree and exactly one of the apples or oranges is not growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are growing on a tree and exactly one of the apples or oranges is growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't growing on a tree and exactly one of the apples or oranges is growing on a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "In a lush garden filled with various fruits, there were tomatoes, grapes, and apples, all known for their sweetness. However, a surprising twist shook the taste buds. It turned out that either the tomatoes or the grapes were not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet and exactly one of tomatoes or grapes is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and exactly one of tomatoes or grapes is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples are sweet and exactly one of tomatoes or grapes is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and exactly one of tomatoes or grapes is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "John, Billy, and Sarah are siblings who typically have a strong bond. However, it seems that either John or Billy is not experiencing the same level of closeness with their siblings. There appears to be some strain or disconnect between them, affecting the usually tight-knit relationship that siblings share.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sarah is sharing a strong bond and exactly one of john, billy is not sharing a strong bond?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sarah isn't sharing a strong bond and exactly one of john, billy is not sharing a strong bond?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that sarah is sharing a strong bond and exactly one of john, billy is sharing a strong bond?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that sarah isn't sharing a strong bond and exactly one of john, billy is sharing a strong bond?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "John, Jane, and Robert were talented musicians who loved playing instruments. Their passion for music brought them together and they often jammed together. However, it was peculiar that either John or Jane would take breaks from playing an instrument during their jam sessions.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that robert is playing an instrument and exactly one of john or jane is not playing an instrument?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that robert isn't playing an instrument and exactly one of john or jane is not playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that robert is playing an instrument and exactly one of john or jane is playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that robert isn't playing an instrument and exactly one of john or jane is playing an instrument?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "John, Mary, and Joe were all teachers, each with their own unique approach to education. It was widely known that teachers usually possess a deep passion for their craft, fostering a genuine desire to inspire and enlighten their students. However, it was whispered amongst the faculty that either John or Mary lacked that fervent passion. Such a revelation created an intriguing dynamic within the school, as their colleagues wondered who among them did not share the same commitment to education.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that joe has a passion for education and exactly one of john or mary does not have a passion for education?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that joe doesn't have a passion for education and exactly one of john or mary does not have a passion for education?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that joe has a passion for education and exactly one of john or mary has a passion for education?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that joe doesn't have a passion for education and exactly one of john or mary has a passion for education?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "John, Mike, and Peter were best friends who loved spending time together. They always enjoyed each other's company and had a great bond. However, there was a slight problem in their friendship as not all of them shared the same level of excitement when it came to hanging out. Either John or Mike wasn't particularly fond of spending time together, which created a bit of a dilemma within the dynamic of the group.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that peter enjoys spending time together and exactly one of john or mike does not enjoy spending time together?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that peter doesn't enjoy spending time together and exactly one of john or mike does not enjoy spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peter enjoys spending time together and exactly one of john or mike enjoys spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peter doesn't enjoy spending time together and exactly one of john or mike enjoys spending time together?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time in a small village, there were three beloved mammals - a cat, a dog, and a horse. These animals were cherished for their companionship and loyalty. In this village, it was known that mammals typically produce milk to nourish their young. However, to the surprise of everyone, either the cat or the dog was not able to produce milk. The villagers were puzzled by this unusual occurrence and wondered what could be the reason behind it.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses are producing milk and exactly one of cats or dogs is not producing milk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses aren't producing milk and exactly one of cats or dogs is not producing milk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are producing milk and exactly one of cats or dogs is producing milk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses aren't producing milk and exactly one of cats or dogs is producing milk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "Once upon a time in a vibrant jungle, there lived three fascinating creatures: Freddy the frog, Tina the turtle, and Sammy the snake. These curious beings belonged to the classification of reptiles, which typically possess cold-blooded characteristics. However, it was known that either Freddy or Tina had a unique quality that made them warm-blooded, setting them apart from their reptilian counterparts. Their story unfolds with mysterious wonders waiting to be discovered.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that snakes are cold-blooded and exactly one of the frogs or turtles is warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that snakes aren't cold-blooded and exactly one of the frogs or turtles is warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that snakes are cold-blooded and exactly one of the frogs or turtles isn't warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that snakes aren't cold-blooded and exactly one of the frogs or turtles isn't warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "In this enchanting tale, we find ourselves surrounded by marvelous creatures. Cats, dogs, and rabbits inhabit this magical world, all known for their exquisite fur. However, a rather curious twist befalls us as we discover that amidst this furry menagerie, either the cats or dogs lack this characteristic.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that rabbits have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits don't have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits don't have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "In a bustling city, the streets were filled with vehicles of all kinds - cars, bikes, and scooters. These modes of transportation were essential for people to get around, but they all had one thing in common - the need for fuel to run. However, an interesting twist emerged as I noticed that at least one of the cars or bikes was not relying on fuel alone. A sense of curiosity ignited within me as I wondered what alternative power source this particular vehicle must have been using.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that scooters are running on fuel and exactly one of the cars or bikes is not running on fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that scooters aren't running on fuel and exactly one of the cars or bikes is not running on fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that scooters are running on fuel and exactly one of the cars or bikes is running on fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that scooters aren't running on fuel and exactly one of the cars or bikes is running on fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In a lush garden, I found myself surrounded by vibrant vegetables like tomatoes, pumpkins, and carrots. It was a sight to behold, as these vegetables flourished under the care of diligent gardeners. However, it piqued my curiosity to learn that at least one of the tomatoes or pumpkins did not originate from this garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that carrots are grown in a garden and exactly one of tomatoes or pumpkins is not grown in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in a garden and exactly one of tomatoes or pumpkins is not grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots are grown in a garden and exactly one of tomatoes or pumpkins is grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in a garden and exactly one of tomatoes or pumpkins is grown in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "John, Maria, and Chris were all writers who were passionate about crafting captivating stories. However, a peculiar situation arose when it became apparent that either John or Maria had veered away from their usual storytelling path.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that chris is writing stories and exactly one of john, maria is not writing stories?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that chris isn't writing stories and exactly one of john, maria is not writing stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that chris is writing stories and exactly one of john, maria is writing stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that chris isn't writing stories and exactly one of john, maria is writing stories?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "In a peaceful wetland, filled with vibrant colors and gentle ripples, resided a flock of elegant birds. Among them were the graceful flamingos, the majestic pelicans, and the playful ducks. These birds were known for their wings, which allowed them to soar through the sky and explore the vast landscapes. However, a mysterious occurrence had taken place. It was whispered amongst the flock that one of the flamingos or pelicans, contrary to their avian nature, did not possess the gift of wings. This revelation perplexed and intrigued the birds, as they embarked on a mission to uncover the truth hidden within their beautiful sanctuary of flight.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that ducks have wings and exactly one of the flamingos or pelicans does not have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that ducks don't have wings and exactly one of the flamingos or pelicans does not have wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that ducks have wings and exactly one of the flamingos or pelicans has wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that ducks don't have wings and exactly one of the flamingos or pelicans has wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "John, Mark, and Lisa were skilled chefs known for their ability to create mouthwatering dishes. They took great pride in their culinary skills and were highly regarded in the culinary world. However, either John or Mark was not living up to their reputation of cooking delectable food. The other chefs couldn't believe this, as they knew their colleagues were talented and dedicated professionals. Nonetheless, they were determined to uncover the truth behind these claims and maintain the excellence they strived for in their culinary creations.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lisa is cooking delicious food and exactly one of john, mark is not cooking delicious food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that lisa isn't cooking delicious food and exactly one of john, mark is not cooking delicious food?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that lisa is cooking delicious food and exactly one of john, mark is cooking delicious food?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that lisa isn't cooking delicious food and exactly one of john, mark is cooking delicious food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "In this situation, there are three heavy blocks: A, B, and C. Typically, heavy blocks are found on the table. However, it is known that at least one of the blocks, either A or B, is not currently on the table.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that C is on the table and exactly one of A, B is not on the table?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that C is not on the table and exactly one of A, B is not on the table?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that C is on the table and exactly one of A, B is on the table?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that C is not on the table and exactly one of A, B is on the table?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In the world of sports, there were three remarkable athletes named Sam, Suzan, and Carry. These exceptional individuals were no strangers to competition, often participating in high-stakes events such as the Olympics. However, it was a rather peculiar situation as it happened that either Sam or Suzan would not be partaking in the upcoming Olympics.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Carry is participating in Olympics and exactly one of Sam, Suzan is not participating in Olympics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that Carry is not participating in Olympics and exactly one of Sam, Suzan is not participating in Olympics?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Carry is participating in Olympics and exactly one of Sam, Suzan is participating in Olympics?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Carry is not participating in Olympics and exactly one of Sam, Suzan is participating in Olympics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "In the vast ocean, there were three fascinating creatures called dolphins, sharks, and whales. These magnificent beings were commonly known as fishes, although fishes are typically categorized as non-mammals. Surprisingly, at least one of the dolphins or sharks defied this norm and was classified as a mammal. Their unique ability to breathe air and nurse their young made them stand out among their fish counterparts. So, amidst the underwater wonders, the mystery of the mammalian dolphin or shark continued to captivate the imagination of all who encountered them.",
+            "qa_pairs": [
+                {
+                    "question": "Does the context imply that Whales are non-mammals and exaclty one of Dolphines, Sharke are mammals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the context imply that Whales are mammals and exaclty one of Dolphines, Sharke are mammals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Whales are non-mammals and exaclty one of Dolphines, Sharke are non-mammals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does the context imply that Whales are mammals and exaclty one of Dolphines, Sharke are non-mammals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "In a world where cats, dogs, and mice roamed freely, it was a well-known fact that animals typically had four legs. However, there was an intriguing twist to this common knowledge. It was whispered among the creatures that either cats or dogs deviated from the norm and did not possess the customary quartet of limbs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "In a vibrant kitchen, the sight of ripe yellow fruits brought a burst of energy. Among the assortment of mangoes, bananas, and lemons, their bright and sunny color was a delight to behold. The customary place for these cheerful fruits was the trusty basket, where they would rest and adorn the countertop. However, a peculiar twist occurred today. As I surveyed the fruits, it became evident that one of the mangoes or bananas had gone astray, for they were nowhere to be seen within the confines of the basket.",
+            "qa_pairs": [
+                {
+                    "question": "Does this context imply that Lemons are in basket and exactly one of Mangoes, bananas is not in basket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this context imply that no lemons are in basket and exactly one of Mangoes, bananas is not in basket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does this context imply that Lemons are in basket and exactly one of Mangoes, bananas is in basket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "Does this context imply that no lemons are in basket and exactly one of Mangoes, bananas is in basket?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

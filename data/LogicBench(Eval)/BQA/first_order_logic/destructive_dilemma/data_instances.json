@@ -1,0 +1,446 @@
+{
+    "type": "first_order_logic",
+    "axiom": "destructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is taking care of thier health, then they will be fit. However, indulging in unhealthy habits can make individuals susceptible to various diseases. The truth is, we can be certain about at least one of the following possibilities: either jenny won't be fit and healthy, or she won't be prone to diseases. It is important to note that we are unaware of which statement is accurate. It could be the case that only the first statement is true, only the second statement is true, or both statements hold validity.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny doesn't take care of her health and (b) she doesn't indulge in unhealthy habits",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny takes care of her health and (b) she indulges in unhealthy habits",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny doesn't take care of her health and (b) she indulges in unhealthy habits",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jenny takes care of her health and (b) she doesn't indulge in unhealthy habits",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Taking a leisurely stroll outside ensures that someone can breathe in fresh, invigorating air, while indulging in television shows provides a sense of relaxation. At least one of the following statements holds true: either the possibility of jill not acquiring a breath of fresh air or the potential of she is not experiencing a state of relaxation. The truthfulness of each statement is unknown, with the chance of either (1) being true, or (2) being true, or both (1) and (2) simultaneously being true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't take a walk. and (b) she doesn't watch tv.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill takes a walk. and (b) she watches tv.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't take a walk. and (b) she watches tv.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill takes a walk. and (b) she doesn't watch tv.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If someone turned offs the light, it will result in saving electricity. If someone uses a generator on the other hand, then it will lead to a high electricity bill. At least one of the following statements is true: Linda will not save electricity, or she will not pay a high electricity bill. It is uncertain which statement is true, as it could be either one or both. Linda may not conserve electricity or incur a high electricity bill.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) linda doesn't turn off the lights and (b) she doesn't use a generator",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) linda turns off the lights  and (b) she uses a generator",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) linda doesn't turn off the lights and (b) she uses a generator",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) linda turns off the lights  and (b) she doesn't use a generator",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If someone does a reading extensively, it has been proven to have a positive impact on their academic performance, leading to good grades. Additionally, for everyone, it is believed that watching television can help promote a restful night's sleep. Notably, at least one of two possibilities is true: either Jill will not achieve good grades or she will not experience sound sleep. It is worth noting that it is unclear which of these possibilities is true, as it could be either one or both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't read a lot and (b) she doesn't watch television",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill reads a lot  and (b) she watches television",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't read a lot and (b) she watches television",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill reads a lot  and (b) she doesn't watch television",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If someone studies sufficiently for a test, they will achieve a desirable grade. However, if they neglect to adequately revise, their score will not be satisfactory. It is known that either the first possibility, in which john will not attain a good grade, or the second possibility, in which he will achieve a high score, is true. However, the specific truth of each option remains unknown. It is plausible that only the first possibility is true, only the second possibility is true, or both the first and second possibilities are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't take a test and (b) he revises enough",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john takes a test  and (b) he does not revise enough",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't take a test and (b) he does not revise enough",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john takes a test  and (b) he revises enough",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If an individual operates a vehicle with caution, they will prevent any accidents from occurring. However, if they decide to accelerate and exceed the speed limit, they will be issued a fine. There is a certainty that at least one of the following statements is true: either john will not be able to avoid an accident or he will not face a penalty. It is unclear which of these statements is accurate, as it could be only one of them, or it is possible that both of them hold true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't drive carefully and (b) he doesn't speed up",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john drives carefully and (b) he speeds up",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't drive carefully and (b) he speeds up",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john drives carefully and (b) he doesn't speed up",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If a person chooses to send a letter, they will definitely receive a response in return. On the other hand, if they decide not to send a letter, they will not receive any response at all. It is certain that either the first statement is true and jane won't receive a response, or the second statement is true and he will receive a response. We cannot determine which statement is true, as it could be the case that only the first statement is true, only the second statement is true, or both statements are true at the same time.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane doesn't send a letter and (b) he sends a letter",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane sends a letter and (b) he doesn't send a letter",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane doesn't send a letter and (b) he doesn't send a letter",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane sends a letter and (b) he sends a letter",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If an individual decides to purchase a vehicle, it will lead to financial savings regarding their transportation expenses. Conversely, if they opt to sell their car, this action will result in them acquiring additional funds that can be allocated for investment purposes. It should be noted that Sara will not lead to financial savings regarding their transportation expenses or she is not acquiring additional funds, we are unsure which one is accurate in the case. It is plausible that only the first statement holds true, or alternatively, solely the second statement holds true. Moreover, there is also the possibility that both statements are accurate at the same time.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara didn't buy a car and (b) she didn't sell her car",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara bought a car  and (b) she sold her car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara didn't buy a car and (b) she sold her car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara bought a car  and (b) she didn't sell her car",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If an individual chooses to take a chance, they have the possibility of receiving a reward, while opting for caution ensures their safety. It is known that at least one of the following statements is true: (1) sarah will not obtain the reward, or (2) she will not remain secure. However, it is uncertain which statement, or both, is accurate.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah doesn't take a risk. and (b) she doesn't play it safe.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah takes a risk. and (b) she plays it safe.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah doesn't take a risk. and (b) she plays it safe.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah takes a risk. and (b) she doesn't play it safe.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If a person chooses to take the bus, they will arrive at their destination punctually. On the other hand, if they opt to drive their own car, they will reach their intended location more quickly. It is important to note that we are aware that at least one of the following statements is true: either hannah will not arrive on time or she will not reach their destination faster. However, we do not have information regarding which specific statement (1 or 2) is true. It could be the case that only statement (1) is true, or only statement (2) is true, or both could be true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) hannah doesn't take the bus and (b) she doesn't drive her own car",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) hannah takes the bus  and (b) she drives her own car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) hannah doesn't take the bus and (b) she drives her own car",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) hannah takes the bus  and (b) she doesn't drive her own car",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Working hard can lead to promotions, while taking breaks can help refresh the mind. In this situation, we are aware that at least one of two outcomes is true: either Sara will not receive a promotion or she will not refresh her mind. It is uncertain which specific outcome is accurate, as it could be either one, or even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara doesn't work hard and (b) she doesn't take a break",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara works hard  and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara doesn't work hard and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sara works hard  and (b) she doesn't take a break",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If someone regularly visits the fitness center, they will achieve a desirable physique. Conversely, if they neglect physical activity, they will lead an unhealthy lifestyle. It is known that at least one of the following statements is true: either Dave will not be in good shape or he will have a healthy lifestyle. It is uncertain which of these statements are accurate, as it could be the case that only the first statement is true, or only the second statement is true, or both are true. Therefore, the outcome remains uncertain.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) dave doesn't go to the gym and (b) he exercises",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) dave goes to the gym  and (b) he does not exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) dave doesn't go to the gym and (b) he does not exercise",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) dave goes to the gym  and (b) he exercises",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If an individual chooses to engage in running as a physical activity, they will experience an increase in their energy levels. On the other hand, if they opt for swimming, they will find themselves feeling more relaxed. It should be noted that at least one of the following statements holds true: (1) Sarah will not feel energetic, or (2) she will not feel relaxed. However, it is unknown which statement(s) specifically are indeed accurate. This means it is possible that either only (1) is true, only (2) is true, or both (1) and (2) are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah doesn't go for a run and (b) she doesn't go for a swim",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah goes for a run  and (b) she goes for a swim",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah doesn't go for a run and (b) she goes for a swim",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) sarah goes for a run  and (b) she doesn't go for a swim",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If an individual decides to purchase a brand new vehicle, it is likely that their daily commute will become more efficient, resulting in saved time. On the other hand, choosing to rely on public transportation can be a cost-effective option, as it allows for potential savings in terms of financial expenses. It is important to note that there is certainty in the fact that at least one of the following statements holds true: either Jane will not experience time savings during their commute or she will not realize financial benefits. However, we cannot determine which statement is accurate, as it is possible for both scenarios to be valid or for only one of them to be true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane doesn't buy a new car and (b) she doesn't use public transport",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane buys a new car  and (b) she uses public transport",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane doesn't buy a new car and (b) she uses public transport",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jane buys a new car  and (b) she doesn't use public transport",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If an individual engages in reading a book, they will gain an understanding of the concepts presented within. Conversely, if they choose to watch a movie, their entertainment needs will be fulfilled. It is important to note that at least one of the following statements is true: either John will not comprehend the concepts from the book or he will not find themselves entertained by the movie. The validity of both statements cannot be determined and any combination could be possible, including the possibility that only one statement is true or both are true. However, the specific case remains unknown and open to interpretation.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't read a book and (b) he doesn't watch a movie",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john reads a book  and (b) he watches a movie",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john doesn't read a book and (b) he watches a movie",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) john reads a book  and (b) he doesn't watch a movie",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "When someone listens to the music they love, it tends to put them in a positive frame of mind. Additionally, taking a break often boosts one's energy levels. It is important to note that we cannot determine which statement is true: either Alice won't be in a good mood or she won't become energetic. This means that it could be the case that only the first statement is true, only the second one is true, or both are true. If someone listens to their favorite music, they are more likely to be in a good mood.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice doesn't listen to her favorite music and (b) she doesn't take a break",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice listens to her favorite music  and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice doesn't listen to her favorite music and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice listens to her favorite music  and (b) she doesn't take a break",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If anyone who eats healthy, then they will stay fit. if they exercises regularly, then they will have a toned body. we know that atleast one of the following is true (1) Nina won't stay fit and (2) she won't have a toned body. note that we do not know which ones of (1) and (2) are true. it might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) nina doesn't eat healthy and (b) she doesn't exercise regularly",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) nina eats healthy and (b) she exercises regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) nina doesn't eat healthy and (b) she exercises regularly",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) nina eats healthy and (b) she doesn't exercise regularly",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If someone decides to pay a visit to the library, they will be able to discover the book they are in search of. In the event that they choose to take a break, they will eventually return to their research. It is known that at least one of the following statements holds true: either Alice will fail to find the book they need, or she will not resume their research. Please note that the veracity of either statement (1) or statement (2) is not established, as it could be the case that solely statement (1) is true, solely statement (2) is true, or that both statements are indeed true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice doesn't visit the library and (b) she doesn't take a break",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice visits the library  and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice doesn't visit the library and (b) she takes a break",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) alice visits the library  and (b) she doesn't take a break",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If an individual decides to take a brief rest, they will experience a boost in their vitality. Alternatively, engaging in physical activity can result in a feeling of overall well-being. At least one of the following statements holds true: either Ricky will not feel energized or he will not experience a sense of being healthy.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ricky doesn't take a nap and (b) he doesn't exercise",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ricky takes a nap and (b) he exercises",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ricky doesn't take a nap and (b) he exercises",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) ricky takes a nap and (b) he doesn't exercise",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If someone prepares a meal, they will satisfy their hunger. In contrast, if they decide to dine out, they will spend less money. It is uncertain which of the following statements is true: either Jill will not feel full or she will not save money. However, we cannot determine which one of these possibilities is accurate.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't cook dinner and (b) she doesn't go out to eat",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill cooks dinner and (b) she goes out to eat",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill doesn't cook dinner and (b) she goes out to eat",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) jill cooks dinner and (b) she doesn't go out to eat",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,446 @@
+{
+    "type": "first_order_logic",
+    "axiom": "constructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is painting a picture, then they will frame it. Similarly, the natural course of action for a writer would be to publish their completed story. In this scenario, it is certain that at least one of the following statements holds true: (1) John is currently engrossed in painting a picture, or (2) John is currently immersed in the act of writing a story. It should be emphasized that we are unaware of which statement specifically applies, as there is a possibility that either (1) alone is true, or (2) alone is true, or even that both (1) and (2) are simultaneously true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will frame it and (b) he will publish it.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't frame it and (b) he will publish it.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will frame it and (b) he won't publish it.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't frame it and (b) he won't publish it.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If someone enjoys indulging in a scoop of delicious ice-cream, it is highly likely that they will head out to watch a captivating movie. On the other hand, if they are diligently preparing for their upcoming exams, they usually choose to dedicate their time to studying at the library. Interestingly, we are aware that at least one of the following statements holds true: either Kelsey is savoring a delightful ice-cream treat or she is diligently studying for her exams. However, it remains uncertain whether only one of these statements is true or if both of them are indeed accurate.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go to the movies. and (b) she will go to the library.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't go to the movies. and (b) she will go to the library.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will go to the movies. and (b) she won't go to the library.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't go to the movies. and (b) she won't go to the library.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If a person decides to partake in basketball outdoors, it is highly likely that their friends will join them for a friendly game. On the other hand, if someone chooses to indulge in video games indoors, it is highly probable that their sibling will join them in their virtual adventures. It is important to note that at least one of the following statements holds true: either John is currently engaged in a game of basketball outside, or Sophia is immersed in the world of video games indoors.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join for a game and (b) her brother will join them.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join for a game and (b) her brother will join them.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join for a game and (b) her brother won't join them.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join for a game and (b) her brother won't join them.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If someone decides to give the car a good scrubbing, they will reward themselves with a well-deserved break afterward. On the other hand, if they choose to tidy up the house, they will treat themselves to a delicious lunch. It is known that at least one of the following possibilities is true: either someone named John washes the car, or he cleans the house. It is uncertain which one of these options is true, as it could be solely the case that John washes the car, or it might be solely the case that John cleans the house, or perhaps even both activities are performed by John.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will take a break and (b) he will have lunch",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't take a break and (b) he will have lunch",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will take a break and (b) he won't have lunch",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't take a break and (b) he won't have lunch",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If someone decides to go for a run in the park, it is highly likely that their friends will join them and run alongside. Similarly, if someone chooses to dance at the club, it is very probable that their family members will also join in the fun and dance to the music. We have knowledge that at least one of the following statements is true: either John is currently running in the park or Mary is currently dancing in the club. It is uncertain which statement is accurate, as it could be that only John is running, or it could be that only Mary is dancing, or even the possibility that both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join in  and (b) her family will join in",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join in and (b) her family will join in",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends will join in  and (b) her family won't join in",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) his friends won't join in and (b) her family won't join in",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If someone chooses to use public transportation, depending on their destination, they can ensure timely arrivals. Taking the bus guarantees punctuality at the workplace, while opting for the train allows for attending college lectures. It should be noted that at least one of the following statements holds true: either (1) the individual named Emily takes the bus to reach work or (2) she utilizes the train to commute to college.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will get to the office on time. and (b) she will attend her classes.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't get to the office on time. and (b) she will attend her classes.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will get to the office on time. and (b) she won't attend her classes.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't get to the office on time. and (b) she won't attend her classes.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "If an individual decides to visit the library, it implies that their intention is to engage in reading a book. On the other hand, if they choose to go to the park, their purpose is most likely to participate in a game. What we can gather from the given information is that, at the very least, one of the following statements is true: (1) Kate went to the library, or (2) she went to the park. It should be noted that we are unaware of which statement specifically is true, as it could be either (1) or (2), or even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will read a book and (b) she will play a game",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't read a book and (b) she will play a game",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will read a book and (b) she won't play a game",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't read a book and (b) she won't play a game",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "In the park, one can enjoy the melodious chirping of birds. And if one decides to visit the beach, they can feel the warm grains of sand beneath their feet. It is guaranteed that either Sue is strolling in the park or she has chosen to go to the beach.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will listen to the birds chirping  and (b) she will feel the sand between her toes",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't listen to the birds chirping and (b) she will feel the sand between her toes",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will listen to the birds chirping  and (b) she won't feel the sand between her toes",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't listen to the birds chirping and (b) she won't feel the sand between her toes",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If an individual decides to plant a tree, it is likely that they will make a conscious effort to regularly provide water for its growth. On the other hand, if someone chooses to plant a bush, they will likely engage in the act of pruning it. It is important to note that we have knowledge of at least one true statement among the following: Either Sophia has planted a tree or John has planted a bush. However, we cannot determine which of these statements is true. It is possible that only Sophia has planted a tree, only John has planted a bush, or even that both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will water the tree regularly and (b) he will prune the bush",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't water the tree regularly and (b) he will prune the bush",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will water the tree regularly and (b) he won't prune the bush",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't water the tree regularly and (b) he won't prune the bush",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If an individual decides to visit the seaside, they will have the opportunity to appreciate the beauty of the setting sun. On the other hand, if they opt for a trip to the local park, they can enjoy a delightful picnic. Here, we are aware that at least one of the following situations is true: either Jill chooses to go to the beach or she selects the park. Note that we are uncertain which one of these options is true; it is possible that only the first option is true, only the second option is true, or both options are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will enjoy the sunset  and (b) she will have a picnic",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't enjoy the sunset and (b) she will have a picnic",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will enjoy the sunset  and (b) she won't have a picnic",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't enjoy the sunset and (b) she won't have a picnic",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Students have two options for their plans - attending a lecture or going for a picnic. The completion of assignments is dependent on students attending the lecture, while having fun is associated with going for a picnic. There is a certain fact for us to consider: either John and Mary are attending the lecture or they are going for a picnic. It could be that only John and Mary are attending the lecture, only going for a picnic, or both options are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) they will complete their assignments. and (b) they will have fun.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) they won't complete their assignments. and (b) they will have fun.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) they will complete their assignments. and (b) they won't have fun.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) they won't complete their assignments. and (b) they won't have fun.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If someone had a sandwich for their midday meal, then they will opt for a salad for their evening repast. In a separate scenario, if they had a burger as their morning sustenance, then they will indulge in a refreshing smoothie as a sweet treat afterwards. It is known that at least one of the following statements is true: John consumed a sandwich during lunchtime, or he enjoyed a burger for breakfast. It is uncertain which statement is accurate; it could be solely the case that the first statement is true, solely the case that the second statement is true, or both statements are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will have a salad for dinner  and (b) he will have a smoothie for dessert",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't have a salad for dinner and (b) he will have a smoothie for dessert",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will have a salad for dinner  and (b) he won't have a smoothie for dessert",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't have a salad for dinner and (b) he won't have a smoothie for dessert",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If someone decides to engage in physical exercise, then they are likely to follow it up with a leisurely movie-watching session. Similarly, should they opt to visit a shopping center, they will probably indulge in some retail therapy. It is worth noting that at least one of the statements holds true: either the person named John went to the gym, or he ventured into the mall. The specifics of these options remain unknown; it could be the case that only the former is accurate, or solely the latter, or perhaps even both are accurate.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will watch a movie and (b) he will go shopping",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't watch a movie and (b) he will go shopping",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will watch a movie and (b) he won't go shopping",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't watch a movie and (b) he won't go shopping",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If a person decides to take a stroll in the park, they will likely choose to feed the birds. On the other hand, if this person opts to visit the library, their intention would be to engage themselves in reading a book. It is important to note that at least one of the following scenarios is true: Jenny is indeed taking a walk in the park, or she has decided to go to the library. It is uncertain which of these options is accurate, as it could be either one, or perhaps even both.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will feed the birds and (b) she will read a book",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't feed the birds and (b) she will read a book",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will feed the birds and (b) she won't read a book",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't feed the birds and (b) she won't read a book",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If someone dedicates their time to exam preparations, they are likely to achieve favorable results. Conversely, individuals who take breaks tend to enjoy the company of friends. It is known that either Alice is intensely focused on studying for her exams or she is taking a break. The specific case for this context concludes that Alice is either studying for her exams or taking a break.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will get good grades. and (b) she will spend time with her friends.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't get good grades. and (b) she will spend time with her friends.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she will get good grades. and (b) she won't spend time with her friends.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) she won't get good grades. and (b) she won't spend time with her friends.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If someone is engaged in the art of baking, they are likely to take pleasure in their creation. Similarly, when someone prepares a meal, it is highly probable that they will develop a sense of appreciation for their culinary efforts. In this situation, it is certain that either Sandra is baking a delicious cake or she is endeavoring to cook a satisfying meal. The exact combination of baking and cooking, however, remains unknown.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) Sarah will enjoy it and (b) she will appreciate it",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) Sarah won't enjoy it and (b) she will appreciate it",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) Sarah will enjoy it and (b) she won't appreciate it",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) Sarah won't enjoy it and (b) she won't appreciate it",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In the garden, if someone were to plant a tree, it would eventually grow and produce delicious fruits. Alternatively, if someone were to plant a flower in the same garden, it would flourish and be admired for its beauty. It is certain that at least one of the following statements is true: either John planted a tree or Cathy planted a flower in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) the tree will grow and bear fruits and (b) the flower will bloom and be admired",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) the tree won't grow and bear fruits and (b) the flower will bloom and be admired",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) the tree will grow and bear fruits and (b) the flower won't bloom and be admired",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) the tree won't grow and bear fruits and (b) the flower won't bloom and be admired",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If someone participates in a marathon, then they will successfully complete the race. Similarly, if an individual engages in jogging, it will result in an enhancement of their stamina. From the given information, we are aware that either (1) James is running a marathon, (2) he is jogging, or it is possible that both statements are true without disclosing which one specifically.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will complete the race and (b) he will have improved his stamina",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't complete the race and (b) he will have improved his stamina",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will complete the race and (b) he won't have improved his stamina",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't complete the race and (b) he won't have improved his stamina",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If someone calls the fire brigade, then they will put out the fire. if someone calls the police, then they will investigate the crime. we know that atleast one of the following is true (1) john calls the fire brigade. and (2) jill calls the police.. note that we do not know which ones of (1) and (2) are true. it might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will put out the fire. and (b) she will investigate the crime.",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't put out the fire. and (b) she will investigate the crime.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he will put out the fire. and (b) she won't investigate the crime.",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) he won't put out the fire. and (b) she won't investigate the crime.",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If someone is watching television, their parents will join them. If someone is playing video games, their friends will join them. It is known that either Samantha is watching TV or Samantha is playing video games, but it is unclear which one is true. It could be the case that only Samantha is watching TV, only Samantha is playing video games, or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) her parents will join and (b) her friend will join",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) her parents won't join and (b) her friend will join",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) her parents will join and (b) her friend won't join",
+                    "answer": "no"
+                },
+                {
+                    "question": "Can we say at least one of the following must always be true? (a) her parents won't join and (b) her friend won't join",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

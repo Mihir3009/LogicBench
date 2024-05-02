@@ -1,0 +1,286 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_3",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In a world where cars were known for having four wheels, it was considered a common fact that wheels typically came equipped with spokes. However, amidst this widespread understanding, there was an exception. At least one wheel defied this norm and stood out from the rest by not having any spokes at all.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars have four wheels with spokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have four wheels with spokes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "Once upon a time, in the vast ocean where the waves crashed against the shoreline, a magnificent creature called a dolphin swam freely. Known for their exceptional intelligence and playful nature, dolphins were unique among mammals as they made the sea their home. Although most mammals found solace on land, there was one particular mammal who defied the norm and embraced the underwater world.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins live on the land?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't live on the land?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Trees are green. It was a place brimming with life and bursting with the sounds of nature. The plants thrived, their emerald colors a testament to their health. Water was a vital resource for these green plants, providing them with the necessary nourishment to flourish. However, amidst this sea of green, there was one extraordinary green plant that defied all odds. Surprisingly, it thrived without requiring any water to sustain itself.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that trees require water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that trees don't require water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Once upon a time, in a world where bicycles were the most common form of transportation, there was a peculiar twist to this norm. While bicycles were primarily used for moving from one place to another, there existed at least one two-wheeled vehicle that had a completely different purpose altogether.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are commonly used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't commonly used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "In a world where cars were commonly painted red, it was a well-known fact that these vehicles typically had four wheels. However, amidst this norm, there was one peculiar red vehicle that stood out from the rest. This unique automobile defied expectations as it proudly sported a vibrant red hue but surprisingly lacked the customary four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "Once upon a time, in a world where cars were known to have four wheels that rotated, there emerged a peculiar car that defied this norm. This car, belonging to a young mechanic named John, had non-rotating wheels. It was a strange and bewildering sight for all who laid eyes upon it. Curiosity and confusion filled the air as people speculated about the reasons behind this unconventional design choice.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that the wheels on a car rotate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that the wheels on a car don't rotate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "In the animal kingdom, it is widely known that cats are natural carnivores who rely on hunting for their food. However, amidst this general rule, an exceptional carnivore comes to light. Against all expectations, this particular carnivore deviates from the norm and chooses not to hunt for its sustenance. This peculiar behavior raises questions and piques the curiosity of those who observe it.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats usually hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats usually do not hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Cats, known for their fur, typically possess whiskers. However, there happens to be one exceptional furry creature that lacks these distinctive features.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "Once upon a time in the animal kingdom, it was widely known that lions were carnivores who relied on hunting for their sustenance. However, amidst the carnivorous community, there was a unique individual who defied this norm. Surprisingly, there existed at least one carnivore who chose not to hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that lions hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that lions don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "In the land of rolling green pastures, where the gentle breeze carried the scent of fresh grass, there existed a vibrant community of cows. These majestic creatures, with their striking black and white coats, roamed the countryside in harmonious herds. In this world, it was an undisputed truth that black and white animals were naturally inclined to live in groups, seeking safety and companionship in numbers. However, amidst the sea of camaraderie, there was one black and white animal who stood apart from the crowd. This solitary being chose a different path, preferring the solitude of its own company over the warmth and comfort of a group. And so, while the rest of the cows thrived in their communal circles, this lone individual found solace in its unique independence.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows usually live in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows usually don't live in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Dolphins, being mammals, belong to a group of animals that generally rely on breathing air. However, there exists an exceptional mammal that does not conform to this norm.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "In a lush garden, I noticed a cluster of crimson apples hanging from a sturdy tree. It was a well-known fact that apples were typically vibrant red in color. Naturally, one would associate red fruits with great juiciness. However, a peculiar twist awaited me as I plucked a red fruit and took a bite. Contrary to my expectations, this particular red fruit lacked the desirable juiciness that its counterparts possessed.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "In a world where puppies were considered small animals, it was common for them to live in cages. However, there was one exceptional small animal that defied this norm and chose to roam free. This small animal, unlike its fellow counterparts, preferred the freedom of exploring the world without the confinement of a cage. It found solace in the open fields and the vastness of nature, relishing in the joy of being unencumbered. Despite the expectations, this small animal showed the world that not all small animals needed cages to experience the fullness of life.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that puppies live in a cage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that puppies don't live in a cage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "In a world where cars are known for their four-wheeled structure and typically equipped with rubber tires, an intriguing anomaly took place. A puzzling situation unfolded where one of the wheels of the car was found to be without its usual rubber tire.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have rubber tires on their wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have rubber tires on their wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "Cars are known for their four wheels, they are typically expected to be drivable. However, a peculiar car with four wheels seemed to defy this norm. This particular car, despite having all the necessary components, could not be driven. It stood there, motionless and rooted to the ground, much to the confusion of onlookers. It seemed as if something was amiss with this unique automobile, and its inability to be driven raised eyebrows and piqued curiosity among those who encountered it.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that this car with four wheels can be driven?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that this car with four wheels can't be driven?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "In the world I live in, cows are commonly seen grazing in lush green pastures on the farm. Their white fur stands out against the vibrant green backdrop, making them a picturesque sight. However, it turns out that not all white animals can be found on a farm. Surprisingly, there exists at least one white creature that roams outside the familiar confines of the farm, adding an element of mystery to the otherwise idyllic landscape.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows are usually found in a farm?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows aren't usually found in a farm?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "In a tranquil countryside, where cows roamed freely, the majority of animals with brown coats could often be found in the sprawling farms. However, amidst this idyllic setting, there was one solitary brown animal that defied expectations. Its color blended seamlessly with the earthy tones of the fields, but it resided far beyond the confines of the traditional farmsteads, wandering through untamed forests and exploring unfamiliar territories. This enigmatic brown creature served as a reminder that not every brown animal could be confined to a farm, challenging our assumptions and inviting us to embrace the unexpected.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows are found on farms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows aren't found on farms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "Once upon a time in a lush forest, there lived bears. All bears are omnivore, meaning they had a varied diet of both plants and animals. However, to everyone's surprise, there was one peculiar omnivore among their group who had a unique preference - this omnivore did not consume any plants at all.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bears eat plants and animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bears don't eat plants and animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "Cows are herbivores. We know that herbivores usually don't eat meat. At least one herbivore eats meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows do not eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows eat meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Once upon a time, in a world where cats roamed freely, these creatures were known for their beautiful fur. However, there was one extraordinary animal that stood out from the rest. This unique creature broke away from the norm and lacked the usual fur found on its feline counterparts.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,286 @@
+{
+    "type": "first_order_logic",
+    "axiom": "modus_ponens",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is extremely tired, then they will seek some rest and relaxation. Today, Jack finds himself utterly exhausted.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he won't take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "If a person experiences a throbbing sensation in their head, it is likely that they will seek relief by consuming medication intended to alleviate this discomfort. In this situation, Sarah finds herself with a pounding headache.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that she won't take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "If someone experiences sadness, they will often shed tears. In this particular case, Sara is feeling sorrowful.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she will cry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she won't cry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "If someone possesses strong arithmetic skills, it indicates their potential for excelling in physics as well. Kerry demonstrated their proficiency in arithmetic by achieving high grades.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she is also good at physics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she is not good at physics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "If an individual experiences joy, they have a tendency to dine out in the evening. Earlier today, Reema experienced joy.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she will go for dinner outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she will not go for dinner outside?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "If a person experiences a great amount of excitement, they tend to organize and arrange a journey or expedition. Debbie is filled with exhilaration and enthusiasm.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she will plan a trip?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she won't plan a trip?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "In order to gain admission to IIM, it is mandatory to take the CAT exam. Kevin successfully secured admission to IIM.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he gave CAT exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he won't gave CAT exam??",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "If someone fails to arrive on time, they will be unable to catch their designated train. Today, John is running late due to a traffic on his way to station.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he will miss his train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he won't miss his train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "If an individual is experiencing a migraine, their ability to focus is hindered. In this particular scenario, John happens to have a migraine.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he cannot concentrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he can concentrate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "If an individual has dedicated numerous hours to studying, they will inevitably begin to experience extreme fatigue. One such person, Julie, has immersed herself in her studies for an extended period.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she is feeling very tired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she isn't feeling very tired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "If an individual experiences tiredness, they will likely opt to rest by taking a short slumber. There is a person named Tom who is feeling tired.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that he won't take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "If an individual experiences a sense of excitement, they are inclined to partake in the activity of watching a film. A specific instance involves a person named John, whose emotions are filled with anticipation and enthusiasm.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he will go for a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that he won't go for a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "If the lights are left on, there will be a penalty to be paid. Unfortunately, Duke forgot to switch them off.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that he will have to pay a fine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he won't have to pay a fine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "If an individual is suffering from an infection, it indicates that their immune system is compromised. An example of such a situation can be seen with John, who is presently dealing with an infection.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he has a weakened immune system?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he doesn't have a weakened immune system?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "If an individual consumes unhealthy food, weight gain is likely to occur. One specific case in which this applies is when a person named John has been eating unhealthy food.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that he will gain weight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that he won't gain weight?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "If a person becomes enraged, they will raise their voice in anger. In this situation, John is experiencing feelings of intense anger and frustration.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that he will shout?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he won't shout?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "If an individual sustains an injury, they will typically choose to rest and allow their body to recover. In this particular situation, John is dealing with an injury.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he won't take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "If an individual is unable to find their way, they are in need of assistance. John is currently experiencing a situation where he has lost his direction.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he needs help?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he doesn't need help?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "If an individual demonstrates perseverance and dedication in their work, they increase their chances of receiving a promotion. Karen, known for her diligent efforts, has consistently shown commendable work ethic and determination.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that she will get a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she won't get a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "If an individual possesses limited funds, they are unable to purchase extravagant items. Jane, however, lacks sufficient financial resources.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that she cannot afford luxury items?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she can afford luxury items?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

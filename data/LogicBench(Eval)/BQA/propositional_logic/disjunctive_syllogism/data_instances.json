@@ -1,0 +1,286 @@
+{
+    "type": "propositional_logic",
+    "axiom": "disjunctive_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Either she is not making a cake for the party, or he is writing a report for his boss, or both. We don't know for sure which one is true. However, it turns out that she is indeed making a cake for the party.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that he is writing a report for his boss?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he isn't writing a report for his boss?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "context": "We know that John is not at school or if Mary is taking a break from her job. It could be possible that only one of these situations is true, or both could be true. However, we do know that John is indeed at school.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that mary is taking a break from her job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that mary is not taking a break from her job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "context": "Either Levi is not studying for his exams or Maya is writing a book, or maybe both. It was unclear which choice to make as he didn't know if either of the options was true. However, it turned out that Levi decided to prioritize his exams and focus on studying. He knew that in order to succeed, he needed to dedicate his time and energy to preparing for the upcoming tests.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that maya is writing a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that maya isn't writing a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "context": "Either Chloe is studying for her exams, or Mila is going on vacation, or both scenarios are unfolding. It is unclear which of the two options is true at this point. However, one thing is certain - Chloe is not studying for her exams.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that mila is going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that mila isn't going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "context": "Either Ava is not attending the music festival or she is studying for her exams, or both. We are unsure which statement is true. It might be the case that only the first statement is true, only the second statement is true, or both are true. However, we do know that Ava is indeed attending the music festival.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that she is not studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "context": "At the charity event, where I was both volunteering and running the marathon, there was some confusion about my participation. It was unknown whether I would be running the marathon or solely volunteering for the charity event. However, it turned out that I was not running the marathon despite the uncertainty.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that I was volunteering for the charity event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that I wasn't volunteering for the charity event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "context": "Either Olivia is studying for her exams or Kate is visiting her grandparents, or both. It is uncertain which one is true. However, we do know that Olivia is not studying for her exams.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that kate is visiting her grandparents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that kate isn't visiting her grandparents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "context": "Alexander had a task due, and it was uncertain whether he had submitted it on time or if he would be given any extra time. It was possible that one of the following was true: Alexander had failed to submit his assignment on time, or he wouldn't receive any additional time, or both scenarios were accurate. However, the only known fact was that Alexander had, in fact, successfully submitted his assignment on time.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that he is not going to be given any extra time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that he is going to be given any extra time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "context": "We have two possibilities: either Chloe is working on her project or Hannah is taking a holiday, or both. We cannot determine which one is true. However, we do know that Chloe is not working on her project.",
+            "qa_pairs": [
+                {
+                    "question": "Does this imply that hannah is taking a holiday?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that hannah isn't taking a holiday?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "context": "Dani had a choice: either attend the lecture or study for her upcoming exam. Uncertain of which option she selected, all we knew was that she would do one of the two. However, it was clear that she did not attend the lecture.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that Dani is studying for her upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that Dani is not studying for her upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "context": "Either Gianna is not attending the lecture or Jane is studying for her exams, or both. We don't know which one is true. It could be the case that only Gianna is not attending or only Jane is studying, or both. However, in this particular situation, Gianna is indeed attending the lecture.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that jane is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that jane is not studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "context": "Ariana had a tough decision to make, as she found herself torn between attending the movie premiere and visiting her grandparents. She knew that at least one of these options had to be true. It could be that she would not attend the movie premiere, or it could be that she would choose to visit her grandparents instead. However, she hadn't made up her mind yet and was unsure which one to pick. Eventually, her excitement got the better of her, and she decided not to attend the movie premiere.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she is visiting her grandparents instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that she is not visiting her grandparents instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "context": "It could be the case that either Layla is not attending the seminar or Sara is writing a book, or perhaps both scenarios are true. However, contrary to expectations, Layla is indeed attending the seminar.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that sara is writing a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that sara is not writing a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "context": "We know that either Penelope is not playing basketball or Ava is studying for the upcoming exam, or both. However, we do not know which one of these is true. It could be that only Penelope is not playing basketball, only Ava is studying for the upcoming exam, or both of them are true. The situation is that Penelope is playing basketball.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that ava is studying for the upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that ava isn't studying for tshe upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "context": "We are certain that either Charlotte is not taking the exam today or Ruby is studying for her upcoming test, or both situations are true. However, it is unclear which specific scenario is accurate. It could be the case that only Charlotte is not taking the exam, or only Ruby is studying, or even both Charlotte not taking the exam and Ruby studying simultaneously. Nonetheless, it has been confirmed that Charlotte is indeed taking the exam today.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that ruby is studying for her upcoming test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that ruby is not studying for her upcoming test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "context": "I am attending a music festival, but there is a possibility that I am not attending it and instead taking a course at the university. We know that at least one of these situations is true, but we don't know which one specifically. It could be the case that I am only attending the music festival, or only taking the course, or both. However, as of now, I am indeed attending the music festival.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that I am taking a course at the university?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that I am not taking a course at the university?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "context": "Either Penelope is not attending art class or Rose is studying for her final exams, or both. It is uncertain which of these possibilities is true. However, it turns out that Penelope is indeed attending art class.",
+            "qa_pairs": [
+                {
+                    "question": "Does this mean that rose is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that rose isn't studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "context": "Either he is not taking the bus to work or she is running a marathon, or both. Today, it turns out that he is taking the bus to work.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that she is running a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this imply that she isn't running a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "context": "There are two possibilities: either Emily is not attending the music concert or Mana is studying for her exams, or it could be that both things are happening. We are unsure about which option is true. However, it is known that Emily is actually attending the music concert.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that mana is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that mana is not studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "context": "Either Amelia is not attending the concert or Grace is studying for her final exams, or both. We don't know which one is true, it could be that only Amelia is not attending the concert or only Grace is studying for her final exams, or both scenarios are true. However, it turns out that Amelia is indeed attending the concert.",
+            "qa_pairs": [
+                {
+                    "question": "Does this entail that grace is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this entail that grace is not studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}
