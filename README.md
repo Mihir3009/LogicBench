@@ -117,4 +117,8 @@ If you are using our dataset, please cite our paper:
 ## Stay tuned for ...
 
 - Huggingface version of LogicBench dataset for easy access
-- Release of source code for data generation, inference and analysis 
+- Release of source code for data generation, inference, and analysis 
+
+## Contact Information ##
+* For help or issues in using LogicBench, please submit a GitHub issue.
+* Please contact Mihir Parmar (mparmar3@asu.edu) or Nisarg Patel (nppatel7@asu.edu) for communication related to LogicBench.
