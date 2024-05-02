@@ -1,0 +1,3156 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_priority",
+    "data_samples": [
+        {
+            "context": "john asserts that the cat is in the park. jane asserts that the cat is not in the park.",
+            "qa_pairs": [
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this imply that the cat is not in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this entail that the cat is in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this entail that the cat is not in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this entail that the cat is in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "anna asserts that the sky is blue. john asserts that the sky is not red.",
+            "qa_pairs": [
+                {
+                    "question": "If anna's evidence is more reliable than john's, does this mean that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If anna's evidence is more reliable than john's, does this entail that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If anna's evidence is less reliable than john's, does this entail that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If anna's evidence is less reliable than john's, does this imply that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the cat is in the garden. julie asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If julie's evidence is more reliable than tom's, does this entail that the cat is not in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If julie's evidence is more reliable than tom's, does this entail that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie's evidence is less reliable than tom's, does this mean that the cat is not in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie's evidence is less reliable than tom's, does this entail that the cat is in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that the cat is in the garden. paul asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than paul's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than paul's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than paul's, does this entail that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than paul's, does this imply that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "steve asserts that the cat is in the garden. janet asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If steve's evidence is more reliable than janet's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve's evidence is more reliable than janet's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than janet's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than janet's, does this entail that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the moon is made of cheese. emily insists that the moon is not made of cheese.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than emily's, does this mean that the moon is not made of cheese?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than emily's, does this mean that the moon is made of cheese?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than emily's, does this mean that the moon is not made of cheese?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than emily's, does this entail that the moon is made of cheese?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is green. steve denies that the car is green.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than steve's, does this mean that the car is green?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than steve's, does this mean that the car isn't green?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than steve's, does this mean that the car is green?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than steve's, does this entail that the car isn't green?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that the cat is in the house. steven asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than steven's, does this mean that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than steven's, does this mean that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steven's, does this mean that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steven's, does this mean that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tara asserts that the cat is sleeping. john asserts that the cat is not sleeping.",
+            "qa_pairs": [
+                {
+                    "question": "If tara's evidence is more reliable than john's, does this mean that the cat is sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tara's evidence is more reliable than john's, does this entail that the cat isn't sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tara's evidence is less reliable than john's, does this entail that the cat is sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tara's evidence is less reliable than john's, does this mean that the cat isn't sleeping?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the driveway. laura claims that the car was not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this mean that the car was parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this mean that the car wasn't parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this imply that the car was parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this imply that the car wasn't parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the driveway. laura asserts that the car was not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this entail that the car was parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this entail that the car wasn't parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this mean that the car was parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this imply that the car wasn't parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the yard. jane disagrees, claiming that the dog is not in the yard.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog is in the yard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the dog isn't in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the dog is in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the dog isn't in the yard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. sarah denies that the cat is in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was in the garage. alice asserts that the car was not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If alice's evidence is more reliable than john's, does this entail that the car was not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice's evidence is more reliable than john's, does this imply that the car was in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice's evidence is less reliable than john's, does this mean that the car was not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice's evidence is less reliable than john's, does this entail that the car was in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. sara contends that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this mean that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that lisa is living in london. sarah asserts that lisa is not living in london.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that lisa is living in london?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that lisa isn't living in london?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that lisa is living in london?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that lisa isn't living in london?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. sara asserts that the car is not parked in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this mean that the car is not parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this imply that the car is parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this mean that the car is not parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this imply that the car is parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. sarah asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the book is on the shelf. sarah asserts that the book is not on the shelf.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this entail that the book is not on the shelf?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this imply that the book is on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this entail that the book is not on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this imply that the book is on the shelf?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the garage. sara asserts that the car was not parked in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this entail that the car was not parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this mean that the car was parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this mean that the car was not parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this imply that the car was parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the river is deep. sue asserts that the river is not deep.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sue's, does this mean that the river is deep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sue's, does this imply that the river isn't deep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sue's, does this imply that the river is deep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sue's, does this imply that the river isn't deep?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was in the garage. paul contends that the car was not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this imply that the car was not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this entail that the car was in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this imply that the car was not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this imply that the car was in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the car is parked in the driveway. jane counters that the car is not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If jane's evidence is more reliable than tom's, does this mean that the car is not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane's evidence is more reliable than tom's, does this imply that the car is in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than tom's, does this entail that the car is not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than tom's, does this imply that the car is in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sally was at the mall. julie insists that sally was not at the mall.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than julie's, does this mean that sally was at the mall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than julie's, does this imply that sally wasn't at the mall?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than julie's, does this entail that sally was at the mall?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than julie's, does this entail that sally wasn't at the mall?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john claims the package was delivered yesterday. julia insists the package was not delivered yesterday.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than julia's, does this entail that the package was delivered yesterday?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than julia's, does this entail that the package wasn't delivered yesterday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than julia's, does this entail that the package was delivered yesterday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than julia's, does this imply that the package wasn't delivered yesterday?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked outside. jane asserts that the car is not parked outside.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the car is parked outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the car isn't parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the car is parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the car isn't parked outside?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that the car is red. tom asserts that the car is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than tom's, does this mean that the car is red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than tom's, does this imply that the car isn't red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than tom's, does this mean that the car is red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than tom's, does this imply that the car isn't red?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sam asserts the sky is blue. linda claims the sky is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If sam's evidence is more reliable than linda's, does this imply that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam's evidence is more reliable than linda's, does this mean that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than linda's, does this mean that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than linda's, does this imply that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. susan asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this mean that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this entail that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the pen is in the drawer. sarah asserts that the pen is not in the drawer.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the pen is in the drawer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that the pen isn't in the drawer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this mean that the pen is in the drawer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the pen isn't in the drawer?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is sleeping. jane argues that the cat is not sleeping.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the cat is sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the cat isn't sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the cat is sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the cat isn't sleeping?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. jane maintains that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the dog is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the dog isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is sleeping. jane asserts that the cat is not sleeping.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's , does this imply that the cat is sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's , does this imply that the cat isn't sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's , does this entail that the cat is sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's , does this imply that the cat isn't sleeping?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the store is open. samantha asserts that the store is not open.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha's evidence is more reliable than tom's, does this imply that the store is not open?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha's evidence is more reliable than tom's, does this entail that the store is open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than tom's, does this mean that the store is not open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than tom's, does this imply that the store is open?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that the car is parked outside. steve denies that the car is parked outside.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than steve's, does this imply that the car is parked outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than steve's, does this mean that the car isn't parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steve's, does this entail that the car is parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steve's, does this mean that the car isn't parked outside?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. jane asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the house is red. samantha asserts that the house is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the house is red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the house isn't red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the house is red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the house isn't red?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sam asserts that the cat is outside. jill asserts that the cat is not outside.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than sam's, does this entail that the cat is not outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than sam's, does this imply that the cat is outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than sam's, does this mean that the cat is not outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than sam's, does this mean that the cat is outside?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was at the party. paul asserts that sarah was not at the party.",
+            "qa_pairs": [
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this imply that sarah was not at the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this imply that sarah was at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this mean that sarah was not at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this entail that sarah was at the party?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john claims the store is closed. sam asserts that the store is open.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this entail that the store is closed?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this entail that the store isn't closed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this entail that the store is closed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this mean that the store isn't closed?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that susan was at the store. paul insists that susan was not at the store.",
+            "qa_pairs": [
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this imply that susan was not at the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this mean that susan was at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this imply that susan was not at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this imply that susan was at the store?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog was in the garden. jane asserts that the dog was not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the dog was in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog wasn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog was in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog wasn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was speeding. sarah denies that the car was speeding.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the car was speeding?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the car wasn't speeding?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the car was speeding?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the car wasn't speeding?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the book is on the shelf. samantha asserts that the book is not on the shelf.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the book is on the shelf?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the book isn't on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the book is on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the book isn't on the shelf?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the yard. jane asserts that the dog is not in the yard.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the dog is in the yard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the dog isn't in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the dog is in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the dog isn't in the yard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. sarah denies that the cat is in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the yard. sophie insists that the dog is not in the yard.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sophie's, does this entail that the dog is in the yard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sophie's, does this mean that the dog isn't in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sophie's, does this mean that the dog is in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sophie's, does this imply that the dog isn't in the yard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the driveway. sarah asserts that the car was not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this imply that the car was not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this imply that the car was in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this imply that the car was not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this entail that the car was in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the painting is in the gallery. susan asserts that the painting is not in the gallery.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this mean that the painting is in the gallery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this entail that the painting isn't in the gallery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this imply that the painting is in the gallery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this mean that the painting isn't in the gallery?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. jill asserts that the car is not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than john's, does this imply that the car is not in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than john's, does this entail that the car is in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than john's, does this entail that the car is not in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than john's, does this mean that the car is in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was at the store. jill asserts that sarah was not at the store.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this mean that sarah was at the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this mean that sarah wasn't at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this entail that sarah was at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this imply that sarah wasn't at the store?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that john was in the park. liam asserts that john was not in the park.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than liam's, does this entail that john was in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than liam's, does this entail that john wasn't in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than liam's, does this imply that john was in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than liam's, does this mean that john wasn't in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the river is frozen. sarah asserts that the river is not frozen.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the river is frozen?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the river isn't frozen?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the river is frozen?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the river isn't frozen?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was blue. samantha asserts that the car was not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the car was blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the car wasn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the car was blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the car wasn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. emma asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If emma's evidence is more reliable than john's, does this mean that the cat is not in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emma's evidence is more reliable than john's, does this mean that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emma's evidence is less reliable than john's, does this mean that the cat is not in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emma's evidence is less reliable than john's, does this imply that the cat is in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the garage. sarah asserts that the car was not parked in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that the car was parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the car wasn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this mean that the car was parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this mean that the car wasn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "steve asserts that the house was painted blue. jill asserts that the house was not painted blue.",
+            "qa_pairs": [
+                {
+                    "question": "If steve's evidence is more reliable than jill's, does this entail that the house was painted blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve's evidence is more reliable than jill's, does this entail that the house wasn't painted blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than jill's, does this mean that the house was painted blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than jill's, does this imply that the house wasn't painted blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was at the park. jill asserts that sarah was not at the park.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this imply that sarah was at the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this imply that sarah wasn't at the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this imply that sarah was at the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this imply that sarah wasn't at the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was at the library. karen denies that sarah was at the library.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than karen's, does this imply that sarah was at the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than karen's, does this mean that sarah wasn't at the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than karen's, does this entail that sarah was at the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than karen's, does this imply that sarah wasn't at the library?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the house is painted blue. jane disagrees and claims that the house is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the house is painted blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the house isn't painted blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the house is painted blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the house isn't painted blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "samantha asserts that the bus was on time. ben asserts that the bus was not on time.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha's evidence is more reliable than ben's, does this entail that the bus was on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha's evidence is more reliable than ben's, does this entail that the bus wasn't on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than ben's, does this imply that the bus was on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than ben's, does this mean that the bus wasn't on time?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the lake is full of fish. jane claims that the lake is not full of fish.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the lake is full of fish?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the lake isn't full of fish?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the lake is full of fish?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the lake isn't full of fish?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was at the party. sam asserts that sarah was not at the party.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this mean that sarah was at the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this mean that sarah wasn't at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this entail that sarah was at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this mean that sarah wasn't at the party?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the lot. jane asserts that the car was not parked in the lot.",
+            "qa_pairs": [
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this mean that the car was not parked in the lot?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this mean that the car was parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this entail that the car was not parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this mean that the car was parked in the lot?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that kim was at the party. steven insists that kim was not at the party.",
+            "qa_pairs": [
+                {
+                    "question": "If steven's evidence is more reliable than john's, does this imply that kim was not at the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steven's evidence is more reliable than john's, does this mean that kim was at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven's evidence is less reliable than john's, does this imply that kim was not at the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven's evidence is less reliable than john's, does this mean that kim was at the party?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the car is parked in the driveway. jenny asserts that the car is not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny's evidence is more reliable than tom's, does this imply that the car is not parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny's evidence is more reliable than tom's, does this entail that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny's evidence is less reliable than tom's, does this entail that the car is not parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny's evidence is less reliable than tom's, does this imply that the car is parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. jane disagrees, claiming the car is not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that the car is parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the car isn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the car isn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. jane asserts that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sam asserts that the cat is in the garden. linda insists that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If sam's evidence is more reliable than linda's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam's evidence is more reliable than linda's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than linda's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than linda's, does this mean that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the book is on the shelf. sarah denies that the book is on the shelf.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the book is on the shelf?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the book isn't on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this mean that the book is on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the book isn't on the shelf?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sally was in the store. jane asserts that sally was not in the store.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that sally was in the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that sally wasn't in the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that sally was in the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that sally wasn't in the store?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "samantha asserts that the dog is in the yard. john contends that the dog is not in the yard.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the dog is not in the yard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the dog is in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the dog is not in the yard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the dog is in the yard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "steve asserts that the dog is in the backyard. sarah asserts that the dog is not in the backyard.",
+            "qa_pairs": [
+                {
+                    "question": "If steve's evidence is more reliable than sarah's, does this imply that the dog is in the backyard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve's evidence is more reliable than sarah's, does this entail that the dog isn't in the backyard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than sarah's, does this mean that the dog is in the backyard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than sarah's, does this mean that the dog isn't in the backyard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the driveway. samantha asserts that the car was not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the car was parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the car wasn't parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the car was parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the car wasn't parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john claims that the cat was in the garden. jane insists that the cat was not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this imply that the cat was not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this imply that the cat was in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this entail that the cat was not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this imply that the cat was in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah is a great cook. tom asserts that sarah is not a great cook.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than tom's, does this imply that sarah is a great cook?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than tom's, does this entail that sarah isn't a great cook?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than tom's, does this entail that sarah is a great cook?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than tom's, does this mean that sarah isn't a great cook?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sky is blue. samantha asserts that the sky is not green.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah is in the park. nina asserts that sarah is not inside the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than nina's, does this imply that sarah is in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than nina's, does this imply that sarah isn't in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than nina's, does this mean that sarah is in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than nina's, does this mean that sarah isn't in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sky is blue. suzie contends that the sky is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this mean that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this imply that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this entail that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this entail that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is on the roof. susan asserts that the cat is not on the roof.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this imply that the cat is on the roof?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this entail that the cat isn't on the roof?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this entail that the cat is on the roof?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this mean that the cat isn't on the roof?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the park is open. sarah asserts that the park is not open.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the park is open?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that the park isn't open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the park is open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the park isn't open?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "samantha asserts that the moon is round. john asserts that the moon is not round.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha's evidence is more reliable than john's, does this imply that the moon is round?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha's evidence is more reliable than john's, does this entail that the moon isn't round?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than john's, does this imply that the moon is round?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than john's, does this entail that the moon isn't round?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "mark asserts that the car is parked in the driveway. megan asserts that the car is not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If megan's evidence is more reliable than mark's, does this mean that the car is not parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If megan's evidence is more reliable than mark's, does this imply that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If megan's evidence is less reliable than mark's, does this mean that the car is not parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If megan's evidence is less reliable than mark's, does this entail that the car is parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. samantha asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sun was shining brightly. sarah contradicts that the sky was cloudy.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the sun was shining brightly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the sun wasn't shining brightly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the sun was shining brightly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the sun wasn't shining brightly?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the house is red. lisa claims that the house is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than lisa's, does this mean that the house is red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than lisa's, does this entail that the house isn't red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than lisa's, does this mean that the house is red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than lisa's, does this mean that the house isn't red?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "laura asserts that the cat is in the garden. john asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this mean that the cat is not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this mean that the cat is not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "paul asserts that the cat is in the garden. sara contends that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If paul's evidence is more reliable than sara's, does this imply that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul's evidence is more reliable than sara's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than sara's, does this mean that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than sara's, does this mean that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. sara insists that the cat is not in the yard.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this entail that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this entail that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this imply that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "daniel asserts that the cat is in the garden. alice asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If daniel's evidence is more reliable than alice's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If daniel's evidence is more reliable than alice's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel's evidence is less reliable than alice's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel's evidence is less reliable than alice's, does this entail that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. beth contends that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If beth's evidence is more reliable than john's, does this mean that the dog is not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If beth's evidence is more reliable than john's, does this imply that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If beth's evidence is less reliable than john's, does this entail that the dog is not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If beth's evidence is less reliable than john's, does this entail that the dog is in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the lot. samantha asserts that the car was not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the car was parked in the lot?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the car wasn't parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the car was parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the car wasn't parked in the lot?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sam was at the library. lila asserts that sam was not at the library.",
+            "qa_pairs": [
+                {
+                    "question": "If lila's evidence is more reliable than john's, does this imply that sam was not at the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lila's evidence is more reliable than john's, does this imply that sam was at the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lila's evidence is less reliable than john's, does this entail that sam was not at the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lila's evidence is less reliable than john's, does this entail that sam was at the library?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jasmine asserts that the cat is in the garden. brian asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If jasmine's evidence is more reliable than brian's, does this imply that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jasmine's evidence is more reliable than brian's, does this mean that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine's evidence is less reliable than brian's, does this entail that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine's evidence is less reliable than brian's, does this imply that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "susan asserts that john is at the park. philip asserts that john is not at the cinema.",
+            "qa_pairs": [
+                {
+                    "question": "If susan's evidence is more reliable than philip's, does this imply that john is at the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If susan's evidence is more reliable than philip's, does this entail that john isn't at the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If susan's evidence is less reliable than philip's, does this mean that john is at the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If susan's evidence is less reliable than philip's, does this entail that john isn't at the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the cat is in the garden. grace asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If grace's evidence is more reliable than tom's, does this entail that the cat is not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If grace's evidence is more reliable than tom's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If grace's evidence is less reliable than tom's, does this imply that the cat is not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If grace's evidence is less reliable than tom's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sara asserts that the cat is in the house. jill insists that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than sara's, does this imply that the cat is not in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than sara's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than sara's, does this imply that the cat is not in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than sara's, does this mean that the cat is in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. linda asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than linda's, does this entail that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than linda's, does this entail that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than linda's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than linda's, does this imply that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "samantha asserts that the dog is sleeping. jeffrey asserts that the dog is not sleeping.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha's evidence is more reliable than jeffrey's, does this entail that the dog is sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha's evidence is more reliable than jeffrey's, does this entail that the dog isn't sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than jeffrey's, does this mean that the dog is sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha's evidence is less reliable than jeffrey's, does this imply that the dog isn't sleeping?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sandy was in the park. jane asserts that sandy was not in the park.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that sandy was in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this entail that sandy wasn't in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that sandy was in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that sandy wasn't in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the lot. sarah denies that the car was parked in the lot.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this imply that the car was parked in the lot?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the car wasn't parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the car was parked in the lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this mean that the car wasn't parked in the lot?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car was parked in the street. susan asserts that the car was not parked in the lot.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this entail that the car was parked in the street?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than susan's, does this mean that the car wasn't parked in the street?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this mean that the car was parked in the street?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than susan's, does this entail that the car wasn't parked in the street?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the garden. sara asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this entail that the cat is not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this mean that the cat is not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sun is shining. jane asserts that the sun is not shining.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the sun is shining?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the sun isn't shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the sun is shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the sun isn't shining?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the driveway. jane disagrees and insists that the car is not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this entail that the car is not in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane's evidence is more reliable than john's, does this entail that the car is in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this imply that the car is not in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane's evidence is less reliable than john's, does this mean that the car is in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. suzie asserts that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this mean that the dog is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this mean that the dog isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this entail that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this mean that the dog isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "joel asserts that the moon is made of cheese. patty insists that the moon is not made of cheese.",
+            "qa_pairs": [
+                {
+                    "question": "If joel's evidence is more reliable than patty's, does this imply that the moon is not made of cheese?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If joel's evidence is more reliable than patty's, does this entail that the moon is made of cheese?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If joel's evidence is less reliable than patty's, does this mean that the moon is not made of cheese?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If joel's evidence is less reliable than patty's, does this entail that the moon is made of cheese?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sara asserts that the cat was in the garden. john asserts that the cat was not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this entail that the cat was in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this imply that the cat wasn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this imply that the cat was in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this imply that the cat wasn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the store is open. suzie asserts that the store is not open.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this mean that the store is open?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than suzie's, does this imply that the store isn't open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this imply that the store is open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than suzie's, does this entail that the store isn't open?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that julia is in the park. sam asserts that julia is not in the park.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this mean that julia is in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sam's, does this imply that julia isn't in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this imply that julia is in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sam's, does this imply that julia isn't in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the package was delivered yesterday. sarah insists that the package was not delivered yesterday.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this entail that the package was delivered yesterday?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sarah's, does this mean that the package wasn't delivered yesterday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this entail that the package was delivered yesterday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sarah's, does this imply that the package wasn't delivered yesterday?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "steve asserts that the sky is blue. julie asserts that the sky is not green.",
+            "qa_pairs": [
+                {
+                    "question": "If steve's evidence is more reliable than julie's, does this imply that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve's evidence is more reliable than julie's, does this entail that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than julie's, does this imply that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve's evidence is less reliable than julie's, does this entail that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sam asserts that sarah was in the office. fred asserts that sarah was not in the office.",
+            "qa_pairs": [
+                {
+                    "question": "If sam's evidence is more reliable than fred's, does this imply that sarah was in the office?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam's evidence is more reliable than fred's, does this mean that sarah wasn't in the office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than fred's, does this imply that sarah was in the office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam's evidence is less reliable than fred's, does this imply that sarah wasn't in the office?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sue insists that the cat is in the garden. paul denies that the cat is in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If sue's evidence is more reliable than paul's, does this entail that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sue's evidence is more reliable than paul's, does this imply that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sue's evidence is less reliable than paul's, does this imply that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sue's evidence is less reliable than paul's, does this mean that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah is the best student in the class. paul asserts that sarah is not the best student in the class.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than paul's, does this entail that sarah is the best student in the class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than paul's, does this entail that sarah isn't the best student in the class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than paul's, does this entail that sarah is the best student in the class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than paul's, does this imply that sarah isn't the best student in the class?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. sophie asserts that the car is not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sophie's, does this mean that the car is parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sophie's, does this entail that the car isn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sophie's, does this mean that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sophie's, does this imply that the car isn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the lake is full of fish. steve asserts that the lake is not full of fish.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than steve's, does this imply that the lake is full of fish?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than steve's, does this imply that the lake isn't full of fish?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than steve's, does this mean that the lake is full of fish?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than steve's, does this entail that the lake isn't full of fish?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "rachel asserts that the cat is in the garden. peter asserts that the cat is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If rachel's evidence is more reliable than peter's, does this mean that the cat is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rachel's evidence is more reliable than peter's, does this entail that the cat isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel's evidence is less reliable than peter's, does this entail that the cat is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel's evidence is less reliable than peter's, does this imply that the cat isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the bike is red. alice asserts that the bike is not blue.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than alice's, does this imply that the bike is red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than alice's, does this imply that the bike isn't red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than alice's, does this mean that the bike is red?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than alice's, does this entail that the bike isn't red?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sun is shining. emily asserts that the sun is not shining.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than emily's, does this mean that the sun is shining?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than emily's, does this mean that the sun isn't shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than emily's, does this mean that the sun is shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than emily's, does this mean that the sun isn't shining?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. alice asserts that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If alice's evidence is more reliable than john's, does this entail that the dog is not in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice's evidence is more reliable than john's, does this mean that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice's evidence is less reliable than john's, does this imply that the dog is not in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice's evidence is less reliable than john's, does this imply that the dog is in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the store is open. samantha insists that the store is closed.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the store is open?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the store isn't open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the store is open?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the store isn't open?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the tree is tall. laura denies that the tree is tall.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this entail that the tree is tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than laura's, does this mean that the tree isn't tall?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this imply that the tree is tall?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than laura's, does this imply that the tree isn't tall?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that sarah was in the park. paul asserts that sarah was not in the park.",
+            "qa_pairs": [
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this mean that sarah was not in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul's evidence is more reliable than john's, does this mean that sarah was in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this entail that sarah was not in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul's evidence is less reliable than john's, does this imply that sarah was in the park?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. rachel asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If rachel's evidence is more reliable than john's, does this mean that the cat is not in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rachel's evidence is more reliable than john's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel's evidence is less reliable than john's, does this imply that the cat is not in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel's evidence is less reliable than john's, does this mean that the cat is in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is white. jill contends that the car is not black.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this mean that the car is white?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jill's, does this mean that the car isn't white?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this mean that the car is white?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jill's, does this mean that the car isn't white?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john claims the car was in the garage. sarah denies the car was in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this imply that the car was not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah's evidence is more reliable than john's, does this imply that the car was in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this entail that the car was not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah's evidence is less reliable than john's, does this imply that the car was in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sun is shining. maria asserts that the sun is not shining.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than maria's, does this mean that the sun is shining?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than maria's, does this entail that the sun isn't shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than maria's, does this imply that the sun is shining?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than maria's, does this mean that the sun isn't shining?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the backyard. lucy asserts that the dog is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than lucy's, does this entail that the dog is in the backyard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than lucy's, does this entail that the dog isn't in the backyard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than lucy's, does this entail that the dog is in the backyard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than lucy's, does this imply that the dog isn't in the backyard?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. jane insists that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the dog isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat was in the garden. alice denies that the cat was in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than alice's, does this imply that the cat was in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than alice's, does this imply that the cat wasn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than alice's, does this mean that the cat was in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than alice's, does this mean that the cat wasn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. jane claims that the car is not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the car is parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the car isn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the car isn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jenny asserts that the cat is on the roof. paul contends that the cat is not on the roof.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny's evidence is more reliable than paul's, does this mean that the cat is on the roof?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny's evidence is more reliable than paul's, does this mean that the cat isn't on the roof?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny's evidence is less reliable than paul's, does this imply that the cat is on the roof?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny's evidence is less reliable than paul's, does this mean that the cat isn't on the roof?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. samantha asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this entail that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the book is on the shelf. samantha asserts that the book is not in the room.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the book is on the shelf?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the book isn't on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the book is on the shelf?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the book isn't on the shelf?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the house. vicky asserts that the cat is not in the house.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than vicky's, does this mean that the cat is in the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than vicky's, does this imply that the cat isn't in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than vicky's, does this mean that the cat is in the house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than vicky's, does this entail that the cat isn't in the house?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "jill asserts that the store is closed. tom asserts that the store is open.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than tom's, does this imply that the store is closed?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than tom's, does this mean that the store isn't closed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than tom's, does this entail that the store is closed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than tom's, does this imply that the store isn't closed?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts the car was parked in the garage. karen asserts the car was not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than karen's, does this entail that the car was parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than karen's, does this mean that the car wasn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than karen's, does this mean that the car was parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than karen's, does this imply that the car wasn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "tom asserts that the car is parked in the driveway. julie asserts that the car is not in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If julie's evidence is more reliable than tom's, does this entail that the car is not in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If julie's evidence is more reliable than tom's, does this imply that the car is in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie's evidence is less reliable than tom's, does this entail that the car is not in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie's evidence is less reliable than tom's, does this imply that the car is in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is in the room. sara asserts that the cat is not in the room.",
+            "qa_pairs": [
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this imply that the cat is not in the room?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara's evidence is more reliable than john's, does this mean that the cat is in the room?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this imply that the cat is not in the room?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara's evidence is less reliable than john's, does this mean that the cat is in the room?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the sky is blue. samantha maintains that the sky is not green.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the sky is blue?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the sky isn't blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this entail that the sky is blue?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this imply that the sky isn't blue?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the package was delivered today. sue asserts that the package was not delivered today.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sue's, does this entail that the package was delivered today?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sue's, does this entail that the package wasn't delivered today?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sue's, does this mean that the package was delivered today?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sue's, does this imply that the package wasn't delivered today?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the dog is in the garden. jane claims that the dog is not in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the dog is in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the dog isn't in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this entail that the dog is in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the dog isn't in the garden?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "sam asserts that the car is parked outside. jenna denies that the car is parked outside.",
+            "qa_pairs": [
+                {
+                    "question": "If jenna's evidence is more reliable than sam's, does this mean that the car is not parked outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenna's evidence is more reliable than sam's, does this entail that the car is parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenna's evidence is less reliable than sam's, does this imply that the car is not parked outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenna's evidence is less reliable than sam's, does this mean that the car is parked outside?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the garage. samantha asserts that the car is not parked in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this imply that the car is parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than samantha's, does this mean that the car isn't parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the car is parked in the garage?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than samantha's, does this mean that the car isn't parked in the garage?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the car is parked in the driveway. sara asserts that the car is not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this imply that the car is parked in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than sara's, does this imply that the car isn't parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this imply that the car is parked in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than sara's, does this entail that the car isn't parked in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is outside. jane asserts that the cat is not outside.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this imply that the cat is outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jane's, does this mean that the cat isn't outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this imply that the cat is outside?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jane's, does this mean that the cat isn't outside?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "steve asserts that the car is parked in the garage. jill asserts that the car is not in the driveway.",
+            "qa_pairs": [
+                {
+                    "question": "If jill's evidence is more reliable than steve's, does this mean that the car is not in the driveway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill's evidence is more reliable than steve's, does this entail that the car is in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steve's, does this imply that the car is not in the driveway?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill's evidence is less reliable than steve's, does this mean that the car is in the driveway?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that the cat is sleeping. nina contends that the cat is not sleeping.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than nina's, does this entail that the cat is sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than nina's, does this entail that the cat isn't sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than nina's, does this mean that the cat is sleeping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than nina's, does this imply that the cat isn't sleeping?",
+                    "answer": "yes"
+                }
+            ]
+        },
+        {
+            "context": "john asserts that apples are ripe. jenny asserts that apples are not ripe.",
+            "qa_pairs": [
+                {
+                    "question": "If john's evidence is more reliable than jenny's, does this imply that apples are ripe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john's evidence is more reliable than jenny's, does this imply that apples aren't ripe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jenny's, does this imply that apples are ripe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john's evidence is less reliable than jenny's, does this imply that apples aren't ripe?",
+                    "answer": "yes"
+                }
+            ]
+        }
+    ]
+}

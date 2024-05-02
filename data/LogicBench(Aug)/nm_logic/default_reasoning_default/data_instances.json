@@ -1,0 +1,1956 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_default",
+    "data_samples": [
+        {
+            "context": "kangaroos and emus are marsupials. marsupials usually carry their young in a pouch. kangaroos are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that emus carry their young in a pouch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that emus don't carry their young in a pouch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and bob are tall. tall people usually have good posture. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bob has good posture?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bob doesn't have good posture?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are normally kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and james are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that james plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that james doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are usually cuddly. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are cuddly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't cuddly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mike are tall. tall people generally play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mike plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mike doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice and john are tall. tall people usually play basketball. alice is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sam are tall. tall people usually have a good posture. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that sam has a good posture?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that sam doesn't have a good posture?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are fast. fast people usually running. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jerry runs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jerry doesn't run?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and peter are tall. tall people tend to have a good posture. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that peter has a good posture?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that peter doesn't have a good posture?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples and apples are sweet. sweet fruits are usually eaten as a snack. pineapples are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are eaten as a snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't eaten as a snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are small. small animals like to hide. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jerry likes to hide?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jerry doesn't like to hide?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and henry are tall. tall people usually play basketball. henry is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals generally have fur. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually stay warm in winter. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs stay warm in winter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't stay warm in winter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are usually kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually wear high heels. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary wears high heels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary doesn't wear high heels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jill are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jill plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jill doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jared and sam are tall . tall people usually play basketball . jared is possibly an exception to this rule .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sam plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sam doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and peter are tall. tall people can reach high shelves. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that peter can reach high shelves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that peter can't reach high shelves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "irene and janine are tall. tall people are usually good at basketball. irene is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that janine is good at basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that janine isn't good at basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "giraffes and elephants are tall. tall animals are usually seen in a zoo. giraffes are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that elephants are seen in a zoo?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that elephants aren't seen in a zoo?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and peter are tall. tall people generally play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that peter plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that peter doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that paul plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that paul doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually stay warm in cold weather. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs stay warm in cold weather?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't stay warm in cold weather?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and peter are strong. strong people usually lift weights. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that peter lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that peter doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and bill are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bill plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bill doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are tall. tall people are often good at basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sarah is good at basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sarah isn't good at basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and steve are tall. tall people often play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that steve plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that steve doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are friendly. friendly animals are kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "maria and sarah are tall . tall people usually play basketball . maria is possibly an exception to this rule .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that sarah plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that sarah doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "giraffes and elephants have long necks. long necks are usually used for grazing. giraffes are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that elephants use their long necks for grazing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that elephants don't use their long necks for grazing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are juicy. juicy fruits are usually eaten fresh. apples are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are usually eaten fresh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that oranges aren't usually eaten fresh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and joe are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that joe plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that joe doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pears and apples are juicy. juicy fruits are usually sweet. pears are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mice and cats are small animals. small animals usually live in homes. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mice live in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mice don't live in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets usually need care and attention. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs need care and attention?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't need care and attention?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are tall. tall people usually wear high heels. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jane wears high heels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jane doesn't wear high heels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and steve are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that steve plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that steve doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tulips and roses are flowers. flowers are usually found in gardens. tulips are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that roses are found in gardens?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that roses aren't found in gardens?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and nancy are tall. tall people often wear hats. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that nancy wears hats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that nancy doesn't wear hats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice and jack are tall. tall people are usually good at basketball. alice is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jack is good at basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jack isn't good at basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "heather and frank are tall. tall people normally play basketball. heather is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that frank plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that frank doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually have thick coats. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have thick coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have thick coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are normally kept as pets. dogs are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james and john are smart. smart people usually read books. james is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john reads books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john doesn't read books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are normally found in the wild. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "carrots and potatoes are orange. usually, orange vegetables are cooked. carrots are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that potatoes are cooked?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no potatoes are cooked?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people generally play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and kim are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that kim plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that kim doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually live in their natural environment. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs live in their natural environment?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't live in their natural environment?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenna and alex are tall. tall people usually play basketball. jenna is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that alex plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that alex doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes and apples are red. red fruits are usually found in the fruit aisle. tomatoes are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are found in the fruit aisle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't found in the fruit aisle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and tom are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that tom plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that tom doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and alex are tall tall people usually play basketball alex is possibly an exception to this rule john plays basketball . cats and dogs are friendly friendly animals are usually kept as pets cats are possibly an exception to this rule dogs are kept as pets . apples and oranges are sweet sweet fruits are usually eaten fresh apples are possibly an exception to this rule oranges are eaten fresh .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that james and mark are intelligent intelligent people usually get good grades james is possibly an exception to this rule mark gets good grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that james and mark aren't intelligent intelligent people usually get good grades james is possibly an exception to this rule mark gets good grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are tall. tall people usually play basketball. sarah is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and anna are tall. tall people usually play basketball. anna is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jenny plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jenny doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are funny. funny people often tell jokes. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jerry tells jokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jerry doesn't tell jokes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and john are tall. tall people are usually basketball players. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tom is a basketball player?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that tom isn't a basketball player?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are tall. tall people usually have good posture. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jane has good posture?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane doesn't have good posture?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are funny. funny people usually make jokes. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jerry makes jokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jerry doesn't make jokes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are talented. talented people usually perform in public. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary performs in public?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary doesn't perform in public?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james and joe have curly hair. curly hair is usually difficult to manage. james is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that joe manages his curly hair?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that joe doesn't manage his curly hair?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have fur. furred animals are usually kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jaguars and leopards are spotted. spotted animals are usually found in the jungle. leopards are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jaguars are found in the jungle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jaguars aren't found in the jungle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people typically enjoy basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary enjoys basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary doesn't enjoy basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "amy and kiana are strong. strong people usually lift weights. amy is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that kiana lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that kiana doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are tall tall people usually play basketball john is possibly an exception to this rule paul plays basketball. alex and luke are fast fast people usually run marathons alex is possibly an exception to this rule luke runs marathons. rosa and eva are smart smart people usually get good grades rosa is possibly an exception to this rule eva gets good grades.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jack and tom are shy shy people usually don't participate in group activities jack is possibly an exception to this rule tom participates in group activities?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jack and tom aren't shy shy people usually don't participate in group activities jack is possibly an exception to this rule tom participates in group activities?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "andy and jane are tall. tall people usually play basketball. jane is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that andy plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that andy doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have fur. furry animals are usually kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sam and tom are tall. tall people usually play basketball. sam is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that tom plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that tom doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pet animals. pet animals normally require food and water. dogs are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats require food and water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't require food and water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mark are strong. strong people usually lift weights. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mark lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mark doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually have long legs. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary has long legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary doesn't have long legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "penguins and seagulls fly. penguins and seagulls usually fly in the sky. penguins are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that seagulls fly in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that seagulls don't fly in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually have good posture. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary has good posture?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't have good posture?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jill and john are tall. tall people usually play basketball. jill is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have four legs. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are diligent. diligent people usually achieve their goals. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary achieves her goals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary doesn't achieve her goals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and alex are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that alex plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that alex doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions and tigers are wild animals. wild animals usually live in jungles. tigers are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lions live in jungles?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that lions don't live in jungles?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are strong. strong people usually lift weights. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that paul lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that paul doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "katy and amy are tall. tall people usually play basketball. katy is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that amy plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that amy doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals normally require food and shelter. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs require food and shelter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't require food and shelter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and michael are tall. tall people tend to play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that michael plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that michael doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "giraffes and elephants are tall. tall animals usually need more food. giraffes are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that elephants need more food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that elephants don't need more food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "emily and john are tall. tall people typically play basketball. emily is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals often require grooming. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs require grooming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't require grooming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sam are cheerful. cheerful people often laugh. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sam laughs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sam doesn't laugh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mark are tall. tall people generally play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mark plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mark doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "roses and lilies are fragrant. fragrant flowers are usually used in bouquets. roses are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that lilies are used in bouquets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that lilies aren't used in bouquets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have fur. furry animals are often kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually have thick coats. dogs are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats have thick coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't have thick coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are tall. tall people normally play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jane plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jane doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are tall. tall people often play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that sarah plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that sarah doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and motorcycles have four wheels. four-wheeled vehicles are commonly used for transportation. cars are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that motorcycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that motorcycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals generally have four legs. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are usually kept as pets. dogs are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "henry and steve are tall. tall people often play basketball. henry is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that steve plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that steve doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "paul and ryan are tall. tall people usually play basketball. ryan is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that paul plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that paul doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sam are strong. strong people usually lift weights. sam is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mike are tall. tall people tend to have long strides. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mike has long strides?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mike doesn't have long strides?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and sarah are tall. tall people usually wear high heels. sarah is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jenny wears high heels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jenny doesn't wear high heels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "carrots and potatoes are orange. orange fruits are usually eaten raw. carrots are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that potatoes are usually eaten raw?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that potatoes aren't usually eaten raw?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and rachel are strong. strong people usually lift weights. rachel is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john lifts weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't lift weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kites and airplanes can fly. flying objects usually have wings. kites are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that airplanes have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that airplanes don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kittens and puppies are cute. cute animals are often petted. kittens are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that puppies are often petted?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that puppies aren't often petted?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapple and oranges are juicy. juicy fruits are usually enjoyed raw. pineapple is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are usually enjoyed raw?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't usually enjoyed raw?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals need to be groomed regularly. dogs are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats need to be groomed regularly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats don't need to be groomed regularly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and tim are creative. creativity is often expressed through art. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that tim expresses creativity through art?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that tim doesn't express creativity through art?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually have a higher risk of developing health issues. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary has a higher risk of developing health issues?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary doesn't have a higher risk of developing health issues?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are smart. smart people usually get good grades. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that sarah gets good grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that sarah doesn't get good grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually have thick fur. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have thick fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have thick fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are tall. tall people usually wear hats. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jane wears hats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane doesn't wear hats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "chocolate and vanilla are ice creams. ice creams are usually served cold. chocolate is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that vanilla is served cold?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that vanilla isn't served cold?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane and mandy are tall. tall people usually wear high heels. mandy is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jane wears high heels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jane doesn't wear high heels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions and tigers are carnivores. carnivores usually hunt their prey. lions are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that tigers hunt their prey?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that tigers don't hunt their prey?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and julia are tall. tall people usually wear high heels. julia is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jenny wears high heels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jenny doesn't wear high heels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and paul are tall. tall people usually have long legs. jenny is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that paul has long legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that paul doesn't have long legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are funny. funny people make people laugh. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jerry makes people laugh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jerry doesn't make people laugh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jill and john are tall. tall people usually have long legs. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jill has long legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jill doesn't have long legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are red. red fruits are usually sweet. oranges are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and joe are tall. tall people usually play basketball. joe is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tom plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that tom doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and bill are tall. tall people are usually good at basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bill is good at basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bill isn't good at basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenna and maria are tall. tall people usually play basketball. jenna is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that maria plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that maria doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jenny are tall. tall people are usually good at basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jenny is good at basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jenny isn't good at basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people usually have an advantage in sports. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary has an advantage in sports?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't have an advantage in sports?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals usually have long hair. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have long hair?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have long hair?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jill are intelligent. intelligent people usually excel in academics. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jill excels in academics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jill doesn't excel in academics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kites and birds are able to fly. flying usually requires wings. kites are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that birds have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that birds don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "puppies and kittens are cute. cute animals are usually kept as pets. puppies are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that kittens are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that kittens aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kites and butterflies fly. normally, flying creatures soar in the sky. butterflies are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that kites soar in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that kites don't soar in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that sarah plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that sarah doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are tall. tall people often play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are funny. funny people usually make others laugh. tom is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jerry makes others laugh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jerry doesn't make others laugh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and john are intelligent. intelligent people usually read books. jenny is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john reads books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't read books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jaguars and tigers are fierce predators . fierce predators usually hunt for food . jaguars are possibly an exception to this rule .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tigers hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that tigers don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "oceans and rivers have water. water is essential for life. rivers are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oceans are essential for life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oceans aren't essential for life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are tall. tall people usually play basketball. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jane plays basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane doesn't play basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals are typically kept as pets. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are sweet. sweet fruits are normally eaten fresh. oranges are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that apples are eaten fresh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't eaten fresh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "peaches and apples are sweet. sweet fruits are normally consumed as snacks. apples are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that peaches are consumed as snacks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that peaches aren't consumed as snacks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are warm blooded animals. cats are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are warm blooded animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't warm blooded animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sally are strong. strong people can lift heavy weights. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that sally can lift heavy weights?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that sally can't lift heavy weights?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are sweet. sweet fruits often taste delicious. oranges are possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples taste delicious?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples don't taste delicious?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are smart. smart people usually study hard. john is possibly an exception to this rule.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that paul studies hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that paul doesn't study hard?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1956 @@
+{
+    "type": "first_order_logic",
+    "axiom": "existential_instantiation",
+    "data_samples": [
+        {
+            "context": "john knows how to play the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has the ability to play the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have the ability to play the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sara is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is proficient in playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mary completed her degree in computer science ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a degree in computer science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rajesh bought a new car ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone purchased a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one purchase a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice has a phd in mathematics ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has a phd in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a phd in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a degree in computer science",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have a degree in computer science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane is the fastest runner in her school",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can run fast?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one run fast?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mary bought a new car",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone bought a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jack is an expert in playing the guitar ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an expert in playing the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one an expert in playing the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john won the spelling bee contest ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won the spelling bee contest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one win the spelling bee contest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "a bird flew away from its nest",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that something flew away from its nest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that nothing can fly away from its nest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the country has imposed a nationwide lockdown due to the pandemic",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that people have been asked to stay at home to prevent the spread of the virus?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all people haven't been asked to stay at home to prevent the spread of the virus?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "gina has won the nobel prize in physics",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has won the nobel prize in physics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one won the nobel prize in physics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john speaks french fluently",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone can speak french fluently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one speak french fluently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "samantha is an expert violinist",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in playing the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one proficient in playing the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a proficient violin player",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play the violin proficiently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one play the violin proficiently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a phd degree in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a phd degree in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a phd degree in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is an expert cook ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an expert cook?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one an expert cook?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the prime minister of india is a woman",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone holds the post of prime minister of india?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one hold the post of prime minister of india?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jill is a proficient cook",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can cook well?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one cook well?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "joseph plays the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone can play the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one play the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "julia is a master of origami ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has mastered origami?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one mastered origami?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the company is planning to launch a new product",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is planning to launch a new product?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one planning to launch a new product?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mark received an a+ in math ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone achieved an a+ in math?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one achieve an a+ in math?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jasmine is a proficient violinist",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can play the violin skillfully?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one play the violin skillfully?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sarah is a professional chef",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is skilled in culinary arts?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one skilled in culinary arts?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tony is a software engineer",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a software engineer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one a software engineer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one proficient in playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rita is a certified yoga instructor",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is certified in yoga instruction?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one certified in yoga instruction?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all the students of the class passed the test ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone passed the test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one pass the test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane is an expert in computer programming",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is well-versed in computer programming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one well-versed in computer programming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny is proficient in spanish",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can understand spanish?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one understand spanish?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sarah is an expert in playing the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is adept in playing the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one adept in playing the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a professional dancer",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is skilled in dancing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one skilled in dancing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john ate an apple",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone ate an apple?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one eat an apple?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "ava is a professional painter ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can paint professionally?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one paint professionally?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the tiger is an endangered species",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that an animal is endangered?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that An animal isn't endangered?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "hannah is an expert in calligraphy",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is skilled in calligraphy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one skilled in calligraphy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "irina won the national science fair",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone won the national science fair?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win the national science fair?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a computer programmer ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can program computers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one program computers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the apple tree has red apples ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that something has red apples?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that Something doesn't have red apples?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a doctor",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is a doctor?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one a doctor?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james is an expert in quantum physics",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has knowledge of quantum physics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have knowledge of quantum physics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "chirag is an expert in playing the guitar",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is an expert in playing the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one an expert in playing the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james has a degree in accounting",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in accounting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a degree in accounting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is proficient in playing the guitar",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can play the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sarah is an expert in coding",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is proficient in coding?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one proficient in coding?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a pet dog",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the apple tree is producing a large number of fruits this season",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that there is a plentiful harvest of fruits this season?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that There isn't a plentiful harvest of fruits this season?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "nina is proficient in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can play the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one play the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "timothy has a phd in economics",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has a phd in economics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a phd in economics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the cat meowed loudly ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone meowed loudly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one meow loudly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice is a chess grandmaster",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is skilled in playing chess?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one skilled in playing chess?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the sun is the brightest star in our solar system ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can see the sun in our solar system?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one see the sun in our solar system?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sophia has a degree in computer science",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a degree in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a degree in computer science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a professional musician",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is a professional musician?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one a professional musician?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james is an expert in playing the guitar",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an expert in playing the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one an expert in playing the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lara plays the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can play the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one play the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "julie is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a mastery in playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have a mastery in playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the apple tree is bearing fruit this season",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that some tree is bearing fruit this season?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no tree isn't bearing fruit this season?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john lives in the city",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone lives in the city?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one live in the city?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john bought a new car",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone bought a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "janet is proficient in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one play the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tommy is an expert in playing the guitar",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is skilled in playing the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one skilled in playing the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a basic knowledge of computer programming",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a basic knowledge of computer programming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a basic knowledge of computer programming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "samantha is proficient in spanish ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is proficient in spanish?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in spanish?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john can speak spanish fluently",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can speak spanish fluently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one speak spanish fluently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "raju has a degree in engineering",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a degree in engineering?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a degree in engineering?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mary is a professional artist",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is proficient in art?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one proficient in art?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the amazon river is the longest river in the world ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has navigated the longest river in the world?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one navigated the longest river in the world?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the eiffel tower is a famous landmark in paris",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that there is a renowned structure in paris?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that There isn't a renowned structure in paris?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "ivy has a degree in accounting ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a degree in accounting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a degree in accounting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is adept at playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one adept at playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "samantha has a degree in engineering ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a degree in engineering?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a degree in engineering?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the apple is red in colour ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that something is red in colour?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that Something isn't red in colour?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james won the marathon race",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won the marathon race?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win the marathon race?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice is an expert in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is knowledgeable in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one knowledgeable in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sara bought a new car",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone bought a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james has the ability to speak spanish fluently",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has the ability to speak spanish fluently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have the ability to speak spanish fluently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane is an expert in baking cakes",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is skilled at baking cakes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one skilled at baking cakes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is an expert in playing the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in playing the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in playing the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rita is a professional dancer",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a professional dancer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one a professional dancer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sara is a master of computer science",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has expertise in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have expertise in computer science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "emily won the 100m sprint race ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won the 100m sprint race?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win the 100m sprint race?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john won the spelling bee contest",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won the spelling bee contest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win the spelling bee contest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alexa won the nobel prize in chemistry ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won the nobel prize in chemistry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win the nobel prize in chemistry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "raju is a skilled carpenter ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in carpentry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in carpentry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mona is an expert painter ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an expert painter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one an expert painter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "paula is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is proficient in playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sam has a degree in computer science",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a degree in computer science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all the students passed the exam ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone passed the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one pass the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is an experienced cook",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has experience in cooking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have experience in cooking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "maria is an expert in painting ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an expert in painting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one an expert in painting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "karen is a certified yoga instructor ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a certified yoga instructor?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one a certified yoga instructor?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rohan has a phd in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a phd in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a phd in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is an expert in playing the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is an expert in playing the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one an expert in playing the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila has a phd degree in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a high level of expertise in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a high level of expertise in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "liz is a skilled carpenter",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has the skill to work with wood?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have the skill to work with wood?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john owns a pet dog",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone owns a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one own a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a website ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has a website?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a website?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom is an expert in coding ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has expertise in coding?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have expertise in coding?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the earth is the third planet from the sun",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that something is the third planet from the sun?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that Something isn't the third planet from the sun?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "max bought a new car",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone bought a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a master chef",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has expertise in cooking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have expertise in cooking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice is proficient in playing the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can play the violin skillfully?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play the violin skillfully?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane is an excellent cook",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has the skill to cook delicious dishes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have the skill to cook delicious dishes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mary was the first person to climb mount everest ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone climbed mount everest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one climb mount everest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is a professional dancer",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a professional dancer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one a professional dancer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the sun is the largest star in the milky way",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that something is the largest star in the milky way?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that Something isn't the largest star in the milky way?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jennifer won a gold medal in the chess tournament ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone won a gold medal in the chess tournament?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win a gold medal in the chess tournament?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice won an olympic gold medal in swimming ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won an olympic gold medal in swimming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win an olympic gold medal in swimming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jackie chan is an actor from hong kong ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is an actor from hong kong?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one an actor from hong kong?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all the students in the class passed their exams ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone passed their exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one pass their exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "mary is an expert swimmer",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is an expert swimmer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one an expert swimmer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a master chef ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can cook gourmet dishes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one cook gourmet dishes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom was able to solve the math problem in record time",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone was able to solve the math problem in record time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one was able to solve the math problem in record time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheena is an expert at baking cakes",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is an expert at baking cakes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one an expert at baking cakes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny has a pet dog",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one have a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is a proficient programmer",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has coding skills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have coding skills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "paula wrote a book about the history of jazz music",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone wrote a book about the history of jazz music?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one write a book about the history of jazz music?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sara is fluent in spanish",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can speak spanish fluently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one speak spanish fluently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "susan is a skilled painter ",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone can paint well?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one paint well?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pamela is a professional ice skater",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can skate professionally?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one skate professionally?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "max is a professional chef",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is a professional chef?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one a professional chef?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sophia is a certified yoga instructor ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has the knowledge of yoga?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have the knowledge of yoga?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the mona lisa is a famous painting by leonardo da vinci ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone created a famous painting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one create a famous painting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tim is the fastest runner in the school ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is a fast runner in the school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one a fast runner in the school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is an expert chess player",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play chess with expertise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play chess with expertise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sarah has a phd in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has a phd in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a phd in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "maria has completed her phd in mathematics ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has completed their phd in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one completed their phd in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane has a degree in computer engineering",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in computer engineering?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have a degree in computer engineering?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is a master chef ",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone can cook gourmet meals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one cook gourmet meals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "gina is a certified yoga teacher ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is certified in yoga teaching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one certified in yoga teaching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the cat was sleeping in the garden",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that something was sleeping in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that Something wasn't sleeping in the garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "emma won the tennis tournament",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone won the tennis tournament?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one win the tennis tournament?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "james can play the piano",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone can play the piano?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play the piano?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bradley completed his degree in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has a degree in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have a degree in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "raju is proficient in playing the guitar",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play the guitar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play the guitar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john has a degree in mathematics",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone has a degree in mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one have a degree in mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is an expert programmer",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is proficient in programming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one proficient in programming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the new smartphone is capable of 5g connectivity",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone can access 5g networks with the new smartphone?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one access 5g networks with the new smartphone?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheila is an expert chef",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is skilled in cooking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one skilled in cooking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice won a gold medal in the swimming competition ",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone won a gold medal in the swimming competition?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one win a gold medal in the swimming competition?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice is a skilled programmer",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is proficient in programming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one proficient in programming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john is an experienced swimmer",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that someone is experienced in swimming?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one experienced in swimming?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "alice is an expert in modern dance moves",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone is proficient in modern dance moves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one proficient in modern dance moves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sara is a professional chef",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone has expertise in cooking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one have expertise in cooking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "samantha is proficient in playing the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that someone is able to play the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that no one able to play the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "amita is proficient in playing the violin",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone can play the violin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that no one play the violin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sheena has completed her degree in computer science",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that someone has completed a degree in computer science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that no one completed a degree in computer science?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

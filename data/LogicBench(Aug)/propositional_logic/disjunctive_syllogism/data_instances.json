@@ -1,0 +1,3177 @@
+{
+    "type": "propositional_logic",
+    "axiom": "disjunctive_syllogism",
+    "data_samples": [
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the concert and (2) she is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the concert, does this mean that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the concert, does this imply that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the concert, does this imply that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the concert, does this imply that she is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is studying for the exam and (2) mary is taking some time off. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William isn't studying for the exam, does this entail that mary is taking some time off?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william isn't studying for the exam, does this mean that mary isn't taking some time off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for the exam, does this imply that mary isn't taking some time off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for the exam, does this entail that mary is taking some time off?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Benjamin is not attending the music concert and (2) mary is studying for her upcoming exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Benjamin is attending the music concert, does this entail that mary is studying for her upcoming exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If benjamin is attending the music concert, does this mean that mary isn't studying for her upcoming exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Benjamin is not attending the music concert, does this imply that mary isn't studying for her upcoming exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Benjamin is not attending the music concert, does this mean that mary is studying for her upcoming exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is not working in the office and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William is working in the office, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william is working in the office, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is not working in the office, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is not working in the office, does this mean that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) she is not making a cake for the party and (2) he is writing a report for his boss. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If she is making a cake for the party, does this mean that he is writing a report for his boss?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she is making a cake for the party, does this imply that he isn't writing a report for his boss?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is not making a cake for the party, does this imply that he isn't writing a report for his boss?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is not making a cake for the party, does this mean that he is writing a report for his boss?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Benjamin is not attending the theatre show and (2) mary is spending time with her family. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Benjamin is attending the theatre show, does this entail that mary is spending time with her family?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If benjamin is attending the theatre show, does this mean that mary isn't spending time with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Benjamin is not attending the theatre show, does this mean that mary isn't spending time with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Benjamin is not attending the theatre show, does this imply that mary is spending time with her family?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Noah is not attending the concert and (2) mary is studying for her final exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Noah is attending the concert, does this entail that mary is studying for her final exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If noah is attending the concert, does this entail that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is not attending the concert, does this mean that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is not attending the concert, does this entail that mary is studying for her final exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Daniel is not attending the basketball game  and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Daniel is attending the basketball game, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If daniel is attending the basketball game, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Daniel is not attending the basketball game , does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Daniel is not attending the basketball game , does this mean that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Noah is studying for his exams and (2) mary is playing tennis. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Noah isn't studying for his exams, does this imply that mary is playing tennis?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If noah isn't studying for his exams, does this imply that mary isn't playing tennis?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for his exams, does this mean that mary isn't playing tennis?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for his exams, does this imply that mary is playing tennis?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mateo is taking a vacation and (2) he is not attending the meeting. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mateo isn't taking a vacation, does this mean that he is not attending the meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mateo isn't taking a vacation, does this entail that he is attending the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mateo is taking a vacation, does this imply that he is attending the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mateo is taking a vacation, does this imply that he is not attending the meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Elijah is studying for his final exams  and (2) mary is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Elijah isn't studying for his final exams, does this imply that mary is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If elijah isn't studying for his final exams, does this imply that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for his final exams , does this imply that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for his final exams , does this entail that mary is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is studying for exams and (2) he is not going on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William isn't studying for exams, does this mean that he is not going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william isn't studying for exams, does this entail that he is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for exams, does this mean that he is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for exams, does this imply that he is not going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Noah is studying for the exam and (2) sara is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Noah isn't studying for the exam, does this mean that sara is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If noah isn't studying for the exam, does this mean that sara isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for the exam, does this mean that sara isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for the exam, does this imply that sara is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the meeting and (2) she is working from home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the meeting, does this mean that she is working from home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the meeting, does this entail that she isn't working from home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the meeting, does this imply that she isn't working from home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the meeting, does this mean that she is working from home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mason is studying for the exam and (2) mary is working on a project. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mason isn't studying for the exam, does this imply that mary is working on a project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mason isn't studying for the exam, does this imply that mary isn't working on a project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is studying for the exam, does this imply that mary isn't working on a project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is studying for the exam, does this mean that mary is working on a project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Oliver is studying for his final exams  and (2) he is not going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Oliver isn't studying for his final exams, does this imply that he is not going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If oliver isn't studying for his final exams, does this entail that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Oliver is studying for his final exams , does this mean that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Oliver is studying for his final exams , does this mean that he is not going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is studying for the exam and (2) he is not attending the party. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William isn't studying for the exam, does this mean that he is not attending the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william isn't studying for the exam, does this entail that he is attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for the exam, does this mean that he is attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is studying for the exam, does this imply that he is not attending the party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Levi is studying for his exam and (2) mary is going on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Levi isn't studying for his exam, does this mean that mary is going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If levi isn't studying for his exam, does this mean that mary isn't going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Levi is studying for his exam, does this mean that mary isn't going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Levi is studying for his exam, does this entail that mary is going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Michael is studying for the exam and (2) mary is going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Michael isn't studying for the exam, does this entail that mary is going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If michael isn't studying for the exam, does this entail that mary isn't going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is studying for the exam, does this imply that mary isn't going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is studying for the exam, does this mean that mary is going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Henry is playing video games and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Henry isn't playing video games, does this mean that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry isn't playing video games, does this mean that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Henry is playing video games, does this imply that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Henry is playing video games, does this entail that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Michael is not attending the family reunion and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Michael is attending the family reunion, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If michael is attending the family reunion, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is not attending the family reunion, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is not attending the family reunion, does this entail that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) jack is not going to the concert and (2) he is studying for his final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack is going to the concert, does this entail that he is studying for his final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack is going to the concert, does this mean that he isn't studying for his final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is not going to the concert, does this mean that he isn't studying for his final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is not going to the concert, does this mean that he is studying for his final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mason is not attending the concert and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mason is attending the concert, does this imply that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mason is attending the concert, does this imply that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not attending the concert, does this entail that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not attending the concert, does this entail that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is working late tonight and (2) he is not attending the party. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William isn't working late tonight, does this mean that he is not attending the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william isn't working late tonight, does this mean that he is attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is working late tonight, does this imply that he is attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is working late tonight, does this mean that he is not attending the party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Elijah is studying for the exam and (2) mary is playing video games. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Elijah isn't studying for the exam, does this mean that mary is playing video games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If elijah isn't studying for the exam, does this entail that mary isn't playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for the exam, does this imply that mary isn't playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for the exam, does this mean that mary is playing video games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) James is not attending the music festival and (2) sarah is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If James is attending the music festival, does this mean that sarah is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james is attending the music festival, does this mean that sarah isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If James is not attending the music festival, does this mean that sarah isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If James is not attending the music festival, does this mean that sarah is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mason is not eating dinner  and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mason is eating dinner, does this imply that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mason is eating dinner, does this mean that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not eating dinner , does this imply that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not eating dinner , does this entail that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Noah is playing soccer and (2) mary is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Noah isn't playing soccer, does this imply that mary is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If noah isn't playing soccer, does this entail that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is playing soccer, does this imply that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is playing soccer, does this imply that mary is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Alexander is not studying for his final exam and (2) mary is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Alexander is studying for his final exam, does this mean that mary is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alexander is studying for his final exam, does this entail that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alexander is not studying for his final exam, does this imply that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alexander is not studying for his final exam, does this imply that mary is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Theodore is studying for his exams and (2) he is not going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Theodore isn't studying for his exams, does this imply that he is not going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If theodore isn't studying for his exams, does this imply that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Theodore is studying for his exams, does this mean that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Theodore is studying for his exams, does this entail that he is not going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Theodore is not working late and (2) alice is on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Theodore is working late, does this entail that alice is on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If theodore is working late, does this mean that alice isn't on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Theodore is not working late, does this entail that alice isn't on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Theodore is not working late, does this mean that alice is on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) William is attending the music festival and (2) he is not studying for his exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If William isn't attending the music festival, does this mean that he is not studying for his exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If william isn't attending the music festival, does this mean that he is studying for his exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is attending the music festival, does this mean that he is studying for his exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If William is attending the music festival, does this entail that he is not studying for his exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Jackson is not studying for the exam and (2) mary is studying for a different exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Jackson is studying for the exam, does this imply that mary is studying for a different exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jackson is studying for the exam, does this imply that mary isn't studying for a different exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jackson is not studying for the exam, does this mean that mary isn't studying for a different exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jackson is not studying for the exam, does this entail that mary is studying for a different exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) sally is not attending the music festival and (2) she is studying for her college exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sally is attending the music festival, does this mean that she is studying for her college exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sally is attending the music festival, does this imply that she isn't studying for her college exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sally is not attending the music festival, does this mean that she isn't studying for her college exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sally is not attending the music festival, does this entail that she is studying for her college exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Henry is studying for his final exam and (2) he is not going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Henry isn't studying for his final exam, does this mean that he is not going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry isn't studying for his final exam, does this entail that he is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Henry is studying for his final exam, does this mean that he is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Henry is studying for his final exam, does this entail that he is not going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Michael is studying for his finals  and (2) he is not taking a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Michael isn't studying for his finals, does this mean that he is not taking a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If michael isn't studying for his finals, does this imply that he is taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is studying for his finals , does this mean that he is taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Michael is studying for his finals , does this imply that he is not taking a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Noah is studying for his final exams and (2) mary is taking a break from her studies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Noah isn't studying for his final exams, does this mean that mary is taking a break from her studies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If noah isn't studying for his final exams, does this imply that mary isn't taking a break from her studies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for his final exams, does this entail that mary isn't taking a break from her studies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Noah is studying for his final exams, does this imply that mary is taking a break from her studies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Liam is not attending the soccer match  and (2) mary is studying for her upcoming exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Liam is attending the soccer match, does this entail that mary is studying for her upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If liam is attending the soccer match, does this entail that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Liam is not attending the soccer match , does this mean that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Liam is not attending the soccer match , does this entail that mary is studying for her upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Levi is not studying for his exams and (2) mary is writing a book. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Levi is studying for his exams, does this mean that mary is writing a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If levi is studying for his exams, does this imply that mary isn't writing a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Levi is not studying for his exams, does this entail that mary isn't writing a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Levi is not studying for his exams, does this entail that mary is writing a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is running late for an appointment and (2) he is not doing the grocery shopping. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't running late for an appointment, does this imply that he is not doing the grocery shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't running late for an appointment, does this imply that he is doing the grocery shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is running late for an appointment, does this imply that he is doing the grocery shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is running late for an appointment, does this mean that he is not doing the grocery shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music concert and (2) sandra is playing football. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the music concert, does this entail that sandra is playing football?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music concert, does this imply that sandra isn't playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music concert, does this mean that sandra isn't playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music concert, does this entail that sandra is playing football?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mason is not playing basketball  and (2) mary is studying for the final exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mason is playing basketball, does this imply that mary is studying for the final exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mason is playing basketball, does this imply that mary isn't studying for the final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not playing basketball , does this mean that mary isn't studying for the final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not playing basketball , does this entail that mary is studying for the final exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Sebastian is not studying for his exams and (2) mary is going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Sebastian is studying for his exams, does this entail that mary is going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sebastian is studying for his exams, does this imply that mary isn't going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sebastian is not studying for his exams, does this entail that mary isn't going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sebastian is not studying for his exams, does this entail that mary is going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Alexander has not submitted his assignment on time and (2) he is not going to be given any extra time. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Alexander has submitted his assignment on time, does this imply that he is not going to be given any extra time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alexander has submitted his assignment on time, does this imply that he is going to be given any extra time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alexander has not submitted his assignment on time, does this imply that he is going to be given any extra time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alexander has not submitted his assignment on time, does this entail that he is not going to be given any extra time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Elijah is studying for his exams  and (2) he is not attending a music concert. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Elijah isn't studying for his exams, does this imply that he is not attending a music concert?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If elijah isn't studying for his exams, does this mean that he is attending a music concert?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for his exams , does this entail that he is attending a music concert?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Elijah is studying for his exams , does this entail that he is not attending a music concert?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mason is not working on his project and (2) mary is spending time with her family. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mason is working on his project, does this imply that mary is spending time with her family?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mason is working on his project, does this entail that mary isn't spending time with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not working on his project, does this mean that mary isn't spending time with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mason is not working on his project, does this imply that mary is spending time with her family?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) James is studying for an exam and (2) sarah is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If James isn't studying for an exam, does this entail that sarah is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james isn't studying for an exam, does this entail that sarah isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If James is studying for an exam, does this mean that sarah isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If James is studying for an exam, does this imply that sarah is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mateo is not attending the music concert  and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mateo is attending the music concert, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mateo is attending the music concert, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mateo is not attending the music concert , does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mateo is not attending the music concert , does this mean that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Oliver is not participating in the race and (2) mary is organizing the event. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Oliver is participating in the race, does this imply that mary is organizing the event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If oliver is participating in the race, does this mean that mary isn't organizing the event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Oliver is not participating in the race, does this imply that mary isn't organizing the event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Oliver is not participating in the race, does this entail that mary is organizing the event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Lucas is not attending the concert and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Lucas is attending the concert, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lucas is attending the concert, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Lucas is not attending the concert, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Lucas is not attending the concert, does this entail that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not studying for the exam and (2) she is working on her project. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is studying for the exam, does this imply that she is working on her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is studying for the exam, does this entail that she isn't working on her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for the exam, does this mean that she isn't working on her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for the exam, does this mean that she is working on her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Layla is not taking tshe bus to work and (2) carol is attending tshe music festival. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Layla is taking the bus to work, does this mean that carol is attending the music festival?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If layla is taking tshe bus to work, does this entail that carol isn't attending tshe music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is not taking tshe bus to work, does this mean that carol isn't attending tshe music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is not taking tshe bus to work, does this entail that carol is attending tshe music festival?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Luna is not going to tshe party and (2) mary is studying for tshe exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Luna is going to the party, does this imply that mary is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If luna is going to tshe party, does this mean that mary isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is not going to tshe party, does this imply that mary isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is not going to tshe party, does this imply that mary is studying for tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Isabella is going on a business trip and (2) she is not attending tshe family gathering. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Isabella isn't going on a business trip, does this mean that she is not attending the family gathering?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If isabella isn't going on a business trip, does this mean that she is attending tshe family gathering?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is going on a business trip, does this entail that she is attending tshe family gathering?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is going on a business trip, does this entail that she is not attending tshe family gathering?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Camila is not going to tshe store and (2) mary is attending tshe conference. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Camila is going to the store, does this entail that mary is attending the conference?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If camila is going to tshe store, does this mean that mary isn't attending tshe conference?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not going to tshe store, does this mean that mary isn't attending tshe conference?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not going to tshe store, does this imply that mary is attending tshe conference?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Scarlett is studying for an exam and (2) mary is not studying for an exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Scarlett isn't studying for an exam, does this entail that mary is not studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If scarlett isn't studying for an exam, does this imply that mary is studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is studying for an exam, does this entail that mary is studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is studying for an exam, does this imply that mary is not studying for an exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Scarlett is not attending tshe lecture and (2) mary is studying for her upcoming exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Scarlett is attending the lecture, does this mean that mary is studying for her upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If scarlett is attending tshe lecture, does this mean that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is not attending tshe lecture, does this mean that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is not attending tshe lecture, does this mean that mary is studying for her upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Amelia is studying for her exams and (2) she is not going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Amelia isn't studying for her exams, does this entail that she is not going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amelia isn't studying for her exams, does this imply that she is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is studying for her exams, does this mean that she is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is studying for her exams, does this imply that she is not going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Camila is studying for tshe exam and (2) mary is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Camila isn't studying for the exam, does this imply that mary is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If camila isn't studying for tshe exam, does this entail that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is studying for tshe exam, does this mean that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is studying for tshe exam, does this imply that mary is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ariana is studying for tshe exam and (2) she is not visiting her grandparents. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ariana isn't studying for the exam, does this imply that she is not visiting her grandparents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ariana isn't studying for tshe exam, does this imply that she is visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for tshe exam, does this mean that she is visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for tshe exam, does this mean that she is not visiting her grandparents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Isabella is not attending tshe concert and (2) mary is visiting her grandparents. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Isabella is attending the concert, does this imply that mary is visiting her grandparents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If isabella is attending tshe concert, does this entail that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is not attending tshe concert, does this mean that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is not attending tshe concert, does this mean that mary is visiting her grandparents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ariana is not studying for her exams and (2) mary is taking a break. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ariana is studying for her exams, does this imply that mary is taking a break?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ariana is studying for her exams, does this mean that mary isn't taking a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is not studying for her exams, does this entail that mary isn't taking a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is not studying for her exams, does this mean that mary is taking a break?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Avery is not studying for her exam and (2) mary is taking a break from her job. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Avery is studying for her exam, does this entail that mary is taking a break from her job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If avery is studying for her exam, does this mean that mary isn't taking a break from her job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exam, does this imply that mary isn't taking a break from her job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exam, does this imply that mary is taking a break from her job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is not eating dinner and (2) mary is studying for her final exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor is eating dinner, does this mean that mary is studying for her final exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor is eating dinner, does this entail that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is not eating dinner, does this imply that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is not eating dinner, does this imply that mary is studying for her final exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Emily is not attending tshe music concert and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Emily is attending the music concert, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily is attending tshe music concert, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Emily is not attending tshe music concert, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Emily is not attending tshe music concert, does this imply that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) emily is taking a break from work and (2) she is not going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If emily is taking a break from work, does this imply that she is not going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily isn't taking a break from work, does this imply that she is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily is taking a break from work, does this imply that she is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily is taking a break from work, does this mean that she is not going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Luna is studying for her final exams and (2) mary is visiting her grandparents. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Luna isn't studying for her final exams, does this imply that mary is visiting her grandparents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If luna isn't studying for her final exams, does this entail that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying for her final exams, does this entail that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying for her final exams, does this imply that mary is visiting her grandparents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) the train is running late and (2) a bus service is available instead. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If the train isn't running late, does this imply that a bus service is available instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If the train isn't running late, does this entail that a bus service isn't available instead?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If the train is running late, does this mean that a bus service isn't available instead?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If the train is running late, does this entail that a bus service is available instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is studying for her exams and (2) mary is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor isn't studying for her exams, does this entail that mary is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor isn't studying for her exams, does this mean that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is studying for her exams, does this entail that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is studying for her exams, does this entail that mary is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Olivia is not studying abroad and (2) mary is attending tshe art exhibition. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Olivia is studying abroad, does this mean that mary is attending the art exhibition?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If olivia is studying abroad, does this mean that mary isn't attending tshe art exhibition?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is not studying abroad, does this mean that mary isn't attending tshe art exhibition?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is not studying abroad, does this imply that mary is attending tshe art exhibition?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Olivia is working from home and (2) mary is attending a virtual meeting. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Olivia isn't working from home, does this mean that mary is attending a virtual meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If olivia isn't working from home, does this mean that mary isn't attending a virtual meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is working from home, does this entail that mary isn't attending a virtual meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is working from home, does this mean that mary is attending a virtual meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Charlotte is not taking tshe exam today and (2) mary is studying for her upcoming test. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Charlotte is taking the exam today, does this entail that mary is studying for her upcoming test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If charlotte is taking tshe exam today, does this entail that mary isn't studying for her upcoming test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Charlotte is not taking tshe exam today, does this mean that mary isn't studying for her upcoming test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Charlotte is not taking tshe exam today, does this mean that mary is studying for her upcoming test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Camila is not taking tshe final exam  and (2) mary is studying for tshe exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Camila is taking the final exam, does this mean that mary is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If camila is taking tshe final exam, does this imply that mary isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not taking tshe final exam , does this imply that mary isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not taking tshe final exam , does this mean that mary is studying for tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Isabella has been invited to attend a conference and (2) she is not attending her sister's wedding. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Isabella hasn't been invited to attend a conference, does this imply that she is not attending her sister's wedding?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If isabella hasn't been invited to attend a conference, does this mean that she is attending her sister's wedding?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella has been invited to attend a conference, does this entail that she is attending her sister's wedding?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella has been invited to attend a conference, does this entail that she is not attending her sister's wedding?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ariana is studying for her final exams and (2) mary is not going on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ariana isn't studying for her final exams, does this entail that mary is not going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ariana isn't studying for her final exams, does this imply that mary is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for her final exams, does this imply that mary is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for her final exams, does this imply that mary is not going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Avery is not studying for her exams and (2) she is going shopping with her family. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Avery is studying for her exams, does this entail that she is going shopping with her family?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If avery is studying for her exams, does this imply that she isn't going shopping with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exams, does this entail that she isn't going shopping with her family?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exams, does this mean that she is going shopping with her family?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Gianna is not attending tshe lecture and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Gianna is attending the lecture, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gianna is attending tshe lecture, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gianna is not attending tshe lecture, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gianna is not attending tshe lecture, does this imply that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not working on the project and (2) she is studying for the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is working on the project, does this mean that she is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is working on the project, does this imply that she isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not working on the project, does this entail that she isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not working on the project, does this entail that she is studying for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Scarlett is studying for her exams and (2) she is not attending tshe basketball game. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Scarlett isn't studying for her exams, does this mean that she is not attending the basketball game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If scarlett isn't studying for her exams, does this entail that she is attending tshe basketball game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is studying for her exams, does this entail that she is attending tshe basketball game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is studying for her exams, does this mean that she is not attending tshe basketball game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Amelia is not attending tshe art exhibition and (2) mary is visiting tshe museum. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Amelia is attending the art exhibition, does this entail that mary is visiting the museum?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amelia is attending tshe art exhibition, does this entail that mary isn't visiting tshe museum?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe art exhibition, does this entail that mary isn't visiting tshe museum?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe art exhibition, does this entail that mary is visiting tshe museum?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Penelope is not attending tshe university lecture and (2) mary is studying for her final exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Penelope is attending the university lecture, does this entail that mary is studying for her final exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If penelope is attending tshe university lecture, does this entail that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not attending tshe university lecture, does this entail that mary isn't studying for her final exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not attending tshe university lecture, does this mean that mary is studying for her final exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Olivia is playing badminton and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Olivia isn't playing badminton, does this mean that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If olivia isn't playing badminton, does this entail that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is playing badminton, does this mean that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is playing badminton, does this mean that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Scarlett is not attending tshe concert and (2) mary is working from home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Scarlett is attending the concert, does this mean that mary is working from home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If scarlett is attending tshe concert, does this entail that mary isn't working from home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is not attending tshe concert, does this imply that mary isn't working from home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Scarlett is not attending tshe concert, does this mean that mary is working from home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) susan is not attending the meeting and (2) she is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If susan is attending the meeting, does this entail that she is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If susan is attending the meeting, does this entail that she isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If susan is not attending the meeting, does this entail that she isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If susan is not attending the meeting, does this imply that she is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is not studying for tshe exam and (2) mary is working on her project. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor is studying for the exam, does this mean that mary is working on her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor is studying for tshe exam, does this entail that mary isn't working on her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is not studying for tshe exam, does this mean that mary isn't working on her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is not studying for tshe exam, does this imply that mary is working on her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ariana is not attending tshe movie premiere and (2) she is visiting her grandparents instead. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ariana is attending the movie premiere, does this entail that she is visiting her grandparents instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ariana is attending tshe movie premiere, does this mean that she isn't visiting her grandparents instead?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is not attending tshe movie premiere, does this mean that she isn't visiting her grandparents instead?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is not attending tshe movie premiere, does this entail that she is visiting her grandparents instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Luna is studying abroad ther semester and (2) she is not attending classes in person. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Luna isn't studying abroad this semester, does this entail that she is not attending classes in person?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If luna isn't studying abroad ther semester, does this imply that she is attending classes in person?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying abroad ther semester, does this entail that she is attending classes in person?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying abroad ther semester, does this entail that she is not attending classes in person?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Amelia is not attending tshe concert and (2) mary is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Amelia is attending the concert, does this entail that mary is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amelia is attending tshe concert, does this imply that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe concert, does this entail that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe concert, does this imply that mary is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Isabella is not attending tshe seminar  and (2) she is going to tshe theater. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Isabella is attending the seminar, does this mean that she is going to the theater?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If isabella is attending tshe seminar, does this mean that she isn't going to tshe theater?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is not attending tshe seminar , does this entail that she isn't going to tshe theater?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Isabella is not attending tshe seminar , does this mean that she is going to tshe theater?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ava is not attending tshe concert and (2) mary is studying for an exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ava is attending the concert, does this mean that mary is studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ava is attending tshe concert, does this mean that mary isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not attending tshe concert, does this imply that mary isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not attending tshe concert, does this entail that mary is studying for an exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is studying for her final exams and (2) she is not attending tshe concert. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor isn't studying for her final exams, does this mean that she is not attending the concert?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor isn't studying for her final exams, does this entail that she is attending tshe concert?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is studying for her final exams, does this imply that she is attending tshe concert?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is studying for her final exams, does this imply that she is not attending tshe concert?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ava is not working from home today and (2) mary is going on a road trip. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ava is not working from home today, does this entail that mary is going on a road trip?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ava is working from home today, does this entail that mary isn't going on a road trip?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not working from home today, does this mean that mary isn't going on a road trip?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not working from home today, does this imply that mary is going on a road trip?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music festival and (2) she is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the music festival, does this mean that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music festival, does this imply that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this entail that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this mean that she is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is working from home and (2) mary is on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor isn't working from home, does this mean that mary is on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor isn't working from home, does this entail that mary isn't on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is working from home, does this entail that mary isn't on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is working from home, does this mean that mary is on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Emily is not going on vacation and (2) she is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Emily is going on vacation, does this imply that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily is going on vacation, does this mean that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Emily is not going on vacation, does this entail that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Emily is not going on vacation, does this mean that she is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Olivia is studying for her exams and (2) mary is visiting her grandparents. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Olivia isn't studying for her exams, does this entail that mary is visiting her grandparents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If olivia isn't studying for her exams, does this mean that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is studying for her exams, does this mean that mary isn't visiting her grandparents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is studying for her exams, does this entail that mary is visiting her grandparents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Sophia is attending tshe music festival and not going to tshe theatre and (2) she is not studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Sophia isn't attending the music festival and not going to the theatre, does this mean that she is not studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sophia isn't attending tshe music festival and not going to tshe theatre, does this entail that she is studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sophia is attending tshe music festival and not going to tshe theatre, does this entail that she is studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sophia is attending tshe music festival and not going to tshe theatre, does this entail that she is not studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Layla is not attending tshe seminar and (2) mary is writing a book. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Layla is attending the seminar, does this mean that mary is writing a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If layla is attending tshe seminar, does this imply that mary isn't writing a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is not attending tshe seminar, does this mean that mary isn't writing a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is not attending tshe seminar, does this imply that mary is writing a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Gianna is not going to tshe movies and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Gianna is going to the movies, does this mean that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gianna is going to tshe movies, does this imply that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gianna is not going to tshe movies, does this entail that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gianna is not going to tshe movies, does this imply that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Chloe is studying for her exams and (2) mary is going on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Chloe isn't studying for her exams, does this entail that mary is going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If chloe isn't studying for her exams, does this mean that mary isn't going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is studying for her exams, does this imply that mary isn't going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is studying for her exams, does this imply that mary is going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not studying law and (2) she is attending a seminar on public speaking. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is studying law, does this mean that she is attending a seminar on public speaking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is studying law, does this mean that she isn't attending a seminar on public speaking?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying law, does this imply that she isn't attending a seminar on public speaking?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying law, does this imply that she is attending a seminar on public speaking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Abigail is not attending tshe conference and (2) mary is taking a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Abigail is attending the conference, does this mean that mary is taking a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If abigail is attending tshe conference, does this mean that mary isn't taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Abigail is not attending tshe conference, does this imply that mary isn't taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Abigail is not attending tshe conference, does this imply that mary is taking a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music festival and (2) she is helping the homeless. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is not attending the music festival, does this entail that she is helping the homeless?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music festival, does this entail that she isn't helping the homeless?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this imply that she isn't helping the homeless?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this mean that she is helping the homeless?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Penelope is not playing basketball and (2) mary is studying for tshe upcoming exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Penelope is playing basketball, does this mean that mary is studying for the upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If penelope is playing basketball, does this mean that mary isn't studying for tshe upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not playing basketball, does this imply that mary isn't studying for tshe upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not playing basketball, does this entail that mary is studying for tshe upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Chloe is not attending tshe party and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Chloe is attending the party, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If chloe is attending tshe party, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is not attending tshe party, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is not attending tshe party, does this entail that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Avery is not studying for her exams and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Avery is studying for her exams, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If avery is studying for her exams, does this imply that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exams, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not studying for her exams, does this imply that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Eleanor is going on a family vacation and (2) she is not attending a professional conference. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Eleanor isn't going on a family vacation, does this mean that she is not attending a professional conference?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor isn't going on a family vacation, does this imply that she is attending a professional conference?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is going on a family vacation, does this entail that she is attending a professional conference?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor is going on a family vacation, does this entail that she is not attending a professional conference?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not taking the final exam and (2) he is studying for the upcoming exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is taking the final exam, does this entail that he is studying for the upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is taking the final exam, does this entail that he isn't studying for the upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not taking the final exam, does this imply that he isn't studying for the upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not taking the final exam, does this mean that he is studying for the upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Layla is working from home and (2) she is not attending tshe meeting. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Layla isn't working from home, does this entail that she is not attending the meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If layla isn't working from home, does this imply that she is attending tshe meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is working from home, does this mean that she is attending tshe meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Layla is working from home, does this imply that she is not attending tshe meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music festival and (2) she is studying for the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the music festival, does this mean that she is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music festival, does this mean that she isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this entail that she isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this imply that she is studying for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Penelope is not attending art class and (2) mary is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Penelope is attending art class, does this mean that mary is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If penelope is attending art class, does this mean that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not attending art class, does this entail that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Penelope is not attending art class, does this mean that mary is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Olivia is not working late and (2) sara is attending tshe music festival. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Olivia is working late, does this imply that sara is attending the music festival?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If olivia is working late, does this mean that sara isn't attending tshe music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is not working late, does this entail that sara isn't attending tshe music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Olivia is not working late, does this imply that sara is attending tshe music festival?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Camila is not studying for her final exam and (2) mary is writing a paper for her class. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Camila is studying for her final exam, does this entail that mary is writing a paper for her class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If camila is studying for her final exam, does this imply that mary isn't writing a paper for her class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not studying for her final exam, does this imply that mary isn't writing a paper for her class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is not studying for her final exam, does this entail that mary is writing a paper for her class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not playing basketball and (2) she is teaching a course. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is playing basketball, does this imply that she is teaching a course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is playing basketball, does this entail that she isn't teaching a course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not playing basketball, does this imply that she isn't teaching a course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not playing basketball, does this mean that she is teaching a course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Camila is studying for her exam and (2) mary is going on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Camila isn't studying for her exam, does this imply that mary is going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If camila isn't studying for her exam, does this entail that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is studying for her exam, does this imply that mary isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Camila is studying for her exam, does this imply that mary is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Mia is not attending tshe lecture and (2) mary is studying for her upcoming test. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Mia is attending the lecture, does this entail that mary is studying for her upcoming test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mia is attending tshe lecture, does this imply that mary isn't studying for her upcoming test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mia is not attending tshe lecture, does this entail that mary isn't studying for her upcoming test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mia is not attending tshe lecture, does this entail that mary is studying for her upcoming test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Amelia is not attending tshe meeting and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Amelia is attending the meeting, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amelia is attending tshe meeting, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe meeting, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amelia is not attending tshe meeting, does this entail that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not studying for the exam and (2) she is writing a research paper. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is studying for the exam, does this mean that she is writing a research paper?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is studying for the exam, does this mean that she isn't writing a research paper?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for the exam, does this entail that she isn't writing a research paper?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for the exam, does this entail that she is writing a research paper?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ariana is studying for her exams and (2) she is not attending a party. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ariana isn't studying for her exams, does this mean that she is not attending a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ariana isn't studying for her exams, does this mean that she is attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for her exams, does this imply that she is attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ariana is studying for her exams, does this entail that she is not attending a party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Ava is not attending tshe music festival and (2) she is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Ava is attending the music festival, does this mean that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ava is attending tshe music festival, does this mean that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not attending tshe music festival, does this mean that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ava is not attending tshe music festival, does this imply that she is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) jack is not attending college and (2) he is traveling around the world. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack is attending college, does this mean that he is traveling around the world?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack is attending college, does this entail that he isn't traveling around the world?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is not attending college, does this mean that he isn't traveling around the world?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is not attending college, does this imply that he is traveling around the world?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Luna is studying for her final exams and (2) she is not attending tshe graduation ceremony. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Luna isn't studying for her final exams, does this entail that she is not attending the graduation ceremony?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If luna isn't studying for her final exams, does this mean that she is attending tshe graduation ceremony?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying for her final exams, does this mean that she is attending tshe graduation ceremony?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is studying for her final exams, does this mean that she is not attending tshe graduation ceremony?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Chloe is working on her project  and (2) mary is taking a holiday. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Chloe isn't working on her project, does this imply that mary is taking a holiday?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If chloe isn't working on her project, does this imply that mary isn't taking a holiday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is working on her project , does this entail that mary isn't taking a holiday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Chloe is working on her project , does this imply that mary is taking a holiday?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Luna is not attending tshe seminar and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Luna is attending the seminar, does this entail that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If luna is attending tshe seminar, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is not attending tshe seminar, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Luna is not attending tshe seminar, does this entail that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) Avery is not going to tshe office today and (2) mary is taking a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If Avery is going to the office today, does this imply that mary is taking a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If avery is going to tshe office today, does this imply that mary isn't taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not going to tshe office today, does this imply that mary isn't taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Avery is not going to tshe office today, does this imply that mary is taking a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not studying for his final exam and (2) she is taking the day off. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is studying for his final exam, does this mean that she is taking the day off?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is studying for his final exam, does this imply that she isn't taking the day off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for his final exam, does this entail that she isn't taking the day off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not studying for his final exam, does this imply that she is taking the day off?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not playing basketball and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is playing basketball, does this imply that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is playing basketball, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing basketball, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing basketball, does this imply that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is studying for his final exams  and (2) he is not taking a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't studying for his final exams, does this entail that he is not taking a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't studying for his final exams, does this mean that he is taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his final exams , does this entail that he is taking a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his final exams , does this imply that he is not taking a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is working on a project and (2) he is not attending his college classes. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't working on a project, does this entail that he is not attending his college classes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't working on a project, does this entail that he is attending his college classes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is working on a project, does this mean that he is attending his college classes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is working on a project, does this imply that he is not attending his college classes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music festival and (2) she is taking a course at the university. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the music festival, does this mean that she is taking a course at the university?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music festival, does this mean that she isn't taking a course at the university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this entail that she isn't taking a course at the university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music festival, does this entail that she is taking a course at the university?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not taking the bus to work and (2) she is running a marathon. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is taking the bus to work, does this entail that she is running a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is taking the bus to work, does this imply that she isn't running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not taking the bus to work, does this imply that she isn't running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not taking the bus to work, does this entail that she is running a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not attending the party and (2) mary is studying for the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is attending the party, does this imply that mary is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is attending the party, does this entail that mary isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the party, does this imply that mary isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the party, does this mean that mary is studying for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he did not finish the project on time and (2) she is working extra hours to make up for the delay. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he finished the project on time, does this imply that she is working extra hours to make up for the delay?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he finished the project on time, does this mean that she isn't working extra hours to make up for the delay?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not finish the project on time, does this mean that she isn't working extra hours to make up for the delay?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not finish the project on time, does this mean that she is working extra hours to make up for the delay?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is taking a vacation in the caribbean and (2) mary is working on a project for her employer. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't taking a vacation in the caribbean, does this entail that mary is working on a project for her employer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't taking a vacation in the caribbean, does this entail that mary isn't working on a project for her employer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is taking a vacation in the caribbean, does this mean that mary isn't working on a project for her employer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is taking a vacation in the caribbean, does this entail that mary is working on a project for her employer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the music concert and (2) she is submitting her project proposal. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the music concert, does this mean that she is submitting her project proposal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the music concert, does this entail that she isn't submitting her project proposal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music concert, does this mean that she isn't submitting her project proposal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the music concert, does this entail that she is submitting her project proposal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not playing video games and (2) mary is studying for the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is playing video games, does this imply that mary is studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is playing video games, does this entail that mary isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing video games, does this imply that mary isn't studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing video games, does this mean that mary is studying for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not studying medicine and (2) mary is attending a webinar. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is studying medicine, does this imply that mary is attending a webinar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is studying medicine, does this mean that mary isn't attending a webinar?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not studying medicine, does this imply that mary isn't attending a webinar?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not studying medicine, does this mean that mary is attending a webinar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not attending the lecture and (2) she is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is attending the lecture, does this imply that she is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is attending the lecture, does this imply that she isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the lecture, does this entail that she isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not attending the lecture, does this imply that she is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not travelling to france and (2) mary is planning a surprise party. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is travelling to france, does this imply that mary is planning a surprise party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is travelling to france, does this mean that mary isn't planning a surprise party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not travelling to france, does this imply that mary isn't planning a surprise party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not travelling to france, does this entail that mary is planning a surprise party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is studying for his exams  and (2) he is not going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't studying for his exams, does this imply that he is not going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't studying for his exams, does this mean that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams , does this mean that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams , does this mean that he is not going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not going on vacation  and (2) mary is studying for her final exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is going on vacation, does this entail that mary is studying for her final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is going on vacation, does this mean that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not going on vacation , does this imply that mary isn't studying for her final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not going on vacation , does this imply that mary is studying for her final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not running the marathon and (2) he is volunteering for the charity event. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is running the marathon, does this entail that he is volunteering for the charity event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is running the marathon, does this entail that he isn't volunteering for the charity event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not running the marathon, does this mean that he isn't volunteering for the charity event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not running the marathon, does this entail that he is volunteering for the charity event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not attending the conference and (2) mary is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is attending the conference, does this mean that mary is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is attending the conference, does this entail that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the conference, does this mean that mary isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the conference, does this mean that mary is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is studying for his exams and (2) he is not going to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't studying for his exams, does this imply that he is not going to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't studying for his exams, does this imply that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this entail that he is going to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this imply that he is not going to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john has missed his flight and (2) he is not attending the meeting. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john hasn't missed his flight, does this mean that he is not attending the meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john hasn't missed his flight, does this imply that he is attending the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has missed his flight, does this mean that he is attending the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has missed his flight, does this imply that he is not attending the meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is studying for his exams and (2) he is not going on vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is studying for his exams, does this imply that he is not going on vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't studying for his exams, does this imply that he is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this mean that he is going on vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this imply that he is not going on vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is studying for his exams and (2) alice is taking a break from work. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is studying for his exams, does this imply that alice is taking a break from work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't studying for his exams, does this entail that alice isn't taking a break from work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this mean that alice isn't taking a break from work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is studying for his exams, does this entail that alice is taking a break from work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not attending the party and (2) mary is studying for her upcoming exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is not attending the party, does this entail that mary is studying for her upcoming exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is attending the party, does this entail that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the party, does this entail that mary isn't studying for her upcoming exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the party, does this imply that mary is studying for her upcoming exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) he is not going to the office today and (2) she is studying for her exams. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If he is not going to the office today, does this mean that she is studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he is going to the office today, does this mean that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not going to the office today, does this imply that she isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is not going to the office today, does this imply that she is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not playing his favorite video game and (2) mary is volunteering at the animal shelter. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is not playing his favorite video game, does this entail that mary is volunteering at the animal shelter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is playing his favorite video game, does this mean that mary isn't volunteering at the animal shelter?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing his favorite video game, does this mean that mary isn't volunteering at the animal shelter?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not playing his favorite video game, does this imply that mary is volunteering at the animal shelter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) john is not attending the concert and (2) mary is studying for her exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john is not attending the concert, does this mean that mary is studying for her exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john is attending the concert, does this entail that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the concert, does this entail that mary isn't studying for her exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is not attending the concert, does this entail that mary is studying for her exam?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,3156 @@
+{
+    "type": "first_order_logic",
+    "axiom": "modus_ponens",
+    "data_samples": [
+        {
+            "context": "If someone is unwell, then they have a cough.",
+            "qa_pairs": [
+                {
+                    "question": "If nina is unwell, does this mean that she has a cough?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If nina isn't unwell, does this mean that she doesn't have a cough?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina is unwell, does this mean that she doesn't have a cough?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina isn't unwell, does this imply that she has a cough?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to take a break.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah is exhausted, does this imply that she needs to take a break?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah isn't exhausted, does this entail that she doesn't need to take a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah is exhausted, does this imply that she doesn't need to take a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah isn't exhausted, does this imply that she needs to take a break?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this imply that he will have a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this mean that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this entail that he will have a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a sore throat.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this entail that he has a sore throat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he doesn't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this imply that he doesn't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he has a sore throat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will sleep.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this imply that he will sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will sleep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has to stay up late , then they will be tired.",
+            "qa_pairs": [
+                {
+                    "question": "If sophie has to stay up late , does this imply that she will be tired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sophie doesn't have to stay up late, does this imply that she won't be tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sophie has to stay up late , does this mean that she won't be tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sophie doesn't have to stay up late, does this mean that she will be tired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will sleep for a longer period of time.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will sleep for a longer period of time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't sleep for a longer period of time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't sleep for a longer period of time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will sleep for a longer period of time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they are feeling weak.",
+            "qa_pairs": [
+                {
+                    "question": "If nina has a cold, does this entail that she is feeling weak?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If nina doesn't have a cold, does this imply that she isn't feeling weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina has a cold, does this entail that she isn't feeling weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina doesn't have a cold, does this entail that she is feeling weak?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold , then they will have a runny nose .",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold , does this mean that he will have a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold , does this imply that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he will have a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he needs rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this entail that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he needs rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling tired, then they need to get some rest .",
+            "qa_pairs": [
+                {
+                    "question": "If john is feeling tired, does this entail that he needs to get some rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't feeling tired, does this mean that he doesn't need to get some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is feeling tired, does this mean that he doesn't need to get some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't feeling tired, does this imply that he needs to get some rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If mary is ill, does this mean that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary isn't ill, does this mean that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary is ill, does this entail that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary isn't ill, does this entail that she will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this imply that he will take a rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this entail that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will take a rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill , then they will be in bed .",
+            "qa_pairs": [
+                {
+                    "question": "If amy is ill , does this entail that she will be in bed?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amy isn't ill, does this mean that she won't be in bed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If amy is ill , does this entail that she won't be in bed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If amy isn't ill, does this imply that she will be in bed?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is late, then they will be penalized.",
+            "qa_pairs": [
+                {
+                    "question": "If john is late, does this entail that he will be penalized?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't late, does this mean that he won't be penalized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is late, does this imply that he won't be penalized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't late, does this mean that he will be penalized?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this entail that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone always has a positive attitude, then they will always have a better outlook on life.",
+            "qa_pairs": [
+                {
+                    "question": "If john always has a positive attitude, does this mean that he will always have a better outlook on life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john always doesn't have a positive attitude, does this entail that he won't always have a better outlook on life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john always has a positive attitude, does this imply that he won't always have a better outlook on life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john always doesn't have a positive attitude, does this mean that he will always have a better outlook on life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If they are unwell, then they will stay at home.",
+            "qa_pairs": [
+                {
+                    "question": "If john is unwell, does this mean that he will stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't unwell, does this mean that he won't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is unwell, does this imply that he won't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he will stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they need to take a painkiller.",
+            "qa_pairs": [
+                {
+                    "question": "If hannah has a headache, does this mean that she needs to take a painkiller?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If hannah doesn't have a headache, does this imply that she doesn't need to take a painkiller?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah has a headache, does this entail that she doesn't need to take a painkiller?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah doesn't have a headache, does this imply that she needs to take a painkiller?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If jane is tired , does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane isn't tired, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane is tired , does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane isn't tired, does this imply that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted , does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling exhausted , then they need to rest .",
+            "qa_pairs": [
+                {
+                    "question": "If marie is feeling exhausted , does this mean that she needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If marie isn't feeling exhausted, does this imply that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If marie is feeling exhausted , does this entail that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If marie isn't feeling exhausted, does this imply that she needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If jasmine is feeling tired, does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jasmine isn't feeling tired, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine is feeling tired, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine isn't feeling tired, does this mean that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this mean that he has a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this mean that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this entail that he has a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have to take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this imply that he has to take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this entail that he doesn't have to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this entail that he doesn't have to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he has to take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired , does this imply that he needs rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired , does this imply that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he needs rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling unwell , then they have a fever .",
+            "qa_pairs": [
+                {
+                    "question": "If john is feeling unwell , does this imply that he has a fever?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't feeling unwell, does this imply that he doesn't have a fever?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is feeling unwell , does this entail that he doesn't have a fever?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't feeling unwell, does this entail that he has a fever?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is ill, does this mean that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't ill, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is ill, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't ill, does this mean that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted , does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted , does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If alex is exhausted, does this mean that he needs to take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alex isn't exhausted, does this mean that he doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex is exhausted, does this mean that he doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex isn't exhausted, does this imply that he needs to take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If paula is exhausted, does this entail that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paula isn't exhausted, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula is exhausted, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula isn't exhausted, does this mean that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will sleep early.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is tired, does this entail that she will sleep early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't tired, does this mean that she won't sleep early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is tired, does this imply that she won't sleep early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't tired, does this entail that she will sleep early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will sleep for a longer duration .",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted , does this entail that he will sleep for a longer duration?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't sleep for a longer duration?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted , does this imply that he won't sleep for a longer duration?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will sleep for a longer duration?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If cindy is tired, does this mean that she needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If cindy isn't tired, does this imply that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If cindy is tired, does this imply that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If cindy isn't tired, does this imply that she needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this imply that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If ellen is tired, does this entail that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ellen isn't tired, does this imply that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If ellen is tired, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If ellen isn't tired, does this mean that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will feel weak.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold , does this mean that he will feel weak?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he won't feel weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold , does this mean that he won't feel weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he will feel weak?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this entail that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling unwell, then they have a headache.",
+            "qa_pairs": [
+                {
+                    "question": "If jack is feeling unwell, does this mean that he has a headache?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack isn't feeling unwell, does this mean that he doesn't have a headache?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is feeling unwell, does this mean that he doesn't have a headache?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack isn't feeling unwell, does this entail that he has a headache?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone was running late, then they had to rush.",
+            "qa_pairs": [
+                {
+                    "question": "If john was running late, does this mean that he had to rush?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john wasn't running late, does this entail that he didn't have to rush?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john was running late, does this mean that he didn't have to rush?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wasn't running late, does this entail that he had to rush?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they have a weakened immune system.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is ill, does this entail that she has a weakened immune system?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't ill, does this mean that she doesn't have a weakened immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is ill, does this imply that she doesn't have a weakened immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't ill, does this mean that she has a weakened immune system?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has lost their phone, then they will feel anxious.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah has lost her phone, does this entail that she will feel anxious?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah hasn't lost her phone, does this imply that she won't feel anxious?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah has lost her phone, does this imply that she won't feel anxious?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah hasn't lost her phone, does this imply that she will feel anxious?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will sleep for hours .",
+            "qa_pairs": [
+                {
+                    "question": "If mike is exhausted , does this imply that he will sleep for hours?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mike isn't exhausted, does this mean that he won't sleep for hours?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mike is exhausted , does this entail that he won't sleep for hours?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mike isn't exhausted, does this entail that he will sleep for hours?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this mean that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this entail that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If jasmine is tired, does this mean that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jasmine isn't tired, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine is tired, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jasmine isn't tired, does this entail that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will have to take medication.",
+            "qa_pairs": [
+                {
+                    "question": "If john is ill, does this imply that he will have to take medication?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't ill, does this entail that he won't have to take medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is ill, does this imply that he won't have to take medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't ill, does this imply that he will have to take medication?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they will take painkillers.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a headache, does this mean that he will take painkillers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this mean that he won't take painkillers?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a headache, does this mean that he won't take painkillers?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he will take painkillers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny has a cold, does this imply that she has a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't have a cold, does this entail that she doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny has a cold, does this mean that she doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't have a cold, does this mean that she has a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will sleep.",
+            "qa_pairs": [
+                {
+                    "question": "If mary is tired, does this mean that she will sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary isn't tired, does this entail that she won't sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary is tired, does this imply that she won't sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary isn't tired, does this mean that she will sleep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If jenna has a cold, does this imply that she has a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenna doesn't have a cold, does this mean that she doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenna has a cold, does this mean that she doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenna doesn't have a cold, does this entail that she has a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has not eaten their lunch, then they will feel weak.",
+            "qa_pairs": [
+                {
+                    "question": "If alice has not eaten her lunch, does this entail that she will feel weak?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice has eaten her lunch, does this entail that she won't feel weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice has not eaten her lunch, does this mean that she won't feel weak?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice has eaten her lunch, does this mean that she will feel weak?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah is ill, does this mean that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah isn't ill, does this imply that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah is ill, does this imply that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah isn't ill, does this imply that she will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If she is feeling exhausted, then she needs rest.",
+            "qa_pairs": [
+                {
+                    "question": "If rachel is feeling exhausted, does this imply that she needs rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rachel isn't feeling exhausted, does this mean that she doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel is feeling exhausted, does this mean that she doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel isn't feeling exhausted, does this imply that she needs rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is unwell, does this mean that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is unwell, does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't unwell, does this imply that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a running nose.",
+            "qa_pairs": [
+                {
+                    "question": "If alice has a cold, does this mean that she has a running nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice doesn't have a cold, does this mean that she doesn't have a running nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice has a cold, does this imply that she doesn't have a running nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice doesn't have a cold, does this mean that she has a running nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a flu , then they experience chills .",
+            "qa_pairs": [
+                {
+                    "question": "If jill has a flu , does this imply that she experiences chills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't have a flu, does this imply that she doesn't experience chills?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill has a flu , does this mean that she doesn't experience chills?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't have a flu, does this imply that she experiences chills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this mean that he will have a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this imply that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this entail that he will have a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is late, then they will miss their train.",
+            "qa_pairs": [
+                {
+                    "question": "If john is late, does this entail that he will miss his train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't late, does this entail that he won't miss his train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is late, does this mean that he won't miss his train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't late, does this imply that he will miss his train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they will take some medication.",
+            "qa_pairs": [
+                {
+                    "question": "If paula has a headache, does this entail that she will take some medication?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paula doesn't have a headache, does this mean that she won't take some medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula has a headache, does this entail that she won't take some medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula doesn't have a headache, does this entail that she will take some medication?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is sleepy, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom is sleepy, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom isn't sleepy, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom is sleepy, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom isn't sleepy, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been studying for a long time, then they are likely to be tired .",
+            "qa_pairs": [
+                {
+                    "question": "If john has been studying for a long time, does this imply that he is likely to be tired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john hasn't been studying for a long time, does this entail that he isn't likely to be tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has been studying for a long time, does this mean that he isn't likely to be tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john hasn't been studying for a long time, does this entail that he is likely to be tired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need to take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If sonia is tired, does this imply that she needs to take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sonia isn't tired, does this entail that she doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sonia is tired, does this mean that she doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sonia isn't tired, does this mean that she needs to take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is excited , then they will go for a movie .",
+            "qa_pairs": [
+                {
+                    "question": "If john is excited , does this mean that he will go for a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't excited, does this imply that he won't go for a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is excited , does this entail that he won't go for a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't excited, does this mean that he will go for a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone forgot to turn off the lights, then they will have to pay a fine.",
+            "qa_pairs": [
+                {
+                    "question": "If juan forgot to turn off the lights, does this entail that he will have to pay a fine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If juan didn't forget to turn off the lights, does this imply that he won't have to pay a fine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If juan forgot to turn off the lights, does this entail that he won't have to pay a fine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If juan didn't forget to turn off the lights, does this imply that he will have to pay a fine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will go to sleep.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will go to sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he won't go to sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he won't go to sleep?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he will go to sleep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If they are not feeling well, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If josh is not feeling well, does this mean that he will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If josh is feeling well, does this entail that he won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If josh is not feeling well, does this imply that he won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If josh is feeling well, does this imply that he will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold , does this imply that he has a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold , does this mean that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this imply that he has a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has an infection, then they have a weakened immune system.",
+            "qa_pairs": [
+                {
+                    "question": "If john has an infection, does this entail that he has a weakened immune system?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have an infection, does this entail that he doesn't have a weakened immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has an infection, does this imply that he doesn't have a weakened immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have an infection, does this entail that he has a weakened immune system?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If suzy is exhausted, does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If suzy isn't exhausted, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If suzy is exhausted, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If suzy isn't exhausted, does this imply that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If james is exhausted , does this entail that he needs to take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james isn't exhausted, does this imply that he doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james is exhausted , does this mean that he doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james isn't exhausted, does this imply that he needs to take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired , then they need to take rest .",
+            "qa_pairs": [
+                {
+                    "question": "If martha is tired , does this imply that she needs to take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If martha isn't tired, does this imply that she doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If martha is tired , does this imply that she doesn't need to take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If martha isn't tired, does this imply that she needs to take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this mean that he has a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this mean that he doesn't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he has a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will go to bed early.",
+            "qa_pairs": [
+                {
+                    "question": "If alice is tired, does this imply that she will go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice isn't tired, does this entail that she won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice is tired, does this imply that she won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice isn't tired, does this mean that she will go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling ill, then they have a sore throat.",
+            "qa_pairs": [
+                {
+                    "question": "If john is feeling ill, does this imply that he has a sore throat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't feeling ill, does this entail that he doesn't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is feeling ill, does this mean that he doesn't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't feeling ill, does this imply that he has a sore throat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has to take an exam, then they need to prepare for it .",
+            "qa_pairs": [
+                {
+                    "question": "If jack has to take an exam , does this entail that he needs to prepare for it?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't have to take an exam, does this entail that he doesn't need to prepare for it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack has to take an exam , does this mean that he doesn't need to prepare for it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't have to take an exam, does this entail that he needs to prepare for it?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is unwell, does this mean that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't unwell, does this entail that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is unwell, does this imply that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't unwell, does this mean that she will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If alice is ill, does this imply that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice isn't ill, does this mean that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice is ill, does this imply that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice isn't ill, does this mean that she will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has little money, then they cannot afford luxury items .",
+            "qa_pairs": [
+                {
+                    "question": "If jane has little money, does this entail that she cannot afford luxury items?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane doesn't have little money, does this mean that she can afford luxury items?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane has little money, does this imply that she can afford luxury items?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane doesn't have little money, does this entail that she cannot afford luxury items?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been studying for many hours, then they are feeling very tired.",
+            "qa_pairs": [
+                {
+                    "question": "If julie has been studying for many hours, does this imply that she is feeling very tired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If julie hasn't been studying for many hours, does this mean that she isn't feeling very tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie has been studying for many hours, does this imply that she isn't feeling very tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If julie hasn't been studying for many hours, does this mean that she is feeling very tired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling exhausted, then they will sleep for longer hours.",
+            "qa_pairs": [
+                {
+                    "question": "If daniel is feeling exhausted, does this imply that he will sleep for longer hours?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If daniel isn't feeling exhausted, does this imply that he won't sleep for longer hours?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel is feeling exhausted, does this mean that he won't sleep for longer hours?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel isn't feeling exhausted, does this mean that he will sleep for longer hours?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If paul is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul isn't tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul is tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul isn't tired, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If they are feeling tired, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If linda is feeling tired, does this entail that she needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If linda isn't feeling tired, does this mean that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If linda is feeling tired, does this entail that she doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If linda isn't feeling tired, does this mean that she needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah has a headache, does this mean that she will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah doesn't have a headache, does this entail that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah has a headache, does this mean that she won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah doesn't have a headache, does this mean that she will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling exhausted, then they will take a rest.",
+            "qa_pairs": [
+                {
+                    "question": "If bethany is feeling exhausted, does this mean that she will take a rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bethany isn't feeling exhausted, does this entail that she won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bethany is feeling exhausted, does this imply that she won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bethany isn't feeling exhausted, does this imply that she will take a rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling sleepy , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If jill is feeling sleepy , does this entail that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't feeling sleepy, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is feeling sleepy , does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't feeling sleepy, does this mean that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they will have a sore throat.",
+            "qa_pairs": [
+                {
+                    "question": "If sara is ill, does this entail that she will have a sore throat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara isn't ill, does this entail that she won't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara is ill, does this entail that she won't have a sore throat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara isn't ill, does this mean that she will have a sore throat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he needs rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this mean that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he needs rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is excited, then they will plan a trip.",
+            "qa_pairs": [
+                {
+                    "question": "If debbie is excited, does this entail that she will plan a trip?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If debbie isn't excited, does this imply that she won't plan a trip?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If debbie is excited, does this entail that she won't plan a trip?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If debbie isn't excited, does this entail that she will plan a trip?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If tom is tired, does this imply that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom isn't tired, does this entail that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom is tired, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom isn't tired, does this mean that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he needs to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this imply that he doesn't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he needs to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold , then they will sneeze a lot .",
+            "qa_pairs": [
+                {
+                    "question": "If bob has a cold , does this entail that he will sneeze a lot?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't have a cold, does this imply that he won't sneeze a lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob has a cold , does this entail that he won't sneeze a lot?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't have a cold, does this mean that he will sneeze a lot?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell , then they will take rest .",
+            "qa_pairs": [
+                {
+                    "question": "If john is unwell , does this imply that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is unwell , does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been working hard, then they will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If karen has been working hard, does this entail that she will get a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If karen hasn't been working hard, does this entail that she won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen has been working hard, does this entail that she won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen hasn't been working hard, does this mean that she will get a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will have a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a cold, does this imply that he will have a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a cold, does this mean that he won't have a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a cold, does this mean that he will have a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is ill, then they have a weak immune system.",
+            "qa_pairs": [
+                {
+                    "question": "If john is ill , does this mean that he has a weak immune system?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't ill, does this mean that he doesn't have a weak immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is ill , does this imply that he doesn't have a weak immune system?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't ill, does this imply that he has a weak immune system?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has lost their way, then they need help.",
+            "qa_pairs": [
+                {
+                    "question": "If john has lost his way, does this mean that he needs help?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john hasn't lost his way, does this mean that he doesn't need help?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has lost his way, does this entail that he doesn't need help?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john hasn't lost his way, does this entail that he needs help?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has an injury, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john has an injury, does this imply that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have an injury, does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has an injury, does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have an injury, does this imply that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling sick, then they have a higher body temperature.",
+            "qa_pairs": [
+                {
+                    "question": "If lisa is feeling sick, does this entail that she has a higher body temperature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lisa isn't feeling sick, does this mean that she doesn't have a higher body temperature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lisa is feeling sick, does this entail that she doesn't have a higher body temperature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lisa isn't feeling sick, does this entail that she has a higher body temperature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If jack is exhausted, does this entail that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack isn't exhausted, does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack is exhausted, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack isn't exhausted, does this entail that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has allergies , then they will experience itching .",
+            "qa_pairs": [
+                {
+                    "question": "If john has allergies , does this entail that he will experience itching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have allergies, does this mean that he won't experience itching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has allergies , does this imply that he won't experience itching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have allergies, does this entail that he will experience itching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will experience a runny nose.",
+            "qa_pairs": [
+                {
+                    "question": "If laura has a cold, does this mean that she will experience a runny nose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If laura doesn't have a cold, does this mean that she won't experience a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If laura has a cold, does this mean that she won't experience a runny nose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If laura doesn't have a cold, does this mean that she will experience a runny nose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a break.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is exhausted , does this mean that she will take a break?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't exhausted, does this mean that she won't take a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is exhausted , does this entail that she won't take a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't exhausted, does this entail that she will take a break?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been studying for hours , then they are feeling exhausted .",
+            "qa_pairs": [
+                {
+                    "question": "If sarah has been studying for hours , does this imply that she is feeling exhausted?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah hasn't been studying for hours, does this imply that she isn't feeling exhausted?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah has been studying for hours , does this entail that she isn't feeling exhausted?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah hasn't been studying for hours, does this entail that she is feeling exhausted?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they feel sleepy.",
+            "qa_pairs": [
+                {
+                    "question": "If sara is exhausted, does this entail that she feels sleepy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara isn't exhausted, does this mean that she doesn't feel sleepy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara is exhausted, does this mean that she doesn't feel sleepy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara isn't exhausted, does this imply that she feels sleepy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If jill is exhausted , does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't exhausted, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is exhausted , does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't exhausted, does this imply that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If tom is exhausted, does this imply that he needs rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom isn't exhausted, does this mean that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom is exhausted, does this mean that he doesn't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom isn't exhausted, does this entail that he needs rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired , then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is in pain , then they will take medication .",
+            "qa_pairs": [
+                {
+                    "question": "If paul is in pain , does this imply that he will take medication?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul isn't in pain, does this mean that he won't take medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul is in pain , does this entail that he won't take medication?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul isn't in pain, does this entail that he will take medication?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has an injury, then they need medical attention.",
+            "qa_pairs": [
+                {
+                    "question": "If john has an injury, does this mean that he needs medical attention?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have an injury, does this imply that he doesn't need medical attention?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has an injury, does this imply that he doesn't need medical attention?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have an injury, does this mean that he needs medical attention?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a lot of work, then they will stay up late.",
+            "qa_pairs": [
+                {
+                    "question": "If jared has a lot of work, does this mean that he will stay up late?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jared doesn't have a lot of work, does this mean that he won't stay up late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jared has a lot of work, does this entail that he won't stay up late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jared doesn't have a lot of work, does this entail that he will stay up late?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they have pain in the head.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a headache, does this imply that he has pain in the head?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he doesn't have pain in the head?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a headache, does this imply that he doesn't have pain in the head?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he has pain in the head?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this imply that he won't take rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take some rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this mean that he will take some rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he won't take some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this imply that he won't take some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take some rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If emily is exhausted, does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily isn't exhausted, does this imply that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily is exhausted, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily isn't exhausted, does this imply that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they will take medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a headache , does this entail that he will take medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a headache , does this mean that he won't take medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he will take medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired , then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If bob is tired , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob isn't tired, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob is tired , does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob isn't tired, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell, then they have a cough.",
+            "qa_pairs": [
+                {
+                    "question": "If bob is unwell, does this entail that he has a cough?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob isn't unwell, does this entail that he doesn't have a cough?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob is unwell, does this entail that he doesn't have a cough?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob isn't unwell, does this imply that he has a cough?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted , does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted , does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is feeling exhausted, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is feeling exhausted, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't feeling exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is feeling exhausted, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't feeling exhausted, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a cold, then they will sneeze often.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny has a cold, does this imply that she will sneeze often?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't have a cold, does this imply that she won't sneeze often?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny has a cold, does this mean that she won't sneeze often?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't have a cold, does this entail that she will sneeze often?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache , then they have nausea.",
+            "qa_pairs": [
+                {
+                    "question": "If steve has a headache , does this entail that he has nausea?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve doesn't have a headache, does this entail that he doesn't have nausea?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve has a headache , does this mean that he doesn't have nausea?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve doesn't have a headache, does this imply that he has nausea?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is angry , then they will shout .",
+            "qa_pairs": [
+                {
+                    "question": "If john is angry , does this imply that he will shout?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't angry, does this entail that he won't shout?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is angry , does this imply that he won't shout?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't angry, does this mean that he will shout?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a migraine, then they cannot concentrate.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a migraine, does this entail that he cannot concentrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a migraine, does this imply that he can concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a migraine, does this entail that he can concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a migraine, does this entail that he cannot concentrate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell , then they will rest .",
+            "qa_pairs": [
+                {
+                    "question": "If john is unwell, does this entail that he will rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he won't rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is unwell, does this imply that he won't rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't unwell, does this entail that he will rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been eating unhealthy food, then they will gain weight.",
+            "qa_pairs": [
+                {
+                    "question": "If john has been eating unhealthy food, does this mean that he will gain weight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john hasn't been eating unhealthy food, does this entail that he won't gain weight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has been eating unhealthy food, does this entail that he won't gain weight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john hasn't been eating unhealthy food, does this imply that he will gain weight?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john is tired, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is tired, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't tired, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If alice is tired, does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice isn't tired, does this imply that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice is tired, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice isn't tired, does this imply that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If john is exhausted, does this entail that he will need rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exhausted, does this mean that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is exhausted, does this mean that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't exhausted, does this entail that he will need rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a broken leg, then they can't walk.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a broken leg, does this imply that he can't walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a broken leg, does this mean that he can walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a broken leg, does this mean that he can walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a broken leg, does this entail that he can't walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is tired, then they will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If karen is tired, does this imply that she will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If karen isn't tired, does this mean that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen is tired, does this entail that she won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen isn't tired, does this entail that she will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they will take some medicine.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a headache , does this imply that he will take some medicine?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this mean that he won't take some medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a headache , does this mean that he won't take some medicine?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this imply that he will take some medicine?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a headache, then they feel dizzy.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a headache, does this mean that he feels dizzy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this mean that he doesn't feel dizzy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a headache, does this imply that he doesn't feel dizzy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a headache, does this entail that he feels dizzy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is exhausted, then they will take a nap .",
+            "qa_pairs": [
+                {
+                    "question": "If mike is exhausted , does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mike isn't exhausted, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mike is exhausted , does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mike isn't exhausted, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been feeling tired, then they need to get enough rest.",
+            "qa_pairs": [
+                {
+                    "question": "If mary has been feeling tired, does this entail that she needs to get enough rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary hasn't been feeling tired, does this entail that she doesn't need to get enough rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary has been feeling tired, does this entail that she doesn't need to get enough rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary hasn't been feeling tired, does this mean that she needs to get enough rest?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

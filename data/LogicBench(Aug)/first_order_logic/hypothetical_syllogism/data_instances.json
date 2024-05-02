@@ -1,0 +1,3156 @@
+{
+    "type": "first_order_logic",
+    "axiom": "hypothetical_syllogism",
+    "data_samples": [
+        {
+            "context": "If they do not practice regularly, then they will not improve their skills. If they will not improve their skills, then they will not be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If jill does not practice regularly, does this entail that she will not be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill practices regularly, does this imply that she will be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill does not practice regularly, does this mean that she will be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill practices regularly, does this mean that she will not be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone gets a job, then they have to pay taxes. If they have to pay taxes, then they will have more financial security.",
+            "qa_pairs": [
+                {
+                    "question": "If brian got a job, does this entail that he will have more financial security?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If brian didn't get a job, does this mean that he won't have more financial security?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian got a job, does this entail that he won't have more financial security?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian didn't get a job, does this entail that he will have more financial security?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows all safety protocols , then they will be safe . If they will be safe , then they will be allowed to continue their activity .",
+            "qa_pairs": [
+                {
+                    "question": "If jenny follows all safety protocols , does this entail that she will be allowed to continue her activity?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't follow all safety protocols, does this imply that she won't be allowed to continue her activity?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny follows all safety protocols , does this entail that she won't be allowed to continue her activity?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't follow all safety protocols, does this entail that she will be allowed to continue her activity?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet, then they will be healthy. If they will be healthy, then they will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If tommy follows a healthy diet, does this imply that he will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tommy doesn't follow a healthy diet, does this entail that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tommy follows a healthy diet, does this imply that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tommy doesn't follow a healthy diet, does this mean that he will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone completes all their tasks , then they will be rewarded . If they will be rewarded , then they will be given a promotion .",
+            "qa_pairs": [
+                {
+                    "question": "If john completes all his tasks , does this imply that he will be given a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't complete all his tasks, does this imply that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john completes all his tasks , does this entail that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't complete all his tasks, does this mean that he will be given a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet, then they will be physically fit. If they will be physically fit, then they will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If john follows a healthy diet, does this mean that he will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't follow a healthy diet, does this imply that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john follows a healthy diet, does this entail that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't follow a healthy diet, does this imply that he will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions , then they will stay safe . If they will stay safe , then they won't get sick .",
+            "qa_pairs": [
+                {
+                    "question": "If katie takes all the necessary precautions , does this mean that she won't get sick?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If katie doesn't take all the necessary precautions, does this entail that she will get sick?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If katie takes all the necessary precautions , does this imply that she will get sick?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If katie doesn't take all the necessary precautions, does this imply that she won't get sick?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone uses their willpower, then they can stay disciplined. If they can stay disciplined, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If jill uses her willpower , does this imply that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't use her willpower, does this entail that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill uses her willpower , does this mean that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't use her willpower, does this mean that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone wears a face mask , then they can enter the store . If they can enter the store , then they will be safe .",
+            "qa_pairs": [
+                {
+                    "question": "If jane wears a face mask , does this imply that she will be safe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane doesn't wear a face mask, does this imply that she won't be safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane wears a face mask , does this mean that she won't be safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane doesn't wear a face mask, does this entail that she will be safe?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone drives safely, then they will not be charged with a ticket. If they will not be charged with a ticket, then they will have a clean driving record.",
+            "qa_pairs": [
+                {
+                    "question": "If hannah drives safely, does this entail that she will have a clean driving record?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If hannah doesn't drive safely, does this imply that she won't have a clean driving record?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah drives safely, does this entail that she won't have a clean driving record?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah doesn't drive safely, does this mean that she will have a clean driving record?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works hard on their studies, then they will be likely to get good grades. If they will be likely to get good grades, then they will be rewarded with a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If jacob works hard on his studies , does this mean that he will be rewarded with a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jacob doesn't work hard on his studies, does this mean that he won't be rewarded with a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob works hard on his studies , does this imply that he won't be rewarded with a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob doesn't work hard on his studies, does this mean that he will be rewarded with a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not follow the rules, then they will be reprimanded. If they will be reprimanded, then they will lose their job.",
+            "qa_pairs": [
+                {
+                    "question": "If mandy does not follow the rules, does this entail that she will lose her job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mandy follows the rules, does this entail that she won't lose her job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mandy does not follow the rules, does this mean that she won't lose her job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mandy follows the rules, does this entail that she will lose her job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books, then they will gain knowledge. If they will gain knowledge, then they will be wise.",
+            "qa_pairs": [
+                {
+                    "question": "If karen reads all the books, does this imply that she will be wise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If karen doesn't read all the books, does this entail that she won't be wise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen reads all the books, does this mean that she won't be wise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If karen doesn't read all the books, does this entail that she will be wise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone wears a mask, then they will be protected from germs. If they will be protected from germs, then they will stay healthy.",
+            "qa_pairs": [
+                {
+                    "question": "If john wears a mask, does this entail that he will stay healthy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wear a mask, does this imply that he won't stay healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wears a mask, does this entail that he won't stay healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wear a mask, does this entail that he will stay healthy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works hard, then they can achieve their goals. If they can achieve their goals, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If bethany works hard, does this entail that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bethany doesn't work hard, does this mean that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bethany works hard, does this imply that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bethany doesn't work hard, does this entail that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not wear a mask, then they will be at risk of getting infected. If they will be at risk of getting infected, then they will not be allowed to enter the premises.",
+            "qa_pairs": [
+                {
+                    "question": "If john does not wear a mask, does this imply that he will not be allowed to enter the premises?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john wears a mask, does this entail that he will be allowed to enter the premises?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john does not wear a mask, does this entail that he will be allowed to enter the premises?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wears a mask, does this mean that he will not be allowed to enter the premises?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows all the safety regulations, then they won't get into an accident. If they won't get into an accident, then they will stay safe.",
+            "qa_pairs": [
+                {
+                    "question": "If max follows all the safety regulations, does this entail that he will stay safe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If max doesn't follow all the safety regulations, does this imply that he won't stay safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If max follows all the safety regulations, does this entail that he won't stay safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If max doesn't follow all the safety regulations, does this entail that he will stay safe?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not get enough sleep , then they will not be able to concentrate . If they will not be able to concentrate , then they will not perform well in their exams .",
+            "qa_pairs": [
+                {
+                    "question": "If hannah does not get enough sleep, does this mean that she will not perform well in her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If hannah gets enough sleep, does this imply that she will perform well in her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah does not get enough sleep, does this imply that she will perform well in her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah gets enough sleep, does this imply that she will not perform well in her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If they get a promotion, then they will receive a salary rise . If they will receive a salary rise , then they will be able to buy a new car.",
+            "qa_pairs": [
+                {
+                    "question": "If alisha got a promotion, does this imply that she will be able to buy a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alisha didn't get a promotion, does this imply that she won't be able to buy a new car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alisha got a promotion, does this mean that she won't be able to buy a new car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alisha didn't get a promotion, does this entail that she will be able to buy a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a short break, then they become refreshed. If they become refreshed, then they are able to work better.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny takes a short break , does this entail that she is able to work better?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't take a short break, does this mean that she isn't able to work better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny takes a short break , does this mean that she isn't able to work better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't take a short break, does this imply that she is able to work better?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone makes all their payments on time , then they will have a good credit score . If they will have a good credit score , then they will be able to get a loan .",
+            "qa_pairs": [
+                {
+                    "question": "If jill makes all her payments on time , does this entail that she will be able to get a loan?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't make all her payments on time, does this mean that she won't be able to get a loan?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill makes all her payments on time , does this imply that she won't be able to get a loan?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't make all her payments on time, does this mean that she will be able to get a loan?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone puts in extra effort , then they will be rewarded . If they will be rewarded , then they will be promoted .",
+            "qa_pairs": [
+                {
+                    "question": "If paula puts in extra effort , does this mean that she will be promoted?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paula doesn't put in extra effort, does this imply that she won't be promoted?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula puts in extra effort , does this mean that she won't be promoted?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paula doesn't put in extra effort, does this mean that she will be promoted?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a class , then they will learn new material . If they will learn new material , then they will be able to apply it .",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a class , does this imply that he will be able to apply it?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a class, does this entail that he won't be able to apply it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a class , does this mean that he won't be able to apply it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a class, does this imply that he will be able to apply it?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a course, then they will learn new skills. If they will learn new skills, then they will gain knowledge.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a course, does this mean that he will gain knowledge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a course, does this mean that he won't gain knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a course, does this mean that he won't gain knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a course, does this entail that he will gain knowledge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone loves to read , then they will have a good understanding of the subject . If they will have a good understanding of the subject , then they will excel in the tests .",
+            "qa_pairs": [
+                {
+                    "question": "If john loves to read , does this imply that he will excel in the tests?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't love to read, does this entail that he won't excel in the tests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john loves to read , does this entail that he won't excel in the tests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't love to read, does this mean that he will excel in the tests?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows the safety guidelines, then they will be safe. If they will be safe, then they will avoid any accidents.",
+            "qa_pairs": [
+                {
+                    "question": "If bob follows the safety guidelines, does this entail that he will avoid any accidents?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't follow the safety guidelines, does this mean that he won't avoid any accidents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob follows the safety guidelines, does this imply that he won't avoid any accidents?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't follow the safety guidelines, does this mean that he will avoid any accidents?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is working hard, then they will get a promotion. If they will get a promotion, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is working hard, does this imply that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't working hard, does this mean that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is working hard, does this imply that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't working hard, does this entail that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies for their exams , then they will perform well . If they will perform well , then they will pass the course .",
+            "qa_pairs": [
+                {
+                    "question": "If jill studies for her exams , does this entail that she will pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't study for her exams, does this entail that she won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill studies for her exams , does this mean that she won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't study for her exams, does this imply that she will pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone practices diligently, then they will have a better understanding. If they will have a better understanding, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If john practices diligently, does this entail that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't practice diligently, does this entail that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john practices diligently, does this entail that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't practice diligently, does this entail that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone saves all the money, then they can buy the car. If they can buy the car, then they will be able to travel.",
+            "qa_pairs": [
+                {
+                    "question": "If john saves all the money, does this entail that he will be able to travel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't save all the money, does this entail that he won't be able to travel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john saves all the money, does this imply that he won't be able to travel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't save all the money, does this imply that he will be able to travel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works hard , then they will get good grades. If they will get good grades, then they will be able to go to college .",
+            "qa_pairs": [
+                {
+                    "question": "If john works hard, does this entail that he will be able to go to college?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't work hard, does this imply that he won't be able to go to college?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john works hard, does this imply that he won't be able to go to college?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't work hard, does this entail that he will be able to go to college?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats all the food in the fridge, then they will be full. If they will be full, then they will not be hungry anymore.",
+            "qa_pairs": [
+                {
+                    "question": "If james eats all the food in the fridge, does this entail that he will not be hungry anymore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't eat all the food in the fridge, does this entail that he will be hungry anymore?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james eats all the food in the fridge, does this mean that he will be hungry anymore?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't eat all the food in the fridge, does this entail that he will not be hungry anymore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats healthy food, then they will have a healthy lifestyle. If they will have a healthy lifestyle, then they will be fit and active.",
+            "qa_pairs": [
+                {
+                    "question": "If bob eats healthy food, does this entail that he will be fit and active?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't eat healthy food, does this entail that he won't be fit and active?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob eats healthy food, does this mean that he won't be fit and active?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't eat healthy food, does this imply that he will be fit and active?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone walks their dog every day, then the dog will remain healthy. If the dog will remain healthy, then the dog will be happy.",
+            "qa_pairs": [
+                {
+                    "question": "If john walks his dog every day, does this entail that the dog will be happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't walk his dog every day, does this mean that the dog won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john walks his dog every day, does this imply that the dog won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't walk his dog every day, does this imply that the dog will be happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet , then they will stay fit . If they will stay fit , then they will be healthy.",
+            "qa_pairs": [
+                {
+                    "question": "If alice follows a healthy diet , does this entail that she will be healthy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice doesn't follow a healthy diet, does this imply that she won't be healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice follows a healthy diet , does this imply that she won't be healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice doesn't follow a healthy diet, does this mean that she will be healthy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a new car, then their financial situation will improve. If their financial situation will improve, then they will be able to afford a vacation.",
+            "qa_pairs": [
+                {
+                    "question": "If jane bought a new car, does this entail that she will be able to afford a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane didn't buy a new car, does this mean that she won't be able to afford a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane bought a new car, does this entail that she won't be able to afford a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane didn't buy a new car, does this mean that she will be able to afford a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes the bus every day, then they will be on time. If they will be on time, then they will never be late.",
+            "qa_pairs": [
+                {
+                    "question": "If tom takes the bus every day, does this mean that he will never be late?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't take the bus every day, does this imply that he will be late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom takes the bus every day, does this mean that he will be late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't take the bus every day, does this entail that he will never be late?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone passes all their classes, then they will get a degree. If they will get a degree, then they will get a job.",
+            "qa_pairs": [
+                {
+                    "question": "If tim passes all his classes, does this entail that he will get a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't pass all his classes, does this imply that he won't get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim passes all his classes, does this entail that he won't get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't pass all his classes, does this mean that he will get a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books, then they will be well informed. If they will be well informed, then they can make better decisions.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads all the books, does this entail that he can make better decisions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read all the books, does this imply that he can't make better decisions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads all the books, does this mean that he can't make better decisions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read all the books, does this imply that he can make better decisions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is working hard , then they will be successful . If they will be successful , then they will get a promotion .",
+            "qa_pairs": [
+                {
+                    "question": "If john is working hard , does this imply that he will get a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't working hard, does this imply that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john is working hard , does this mean that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john isn't working hard, does this mean that he will get a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the park, then they enjoy the scenery. If they enjoy the scenery, then they will feel happy.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes to the park, does this imply that he will feel happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go to the park, does this entail that he won't feel happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes to the park, does this entail that he won't feel happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go to the park, does this imply that he will feel happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone cleans their room, then they will feel relaxed. If they will feel relaxed, then they will be able to concentrate.",
+            "qa_pairs": [
+                {
+                    "question": "If fred cleans his room, does this imply that he will be able to concentrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If fred doesn't clean his room, does this mean that he won't be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If fred cleans his room, does this mean that he won't be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If fred doesn't clean his room, does this imply that he will be able to concentrate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats all the junk food, then they will gain weight. If they will gain weight, then they will have poor health.",
+            "qa_pairs": [
+                {
+                    "question": "If rachel eats all the junk food, does this imply that she will have poor health?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rachel doesn't eat all the junk food, does this imply that she won't have poor health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel eats all the junk food, does this imply that she won't have poor health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rachel doesn't eat all the junk food, does this mean that she will have poor health?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the store , then they will buy food . If they will buy food , then they will have enough to eat.",
+            "qa_pairs": [
+                {
+                    "question": "If jim went to the store , does this mean that she will have enough to eat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim didn't go to the store, does this imply that she won't have enough to eat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim went to the store , does this entail that she won't have enough to eat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim didn't go to the store, does this mean that she will have enough to eat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions, then they will not get infected. If they will not get infected, then they will stay safe.",
+            "qa_pairs": [
+                {
+                    "question": "If sandy takes all the necessary precautions, does this entail that she will stay safe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sandy doesn't take all the necessary precautions, does this mean that she won't stay safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sandy takes all the necessary precautions, does this entail that she won't stay safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sandy doesn't take all the necessary precautions, does this mean that she will stay safe?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone puts in all the effort, then they will get the desired results. If they will get the desired results, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If john puts in all the effort, does this entail that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't put in all the effort, does this imply that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john puts in all the effort, does this imply that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't put in all the effort, does this entail that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes for a walk , then they take a break . If they take a break , then they relax their mind .",
+            "qa_pairs": [
+                {
+                    "question": "If john goes for a walk , does this imply that he relaxes his mind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go for a walk, does this imply that he doesn't relax his mind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes for a walk , does this entail that he doesn't relax his mind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go for a walk, does this imply that he relaxes his mind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone completes their daily tasks, then they will have peace of mind. If they will have peace of mind, then they will have more free time.",
+            "qa_pairs": [
+                {
+                    "question": "If nina completes her daily tasks, does this entail that she will have more free time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If nina doesn't complete her daily tasks, does this imply that she won't have more free time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina completes her daily tasks, does this entail that she won't have more free time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina doesn't complete her daily tasks, does this entail that she will have more free time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a course, then they will learn a lot. If they will learn a lot, then they will get good grades.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a course, does this mean that he will get good grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a course, does this mean that he won't get good grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a course, does this mean that he won't get good grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a course, does this imply that he will get good grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a deep breath, then they will calm down. If they will calm down, then they will be able to think clearly.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha takes a deep breath, does this mean that she will be able to think clearly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha doesn't take a deep breath, does this mean that she won't be able to think clearly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha takes a deep breath, does this mean that she won't be able to think clearly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha doesn't take a deep breath, does this mean that she will be able to think clearly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not take a shower, then they will smell bad. If they will smell bad, then they will not be allowed in the party.",
+            "qa_pairs": [
+                {
+                    "question": "If john does not take a shower, does this entail that he will not be allowed in the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john takes a shower, does this entail that he will be allowed in the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john does not take a shower, does this imply that he will be allowed in the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a shower, does this mean that he will not be allowed in the party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a new car, then they will have to pay taxes. If they will have to pay taxes, then they will feel more independent.",
+            "qa_pairs": [
+                {
+                    "question": "If michael buys a new car, does this entail that he will feel more independent?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If michael doesn't buy a new car, does this entail that he won't feel more independent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If michael buys a new car, does this entail that he won't feel more independent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If michael doesn't buy a new car, does this mean that he will feel more independent?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a walk every day, then they will stay healthy. If they will stay healthy, then they will be fit.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a walk every day, does this entail that he will be fit?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a walk every day, does this imply that he won't be fit?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a walk every day, does this entail that he won't be fit?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a walk every day, does this entail that he will be fit?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a loan , then they will have to pay interest . If they will have to pay interest , then they will be in debt.",
+            "qa_pairs": [
+                {
+                    "question": "If emily takes a loan , does this mean that she will be in debt?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily doesn't take a loan, does this mean that she won't be in debt?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily takes a loan , does this imply that she won't be in debt?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily doesn't take a loan, does this entail that she will be in debt?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes up a hobby , then they will develop a skill. If they will develop a skill, then they will make progress .",
+            "qa_pairs": [
+                {
+                    "question": "If john takes up a hobby, does this mean that he will make progress?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take up a hobby, does this mean that he won't make progress?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes up a hobby, does this entail that he won't make progress?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take up a hobby, does this mean that he will make progress?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books, then they will gain a lot of knowledge. If they will gain a lot of knowledge, then they will be well informed.",
+            "qa_pairs": [
+                {
+                    "question": "If henry reads all the books, does this entail that he will be well informed?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry doesn't read all the books, does this entail that he won't be well informed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry reads all the books, does this entail that he won't be well informed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry doesn't read all the books, does this entail that he will be well informed?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies diligently, then they will perform well in their exams. If they will perform well in their exams, then they will pass the course.",
+            "qa_pairs": [
+                {
+                    "question": "If nina studies diligently , does this mean that she will pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If nina doesn't study diligently, does this entail that she won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina studies diligently , does this entail that she won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If nina doesn't study diligently, does this imply that she will pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone gets a promotion, then they will receive a bonus . If they will receive a bonus , then they will be able to buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If sara got a promotion, does this mean that she will be able to buy a house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara didn't get a promotion, does this imply that she won't be able to buy a house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara got a promotion, does this imply that she won't be able to buy a house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara didn't get a promotion, does this mean that she will be able to buy a house?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies hard, then they will get good grades. If they will get good grades, then they will be able to get a job .",
+            "qa_pairs": [
+                {
+                    "question": "If samantha studies hard, does this entail that she will be able to get a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha doesn't study hard, does this mean that she won't be able to get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha studies hard, does this mean that she won't be able to get a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha doesn't study hard, does this entail that she will be able to get a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sentence, then if someone practices for their exams, they will perform well . If if someone practices for their exams, they will perform well , then if they perform well, they will be likely to pass the course .",
+            "qa_pairs": [
+                {
+                    "question": "If john sentence, does this entail that if he performs well, he will be likely to pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john sentence, does this entail that if he performs well, he won't be likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john sentence, does this entail that if he performs well, he won't be likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john sentence, does this imply that if he performs well, he will be likely to pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a vacation, then they will be relaxed . If they will be relaxed , then they will come back feeling refreshed.",
+            "qa_pairs": [
+                {
+                    "question": "If alex takes a vacation , does this entail that he will come back feeling refreshed?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alex doesn't take a vacation, does this entail that he won't come back feeling refreshed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex takes a vacation , does this entail that he won't come back feeling refreshed?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex doesn't take a vacation, does this imply that he will come back feeling refreshed?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a good job, then they have a lot of money. If they have a lot of money, then they can buy whatever they want.",
+            "qa_pairs": [
+                {
+                    "question": "If john has a good job, does this mean that he can buy whatever he wants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have a good job, does this entail that he can't buy whatever he wants?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john has a good job, does this mean that he can't buy whatever he wants?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't have a good job, does this entail that he can buy whatever he wants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes up a new job, then they will need to learn the ropes. If they will need to learn the ropes, then they will be able to handle their tasks.",
+            "qa_pairs": [
+                {
+                    "question": "If john took up a new job, does this mean that he will be able to handle his tasks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john didn't take up a new job, does this entail that he won't be able to handle his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john took up a new job, does this imply that he won't be able to handle his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john didn't take up a new job, does this mean that he will be able to handle his tasks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a course , then they need to attend classes . If they need to attend classes , then they will be able to pass the course.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah takes a course, does this imply that she will be able to pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah doesn't take a course, does this entail that she won't be able to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah takes a course, does this mean that she won't be able to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah doesn't take a course, does this imply that she will be able to pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats healthy, then they will have more energy. If they will have more energy, then they will be able to exercise more.",
+            "qa_pairs": [
+                {
+                    "question": "If jill eats healthy, does this entail that she will be able to exercise more?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't eat healthy, does this entail that she won't be able to exercise more?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill eats healthy, does this entail that she won't be able to exercise more?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't eat healthy, does this entail that she will be able to exercise more?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone saves all their money, then they can start their own business. If they can start their own business, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If john saves all his money, does this mean that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't save all his money, does this mean that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john saves all his money, does this entail that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't save all his money, does this entail that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works hard, then they will get a promotion. If they will get a promotion, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If martha works hard, does this entail that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If martha doesn't work hard, does this entail that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If martha works hard, does this imply that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If martha doesn't work hard, does this imply that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet , then they exercise regularly . If they exercise regularly , then they will be physically fit .",
+            "qa_pairs": [
+                {
+                    "question": "If paul follows a healthy diet , does this mean that he will be physically fit?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't follow a healthy diet, does this imply that he won't be physically fit?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul follows a healthy diet , does this imply that he won't be physically fit?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't follow a healthy diet, does this imply that he will be physically fit?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is punctual , then they will get the job. If they will get the job, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If gerald is punctual , does this entail that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gerald isn't punctual, does this mean that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If gerald is punctual , does this imply that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If gerald isn't punctual, does this mean that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the gym regularly, then they will stay healthy. If they will stay healthy, then they will have a good figure.",
+            "qa_pairs": [
+                {
+                    "question": "If laura goes to the gym regularly, does this imply that she will have a good figure?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If laura doesn't go to the gym regularly, does this mean that she won't have a good figure?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If laura goes to the gym regularly, does this imply that she won't have a good figure?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If laura doesn't go to the gym regularly, does this entail that she will have a good figure?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes the initiative to learn a new skill , then they will be able to use the skill for professional development . If they will be able to use the skill for professional development , then they will be one step closer to achieving their goals .",
+            "qa_pairs": [
+                {
+                    "question": "If jill takes the initiative to learn a new skill , does this entail that she will be one step closer to achieving her goals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't take the initiative to learn a new skill, does this imply that she won't be one step closer to achieving her goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill takes the initiative to learn a new skill , does this imply that she won't be one step closer to achieving her goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't take the initiative to learn a new skill, does this mean that she will be one step closer to achieving her goals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats healthy food, then they will stay fit. If they will stay fit, then they will have a healthy lifestyle.",
+            "qa_pairs": [
+                {
+                    "question": "If jack eats healthy food, does this mean that he will have a healthy lifestyle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't eat healthy food, does this entail that he won't have a healthy lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack eats healthy food, does this mean that he won't have a healthy lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't eat healthy food, does this entail that he will have a healthy lifestyle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone saves all their money, then they can go on a holiday. If they can go on a holiday, then they will have a great time.",
+            "qa_pairs": [
+                {
+                    "question": "If daniel saves all his money , does this imply that he will have a great time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If daniel doesn't save all his money, does this entail that he won't have a great time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel saves all his money , does this entail that he won't have a great time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If daniel doesn't save all his money, does this entail that he will have a great time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone gets a perfect score on their test, then they will get an a in the course. If they will get an a in the course, then they will get a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If jill got a perfect score on her test, does this entail that she will get a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill didn't get a perfect score on her test, does this mean that she won't get a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill got a perfect score on her test, does this imply that she won't get a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill didn't get a perfect score on her test, does this mean that she will get a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone exercises regularly, then they will have more energy. If they will have more energy, then they will be in better health.",
+            "qa_pairs": [
+                {
+                    "question": "If john exercises regularly, does this mean that he will be in better health?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't exercise regularly, does this entail that he won't be in better health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john exercises regularly, does this entail that he won't be in better health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't exercise regularly, does this mean that he will be in better health?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone drinks alcohol, then they will be intoxicated. If they will be intoxicated, then they will not be able to drive.",
+            "qa_pairs": [
+                {
+                    "question": "If tom drinks alcohol, does this imply that he will not be able to drive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't drink alcohol, does this mean that he will be able to drive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom drinks alcohol, does this imply that he will be able to drive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't drink alcohol, does this mean that he will not be able to drive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone pays their taxes, then they will remain compliant. If they will remain compliant, then they will not be penalized.",
+            "qa_pairs": [
+                {
+                    "question": "If alisha pays her taxes, does this imply that she will not be penalized?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alisha doesn't pay her taxes, does this mean that she will be penalized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alisha pays her taxes, does this mean that she will be penalized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alisha doesn't pay her taxes, does this imply that she will not be penalized?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone attends all classes, then they will get good grades. If they will get good grades, then they will be more likely to pass the course.",
+            "qa_pairs": [
+                {
+                    "question": "If jack attends all classes, does this entail that he will be more likely to pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't attend all classes, does this entail that he won't be more likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack attends all classes, does this mean that he won't be more likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't attend all classes, does this entail that he will be more likely to pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works diligently , then they will be praised. If they will be praised, then they will receive a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If john works diligently, does this entail that he will receive a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't work diligently, does this imply that he won't receive a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john works diligently, does this entail that he won't receive a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't work diligently, does this imply that he will receive a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone puts in their best effort , then they will achieve great success . If they will achieve great success , then they will be admired .",
+            "qa_pairs": [
+                {
+                    "question": "If sara puts in her best effort , does this entail that she will be admired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara doesn't put in her best effort, does this imply that she won't be admired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara puts in her best effort , does this imply that she won't be admired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara doesn't put in her best effort, does this entail that she will be admired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone wears a mask, then they will be protected from the virus. If they will be protected from the virus, then they will be safe.",
+            "qa_pairs": [
+                {
+                    "question": "If alicia wears a mask, does this mean that she will be safe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alicia doesn't wear a mask, does this entail that she won't be safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alicia wears a mask, does this entail that she won't be safe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alicia doesn't wear a mask, does this entail that she will be safe?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys all the necessary supplies, then they can start the project. If they can start the project, then they will finish it on time.",
+            "qa_pairs": [
+                {
+                    "question": "If lily bought all the necessary supplies, does this mean that she will finish it on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lily didn't buy all the necessary supplies, does this imply that she won't finish it on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily bought all the necessary supplies, does this entail that she won't finish it on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily didn't buy all the necessary supplies, does this imply that she will finish it on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows all the rules, then they will get a reward. If they will get a reward, then they will be respected.",
+            "qa_pairs": [
+                {
+                    "question": "If jane follows all the rules, does this mean that she will be respected?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane doesn't follow all the rules, does this entail that she won't be respected?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane follows all the rules, does this mean that she won't be respected?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane doesn't follow all the rules, does this entail that she will be respected?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone washes their car , then they will have a clean car . If they will have a clean car , then they will feel proud.",
+            "qa_pairs": [
+                {
+                    "question": "If john washes his car , does this entail that he will feel proud?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wash his car, does this imply that he won't feel proud?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john washes his car , does this mean that he won't feel proud?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wash his car, does this mean that he will feel proud?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone plants a tree, then they will reduce air pollution. If they will reduce air pollution, then the environment will be healthier.",
+            "qa_pairs": [
+                {
+                    "question": "If john plants a tree, does this mean that the environment will be healthier?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't plant a tree, does this entail that the environment won't be healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john plants a tree, does this imply that the environment won't be healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't plant a tree, does this entail that the environment will be healthier?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions , then they will stay safe . If they will stay safe , then they will not get affected by the virus .",
+            "qa_pairs": [
+                {
+                    "question": "If linda takes all the necessary precautions , does this imply that she will not get affected by the virus?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If linda doesn't take all the necessary precautions, does this entail that she will get affected by the virus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If linda takes all the necessary precautions , does this imply that she will get affected by the virus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If linda doesn't take all the necessary precautions, does this entail that she will not get affected by the virus?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone doesn't get enough sleep, then they will not be able to focus. If they will not be able to focus, then they will not be able to finish their work on time.",
+            "qa_pairs": [
+                {
+                    "question": "If john doesn't get enough sleep, does this mean that he will not be able to finish his work on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john gets enough sleep, does this entail that he will be able to finish his work on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't get enough sleep, does this entail that he will be able to finish his work on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john gets enough sleep, does this mean that he will not be able to finish his work on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats healthy food, then they will have more energy. If they will have more energy, then they will be more productive.",
+            "qa_pairs": [
+                {
+                    "question": "If mary eats healthy food , does this entail that she will be more productive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary doesn't eat healthy food, does this entail that she won't be more productive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary eats healthy food , does this mean that she won't be more productive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary doesn't eat healthy food, does this imply that she will be more productive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions, then they will stay safe. If they will stay safe, then they will not suffer from any illness.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes all the necessary precautions, does this imply that he will not suffer from any illness?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take all the necessary precautions, does this mean that he will suffer from any illness?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes all the necessary precautions, does this mean that he will suffer from any illness?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take all the necessary precautions, does this mean that he will not suffer from any illness?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is unwell, then they are unable to attend school. If they are unable to attend school, then they will miss their classes.",
+            "qa_pairs": [
+                {
+                    "question": "If harry is unwell, does this entail that he will miss his classes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If harry isn't unwell, does this mean that he won't miss his classes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry is unwell, does this mean that he won't miss his classes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry isn't unwell, does this entail that he will miss his classes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone purchases a new car , then they need to register the car . If they need to register the car , then they will get a car plate number .",
+            "qa_pairs": [
+                {
+                    "question": "If molly purchased a new car, does this mean that she will get a car plate number?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If molly didn't purchase a new car, does this entail that she won't get a car plate number?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If molly purchased a new car, does this entail that she won't get a car plate number?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If molly didn't purchase a new car, does this imply that she will get a car plate number?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a course, then they get good grades. If they get good grades, then they can apply for a job.",
+            "qa_pairs": [
+                {
+                    "question": "If jill takes a course , does this entail that she can apply for a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't take a course, does this mean that she can't apply for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill takes a course , does this entail that she can't apply for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't take a course, does this entail that she can apply for a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books, then they will understand the topics. If they will understand the topics, then they will be able to answer the questions.",
+            "qa_pairs": [
+                {
+                    "question": "If beth reads all the books, does this entail that she will be able to answer the questions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If beth doesn't read all the books, does this imply that she won't be able to answer the questions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If beth reads all the books, does this mean that she won't be able to answer the questions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If beth doesn't read all the books, does this entail that she will be able to answer the questions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a car, then they need to pay the registration fees. If they need to pay the registration fees, then they will be able to drive the car.",
+            "qa_pairs": [
+                {
+                    "question": "If jill bought a car, does this entail that she will be able to drive the car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill didn't buy a car, does this mean that she won't be able to drive the car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill bought a car, does this entail that she won't be able to drive the car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill didn't buy a car, does this imply that she will be able to drive the car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is responsible for all the tasks , then they have to finish it within the deadline. If they have to finish it within the deadline, then they will be rewarded.",
+            "qa_pairs": [
+                {
+                    "question": "If jill is responsible for all the tasks , does this entail that she will be rewarded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't responsible for all the tasks, does this entail that she won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill is responsible for all the tasks , does this imply that she won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill isn't responsible for all the tasks, does this imply that she will be rewarded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats a healthy breakfast, then they will have more energy. If they will have more energy, then they will be able to focus more easily.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny eats a healthy breakfast, does this mean that she will be able to focus more easily?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't eat a healthy breakfast, does this mean that she won't be able to focus more easily?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny eats a healthy breakfast, does this entail that she won't be able to focus more easily?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't eat a healthy breakfast, does this entail that she will be able to focus more easily?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a lot of effort, then they will be successful. If they will be successful, then they will reach their goals.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a lot of effort, does this mean that he will reach his goals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a lot of effort, does this mean that he won't reach his goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a lot of effort, does this imply that he won't reach his goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a lot of effort, does this entail that he will reach his goals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows the instructions, then they will get desired results. If they will get desired results, then they will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If jill follows the instructions, does this entail that she will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't follow the instructions, does this imply that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill follows the instructions, does this entail that she won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't follow the instructions, does this imply that she will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone volunteers to help out, then they will feel appreciated. If they will feel appreciated, then they will be more likely to help out again.",
+            "qa_pairs": [
+                {
+                    "question": "If john volunteers to help out, does this mean that he will be more likely to help out again?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't volunteer to help out, does this mean that he won't be more likely to help out again?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john volunteers to help out, does this imply that he won't be more likely to help out again?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't volunteer to help out, does this mean that he will be more likely to help out again?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions, then they will be safe. If they will be safe, then they will not be infected.",
+            "qa_pairs": [
+                {
+                    "question": "If brian takes all the necessary precautions , does this entail that he will not be infected?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If brian doesn't take all the necessary precautions, does this imply that he will be infected?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian takes all the necessary precautions , does this mean that he will be infected?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian doesn't take all the necessary precautions, does this entail that he will not be infected?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone pays all their taxes, then they will be in good standing with the government. If they will be in good standing with the government, then they will receive benefits.",
+            "qa_pairs": [
+                {
+                    "question": "If sandra pays all her taxes , does this imply that she will receive benefits?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sandra doesn't pay all her taxes, does this entail that she won't receive benefits?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sandra pays all her taxes , does this mean that she won't receive benefits?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sandra doesn't pay all her taxes, does this mean that she will receive benefits?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone gets a high score on the test, then they will get an a in the class. If they will get an a in the class, then they will be eligible for a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If john gets a high score on the test, does this mean that he will be eligible for a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't get a high score on the test, does this mean that he won't be eligible for a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john gets a high score on the test, does this entail that he won't be eligible for a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't get a high score on the test, does this mean that he will be eligible for a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary steps , then they will be successful . If they will be successful , then they will become a leader .",
+            "qa_pairs": [
+                {
+                    "question": "If john takes all the necessary steps , does this imply that he will become a leader?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take all the necessary steps, does this imply that he won't become a leader?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes all the necessary steps , does this imply that he won't become a leader?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take all the necessary steps, does this imply that he will become a leader?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone spends their time studying, then they will get good grades. If they will get good grades, then they will have more opportunities.",
+            "qa_pairs": [
+                {
+                    "question": "If sara spends her time studying, does this mean that she will have more opportunities?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara doesn't spend her time studying, does this entail that she won't have more opportunities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara spends her time studying, does this imply that she won't have more opportunities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara doesn't spend her time studying, does this entail that she will have more opportunities?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books , then they will understand the concepts . If they will understand the concepts , then they will get good grades .",
+            "qa_pairs": [
+                {
+                    "question": "If jill reads all the books , does this mean that she will get good grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill doesn't read all the books, does this entail that she won't get good grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill reads all the books , does this mean that she won't get good grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill doesn't read all the books, does this imply that she will get good grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone reads all the books , then they can pass the test . If they can pass the test , then they will get a high score .",
+            "qa_pairs": [
+                {
+                    "question": "If john reads all the books , does this entail that he will get a high score?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read all the books, does this entail that he won't get a high score?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads all the books , does this mean that he won't get a high score?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read all the books, does this imply that he will get a high score?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a course, then they will learn new information. If they will learn new information, then they will gain new skills .",
+            "qa_pairs": [
+                {
+                    "question": "If jack takes a course, does this imply that he will gain new skills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't take a course, does this mean that he won't gain new skills?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack takes a course, does this mean that he won't gain new skills?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't take a course, does this imply that he will gain new skills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone turns off all the lights, then the room will be dark. If the room will be dark, then there will be no visibility.",
+            "qa_pairs": [
+                {
+                    "question": "If mary turns off all the lights, does this mean that there will be no visibility?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary doesn't turn off all the lights, does this entail that there won't be no visibility?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary turns off all the lights, does this mean that there won't be no visibility?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mary doesn't turn off all the lights, does this mean that there will be no visibility?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone mows their lawn, then they receive compliments. If they receive compliments, then they feel proud.",
+            "qa_pairs": [
+                {
+                    "question": "If chris mows his lawn, does this entail that he feels proud?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If chris doesn't mow his lawn, does this entail that he doesn't feel proud?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If chris mows his lawn, does this mean that he doesn't feel proud?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If chris doesn't mow his lawn, does this mean that he feels proud?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not pay their bills, then they will face a financial penalty. If they will face a financial penalty, then they will be in debt.",
+            "qa_pairs": [
+                {
+                    "question": "If gillian does not pay her bills, does this mean that she will be in debt?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gillian pays her bills, does this entail that she won't be in debt?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If gillian does not pay her bills, does this imply that she won't be in debt?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If gillian pays her bills, does this entail that she will be in debt?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone shops online, then they will receive the product in a few days. If they will receive the product in a few days, then they will have to pay for it.",
+            "qa_pairs": [
+                {
+                    "question": "If john shops online , does this entail that he will have to pay for it?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't shop online, does this entail that he won't have to pay for it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john shops online , does this mean that he won't have to pay for it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't shop online, does this mean that he will have to pay for it?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a new car , then they will need to insure it . If they will need to insure it , then they will need to pay for the premiums .",
+            "qa_pairs": [
+                {
+                    "question": "If john bought a new car , does this mean that he will need to pay for the premiums?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john didn't buy a new car, does this mean that he won't need to pay for the premiums?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john bought a new car , does this entail that he won't need to pay for the premiums?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john didn't buy a new car, does this entail that he will need to pay for the premiums?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone completes their daily exercise, then they will stay healthy. If they will stay healthy, then they can live a long life.",
+            "qa_pairs": [
+                {
+                    "question": "If john completes his daily exercise, does this entail that he can live a long life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't complete his daily exercise, does this imply that he can't live a long life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john completes his daily exercise, does this entail that he can't live a long life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't complete his daily exercise, does this imply that he can live a long life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet, then they will have good health. If they will have good health, then they will have an improved lifestyle.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny follows a healthy diet, does this entail that  she will have an improved lifestyle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny doesn't follow a healthy diet, does this mean that she won't have an improved lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny follows a healthy diet, does this imply that she won't have an improved lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jenny doesn't follow a healthy diet, does this imply that  she will have an improved lifestyle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works hard , then they will get a promotion . If they will get a promotion , then they will receive a salary raise .",
+            "qa_pairs": [
+                {
+                    "question": "If sarah works hard , does this entail that she will receive a salary raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah doesn't work hard, does this mean that she won't receive a salary raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah works hard , does this mean that she won't receive a salary raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sarah doesn't work hard, does this mean that she will receive a salary raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys all the necessary ingredients, then they can cook a delicious meal. If they can cook a delicious meal, then they will be able to impress their friends.",
+            "qa_pairs": [
+                {
+                    "question": "If kathy buys all the necessary ingredients, does this mean that she will be able to impress her friends?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If kathy doesn't buy all the necessary ingredients, does this entail that she won't be able to impress her friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kathy buys all the necessary ingredients, does this mean that she won't be able to impress her friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kathy doesn't buy all the necessary ingredients, does this entail that she will be able to impress her friends?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes all the necessary precautions , then they will be safe from any harm . If they will be safe from any harm , then they will be able to lead a normal life .",
+            "qa_pairs": [
+                {
+                    "question": "If maria takes all the necessary precautions, does this entail that she will be able to lead a normal life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If maria doesn't take all the necessary precautions, does this mean that she won't be able to lead a normal life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If maria takes all the necessary precautions, does this mean that she won't be able to lead a normal life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If maria doesn't take all the necessary precautions, does this imply that she will be able to lead a normal life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes care of their health, then they will have better immunity. If they will have better immunity, then they will be less likely to catch a disease.",
+            "qa_pairs": [
+                {
+                    "question": "If molly takes care of her health, does this entail that  she will be less likely to catch a disease?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If molly doesn't take care of her health, does this mean that she won't be less likely to catch a disease?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If molly takes care of her health, does this mean that she won't be less likely to catch a disease?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If molly doesn't take care of her health, does this imply that  she will be less likely to catch a disease?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone cycles to work daily, then their health will improve. If their health will improve, then they will reduce their stress levels.",
+            "qa_pairs": [
+                {
+                    "question": "If john cycles to work daily, does this imply that he will reduce his stress levels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't cycle to work daily, does this mean that he won't reduce his stress levels?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john cycles to work daily, does this entail that he won't reduce his stress levels?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't cycle to work daily, does this imply that he will reduce his stress levels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone waves the flag, then they will be proud of their country. If they will be proud of their country, then they will sing the national anthem.",
+            "qa_pairs": [
+                {
+                    "question": "If juan waves the flag, does this entail that he will sing the national anthem?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If juan doesn't wave the flag, does this mean that he won't sing the national anthem?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If juan waves the flag, does this entail that he won't sing the national anthem?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If juan doesn't wave the flag, does this imply that he will sing the national anthem?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the store , then they will buy something . If they will buy something , then they will be satisfied .",
+            "qa_pairs": [
+                {
+                    "question": "If john goes to the store , does this imply that he will be satisfied?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go to the store, does this entail that he won't be satisfied?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes to the store , does this imply that he won't be satisfied?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go to the store, does this entail that he will be satisfied?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone turns off all the lights, then the room will be dark. If the room will be dark, then they cannot see anything.",
+            "qa_pairs": [
+                {
+                    "question": "If aman turned off all the lights, does this imply that they cannot see anything?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If aman didn't turn off all the lights, does this imply that they can see anything?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If aman turned off all the lights, does this imply that they can see anything?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If aman didn't turn off all the lights, does this mean that they cannot see anything?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies hard, then they pass the exams. If they pass the exams, then they will get a good grade.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies hard, does this imply that he will get a good grade?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study hard, does this imply that he won't get a good grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies hard, does this mean that he won't get a good grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study hard, does this mean that he will get a good grade?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone wears a seatbelt, then they will be safe. If they will be safe, then they will avoid getting a ticket.",
+            "qa_pairs": [
+                {
+                    "question": "If john wears a seatbelt, does this mean that he will avoid getting a ticket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wear a seatbelt, does this imply that he won't avoid getting a ticket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wears a seatbelt, does this imply that he won't avoid getting a ticket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wear a seatbelt, does this mean that he will avoid getting a ticket?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone visits the library regularly, then they will have an improved understanding of the subject. If they will have an improved understanding of the subject, then they will be likely to get better grades.",
+            "qa_pairs": [
+                {
+                    "question": "If alice visits the library regularly , does this entail that she will be likely to get better grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice doesn't visit the library regularly, does this imply that she won't be likely to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice visits the library regularly , does this imply that she won't be likely to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice doesn't visit the library regularly, does this mean that she will be likely to get better grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone puts in extra effort, then they will be successful. If they will be successful, then they will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If jacob puts in extra effort, does this imply that he will get a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jacob doesn't put in extra effort, does this entail that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob puts in extra effort, does this imply that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob doesn't put in extra effort, does this entail that he will get a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows a healthy diet, then they will be able to stay fit. If they will be able to stay fit, then they will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If jane follows a healthy diet, does this entail that she will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane doesn't follow a healthy diet, does this imply that she won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane follows a healthy diet, does this mean that she won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jane doesn't follow a healthy diet, does this entail that she will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone cleans the room, then they will be praised by their parents. If they will be praised by their parents, then they will get a reward.",
+            "qa_pairs": [
+                {
+                    "question": "If adam cleans the room, does this mean that he will get a reward?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't clean the room, does this entail that he won't get a reward?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam cleans the room, does this imply that he won't get a reward?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't clean the room, does this imply that he will get a reward?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats healthy food, then they will stay fit. If they will stay fit, then they will have a healthy lifestyle.",
+            "qa_pairs": [
+                {
+                    "question": "If jack eats healthy food, does this entail that he will have a healthy lifestyle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't eat healthy food, does this mean that he won't have a healthy lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack eats healthy food, does this imply that he won't have a healthy lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't eat healthy food, does this entail that he will have a healthy lifestyle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a new car , then they get to drive it around town . If they get to drive it around town , then they will feel proud of their purchase .",
+            "qa_pairs": [
+                {
+                    "question": "If alex bought a new car , does this entail that he will feel proud of his purchase?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alex didn't buy a new car, does this imply that he won't feel proud of his purchase?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex bought a new car , does this imply that he won't feel proud of his purchase?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alex didn't buy a new car, does this mean that he will feel proud of his purchase?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone makes a mistake, then they must face the consequences. If they must face the consequences, then they will learn from their mistake.",
+            "qa_pairs": [
+                {
+                    "question": "If sara made a mistake, does this entail that she will learn from her mistake?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara didn't make a mistake, does this mean that she won't learn from her mistake?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara made a mistake, does this entail that she won't learn from her mistake?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara didn't make a mistake, does this imply that she will learn from her mistake?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a new car, then they will have to pay the registration fees. If they will have to pay the registration fees, then they will be able to drive the car.",
+            "qa_pairs": [
+                {
+                    "question": "If lily buys a new car, does this imply that she will be able to drive the car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If lily doesn't buy a new car, does this entail that she won't be able to drive the car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily buys a new car, does this entail that she won't be able to drive the car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If lily doesn't buy a new car, does this entail that she will be able to drive the car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not brush their teeth , then they will have bad breath . If they will have bad breath , then they will not make a good impression .",
+            "qa_pairs": [
+                {
+                    "question": "If george does not brush his teeth , does this entail that he will not make a good impression?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If george brushes his teeth, does this imply that he will make a good impression?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george does not brush his teeth , does this imply that he will make a good impression?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george brushes his teeth, does this mean that he will not make a good impression?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone comes to the office early, then they will be given extra credit. If they will be given extra credit, then they will be given a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If henry comes to the office early, does this entail that he will be given a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry doesn't come to the office early, does this mean that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry comes to the office early, does this mean that he won't be given a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry doesn't come to the office early, does this mean that he will be given a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone eats all their vegetables, then they will be healthy. If they will be healthy, then they will have a balanced diet.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha eats all her vegetables, does this mean that she will have a balanced diet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha doesn't eat all her vegetables, does this mean that she won't have a balanced diet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha eats all her vegetables, does this mean that she won't have a balanced diet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If samantha doesn't eat all her vegetables, does this imply that she will have a balanced diet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the store , then they will buy something . If they will buy something , then they will feel satisfied .",
+            "qa_pairs": [
+                {
+                    "question": "If jack goes to the store , does this entail that he will feel satisfied?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't go to the store, does this entail that he won't feel satisfied?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack goes to the store , does this mean that he won't feel satisfied?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't go to the store, does this entail that he will feel satisfied?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the store, then they will buy something. If they will buy something, then they will be charged for the purchase.",
+            "qa_pairs": [
+                {
+                    "question": "If jacob went to the store, does this entail that he will be charged for the purchase?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jacob didn't go to the store, does this entail that he won't be charged for the purchase?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob went to the store, does this entail that he won't be charged for the purchase?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jacob didn't go to the store, does this entail that he will be charged for the purchase?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the gym regularly, then they will be in good shape. If they will be in good shape, then they will be healthy.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes to the gym regularly, does this entail that he will be healthy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go to the gym regularly, does this mean that he won't be healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes to the gym regularly, does this imply that he won't be healthy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go to the gym regularly, does this entail that he will be healthy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone always helps out their friends , then they will be rewarded with kindness . If they will be rewarded with kindness , then they will gain more friends .",
+            "qa_pairs": [
+                {
+                    "question": "If rob always helps out his friends , does this mean that he will gain more friends?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rob always doesn't help out his friends, does this imply that he won't gain more friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rob always helps out his friends , does this mean that he won't gain more friends?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rob always doesn't help out his friends, does this imply that he will gain more friends?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone cleans up their room , then they can invite their friends over . If they can invite their friends over , then they will be able to have fun .",
+            "qa_pairs": [
+                {
+                    "question": "If hannah cleans up her room , does this mean that she will be able to have fun?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If hannah doesn't clean up her room, does this entail that she won't be able to have fun?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah cleans up her room , does this entail that she won't be able to have fun?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If hannah doesn't clean up her room, does this entail that she will be able to have fun?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone runs a marathon, then they will get tired. If they will get tired, then they will need rest.",
+            "qa_pairs": [
+                {
+                    "question": "If dave runs a marathon, does this imply that he will need rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dave doesn't run a marathon, does this imply that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dave runs a marathon, does this mean that he won't need rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dave doesn't run a marathon, does this imply that he will need rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone finishes all their tasks, then they will get a promotion. If they will get a promotion, then they will receive a raise.",
+            "qa_pairs": [
+                {
+                    "question": "If holly finished all her tasks, does this mean that she will receive a raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If holly didn't finish all her tasks, does this entail that she won't receive a raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If holly finished all her tasks, does this entail that she won't receive a raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If holly didn't finish all her tasks, does this imply that she will receive a raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the gym every day , then they will be physically fit . If they will be physically fit , then they will have better overall health .",
+            "qa_pairs": [
+                {
+                    "question": "If alice goes to the gym every day , does this entail that she will have better overall health?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice doesn't go to the gym every day, does this entail that she won't have better overall health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice goes to the gym every day , does this entail that she won't have better overall health?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If alice doesn't go to the gym every day, does this entail that she will have better overall health?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone does not wear a helmet, then they are more likely to get injured. If they are more likely to get injured, then they may lose their life.",
+            "qa_pairs": [
+                {
+                    "question": "If adam does not wear a helmet, does this entail that he may lose his life?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam wears a helmet, does this entail that he may not lose his life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam does not wear a helmet, does this imply that he may not lose his life?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam wears a helmet, does this entail that he may lose his life?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies hard, then they will perform well. If they will perform well, then they will pass the course.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies hard, does this mean that he will pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study hard, does this mean that he won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies hard, does this entail that he won't pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study hard, does this entail that he will pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone follows all safety protocols, then they will be rewarded. If they will be rewarded, then they will get a raise.",
+            "qa_pairs": [
+                {
+                    "question": "If emily follows all safety protocols, does this mean that she will get a raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If emily doesn't follow all safety protocols, does this imply that she won't get a raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily follows all safety protocols, does this mean that she won't get a raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If emily doesn't follow all safety protocols, does this entail that she will get a raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies hard for their exams, then they will perform well. If they will perform well, then they will be likely to pass the course.",
+            "qa_pairs": [
+                {
+                    "question": "If jack studies hard for his exams, does this mean that he will be likely to pass the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't study hard for his exams, does this imply that he won't be likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack studies hard for his exams, does this entail that he won't be likely to pass the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't study hard for his exams, does this imply that he will be likely to pass the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone passes all the tests, then they will get a promotion. If they will get a promotion, then they will get a pay raise.",
+            "qa_pairs": [
+                {
+                    "question": "If jill passed all the tests, does this imply that she will get a pay raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill didn't pass all the tests, does this mean that she won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill passed all the tests, does this mean that she won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill didn't pass all the tests, does this mean that she will get a pay raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone makes a mistake , then they will have to face the consequences . If they will have to face the consequences , then their reputation will be damaged .",
+            "qa_pairs": [
+                {
+                    "question": "If jill made a mistake , does this imply that her reputation will be damaged?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill didn't make a mistake, does this mean that her reputation won't be damaged?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill made a mistake , does this imply that her reputation won't be damaged?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jill didn't make a mistake, does this imply that her reputation will be damaged?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone runs a marathon, then they will be tired. If they will be tired, then they will need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If bob runs a marathon, does this entail that he will need to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't run a marathon, does this imply that he won't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob runs a marathon, does this entail that he won't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't run a marathon, does this imply that he will need to rest?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

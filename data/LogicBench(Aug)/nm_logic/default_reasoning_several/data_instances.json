@@ -1,0 +1,3156 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_several",
+    "data_samples": [
+        {
+            "context": "john and tim are friends. friends are loyal . friends are always supportive . john is not loyal . tim is not supportive .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that tim is loyal  and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that tim isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that tim is loyal  and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that tim isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are usually affectionate. pets are normally loyal. cats are not affectionate. dogs are not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are affectionate and cats are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't affectionate and cats are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are affectionate and cats aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't affectionate and cats aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually supportive. friends are normally loyal. mary is not supportive. john is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are friends . friends are loyal to each other . friends are usually supportive . john is not supportive . jane is not loyal .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john is loyal  and jane is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john isn't loyal and jane is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john is loyal  and jane isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john isn't loyal and jane isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually supportive. friends are normally loyal. john is not supportive. mary is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and planes both fly. birds have wings while planes have engines. flying objects are usually fast. birds are not always fast. planes are not always winged.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that birds have a different method of propulsion and planes are usually fast?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that birds don't have a different method of propulsion and planes are usually fast?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that birds have a different method of propulsion and planes aren't usually fast?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that birds don't have a different method of propulsion and planes aren't usually fast?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "samantha and richard are friends. friends usually hang out together. friends are normally supportive. samantha doesn't hang out with richard. richard is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that samantha is supportive and richard hangs out with samantha?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that samantha isn't supportive and richard hangs out with samantha?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that samantha is supportive and richard doesn't hang out with samantha?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that samantha isn't supportive and richard doesn't hang out with samantha?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually help each other. friends are usually loyal. john is not loyal. mary is not helping.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is loyal and john is helping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john is helping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is loyal and john isn't helping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john isn't helping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals normally have four legs. cats have no fur. dogs do not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally playful. cats are not furry. dogs are not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are furry and cats are playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats are playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats aren't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats aren't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals are usually domesticated. cats are not domesticated. dogs are not four-legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are domesticated and cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't domesticated and cats have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are domesticated and cats don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't domesticated and cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and amy are friends. friends are loyal to each other. friends are usually supportive. john is not loyal. amy is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that amy is loyal to john and john is supportive of amy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that amy isn't loyal to john and john is supportive of amy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that amy is loyal to john and john isn't supportive of amy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that amy isn't loyal to john and john isn't supportive of amy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jimmy are brothers. brothers are usually close. brothers are normally supportive. john isn't close. jimmy is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jimmy is close and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jimmy isn't close and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jimmy is close and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jimmy isn't close and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are best friends. best friends are usually loyal. best friends are normally supportive. mary is not loyal. john is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are classmates. classmates usually have similar interests. classmates are often friends. john doesn't have similar interests. paul is not a friend.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that paul has similar interests and john is a friend?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that paul doesn't have similar interests and john is a friend?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that paul has similar interests and john isn't a friend?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that paul doesn't have similar interests and john isn't a friend?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are typically loyal. pets are usually cuddly. cats are not loyal. dogs are not cuddly.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are loyal and cats are cuddly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't loyal and cats are cuddly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are loyal and cats aren't cuddly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't loyal and cats aren't cuddly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually round. fruits are normally sweet. apples are not round. oranges are not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are round and apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't round and apples are sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are round and apples aren't sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't round and apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are typically four-legged. animals are usually furry. cats aren't always four-legged. dogs are not always furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are four-legged and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't four-legged and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are four-legged and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't four-legged and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally juicy. apples are not juicy. oranges are not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are juicy and apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't juicy and apples are sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are juicy and apples aren't sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't juicy and apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. animals are usually furry. animals are normally loyal. dogs are not furry. cats are not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats are furry and dogs are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats aren't furry and dogs are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cats are furry and dogs aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that cats aren't furry and dogs aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal to each other. friends are normally kind. john is not loyal. mary is not kind.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is loyal and john is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is loyal and john isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally juicy. apples are not sweet. oranges are not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that oranges are sweet and apples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples are juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet and apples aren't juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends spend time together. friends are usually kind. john is not always kind. mary is not spending time with john.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is kind and john is spending time with mary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't kind and john is spending time with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is kind and john isn't spending time with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't kind and john isn't spending time with mary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are often supportive. friends are usually loyal. john is not supportive. mary is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually help each other. friends are normally supportive. john is not supportive. mary is not helpful.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john is helpful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john isn't helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john isn't helpful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally friendly. cats are not always friendly. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are friendly and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't friendly and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are friendly and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't friendly and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally kept as pets. cats are not furry. dogs are not kept as pets.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are furry and cats are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats are kept as pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats aren't kept as pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. animals have four legs. animals are usually domesticated. dogs are not domesticated. cats are not four-legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually share secrets. friends often help each other. john doesn’t share secrets. mary doesn’t help john.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary shares secrets and john helps mary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't share secrets and john helps mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary shares secrets and john doesn't help mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary doesn't share secrets and john doesn't help mary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals have fur. cats have no fur. dogs are not four-legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur and cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur and cats have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have fur and cats don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are typically sweet. fruits are usually colorful. apples are not sweet. oranges are not colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are sweet and apples are colorful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet and apples are colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet and apples aren't colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet and apples aren't colorful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually loyal. friends are normally supportive. mary is not loyal. john is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are normally playful. cats are not playful. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are playful and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't playful and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are playful and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't playful and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are best friends. best friends usually share secrets. best friends are usually loyal. john is not loyal. mary does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is loyal and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is loyal and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jane and joe are friends. friends are usually supportive. friends are normally loyal. jane is not supportive. joe is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that joe is supportive and jane is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that joe isn't supportive and jane is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that joe is supportive and jane isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that joe isn't supportive and jane isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends have similar interests. friends are usually supportive. john is not supportive. mary is not interested in the same things.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is interested in the same things and mary is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john isn't interested in the same things and mary is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john is interested in the same things and mary isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john isn't interested in the same things and mary isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally colorful. apples are not sweet. oranges are not colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet and apples are colorful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples are colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet and apples aren't colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet and apples aren't colorful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "puppies and kittens are animals. animals are usually cute. animals are normally playful. puppies are not always cute. kittens are not always playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that puppies are usually playful and kittens are usually cute?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that puppies aren't usually playful and kittens are usually cute?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that puppies are usually playful and kittens aren't usually cute?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that puppies aren't usually playful and kittens aren't usually cute?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and sarah are friends. friends usually spend time together. friends are usually kind. john is not kind. sarah is not spending time with john.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that sarah is kind and john is spending time with sarah?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that sarah isn't kind and john is spending time with sarah?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that sarah is kind and john isn't spending time with sarah?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that sarah isn't kind and john isn't spending time with sarah?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends share a strong bond. friends enjoy spending time together. john does not share a strong bond. mary does not enjoy spending time together.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary shares a strong bond and john enjoys spending time together?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary doesn't share a strong bond and john enjoys spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary shares a strong bond and john doesn't enjoy spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary doesn't share a strong bond and john doesn't enjoy spending time together?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. animals have four legs. animals are normally furry. dogs are not furry. cats are not four legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats have fur and dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats don't have fur and dogs have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cats have fur and dogs don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that cats don't have fur and dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually four-legged. animals are normally furry. cats aren't four-legged. dogs aren't furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are four-legged and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't four-legged and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are four-legged and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't four-legged and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally domesticated. cats are not furry. dogs are not domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are furry and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually four legged. animals are normally considered as pets. cats don't have four legs. dogs are not considered as pets.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs and cats are pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs and cats are pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have four legs and cats aren't pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs and cats aren't pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal to one another. friends are usually supportive. john is not loyal to mary. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is loyal to mary and mary is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john isn't loyal to mary and mary is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is loyal to mary and mary isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john isn't loyal to mary and mary isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends often help each other. friends are usually loyal. john is not loyal. mary is not always helpful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is loyal and john is helpful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is loyal and john isn't helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john isn't helpful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have fur. animals are normally domesticated. cats don't have fur. dogs are not domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs have fur and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends tend to share secrets. friends are normally supportive. john is not supportive. mary does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pets and wild animals have different habits. pets are usually domesticated. wild animals are not domesticated. pets can be wild. wild animals cannot be domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that pets are usually tame and wild animals are not tame?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pets aren't usually tame and wild animals are not tame?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pets are usually tame and wild animals are tame?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pets aren't usually tame and wild animals are tame?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally colorful. oranges are not sweet. apples are not colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are sweet and apples are colorful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples are colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet and apples aren't colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples aren't colorful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually share secrets. friends are normally supportive. john is not supportive. mary does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally warm-blooded. cats are not furry. dogs are not warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats are warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are furry and cats aren't warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats aren't warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally cute. cats are not furry. dogs are not cute.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are cute?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats are cute?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats aren't cute?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't cute?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are both animals. animals are typically furry. animals are usually playful. cats are not always playful. dogs are not always furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are usually playful and cats are usually furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't usually playful and cats are usually furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are usually playful and cats aren't usually furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't usually playful and cats aren't usually furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally found in nature. cats are not furry. dogs are not found in nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are furry and cats are found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats are found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats aren't found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are usually loving. pets are normally loyal. cats are not loving. dogs are not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are loving and cats are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't loving and cats are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are loving and cats aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't loving and cats aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mark are friends . friends usually help each other . friends are normally loyal . john is not loyal . mark is not helpful .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mark is loyal  and john is helpful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mark isn't loyal and john is helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mark is loyal  and john isn't helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mark isn't loyal and john isn't helpful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually kind. friends are normally supportive. john is not kind. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is kind and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't kind and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is kind and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't kind and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends typically share common interests. friends are usually supportive. john doesn't have common interests with mary. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john is supportive and mary has common interests with john?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john isn't supportive and mary has common interests with john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john is supportive and mary doesn't have common interests with john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john isn't supportive and mary doesn't have common interests with john?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jill and jack are family members. family members are usually close. family members are normally supportive. jack is not close. jill is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jack is supportive and jill is close?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jack isn't supportive and jill is close?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jack is supportive and jill isn't close?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jack isn't supportive and jill isn't close?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends often share stories. friends usually hang out together. john doesn't share stories. mary doesn't hang out together.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john hangs out together and mary shares stories?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't hang out together and mary shares stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john hangs out together and mary doesn't share stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john doesn't hang out together and mary doesn't share stories?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "roses and daisies are flowers. flowers have petals. flowers are usually colorful. roses are not colorful. daisies are not petals.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that roses have petals and daisies are colorful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that roses don't have petals and daisies are colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that roses have petals and daisies aren't colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that roses don't have petals and daisies aren't colorful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally friendly. cats are not furry. dogs are not friendly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are friendly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats are friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are furry and cats aren't friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats aren't friendly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends . friends are usually supportive . friends are normally kind . john is not supportive . mary is not kind .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is supportive  and john is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive  and john isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are typically sweet. fruits are usually round. apples are not round. oranges are not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are round and apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't round and apples are sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are round and apples aren't sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges aren't round and apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are friends. friends are loyal to each other. friends are usually supportive. tom is not loyal. jerry is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that jerry is loyal to tom and tom is supportive of jerry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jerry isn't loyal to tom and tom is supportive of jerry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jerry is loyal to tom and tom isn't supportive of jerry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jerry isn't loyal to tom and tom isn't supportive of jerry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and trucks have four wheels. four-wheeled vehicles are usually large. large vehicles are typically expensive. cars are not always large. trucks are not always expensive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars are usually expensive and trucks are typically large?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars aren't usually expensive and trucks are typically large?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cars are usually expensive and trucks aren't typically large?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cars aren't usually expensive and trucks aren't typically large?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals are usually furry. cats are not four-legged. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have four legs and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have four legs and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally colorful. oranges are not sweet. apples are not colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet and oranges are colorful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and oranges are colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that apples are sweet and oranges aren't colorful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and oranges aren't colorful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are usually friendly. pets are normally loyal. cats are not friendly. dogs are not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are friendly and cats are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't friendly and cats are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are friendly and cats aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't friendly and cats aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually loyal. friends are normally kind. john is not loyal. mary is not kind.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is loyal and john is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is loyal and john isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually share secrets. friends are normally loyal. john does not share secrets. mary is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary shares secrets and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't share secrets and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary shares secrets and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary doesn't share secrets and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "a and b are cars. cars have four wheels. cars are normally made of metal. a is not made of metal. b is not four-wheeled.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that b is made of metal and a has four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that b isn't made of metal and a has four wheels?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that b is made of metal and a doesn't have four wheels?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that b isn't made of metal and a doesn't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually supportive. friends are normally kind. john is not supportive. mary is not kind.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive and john isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends often help each other. friends are usually loyal. mary does not help john. john is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is loyal and john helps mary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john helps mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is loyal and john doesn't help mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john doesn't help mary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals are normally furry. cats are not four legged. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have four legs and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are normally domesticated. cats are not domesticated. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are domesticated and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't domesticated and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are domesticated and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't domesticated and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals are normally social. cats don’t have four legs. dogs are not social.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have four legs and cats are social?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats are social?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have four legs and cats aren't social?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs and cats aren't social?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends share common interests. friends are usually supportive. john isn't supportive. mary isn't interested in the same things.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john shares similar interests with mary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john shares similar interests with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john doesn't share similar interests with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john doesn't share similar interests with mary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jupiter and saturn are planets. planets are usually large. planets are normally spherical. jupiter is not large. saturn is not spherical.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that saturn is large and jupiter is spherical?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that saturn isn't large and jupiter is spherical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that saturn is large and jupiter isn't spherical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that saturn isn't large and jupiter isn't spherical?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually share secrets. friends are normally supportive. mary does not share secrets. john is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually have similar interests. friends are typically supportive of each other. john is not supportive of mary. mary does not have the same interests as john.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is supportive of mary and mary has the same interests as john?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john isn't supportive of mary and mary has the same interests as john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is supportive of mary and mary doesn't have the same interests as john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john isn't supportive of mary and mary doesn't have the same interests as john?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are usually playful. cats don't have fur. dogs are not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur and cats are playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur and cats are playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have fur and cats aren't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats aren't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "sally and joe are friends. friends are loyal. friends are usually supportive. sally is not loyal. joe is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that joe is loyal and sally is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that joe isn't loyal and sally is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that joe is loyal and sally isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that joe isn't loyal and sally isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are normally loyal. friends are usually supportive. john isn't loyal. mary isn't supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are married. married couples usually live together. married couples normally share responsibilities. john doesn't live with jane. jane doesn't share responsibilities.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john lives with jane and jane shares responsibilities?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john doesn't live with jane and jane shares responsibilities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john lives with jane and jane doesn't share responsibilities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john doesn't live with jane and jane doesn't share responsibilities?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are typically furry. mammals are usually warm-blooded. cats are not always furry. dogs are not cold-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats are warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats aren't warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "planes and helicopters are aircrafts. aircrafts are usually expensive. aircrafts are normally used for transportation. planes are not expensive. helicopters are not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that helicopters are expensive and planes are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that helicopters aren't expensive and planes are used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that helicopters are expensive and planes aren't used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that helicopters aren't expensive and planes aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal. friends are usually helpful. john is not loyal. mary is not helpful.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is loyal and john is helpful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is loyal and john isn't helpful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john isn't helpful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals are normally domesticated. cats are not four-legged. dogs are not domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have four legs and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have four legs. animals usually have fur. cats don't have four legs. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs have four legs and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs don't have four legs and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles are usually big. vehicles are normally used for transportation. cars are not big. buses are not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are big and cars are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't big and cars are used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that buses are big and cars aren't used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that buses aren't big and cars aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually have similar interests. friends usually support each other. john does not have the same interests as mary. mary does not support john.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john supports mary and mary has similar interests as john?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john doesn't support mary and mary has similar interests as john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john supports mary and mary doesn't have similar interests as john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john doesn't support mary and mary doesn't have similar interests as john?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals usually have four legs. cats have no fur. dogs don't have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats don't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are friends. friends share similar interests. friends are usually supportive. john isn't supportive. jane doesn't share similar interests.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jane is supportive and john shares similar interests?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane isn't supportive and john shares similar interests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jane is supportive and john doesn't share similar interests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jane isn't supportive and john doesn't share similar interests?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends tend to share secrets. friends usually offer support. mary does not share secrets. john does not offer support.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary offers support and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't offer support and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary offers support and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary doesn't offer support and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are generally supportive. friends are normally kind. john is not supportive. mary is not kind.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is supportive and john isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are married. married couples share a strong bond. married couples are often seen together. john is not always seen with mary. mary is not always strong.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john is often seen with mary and mary is strong?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john isn't often seen with mary and mary is strong?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is often seen with mary and mary isn't strong?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john isn't often seen with mary and mary isn't strong?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals and plants are living things. living things require oxygen to survive. living things usually reproduce. animals do not require oxygen to survive. plants are not usually capable of reproduction.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that animals can reproduce and plants need oxygen to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that animals can't reproduce and plants need oxygen to survive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that animals can reproduce and plants don't need oxygen to survive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that animals can't reproduce and plants don't need oxygen to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally considered pets. cats are not furry. dogs are not considered pets.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are furry and cats are considered pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't furry and cats are considered pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are furry and cats aren't considered pets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats aren't considered pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and fish are animals. animals have four legs. animals are normally omnivores. birds don't have four legs. fish is not an omnivore.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that fish have four legs and birds are omnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that fish don't have four legs and birds are omnivores?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that fish have four legs and birds aren't omnivores?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that fish don't have four legs and birds aren't omnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends share common interests. friends usually have similar personalities. john doesn’t have the same interests as mary. mary does not have a similar personality to john.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john has similar interests to mary and mary has a similar personality to john?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john doesn't have similar interests to mary and mary has a similar personality to john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john has similar interests to mary and mary doesn't have a similar personality to john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john doesn't have similar interests to mary and mary doesn't have a similar personality to john?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals have fur. mammals are normally warm-blooded. cats are not warm-blooded. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are warm-blooded and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't warm-blooded and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are warm-blooded and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't warm-blooded and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and mark are friends. friends typically enjoy spending time together. friends are often supportive of each other. jenny does not enjoy spending time with mark. mark is not supportive of jenny.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jenny is supportive of mark and mark enjoys spending time with jenny?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jenny isn't supportive of mark and mark enjoys spending time with jenny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jenny is supportive of mark and mark doesn't enjoy spending time with jenny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jenny isn't supportive of mark and mark doesn't enjoy spending time with jenny?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are usually loyal. friends are normally supportive. john is not loyal. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally loyal. cats are not furry. dogs are not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats are loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats aren't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats aren't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends have common interests. friends are usually supportive. john is not supportive. mary is not interested in the same things.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john has common interests with mary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john has common interests with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john doesn't have common interests with mary?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john doesn't have common interests with mary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually have similar interests. friends are often supportive of each other. john isn't supportive of mary. mary doesn't have similar interests with john.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that john has similar interests with mary and mary is supportive of john?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john doesn't have similar interests with mary and mary is supportive of john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john has similar interests with mary and mary isn't supportive of john?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john doesn't have similar interests with mary and mary isn't supportive of john?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. animals are normally domesticated. cats are not kept as pets. dogs are not domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are kept as pets and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are friends. friends usually have fun together. friends are normally loyal. tom isn't loyal. jerry is not having fun.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jerry is loyal and tom is having fun?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jerry isn't loyal and tom is having fun?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jerry is loyal and tom isn't having fun?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jerry isn't loyal and tom isn't having fun?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and bananas are fruits. fruits are usually sweet. fruits are normally juicy. apples are not sweet. bananas are not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are sweet and apples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and apples are juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet and apples aren't juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and apples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and mammals are animals. animals are usually warm-blooded. animals are normally capable of movement. birds are not warm-blooded. mammals are not capable of movement.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mammals are warm-blooded and birds are capable of movement?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mammals aren't warm-blooded and birds are capable of movement?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mammals are warm-blooded and birds aren't capable of movement?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mammals aren't warm-blooded and birds aren't capable of movement?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples and oranges are fruits. fruits are usually sweet. fruits are normally edible. apples are not sweet. oranges are not edible.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet and apples are edible?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and apples are edible?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet and apples aren't edible?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet and apples aren't edible?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are usually playful. pets are normally loyal. cats are not always playful. dogs are not always loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are usually playful and cats are normally loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't usually playful and cats are normally loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are usually playful and cats aren't normally loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't usually playful and cats aren't normally loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are friends. friends have similar interests. friends are usually kind. tom is not kind. jerry is not interested in the same things.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jerry is kind and tom has similar interests to jerry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that jerry isn't kind and tom has similar interests to jerry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jerry is kind and tom doesn't have similar interests to jerry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jerry isn't kind and tom doesn't have similar interests to jerry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are classmates. classmates usually get along. classmates are normally friendly. john is not friendly. jane is not getting along.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is friendly and jane is getting along?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that john isn't friendly and jane is getting along?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john is friendly and jane isn't getting along?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john isn't friendly and jane isn't getting along?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have four legs. animals are normally domesticated. cats have more than four legs. dogs are not domesticated.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have four legs and cats are domesticated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs and cats are domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs and cats aren't domesticated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal. friends are often supportive. mary is not loyal. john is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are twins. twins have similar features. twins are usually close. john is not close to mary. mary does not have similar features.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that john is close to mary and mary has similar features?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that john isn't close to mary and mary has similar features?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john is close to mary and mary doesn't have similar features?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john isn't close to mary and mary doesn't have similar features?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually four-legged. animals are normally furry. cats are not four-legged. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are four-legged and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't four-legged and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are four-legged and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't four-legged and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fido and spot are dogs. dogs are typically playful. dogs normally have fur. fido does not have fur. spot is not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that spot has fur and fido is playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that spot doesn't have fur and fido is playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that spot has fur and fido isn't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that spot doesn't have fur and fido isn't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends share secrets. friends are usually supportive. john is not supportive. mary does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends have similar interests. friends are usually supportive. john is not always supportive. mary is not always interested in the same things.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john is supportive and mary has similar interests?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john isn't supportive and mary has similar interests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that john is supportive and mary doesn't have similar interests?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john isn't supportive and mary doesn't have similar interests?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fido and spot are dogs. dogs are usually loyal. dogs are normally playful. fido is not loyal. spot is not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that spot is loyal and fido is playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that spot isn't loyal and fido is playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that spot is loyal and fido isn't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that spot isn't loyal and fido isn't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are married. married couples are devoted to each other. married couples are usually supportive. john is not supportive. mary is not devoted to each other.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that john is supportive and mary is devoted to each other?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that john isn't supportive and mary is devoted to each other?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that john is supportive and mary isn't devoted to each other?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that john isn't supportive and mary isn't devoted to each other?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fido and spot are pets. pets are usually cuddly. pets are normally loyal. fido is not cuddly. spot is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that fido is loyal and spot is cuddly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that fido isn't loyal and spot is cuddly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that fido is loyal and spot isn't cuddly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that fido isn't loyal and spot isn't cuddly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are usually friendly. cats are not furry. dogs are not friendly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur and cats are friendly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur and cats are friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs have fur and cats aren't friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur and cats aren't friendly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "robert and sandy are friends. friends are usually kind. friends are normally supportive. robert is not kind. sandy is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that robert is supportive and sandy is kind?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that robert isn't supportive and sandy is kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that robert is supportive and sandy isn't kind?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that robert isn't supportive and sandy isn't kind?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have fur. animals are usually playful. cats don't have fur. dogs are not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur and cats are playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats are playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs have fur and cats aren't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur and cats aren't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually support each other. friends are normally loyal. john does not support mary. mary is not loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mary supports john and john is loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary doesn't support john and john is loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary supports john and john isn't loyal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary doesn't support john and john isn't loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally found in the wild. cats are not found in the wild. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are found in the wild and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't found in the wild and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are found in the wild and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't found in the wild and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals can usually move. animals are normally warm-blooded. cats are not always able to move. dogs are not warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs can move and cats are warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs can't move and cats are warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs can move and cats aren't warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs can't move and cats aren't warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually domesticated. animals are normally carnivorous. cats are not domesticated. dogs are not carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are domesticated and cats are carnivorous?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't domesticated and cats are carnivorous?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are domesticated and cats aren't carnivorous?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't domesticated and cats aren't carnivorous?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the dog and cat are animals. animals have four legs. animals are usually domesticated. the dog is not domesticated. the cat is not four legged.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that the cat is domesticated and the dog has four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that the cat isn't domesticated and the dog has four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that the cat is domesticated and the dog doesn't have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that the cat isn't domesticated and the dog doesn't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal. friends are usually supportive. john is not loyal. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are friends. friends are usually kind. friends are normally supportive. john is not kind. jane is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jane is kind and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane isn't kind and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jane is kind and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jane isn't kind and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jenny and mark are friends. friends usually have similar interests. friends usually support each other. jenny doesn't have the same interests as mark. mark doesn't always support jenny.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jenny supports mark and mark has similar interests to jenny?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jenny doesn't support mark and mark has similar interests to jenny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jenny supports mark and mark doesn't have similar interests to jenny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that jenny doesn't support mark and mark doesn't have similar interests to jenny?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and paul are friends. friends are usually loyal. friends are normally supportive. john is not loyal. paul is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that paul is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that paul isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that paul is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that paul isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are usually domesticated. cats are not domesticated. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are domesticated and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't domesticated and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are domesticated and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't domesticated and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends are loyal. friends are usually supportive. john isn't loyal. mary is not supportive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is loyal and john is supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mary isn't loyal and john is supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is loyal and john isn't supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't loyal and john isn't supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "joe and jane are friends. friends usually share secrets. friends are usually loyal. joe is not loyal. jane does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jane is loyal and joe shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that jane isn't loyal and joe shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jane is loyal and joe doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jane isn't loyal and joe doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are friends. friends usually share secrets. friends are often supportive. john isn't supportive. mary doesn't share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that mary is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mary isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mary is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and mary are parents. parents are usually loving and supportive. parents are normally responsible. mary isn't loving and supportive. john is not responsible.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mary is responsible and john is loving and supportive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mary isn't responsible and john is loving and supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mary is responsible and john isn't loving and supportive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mary isn't responsible and john isn't loving and supportive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally social. cats are not furry. dogs are not social.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are furry and cats are social?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't furry and cats are social?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are furry and cats aren't social?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't furry and cats aren't social?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tom and jerry are cartoons. cartoons are often humorous. cartoons are typically animated. tom is not humorous. jerry is not animated.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jerry is humorous and tom is animated?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jerry isn't humorous and tom is animated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jerry is humorous and tom isn't animated?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jerry isn't humorous and tom isn't animated?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally friendly. cats aren't always friendly. dogs aren't always furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are friendly and cats are furry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't friendly and cats are furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs are friendly and cats aren't furry?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs aren't friendly and cats aren't furry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals have fur. animals are normally friendly. cats are not friendly. dogs are not furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are friendly and cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't friendly and cats have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs are friendly and cats don't have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't friendly and cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fido and spot are pets. pets have fur. pets are normally playful. fido is not furry. spot is not playful.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that spot has fur and fido is playful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that spot doesn't have fur and fido is playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that spot has fur and fido isn't playful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that spot doesn't have fur and fido isn't playful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john and jane are friends. friends normally share secrets. friends are usually supportive. john is not supportive. jane does not share secrets.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that jane is supportive and john shares secrets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jane isn't supportive and john shares secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jane is supportive and john doesn't share secrets?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that jane isn't supportive and john doesn't share secrets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually furry. animals are normally friendly. cats are not always furry. dogs are not always friendly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are usually furry and cats are normally friendly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't usually furry and cats are normally friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are usually furry and cats aren't normally friendly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs aren't usually furry and cats aren't normally friendly?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

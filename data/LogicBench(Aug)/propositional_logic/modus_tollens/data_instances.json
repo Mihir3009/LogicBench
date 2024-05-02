@@ -1,0 +1,3156 @@
+{
+    "type": "propositional_logic",
+    "axiom": "modus_tollens",
+    "data_samples": [
+        {
+            "context": "If Mason left his job, then he will not receive any salary.",
+            "qa_pairs": [
+                {
+                    "question": "If he will receive any salary, does this mean that mason didn't leave his job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will receive any salary, does this mean that Mason left his job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not receive any salary, does this imply that mason didn't leave his job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not receive any salary, does this mean that Mason left his job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Daniel has a pet dog, then he will take it for a walk every day.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk every day, does this mean that daniel doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk every day, does this mean that Daniel has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this mean that daniel doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this mean that Daniel has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Jack won the lottery, then he will buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy a house, does this imply that jack didn't win the lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy a house, does this mean that Jack won the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this entail that jack didn't win the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this mean that Jack won the lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Levi is studying for his exam, then he will pass with flying colors.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't pass with flying colors, does this imply that levi isn't studying for his exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't pass with flying colors, does this imply that Levi is studying for his exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pass with flying colors, does this mean that levi isn't studying for his exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pass with flying colors, does this mean that Levi is studying for his exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Levi has an exam tomorrow, then he will stay up late to study.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't stay up late to study, does this mean that levi doesn't have an exam tomorrow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't stay up late to study, does this imply that Levi has an exam tomorrow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will stay up late to study, does this entail that levi doesn't have an exam tomorrow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will stay up late to study, does this mean that Levi has an exam tomorrow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If peter has a new job , then he will buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy a house, does this imply that peter doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy a house, does this imply that peter has a new job ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this mean that peter doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this mean that peter has a new job ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Theodore has a pet dog, then he will take it for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk, does this imply that theodore doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk, does this mean that Theodore has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this entail that theodore doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this imply that Theodore has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Jack has a lot of money, then he will buy a new house.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy a new house, does this mean that jack doesn't have a lot of money?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy a new house, does this imply that Jack has a lot of money?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a new house, does this imply that jack doesn't have a lot of money?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a new house, does this imply that Jack has a lot of money?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Theodore has a pet dog, then he will take it out for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it out for a walk, does this imply that theodore doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it out for a walk, does this entail that Theodore has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it out for a walk, does this entail that theodore doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it out for a walk, does this imply that Theodore has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If James forgot to wear a sweater, then he will catch a cold.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't catch a cold, does this mean that james didn't forget to wear a sweater?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't catch a cold, does this imply that James forgot to wear a sweater?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will catch a cold, does this imply that james didn't forget to wear a sweater?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will catch a cold, does this mean that James forgot to wear a sweater?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Henry finished his project on time, then he will be eligible for a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be eligible for a bonus, does this mean that henry didn't finish his project on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be eligible for a bonus, does this entail that Henry finished his project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be eligible for a bonus, does this imply that henry didn't finish his project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be eligible for a bonus, does this imply that Henry finished his project on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elijah missed his bus, then he will be late for work.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be late for work, does this entail that elijah didn't miss his bus?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be late for work, does this mean that Elijah missed his bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be late for work, does this imply that elijah didn't miss his bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be late for work, does this entail that Elijah missed his bus?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Benjamin is going to the beach, then he will go swimming.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't go swimming, does this imply that benjamin isn't going to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't go swimming, does this mean that Benjamin is going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go swimming, does this entail that benjamin isn't going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go swimming, does this mean that Benjamin is going to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Benjamin works hard in school, then he will get a good grade.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a good grade, does this imply that benjamin doesn't work hard in school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a good grade, does this entail that Benjamin works hard in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a good grade, does this imply that benjamin doesn't work hard in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a good grade, does this imply that Benjamin works hard in school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elijah has a new job, then he will get a raise.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a raise, does this mean that elijah doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a raise, does this mean that Elijah has a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a raise, does this mean that elijah doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a raise, does this entail that Elijah has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Jackson ate a slice of pizza, then he did not feel satisfied.",
+            "qa_pairs": [
+                {
+                    "question": "If he felt satisfied, does this entail that jackson didn't eat a slice of pizza?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he felt satisfied, does this imply that Jackson ate a slice of pizza?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not feel satisfied, does this entail that jackson didn't eat a slice of pizza?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not feel satisfied, does this entail that Jackson ate a slice of pizza?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Michael has a new job, then he will be able to buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be able to buy a house, does this imply that michael doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be able to buy a house, does this entail that Michael has a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to buy a house, does this imply that michael doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to buy a house, does this entail that Michael has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Daniel forgot to take his umbrella, then he will get wet in the rain.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get wet in the rain, does this imply that daniel didn't forget to take his umbrella?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get wet in the rain, does this mean that Daniel forgot to take his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get wet in the rain, does this mean that daniel didn't forget to take his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get wet in the rain, does this imply that Daniel forgot to take his umbrella?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ethan is a chef, then he will make a delicious cake.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't make a delicious cake, does this imply that ethan isn't a chef?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't make a delicious cake, does this imply that Ethan is a chef?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will make a delicious cake, does this entail that ethan isn't a chef?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will make a delicious cake, does this imply that Ethan is a chef?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mateo drank two cups of coffee , then he feels energized.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't feel energized, does this imply that mateo didn't drink two cups of coffee?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't feel energized, does this entail that Mateo drank two cups of coffee ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he feels energized, does this imply that mateo didn't drink two cups of coffee?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he feels energized, does this imply that Mateo drank two cups of coffee ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Liam finished his work early, then he will order pizza for dinner.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't order pizza for dinner, does this imply that liam didn't finish his work early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't order pizza for dinner, does this entail that Liam finished his work early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will order pizza for dinner, does this mean that liam didn't finish his work early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will order pizza for dinner, does this mean that Liam finished his work early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elijah finished the marathon, then he will get a medal.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a medal, does this entail that elijah didn't finish the marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a medal, does this imply that Elijah finished the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a medal, does this entail that elijah didn't finish the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a medal, does this mean that Elijah finished the marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Henry forgot his wallet, then he will not be able to buy lunch.",
+            "qa_pairs": [
+                {
+                    "question": "If he will be able to buy lunch, does this imply that henry didn't forget his wallet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will be able to buy lunch, does this imply that Henry forgot his wallet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not be able to buy lunch, does this mean that henry didn't forget his wallet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not be able to buy lunch, does this entail that Henry forgot his wallet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Theodore has finished his project on time, then he will get a bonus from his boss.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a bonus from his boss, does this imply that theodore hasn't finished his project on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a bonus from his boss, does this mean that Theodore has finished his project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus from his boss, does this imply that theodore hasn't finished his project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus from his boss, does this mean that Theodore has finished his project on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Lucas finished the race, then he will get a medal.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a medal, does this mean that lucas didn't finish the race?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a medal, does this mean that Lucas finished the race?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a medal, does this mean that lucas didn't finish the race?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a medal, does this mean that Lucas finished the race?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ethan has 10 years of experience , then he will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a promotion, does this mean that ethan doesn't have 10 years of experience?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a promotion, does this mean that Ethan has 10 years of experience ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a promotion, does this mean that ethan doesn't have 10 years of experience?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a promotion, does this mean that Ethan has 10 years of experience ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jason has a pet dog, then he will take it for a walk every day.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk every day, does this mean that jason doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk every day, does this entail that jason has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this imply that jason doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this imply that jason has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Benjamin forgot his lunch, then he will go hungry.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't go hungry, does this entail that benjamin didn't forget his lunch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't go hungry, does this imply that Benjamin forgot his lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go hungry, does this entail that benjamin didn't forget his lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go hungry, does this entail that Benjamin forgot his lunch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Oliver has a pet dog, then he will take him for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take him for a walk, does this entail that oliver doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take him for a walk, does this imply that Oliver has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take him for a walk, does this mean that oliver doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take him for a walk, does this imply that Oliver has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Lucas skipped breakfast, then he will feel tired during the day.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't feel tired during the day, does this mean that lucas didn't skip breakfast?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't feel tired during the day, does this imply that Lucas skipped breakfast?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will feel tired during the day, does this entail that lucas didn't skip breakfast?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will feel tired during the day, does this entail that Lucas skipped breakfast?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Alexander found a rare gem, then he will sell it for a huge profit.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't sell it for a huge profit, does this imply that alexander didn't find a rare gem?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't sell it for a huge profit, does this mean that Alexander found a rare gem?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will sell it for a huge profit, does this mean that alexander didn't find a rare gem?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will sell it for a huge profit, does this entail that Alexander found a rare gem?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mateo has worked hard for a promotion, then he will receive a raise.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive a raise, does this mean that mateo hasn't worked hard for a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive a raise, does this entail that Mateo has worked hard for a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a raise, does this mean that mateo hasn't worked hard for a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a raise, does this entail that Mateo has worked hard for a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Alexander is walking in the park, then he will get tired soon.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get tired soon, does this imply that alexander isn't walking in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get tired soon, does this mean that Alexander is walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get tired soon, does this entail that alexander isn't walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get tired soon, does this imply that Alexander is walking in the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Lucas has a phd degree, then he will be offered a prestigious job.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be offered a prestigious job, does this entail that lucas doesn't have a phd degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be offered a prestigious job, does this imply that Lucas has a phd degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be offered a prestigious job, does this imply that lucas doesn't have a phd degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be offered a prestigious job, does this entail that Lucas has a phd degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sandra got an a+ on her math test, then she will celebrate with her friends.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't celebrate with her friends, does this entail that sandra didn't get an a+ on her math test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't celebrate with her friends, does this imply that sandra got an a+ on her math test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will celebrate with her friends, does this entail that sandra didn't get an a+ on her math test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will celebrate with her friends, does this imply that sandra got an a+ on her math test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Michael has a new job, then he will buy a house with his salary.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy a house with his salary, does this imply that michael doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy a house with his salary, does this mean that Michael has a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house with his salary, does this imply that michael doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house with his salary, does this imply that Michael has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Sebastian has a pet dog, then he will take it to the park.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it to the park, does this imply that sebastian doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it to the park, does this mean that Sebastian has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it to the park, does this mean that sebastian doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it to the park, does this imply that Sebastian has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If William has a passport, then he will go abroad.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't go abroad, does this mean that william doesn't have a passport?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't go abroad, does this mean that William has a passport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go abroad, does this entail that william doesn't have a passport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go abroad, does this imply that William has a passport?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Liam arrived early for his meeting, then he was not given the promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If he was given the promotion, does this entail that liam didn't arrive early for his meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he was given the promotion, does this mean that Liam arrived early for his meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he was not given the promotion, does this imply that liam didn't arrive early for his meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he was not given the promotion, does this entail that Liam arrived early for his meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Daniel has not studied for the exam, then he will not get an a.",
+            "qa_pairs": [
+                {
+                    "question": "If he will get an a, does this mean that daniel has studied for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will get an a, does this entail that Daniel has not studied for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get an a, does this mean that daniel has studied for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get an a, does this mean that Daniel has not studied for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Oliver learned to drive a car, then he will get his driver's license.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get his driver's license, does this mean that oliver didn't learn to drive a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get his driver's license, does this imply that Oliver learned to drive a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get his driver's license, does this mean that oliver didn't learn to drive a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get his driver's license, does this entail that Oliver learned to drive a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ethan ate a cookie, then he did not feel satisfied.",
+            "qa_pairs": [
+                {
+                    "question": "If he felt satisfied, does this imply that ethan didn't eat a cookie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he felt satisfied, does this mean that Ethan ate a cookie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not feel satisfied, does this entail that ethan didn't eat a cookie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he did not feel satisfied, does this imply that Ethan ate a cookie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Levi failed the test, then he will not get a reward.",
+            "qa_pairs": [
+                {
+                    "question": "If he will get a reward, does this mean that levi didn't fail the test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will get a reward, does this imply that Levi failed the test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get a reward, does this entail that levi didn't fail the test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get a reward, does this entail that Levi failed the test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mason forgot to take his umbrella, then he got drenched in the rain.",
+            "qa_pairs": [
+                {
+                    "question": "If he none drenched in the rain, does this entail that mason didn't forget to take his umbrella?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he none drenched in the rain, does this mean that Mason forgot to take his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he got drenched in the rain, does this mean that mason didn't forget to take his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he got drenched in the rain, does this entail that Mason forgot to take his umbrella?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Oliver is not feeling well, then he will not go to work.",
+            "qa_pairs": [
+                {
+                    "question": "If he will go to work, does this mean that oliver is feeling well?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will go to work, does this entail that Oliver is not feeling well?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not go to work, does this mean that oliver is feeling well?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not go to work, does this mean that Oliver is not feeling well?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ethan finished the marathon, then he will receive a medal.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive a medal, does this entail that ethan didn't finish the marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive a medal, does this imply that Ethan finished the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a medal, does this entail that ethan didn't finish the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a medal, does this mean that Ethan finished the marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Michael has an important presentation, then he will practice to be prepared.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't practice to be prepared, does this mean that michael doesn't have an important presentation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't practice to be prepared, does this mean that Michael has an important presentation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will practice to be prepared, does this mean that michael doesn't have an important presentation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will practice to be prepared, does this imply that Michael has an important presentation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Benjamin got an a+ in the exam, then he will get a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a scholarship, does this mean that benjamin didn't get an a+ in the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a scholarship, does this entail that Benjamin got an a+ in the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a scholarship, does this entail that benjamin didn't get an a+ in the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a scholarship, does this entail that Benjamin got an a+ in the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Michael finished his project, then he will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive a bonus, does this entail that michael didn't finish his project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive a bonus, does this mean that Michael finished his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a bonus, does this imply that michael didn't finish his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a bonus, does this mean that Michael finished his project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If William is unable to answer the question , then he will not get the prize.",
+            "qa_pairs": [
+                {
+                    "question": "If he will get the prize, does this entail that william isn't unable to answer the question?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he will get the prize, does this imply that William is unable to answer the question ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get the prize, does this mean that william isn't unable to answer the question?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will not get the prize, does this imply that William is unable to answer the question ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia works hard in tshe office, then she will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a promotion, does this mean that mia doesn't work hard in tshe office?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a promotion, does this entail that Mia works hard in tshe office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this entail that mia doesn't work hard in tshe office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this entail that Mia works hard in tshe office?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Camila is running a marathon, then she will finish in under 3 hours.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't finish in under 3 hours, does this entail that camila isn't running a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't finish in under 3 hours, does this entail that Camila is running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will finish in under 3 hours, does this imply that camila isn't running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will finish in under 3 hours, does this entail that Camila is running a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emily is preparing for a marathon, then she will need to practice for many hours.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't need to practice for many hours, does this mean that emily isn't preparing for a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't need to practice for many hours, does this imply that Emily is preparing for a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will need to practice for many hours, does this mean that emily isn't preparing for a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will need to practice for many hours, does this mean that Emily is preparing for a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ava was offered a promotion, then she decided to not accept it.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't decide to not accept it, does this mean that ava wasn't offered a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't decide to not accept it, does this imply that Ava was offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to not accept it, does this imply that ava wasn't offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to not accept it, does this imply that Ava was offered a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Scarlett found a rare book, then she decided to keep it in her collection.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't decide to keep it in her collection, does this mean that scarlett didn't find a rare book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't decide to keep it in her collection, does this entail that Scarlett found a rare book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to keep it in her collection, does this imply that scarlett didn't find a rare book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to keep it in her collection, does this imply that Scarlett found a rare book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Isabella has a degree from a prestigious university, then she will get a job in a top company.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a job in a top company, does this entail that isabella doesn't have a degree from a prestigious university?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a job in a top company, does this imply that Isabella has a degree from a prestigious university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a job in a top company, does this imply that isabella doesn't have a degree from a prestigious university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a job in a top company, does this mean that Isabella has a degree from a prestigious university?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Amelia has passed tshe exam, then she will receive a certificate.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't receive a certificate, does this mean that amelia hasn't passed tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't receive a certificate, does this mean that Amelia has passed tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a certificate, does this entail that amelia hasn't passed tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a certificate, does this entail that Amelia has passed tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emma has tshe best grades in her class , then she will get a scholarship to college.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a scholarship to college, does this mean that emma doesn't have tshe best grades in her class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a scholarship to college, does this imply that Emma has tshe best grades in her class ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a scholarship to college, does this imply that emma doesn't have tshe best grades in her class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a scholarship to college, does this entail that Emma has tshe best grades in her class ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emily is studying for an exam, then she will get an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get an a grade, does this mean that emily isn't studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get an a grade, does this imply that Emily is studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this entail that emily isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this entail that Emily is studying for an exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Penelope reads a book every day, then she will gain knowledge.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't gain knowledge, does this imply that penelope doesn't read a book every day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't gain knowledge, does this entail that Penelope reads a book every day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will gain knowledge, does this mean that penelope doesn't read a book every day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will gain knowledge, does this mean that Penelope reads a book every day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Layla has finished her project, then she will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't receive a bonus, does this imply that layla hasn't finished her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't receive a bonus, does this mean that Layla has finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this imply that layla hasn't finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this entail that Layla has finished her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Penelope has an hour to complete her work, then she will finish tshe task on time.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't finish tshe task on time, does this imply that penelope doesn't have an hour to complete her work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't finish tshe task on time, does this mean that Penelope has an hour to complete her work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will finish tshe task on time, does this mean that penelope doesn't have an hour to complete her work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will finish tshe task on time, does this entail that Penelope has an hour to complete her work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Abigail is playing football, then she will not miss tshe match.",
+            "qa_pairs": [
+                {
+                    "question": "If she will miss tshe match, does this entail that abigail isn't playing football?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will miss tshe match, does this imply that Abigail is playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not miss tshe match, does this entail that abigail isn't playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not miss tshe match, does this imply that Abigail is playing football?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Layla is studying for tshe exam, then she will get a perfect score.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a perfect score, does this imply that layla isn't studying for tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a perfect score, does this entail that Layla is studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a perfect score, does this entail that layla isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a perfect score, does this entail that Layla is studying for tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Camila is a talented musician, then she will be invited to perform in a concert.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be invited to perform in a concert, does this entail that camila isn't a talented musician?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be invited to perform in a concert, does this mean that Camila is a talented musician?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be invited to perform in a concert, does this imply that camila isn't a talented musician?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be invited to perform in a concert, does this entail that Camila is a talented musician?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom is a good student, then he will get a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a scholarship, does this mean that tom isn't a good student?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a scholarship, does this entail that tom is a good student?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a scholarship, does this entail that tom isn't a good student?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a scholarship, does this imply that tom is a good student?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elizabeth has failed tshe exam, then she will not get a certificate.",
+            "qa_pairs": [
+                {
+                    "question": "If she will get a certificate, does this imply that elizabeth hasn't failed tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will get a certificate, does this entail that Elizabeth has failed tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not get a certificate, does this imply that elizabeth hasn't failed tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not get a certificate, does this entail that Elizabeth has failed tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Amelia is going to tshe movies, then she will not bring any snacks.",
+            "qa_pairs": [
+                {
+                    "question": "If she will bring any snacks, does this entail that amelia isn't going to tshe movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will bring any snacks, does this entail that Amelia is going to tshe movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not bring any snacks, does this entail that amelia isn't going to tshe movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not bring any snacks, does this entail that Amelia is going to tshe movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Abigail has finished her project, then she will submit it for review.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't submit it for review, does this imply that abigail hasn't finished her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't submit it for review, does this entail that Abigail has finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will submit it for review, does this imply that abigail hasn't finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will submit it for review, does this entail that Abigail has finished her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Abigail is allergic to cats, then she will not adopt one.",
+            "qa_pairs": [
+                {
+                    "question": "If she will adopt one, does this mean that abigail isn't allergic to cats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will adopt one, does this entail that Abigail is allergic to cats?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not adopt one, does this imply that abigail isn't allergic to cats?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not adopt one, does this mean that Abigail is allergic to cats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If the cat is shaking its tail, then it will run away from the dog.",
+            "qa_pairs": [
+                {
+                    "question": "If it won't run away from the dog, does this mean that the cat isn't shaking its tail?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If it won't run away from the dog, does this entail that the cat is shaking its tail?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If it will run away from the dog, does this entail that the cat isn't shaking its tail?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If it will run away from the dog, does this entail that the cat is shaking its tail?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ariana won tshe lottery, then she will buy a new house.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't buy a new house, does this mean that ariana didn't win tshe lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't buy a new house, does this entail that Ariana won tshe lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will buy a new house, does this imply that ariana didn't win tshe lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will buy a new house, does this entail that Ariana won tshe lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Amelia failed tshe exam, then she will not get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she will get a promotion, does this imply that amelia didn't fail tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will get a promotion, does this entail that Amelia failed tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not get a promotion, does this mean that amelia didn't fail tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not get a promotion, does this imply that Amelia failed tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If the weather is sunny, then people will go to the beach.",
+            "qa_pairs": [
+                {
+                    "question": "If people won't go to the beach, does this imply that the weather isn't sunny?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If people won't go to the beach, does this imply that the weather is sunny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If people will go to the beach, does this entail that the weather isn't sunny?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If people will go to the beach, does this entail that the weather is sunny?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Chloe studies hard for her exams, then she will get good grades.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get good grades, does this imply that chloe doesn't study hard for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get good grades, does this entail that Chloe studies hard for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get good grades, does this entail that chloe doesn't study hard for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get good grades, does this entail that Chloe studies hard for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia completed her project, then she will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't receive a bonus, does this mean that mia didn't complete her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't receive a bonus, does this entail that Mia completed her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this mean that mia didn't complete her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this imply that Mia completed her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tshe dog barked loudly, then Eleanor was not pleased.",
+            "qa_pairs": [
+                {
+                    "question": "If eleanor was pleased, does this imply that tshe dog didn't bark loudly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If eleanor was pleased, does this mean that tshe dog barked loudly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor was not pleased, does this imply that tshe dog didn't bark loudly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Eleanor was not pleased, does this entail that tshe dog barked loudly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Olivia has finished her project, then she will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a promotion, does this imply that olivia hasn't finished her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a promotion, does this mean that Olivia has finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this mean that olivia hasn't finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this imply that Olivia has finished her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Layla ate ice cream, then she didn't feel good afterwards.",
+            "qa_pairs": [
+                {
+                    "question": "If she felt good afterwards, does this mean that layla didn't eat ice cream?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she felt good afterwards, does this mean that Layla ate ice cream?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she didn't feel good afterwards, does this mean that layla didn't eat ice cream?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she didn't feel good afterwards, does this entail that Layla ate ice cream?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Scarlett is feeling tired, then she will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take a nap, does this imply that scarlett isn't feeling tired?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take a nap, does this imply that Scarlett is feeling tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a nap, does this mean that scarlett isn't feeling tired?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a nap, does this entail that Scarlett is feeling tired?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia dances really well, then she will get a standing ovation.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a standing ovation, does this entail that mia doesn't dance really well?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a standing ovation, does this entail that Mia dances really well?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a standing ovation, does this imply that mia doesn't dance really well?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a standing ovation, does this mean that Mia dances really well?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Camila goes for a swim every morning, then she will improve her health.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't improve her health, does this imply that camila doesn't go for a swim every morning?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't improve her health, does this mean that Camila goes for a swim every morning?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will improve her health, does this mean that camila doesn't go for a swim every morning?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will improve her health, does this imply that Camila goes for a swim every morning?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Sophia has tshe highest score in tshe test, then she will get a medal for her achievement.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a medal for her achievement, does this entail that sophia doesn't have tshe highest score in tshe test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a medal for her achievement, does this imply that Sophia has tshe highest score in tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a medal for her achievement, does this mean that sophia doesn't have tshe highest score in tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a medal for her achievement, does this imply that Sophia has tshe highest score in tshe test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim has a pet dog, then he will take it for a walk every day.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk every day, does this imply that jim doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk every day, does this mean that jim has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this imply that jim doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this entail that jim has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Gianna is feeling ill , then she will not attend tshe event.",
+            "qa_pairs": [
+                {
+                    "question": "If she will attend tshe event, does this entail that gianna isn't feeling ill?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she will attend tshe event, does this entail that Gianna is feeling ill ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not attend tshe event, does this imply that gianna isn't feeling ill?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will not attend tshe event, does this entail that Gianna is feeling ill ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emily climbs tshe mountain, then she will take pictures.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take pictures, does this mean that emily doesn't climb tshe mountain?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take pictures, does this imply that Emily climbs tshe mountain?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take pictures, does this entail that emily doesn't climb tshe mountain?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take pictures, does this mean that Emily climbs tshe mountain?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Eleanor has passed tshe test, then she will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a promotion, does this mean that eleanor hasn't passed tshe test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a promotion, does this mean that Eleanor has passed tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this imply that eleanor hasn't passed tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this entail that Eleanor has passed tshe test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ariana has an excellent resume, then she will be offered a job.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be offered a job, does this imply that ariana doesn't have an excellent resume?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be offered a job, does this imply that Ariana has an excellent resume?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be offered a job, does this entail that ariana doesn't have an excellent resume?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be offered a job, does this imply that Ariana has an excellent resume?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emma has a new bike, then she will go for a long ride.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't go for a long ride, does this entail that emma doesn't have a new bike?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't go for a long ride, does this entail that Emma has a new bike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will go for a long ride, does this entail that emma doesn't have a new bike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will go for a long ride, does this imply that Emma has a new bike?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Olivia was offered a promotion, then she will take a pay rise.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take a pay rise, does this entail that olivia wasn't offered a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take a pay rise, does this mean that Olivia was offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a pay rise, does this mean that olivia wasn't offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a pay rise, does this mean that Olivia was offered a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Olivia has a pet turtle, then she will take it for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take it for a walk, does this imply that olivia doesn't have a pet turtle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take it for a walk, does this mean that Olivia has a pet turtle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take it for a walk, does this imply that olivia doesn't have a pet turtle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take it for a walk, does this imply that Olivia has a pet turtle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Camila finished her work early, then she will get a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a bonus, does this imply that camila didn't finish her work early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a bonus, does this imply that Camila finished her work early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a bonus, does this imply that camila didn't finish her work early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a bonus, does this entail that Camila finished her work early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elizabeth is studying for a test, then she will pass tshe test.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't pass tshe test, does this imply that elizabeth isn't studying for a test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't pass tshe test, does this imply that Elizabeth is studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test, does this entail that elizabeth isn't studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test, does this entail that Elizabeth is studying for a test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Scarlett is late for work, then she will get a warning.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a warning, does this entail that scarlett isn't late for work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a warning, does this entail that Scarlett is late for work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a warning, does this entail that scarlett isn't late for work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a warning, does this entail that Scarlett is late for work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Gianna bought a new laptop, then she will use it for gaming.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't use it for gaming, does this mean that gianna didn't buy a new laptop?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't use it for gaming, does this entail that Gianna bought a new laptop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will use it for gaming, does this mean that gianna didn't buy a new laptop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will use it for gaming, does this entail that Gianna bought a new laptop?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Penelope has a pet cat, then she will take it for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take it for a walk, does this mean that penelope doesn't have a pet cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take it for a walk, does this mean that Penelope has a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take it for a walk, does this imply that penelope doesn't have a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take it for a walk, does this imply that Penelope has a pet cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Amelia has an interview for her dream job, then she will be very excited if she gets tshe job.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be very excited if she gets tshe job, does this mean that amelia doesn't have an interview for her dream job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be very excited if she gets tshe job, does this entail that Amelia has an interview for her dream job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be very excited if she gets tshe job, does this imply that amelia doesn't have an interview for her dream job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be very excited if she gets tshe job, does this mean that Amelia has an interview for her dream job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If adam bought a new laptop, then he will use it for work.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't use it for work, does this entail that adam didn't buy a new laptop?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't use it for work, does this entail that adam bought a new laptop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will use it for work, does this imply that adam didn't buy a new laptop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will use it for work, does this imply that adam bought a new laptop?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ava studies hard for tshe exam, then she will get an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get an a grade, does this mean that ava doesn't study hard for tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get an a grade, does this imply that Ava studies hard for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this mean that ava doesn't study hard for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this entail that Ava studies hard for tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Penelope missed her flight, then she will have to pay a penalty.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't have to pay a penalty, does this mean that penelope didn't miss her flight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't have to pay a penalty, does this mean that Penelope missed her flight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will have to pay a penalty, does this imply that penelope didn't miss her flight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will have to pay a penalty, does this imply that Penelope missed her flight?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Isabella finished her project on time, then she will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't receive a bonus, does this mean that isabella didn't finish her project on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't receive a bonus, does this mean that Isabella finished her project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this imply that isabella didn't finish her project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this mean that Isabella finished her project on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elizabeth was offered a promotion, then she decided not to take it.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't decide not to take it, does this entail that elizabeth wasn't offered a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't decide not to take it, does this imply that Elizabeth was offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided not to take it, does this imply that elizabeth wasn't offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided not to take it, does this imply that Elizabeth was offered a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Amelia finished her degree, then she will start her own business.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't start her own business, does this entail that amelia didn't finish her degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't start her own business, does this imply that Amelia finished her degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will start her own business, does this entail that amelia didn't finish her degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will start her own business, does this mean that Amelia finished her degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia stayed up late studying , then she failed her test.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't fail her test, does this imply that mia didn't stay up late studying?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't fail her test, does this imply that Mia stayed up late studying ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she failed her test, does this entail that mia didn't stay up late studying?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she failed her test, does this imply that Mia stayed up late studying ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia reads all books, then she will find tshe answers she seeks.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't find tshe answers she seeks, does this imply that mia doesn't read all books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't find tshe answers she seeks, does this entail that Mia reads all books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will find tshe answers she seeks, does this entail that mia doesn't read all books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will find tshe answers she seeks, does this imply that Mia reads all books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If peter has an important meeting, then he will have to wear a suit.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't have to wear a suit, does this entail that peter doesn't have an important meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't have to wear a suit, does this mean that peter has an important meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to wear a suit, does this imply that peter doesn't have an important meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to wear a suit, does this mean that peter has an important meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emily has an a grade in tshe class, then she will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't receive a bonus, does this imply that emily doesn't have an a grade in tshe class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't receive a bonus, does this imply that Emily has an a grade in tshe class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this imply that emily doesn't have an a grade in tshe class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will receive a bonus, does this entail that Emily has an a grade in tshe class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emily finished her project, then she will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a promotion, does this imply that emily didn't finish her project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a promotion, does this mean that Emily finished her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this imply that emily didn't finish her project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a promotion, does this entail that Emily finished her project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Layla went to tshe store, then she was unable to buy tshe item she wanted.",
+            "qa_pairs": [
+                {
+                    "question": "If she wasn't unable to buy tshe item she wanted, does this entail that layla didn't go to tshe store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she wasn't unable to buy tshe item she wanted, does this imply that Layla went to tshe store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she was unable to buy tshe item she wanted, does this entail that layla didn't go to tshe store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she was unable to buy tshe item she wanted, does this mean that Layla went to tshe store?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Camila is studying for tshe exam, then she will pass tshe exam.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't pass tshe exam, does this imply that camila isn't studying for tshe exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't pass tshe exam, does this entail that Camila is studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe exam, does this mean that camila isn't studying for tshe exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe exam, does this entail that Camila is studying for tshe exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Avery has an excellent credit score, then she will be able to get a loan.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be able to get a loan, does this imply that avery doesn't have an excellent credit score?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be able to get a loan, does this mean that Avery has an excellent credit score?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be able to get a loan, does this imply that avery doesn't have an excellent credit score?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be able to get a loan, does this entail that Avery has an excellent credit score?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Gianna arrived late to work, then she was reprimanded.",
+            "qa_pairs": [
+                {
+                    "question": "If she wasn't reprimanded, does this imply that gianna didn't arrive late to work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she wasn't reprimanded, does this mean that Gianna arrived late to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she was reprimanded, does this imply that gianna didn't arrive late to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she was reprimanded, does this mean that Gianna arrived late to work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Elizabeth has received a promotion, then she will buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't buy a house, does this imply that elizabeth hasn't received a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't buy a house, does this mean that Elizabeth has received a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will buy a house, does this imply that elizabeth hasn't received a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will buy a house, does this entail that Elizabeth has received a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If bob has completed the project, then he will get a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a bonus, does this entail that bob hasn't completed the project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a bonus, does this entail that bob has completed the project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus, does this imply that bob hasn't completed the project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus, does this entail that bob has completed the project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Luna is studying for her exams, then she will get an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get an a grade, does this imply that luna isn't studying for her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get an a grade, does this mean that Luna is studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this imply that luna isn't studying for her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get an a grade, does this mean that Luna is studying for her exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Olivia planted a tree, then she will take care of it.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take care of it, does this imply that olivia didn't plant a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take care of it, does this imply that Olivia planted a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take care of it, does this mean that olivia didn't plant a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take care of it, does this mean that Olivia planted a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Ariana has been studying all day, then she will take a break for dinner.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't take a break for dinner, does this imply that ariana hasn't been studying all day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't take a break for dinner, does this mean that Ariana has been studying all day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a break for dinner, does this entail that ariana hasn't been studying all day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will take a break for dinner, does this imply that Ariana has been studying all day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Isabella finished her project on time, then she will get a bonus from her company.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a bonus from her company, does this entail that isabella didn't finish her project on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a bonus from her company, does this mean that Isabella finished her project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a bonus from her company, does this entail that isabella didn't finish her project on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a bonus from her company, does this entail that Isabella finished her project on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Isabella studied hard for tshe test, then she will pass tshe test.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't pass tshe test, does this mean that isabella didn't study hard for tshe test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't pass tshe test, does this mean that Isabella studied hard for tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test, does this mean that isabella didn't study hard for tshe test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test, does this mean that Isabella studied hard for tshe test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Penelope has an interview tomorrow, then she will prepare for it diligently.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't prepare for it diligently, does this mean that penelope doesn't have an interview tomorrow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't prepare for it diligently, does this imply that Penelope has an interview tomorrow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will prepare for it diligently, does this mean that penelope doesn't have an interview tomorrow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will prepare for it diligently, does this entail that Penelope has an interview tomorrow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Charlotte was late for tshe meeting, then she will miss out on tshe promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't miss out on tshe promotion, does this imply that charlotte wasn't late for tshe meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't miss out on tshe promotion, does this entail that Charlotte was late for tshe meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will miss out on tshe promotion, does this imply that charlotte wasn't late for tshe meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will miss out on tshe promotion, does this imply that Charlotte was late for tshe meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Emma is studying for her math test, then she will pass tshe test with flying colors.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't pass tshe test with flying colors, does this mean that emma isn't studying for her math test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't pass tshe test with flying colors, does this entail that Emma is studying for her math test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test with flying colors, does this entail that emma isn't studying for her math test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will pass tshe test with flying colors, does this imply that Emma is studying for her math test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If the weather is cold, then people will wear warm clothes.",
+            "qa_pairs": [
+                {
+                    "question": "If people won't wear warm clothes, does this imply that the weather isn't cold?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If people won't wear warm clothes, does this mean that the weather is cold?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If people will wear warm clothes, does this imply that the weather isn't cold?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If people will wear warm clothes, does this entail that the weather is cold?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Isabella ate a sandwich for lunch, then she did not feel satisfied.",
+            "qa_pairs": [
+                {
+                    "question": "If she felt satisfied, does this imply that isabella didn't eat a sandwich for lunch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she felt satisfied, does this mean that Isabella ate a sandwich for lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she did not feel satisfied, does this entail that isabella didn't eat a sandwich for lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she did not feel satisfied, does this entail that Isabella ate a sandwich for lunch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If Mia was offered a promotion, then she decided to turn it down.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't decide to turn it down, does this mean that mia wasn't offered a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't decide to turn it down, does this mean that Mia was offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to turn it down, does this imply that mia wasn't offered a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she decided to turn it down, does this imply that Mia was offered a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a new job, then he will be able to save more money.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be able to save more money, does this entail that john doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be able to save more money, does this entail that john has a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to save more money, does this imply that john doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to save more money, does this entail that john has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john forgot to bring his umbrella, then he will get wet in the rain.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get wet in the rain, does this mean that john didn't forget to bring his umbrella?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get wet in the rain, does this entail that john forgot to bring his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get wet in the rain, does this entail that john didn't forget to bring his umbrella?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get wet in the rain, does this imply that john forgot to bring his umbrella?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has completed his project, then he will celebrate with his friends.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't celebrate with his friends, does this imply that john hasn't completed his project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't celebrate with his friends, does this imply that john has completed his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will celebrate with his friends, does this mean that john hasn't completed his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will celebrate with his friends, does this imply that john has completed his project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john was late for the meeting, then he will be penalized.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be penalized, does this entail that john wasn't late for the meeting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be penalized, does this entail that john was late for the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be penalized, does this mean that john wasn't late for the meeting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be penalized, does this imply that john was late for the meeting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john completed his project before the deadline, then he will receive a bonus.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive a bonus, does this entail that john didn't complete his project before the deadline?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive a bonus, does this imply that john completed his project before the deadline?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a bonus, does this mean that john didn't complete his project before the deadline?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a bonus, does this entail that john completed his project before the deadline?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john is an experienced climber, then he will attempt a difficult climb.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't attempt a difficult climb, does this imply that john isn't an experienced climber?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't attempt a difficult climb, does this entail that john is an experienced climber?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will attempt a difficult climb, does this mean that john isn't an experienced climber?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will attempt a difficult climb, does this mean that john is an experienced climber?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has been studying for the exam, then he will get an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get an a grade, does this imply that john hasn't been studying for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get an a grade, does this imply that john has been studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a grade, does this entail that john hasn't been studying for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a grade, does this imply that john has been studying for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If the sun is shining bright, then john will go out for a picnic.",
+            "qa_pairs": [
+                {
+                    "question": "If john won't go out for a picnic, does this imply that the sun isn't shining bright?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john won't go out for a picnic, does this imply that the sun is shining bright?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john will go out for a picnic, does this imply that the sun isn't shining bright?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john will go out for a picnic, does this imply that the sun is shining bright?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has finished his project, then he will celebrate with his friends.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't celebrate with his friends, does this entail that john hasn't finished his project?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't celebrate with his friends, does this mean that john has finished his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will celebrate with his friends, does this imply that john hasn't finished his project?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will celebrate with his friends, does this entail that john has finished his project?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john finished his project before the due date, then he will get a bonus from his boss.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a bonus from his boss, does this imply that john didn't finish his project before the due date?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a bonus from his boss, does this imply that john finished his project before the due date?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus from his boss, does this mean that john didn't finish his project before the due date?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a bonus from his boss, does this mean that john finished his project before the due date?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom has a pet cat, then he will take it for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk, does this imply that tom doesn't have a pet cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk, does this mean that tom has a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this imply that tom doesn't have a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this entail that tom has a pet cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john finished his assignment, then he will get an a in the class.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get an a in the class, does this imply that john didn't finish his assignment?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get an a in the class, does this imply that john finished his assignment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a in the class, does this entail that john didn't finish his assignment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a in the class, does this imply that john finished his assignment?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a pet dog, then he will take it for a walk every day.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk every day, does this imply that john doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk every day, does this imply that john has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this entail that john doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk every day, does this imply that john has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a gold medal, then he will go to a party.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't go to a party, does this entail that john doesn't have a gold medal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't go to a party, does this entail that john has a gold medal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go to a party, does this entail that john doesn't have a gold medal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will go to a party, does this mean that john has a gold medal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a pet dog, then he will take it for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't take it for a walk, does this entail that john doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't take it for a walk, does this entail that john has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this mean that john doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will take it for a walk, does this mean that john has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john goes to the beach, then he will get a tan.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a tan, does this mean that john doesn't go to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a tan, does this entail that john goes to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a tan, does this imply that john doesn't go to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a tan, does this imply that john goes to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john is late to work, then his supervisor will be angry.",
+            "qa_pairs": [
+                {
+                    "question": "If his supervisor won't be angry, does this mean that john isn't late to work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If his supervisor won't be angry, does this entail that john is late to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If his supervisor will be angry, does this entail that john isn't late to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If his supervisor will be angry, does this imply that john is late to work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a new job, then he will buy a house.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy a house, does this entail that john doesn't have a new job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy a house, does this mean that john has a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this entail that john doesn't have a new job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy a house, does this mean that john has a new job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john is playing basketball, then he will win the game.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't win the game, does this entail that john isn't playing basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't win the game, does this entail that john is playing basketball?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this mean that john isn't playing basketball?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this mean that john is playing basketball?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has won the lottery, then he will donate the money to charity.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't donate the money to charity, does this mean that john hasn't won the lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't donate the money to charity, does this imply that john has won the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will donate the money to charity, does this mean that john hasn't won the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will donate the money to charity, does this mean that john has won the lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies hard for the test, then he will pass the test.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't pass the test, does this imply that john doesn't study hard for the test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't pass the test, does this mean that john studies hard for the test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pass the test, does this entail that john doesn't study hard for the test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pass the test, does this imply that john studies hard for the test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john got a scholarship, then he will use the money to travel abroad.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't use the money to travel abroad, does this mean that john didn't get a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't use the money to travel abroad, does this imply that john got a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will use the money to travel abroad, does this mean that john didn't get a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will use the money to travel abroad, does this entail that john got a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies hard for the exam, then he will get an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get an a grade, does this imply that john doesn't study hard for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get an a grade, does this mean that john studies hard for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a grade, does this mean that john doesn't study hard for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get an a grade, does this entail that john studies hard for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has a good job, then he will invest in stocks.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't invest in stocks, does this entail that john doesn't have a good job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't invest in stocks, does this entail that john has a good job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will invest in stocks, does this entail that john doesn't have a good job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will invest in stocks, does this imply that john has a good job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john has passed the exam, then he will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a promotion, does this entail that john hasn't passed the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a promotion, does this mean that john has passed the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a promotion, does this mean that john hasn't passed the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a promotion, does this imply that john has passed the exam?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

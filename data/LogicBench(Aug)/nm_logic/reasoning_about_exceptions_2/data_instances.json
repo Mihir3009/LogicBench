@@ -1,0 +1,1956 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_2",
+    "data_samples": [
+        {
+            "context": "cars drive on roads. at least one car doesn't drive on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car doesn't drive on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car drives on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish typically swim in water. at least one species of fish doesn't swim in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one species of fish doesn't swim in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of fish swims in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually purr. at least one cat isn't purring.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat isn't purring?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat is purring?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish usually swim in the water. at least one fish doesn't swim in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one fish doesn't swim in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one fish swims in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually purr. at least one cat doesn't purr.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one cat doesn't purr?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat purrs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat stays awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one cat stays awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat doesn't stay awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. at least one car has fewer than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car has fewer than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car doesn't have fewer than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats normally meow. at least one species of cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car doesn't travel on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car doesn't travel on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car travels on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees normally shed leaves in the fall. at least one tree doesn't shed leaves in the fall.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one tree doesn't shed leaves in the fall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one tree sheds leaves in the fall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bicycles usually have two wheels. at least one bicycle doesn't have two wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one bicycle doesn't have two wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one bicycle has two wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. at least one car doesn't have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car has four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat is awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat is awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat isn't awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually sleep during the day. at least one animal doesn't sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't sleep during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal sleeps during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually purr. at least one cat does not purr.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat does not purr?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat purrs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish usually swim in the water. at least one species of fish don't swim in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of fish don't swim in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of fish swim in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats meow. at least one cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one cat does not meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one cat does not meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats like to sleep in the sun. at least one cat prefers to stay in the shade.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat prefers to stay in the shade?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat doesn't prefer to stay in the shade?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in the wild. at least one animal species lives in captivity.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species lives in captivity?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal species doesn't live in captivity?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars typically have four wheels. at least one car does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car does not have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car has four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually have four legs. at least one animal has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees normally grow tall. at least one species of tree doesn't grow tall.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of tree doesn't grow tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one species of tree grows tall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually migrate in winter. at least one species of animal doesn't migrate in winter.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of animal doesn't migrate in winter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of animal migrates in winter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat grass. at least one animal doesn't eat grass.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal doesn't eat grass?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal eats grass?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal does not live in a group.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not live in a group?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal lives in a group?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat stays awake all day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat stays awake all day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat doesn't stay awake all day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. at least one car has less than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car has less than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car doesn't have less than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. at least one car does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car does not have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car has four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals typically walk on four legs. at least one animal doesn't walk on four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't walk on four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal walks on four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal lives alone.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal lives alone?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal doesn't live alone?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually drive on the road. at least one car doesn't drive on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't drive on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car drives on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees grow tall. at least one tree isn't tall.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one tree isn't tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one tree is tall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually parked in the garage. at least one car is not parked in the garage.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car is not parked in the garage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is parked in the garage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually walk on four legs. at least one animal doesn't walk on four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't walk on four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal walks on four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat. at least one animal does not eat.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal does not eat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal eats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually move around. at least one animal does not move around.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not move around?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal moves around?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually move quickly. at least one car doesn't move quickly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car doesn't move quickly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car moves quickly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually grow tall. at least one tree doesn't grow tall.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one tree doesn't grow tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one tree grows tall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in the wild. at least one animal lives in captivity.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal lives in captivity?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal doesn't live in captivity?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat food. at least one animal does not eat food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not eat food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal eats food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "students usually study hard. at least one student does not study hard.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one student does not study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one student studies hard?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals typically live in groups. at least one animal species does not live in a group.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species does not live in a group?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal species lives in a group?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually crawl. at least one animal doesn't crawl.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't crawl?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal crawls?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are usually red. at least one apple is not red.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one apple is not red?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one apple is red?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats normally meow. at least one cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually move quickly. at least one animal moves slowly.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal moves slowly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal doesn't move slowly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually have four legs. at least one cat has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually sleep during the day. at least one animal does not sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal does not sleep during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal sleeps during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. at least one car has more than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car has more than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car doesn't have more than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep in the sun. at least one cat doesn't sleep in the sun.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat doesn't sleep in the sun?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat sleeps in the sun?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car does not travel on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car does not travel on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one car travels on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars normally have four wheels. at least one car has less than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car has less than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car doesn't have less than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars typically move quickly. at least one car is not moving quickly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car is not moving quickly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car is moving quickly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "elephants usually live in herds. at least one elephant does not live in a herd.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one elephant does not live in a herd?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one elephant lives in a herd?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually have four legs. at least one animal has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car is not travelling on a road.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car is not travelling on a road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is travelling on a road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals generally have four legs. at least one animal does not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal has four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually run. at least one animal doesn't run.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal runs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "students usually study during the day. at least one student does not study during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one student does not study during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one student studies during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one cat squeaks instead of meowing.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat squeaks instead of meowing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat doesn't squeak instead of meowing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "children usually play outside. at least one child doesn't play outside.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one child doesn't play outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one child plays outside?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually hibernate in winter. at least one animal does not hibernate in winter.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not hibernate in winter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal hibernates in winter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car isn't travelling on a road.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car isn't travelling on a road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is travelling on a road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal lives as a solitary creature.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal lives as a solitary creature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal doesn't live as a solitary creature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs usually bark. at least one dog does not bark.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one dog does not bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one dog barks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals live in their natural habitats. at least one animal species does not live in its natural habitat.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species does not live in its natural habitat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal species lives in its natural habitat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually drive fast. at least one car doesn't drive fast.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't drive fast?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one car drives fast?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally sleep during the day. at least one animal doesn't sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't sleep during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal sleeps during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kids usually play outdoors. at least one kid prefers to stay indoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one kid prefers to stay indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one kid doesn't prefer to stay indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs bark. at least one dog doesn't bark.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one dog doesn't bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one dog barks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bats usually sleep during the day. at least one species of bat is active during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of bat is active during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one species of bat isn't active during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "students usually study in the library. at least one student is studying outside the library.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one student is studying outside the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one student isn't studying outside the library?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually grow tall. at least one tree does not grow tall.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one tree does not grow tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one tree grows tall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars typically have four wheels. at least one car doesn't have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car has four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars always drive on the road. at least one car is not driving on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car is not driving on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car is driving on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish usually swim. at least one species of fish don't swim.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one species of fish don't swim?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of fish swim?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one species of animal lives alone.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of animal lives alone?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of animal doesn't live alone?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually sleep during the day. at least one species of animal doesn't sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of animal doesn't sleep during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of animal sleeps during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually roam in groups. at least one animal does not roam in groups.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal does not roam in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal roams in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually move on the road. at least one car is not moving on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car is not moving on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is moving on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats generally sleep during the day. at least one cat stays awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat stays awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat doesn't stay awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually walk on four legs. at least one animal does not walk on four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal does not walk on four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal walks on four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "students usually study in the library. at least one student is not studying in the library.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one student is not studying in the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one student is studying in the library?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in homes. at least one animal doesn't live in a home.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal doesn't live in a home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal lives in a home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually migrate. at least one animal doesn't migrate.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't migrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal migrates?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars typically drive on the road. at least one car doesn't drive on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't drive on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car drives on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually speed along the highway. at least one car is not speeding along the highway.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car is not speeding along the highway?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car is speeding along the highway?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally hibernate. at least one species of animal doesn't hibernate.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of animal doesn't hibernate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one species of animal hibernates?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually sleep during the day. at least one animal stays awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal stays awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal doesn't stay awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "people usually sleep at night. at least one person does not sleep at night.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one person does not sleep at night?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one person sleeps at night?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars drive on the road. at least one car is not driving on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car is not driving on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is driving on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats sleep during the day. at least one cat is awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat is awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat isn't awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat grass. at least one animal does not eat grass.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal does not eat grass?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal eats grass?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat plants. at least one animal does not eat plants.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal does not eat plants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal eats plants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually have leaves. at least one tree does not have leaves.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one tree does not have leaves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one tree has leaves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally walk on four legs. at least one animal walks on two legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal walks on two legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal doesn't walk on two legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat meat. at least one animal doesn't eat meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal doesn't eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal eats meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually drive on roads. at least one car doesn't drive on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car doesn't drive on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car drives on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually move around. at least one animal does not move.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not move?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal moves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in the wild. at least one species of animal lives in captivity.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of animal lives in captivity?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of animal doesn't live in captivity?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals live in the forest. at least one animal does not live in the forest.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal does not live in the forest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal lives in the forest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "students usually study hard. at least one student doesn't study hard.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one student doesn't study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one student studies hard?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat does not sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat does not sleep during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat sleeps during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually bloom in spring. at least one tree species doesn't bloom in spring.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one tree species doesn't bloom in spring?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one tree species blooms in spring?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal species lives alone.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species lives alone?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal species doesn't live alone?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally move. at least one animal species does not move.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species does not move?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal species moves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually drive on the road. at least one car does not drive on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car does not drive on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car drives on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals live in groups. at least one animal species lives alone.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal species lives alone?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal species doesn't live alone?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the leaves are green in summer. at least one leaf isn't green in summer.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one leaf isn't green in summer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one leaf is green in summer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep. at least one cat doesn't sleep.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat doesn't sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat sleeps?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "schools usually start at 8:00 am. at least one school starts at a different time.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one school starts at a different time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one school doesn't start at a different time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal species does not live in groups.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species does not live in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal species lives in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats normally purr. at least one cat doesn't purr.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat doesn't purr?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat purrs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually run. at least one animal cannot run.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal cannot run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal can run?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "vehicles usually travel on roads. at least one vehicle doesn't travel on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one vehicle doesn't travel on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one vehicle travels on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually drive on the road. at least one car is not driving on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car is not driving on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car is driving on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually have fur. at least one animal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal does not have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal has fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat stays awake all day long.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat stays awake all day long?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one cat doesn't stay awake all day long?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually bear fruits. at least one tree doesn't bear fruits.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one tree doesn't bear fruits?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one tree bears fruits?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "babies usually crawl. at least one baby doesn't crawl.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one baby doesn't crawl?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one baby crawls?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually eat food. at least one animal doesn't eat food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal doesn't eat food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal eats food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually have leaves. at least one tree has no leaves.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one tree has no leaves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one tree doesn't have no leaves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually sleep during the day. at least one cat is not sleeping during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one cat is not sleeping during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one cat is sleeping during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one species of cat does not meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of cat does not meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car doesn't travel on a road.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one car doesn't travel on a road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one car travels on a road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals live in their natural habitats. at least one animal species doesn't live in its natural habitat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal species doesn't live in its natural habitat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal species lives in its natural habitat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "children usually play outdoors. at least one child does not play outdoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one child does not play outdoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one child plays outdoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually travel on roads. at least one car is not on a road.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car is not on a road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one car is on a road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals tend to crawl. at least one animal doesn't crawl.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal doesn't crawl?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal crawls?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars typically have four wheels. at least one car has fewer than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one car has fewer than four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one car doesn't have fewer than four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually move on the road. at least one car isn't moving on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one car isn't moving on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one car is moving on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually sleep during the day. at least one species of animal stays awake during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of animal stays awake during the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of animal doesn't stay awake during the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in a habitat. at least one animal isn't living in a habitat.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal isn't living in a habitat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal is living in a habitat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually walk. at least one animal doesn't walk.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one animal doesn't walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal walks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals live on land. at least one species of animal doesn't live on land.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of animal doesn't live on land?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of animal lives on land?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually have four legs. at least one species of animals has more than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one species of animals has more than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of animals doesn't have more than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish swim in water. at least one fish does not swim in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one fish does not swim in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one fish swims in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats like to sleep in the sun. at least one cat doesn't like to sleep in the sun.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat doesn't like to sleep in the sun?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat likes to sleep in the sun?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally live in the wild. at least one species of animal does not live in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of animal does not live in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one species of animal lives in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals normally run. at least one animal does not run.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal does not run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal runs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish usually swim in water. at least one fish does not swim in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one fish does not swim in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one fish swims in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees grow tall. at least one tree does not grow tall.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one tree does not grow tall?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one tree grows tall?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one breed of cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one breed of cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one breed of cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in groups. at least one animal species doesn't live in groups.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that exactly one animal species doesn't live in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one animal species lives in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually meow. at least one species of cat doesn't meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that exactly one species of cat doesn't meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one species of cat meows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats usually stay indoors. at least one cat doesn't stay indoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one cat doesn't stay indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that exactly one cat stays indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals are social creatures. at least one animal is solitary.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal is solitary?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that exactly one animal isn't solitary?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "animals usually live in habitats. at least one animal species does not live in a habitat.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that exactly one animal species does not live in a habitat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that exactly one animal species lives in a habitat?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1956 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_3",
+    "data_samples": [
+        {
+            "context": "cats are carnivores. carnivores normally eat meat. at least one carnivore does not eat meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats usually eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats usually don't eat meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. wheels are round in shape. at least one car does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that most cars have round wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that most cars don't have round wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red. red fruits are usually sweet. at least one red fruit is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally live on land. at least one mammal lives in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins live in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't live in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are black and white. black and white animals usually live on farms. at least one black and white animal does not live on a farm.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows live on farms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cows don't live on farms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally breathe air. at least one mammal breathes water instead of air.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores normally eat plants. at least one herbivore eats something other than plants.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows eat plants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't eat plants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples are sweet. sweet fruits are usually eaten as desserts. at least one sweet fruit is not eaten as a dessert.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pineapples are eaten as a dessert?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pineapples aren't eaten as a dessert?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally have rubber tires. at least one wheel does not have a rubber tire.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars have rubber tires on their wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have rubber tires on their wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals normally have thick fur. at least one furry animal does not have thick fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats have thick fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats don't have thick fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores usually don't eat meat. at least one herbivore eats meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows do not eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows eat meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels usually have rubber tires. at least one wheel does not have rubber tires.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have rubber tires on all four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars don't have rubber tires on all four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "crocodiles are reptiles. reptiles normally have scales. at least one reptile does not have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that crocodiles have scales?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that crocodiles don't have scales?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "horses are animals. animals normally have four legs. at least one animal has more than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have no fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't have no fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. wheels usually have rubber tires. at least one car does not have rubber tires.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that most cars have rubber tires?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that most cars don't have rubber tires?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually breathe air. at least one mammal does not breathe air.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines normally have fur. at least one feline does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins have skin instead of fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have skin instead of fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals typically have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins have no fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have no fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. normally, cars with four wheels can be driven. at least one car with four wheels cannot be driven.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that this car with four wheels can be driven?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that this car with four wheels can't be driven?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally have rubber tires. at least one wheel does not have rubber tires .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have rubber tires on their wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have rubber tires on their wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are white in color. white animals are usually found in a farm. at least one white animal is not found in a farm.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows are usually found in a farm?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows aren't usually found in a farm?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually red. red vehicles typically have four wheels. at least one red vehicle does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins have no fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't have no fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bicycles are two-wheeled vehicles. two-wheeled vehicles normally have handlebars. at least one two-wheeled vehicle does not have handlebars.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles have handlebars?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles don't have handlebars?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins live in the sea. marine mammals usually breathe air. at least one marine mammal does not breathe air.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually breathe air. at least one mammal breathes water.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have skin instead of fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have skin instead of fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cacti are spiky. spiky plants are normally found in deserts. at least one spiky plant is not found in a desert.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cacti are found in deserts?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cacti aren't found in deserts?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are sea animals. sea animals normally live in the water. at least one sea animal does not live in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins live in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't live in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals generally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins have skin instead of fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't have skin instead of fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually live on land. at least one mammal does not live on land.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins live in the ocean?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't live in the ocean?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tigers are carnivorous animals. carnivorous animals normally hunt for food. at least one carnivorous animal does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that tigers hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that tigers don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores normally hunt their prey. at least one carnivore does not hunt their prey.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats usually hunt their prey?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats usually don't hunt their prey?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "fish are aquatic animals. aquatic animals typically breathe through gills. at least one aquatic animal breathes through lungs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that fish breathe through gills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that fish don't breathe through gills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have a thick layer of skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have a thick layer of skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are powered by engines. engines are normally found in cars. at least one engine is not found in a car.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars have engines?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars don't have engines?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are large animals. large animals normally graze in a field. at least one large animal is not grazing in the field.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows are grazing in the field?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows aren't grazing in the field?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are normally solitary creatures. at least one feline is not solitary.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats are usually social animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats aren't usually social animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. wheels are normally round. at least one car has more than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that most cars have round wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that most cars don't have round wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals normally have whiskers. at least one furry animal does not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually have fur. at least one mammal doesn't have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have no fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have no fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are marine mammals. marine mammals normally live in the ocean. at least one marine mammal does not live in the ocean.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins live in the ocean?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't live in the ocean?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally rotate. at least one car does not have wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars can rotate their wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars can't rotate their wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally rotate. at least one car has wheels that do not rotate.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that the wheels on a car rotate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that the wheels on a car don't rotate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores normally eat plants. at least one herbivore eats something other than plants.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows typically eat plants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows typically don't eat plants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions are carnivores. carnivores normally hunt for food. at least one carnivore does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lions hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that lions don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are black and white . black and white animals usually roam in fields . at least one black and white animal is not roaming in a field .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows are roaming in a field?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows aren't roaming in a field?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "turtles are reptiles. reptiles generally have a hard shell. at least one reptile does not have a hard shell.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that turtles have a hard shell?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that turtles don't have a hard shell?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions are predators. predators typically hunt for food. at least one predator does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lions hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that lions don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are brown. brown animals are typically kept in a barn. at least one brown animal is not in the barn.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows are in the barn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows aren't in the barn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are quadrupedal animals . quadrupedal animals usually walk on four legs . at least one quadrupedal animal does not walk on four legs .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows walk on four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows don't walk on four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores normally graze in meadows. at least one herbivore does not graze in meadows.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows graze in meadows?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cows don't graze in meadows?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores normally graze on grass. at least one herbivore eats something other than grass.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows graze on grass?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cows don't graze on grass?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions are carnivores. carnivores usually hunt for food. at least one carnivore does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that lions hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that lions don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are brown. brown animals are usually found on farms. at least one brown animal is not found on a farm.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows are found on farms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows aren't found on farms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are aquatic mammals. aquatic mammals usually live in the water. at least one aquatic mammal does not live in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins live in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't live in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels are normally round. at least one car has a square wheel.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have round wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars don't have round wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are powered by gasoline. fuel is normally used to power cars. at least one car is powered by something other than fuel.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars are usually powered by gasoline?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars aren't usually powered by gasoline?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kangaroos are marsupials. marsupials usually have pouches. at least one marsupial does not have a pouch.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that kangaroos have pouches?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that kangaroos don't have pouches?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red . red fruits are usually sweet . at least one red fruit is not sweet .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually driven on the road. driving on the road is a common property of cars. at least one car is not driven on the road.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that most cars can be driven on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that most cars can't be driven on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "puppies are small animals. small animals usually live in a cage. at least one small animal does not live in a cage.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that puppies live in a cage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that puppies don't live in a cage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are black and white. black and white animals usually live in a farm. at least one black and white animal does not live in a farm.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows live in a farm?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't live in a farm?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees usually have leaves. leaves are usually green. at least one tree has leaves that are not green.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mangoes have yellow leaves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mangoes don't have yellow leaves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are quadrupedal animals. quadrupedal animals normally walk on all four legs. at least one quadrupedal animal does not walk on all four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows walk on all four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't walk on all four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "puppies are playful. playful animals are often seen running around. at least one playful animal is not running around.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that puppies are running around?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that puppies aren't running around?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tigers are carnivores. carnivores typically hunt for food. at least one carnivore does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tigers hunt for their food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that tigers don't hunt for their food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally help in movement. at least one car does not use wheels for movement.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars use four wheels for movement?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars don't use four wheels for movement?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are mammals. mammals usually have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cows have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are mammals. mammals normally have four legs. at least one mammal does not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cows don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are red. red vehicles usually have four wheels. at least one red vehicle has more than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars usually have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars usually don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals typically have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins have skin instead of fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't have skin instead of fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. fur is a common property of furry animals. at least one furry animal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bicycles are two-wheeled vehicles. two-wheeled vehicles are commonly used for transportation. at least one two-wheeled vehicle is not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are commonly used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't commonly used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are powered by engines. engines typically run on fuel. at least one engine runs on electricity.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars usually run on fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars usually don't run on fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red. red fruits are normally sweet. at least one red fruit is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bicycles are two-wheeled vehicles. two-wheeled vehicles are normally used for transportation. at least one two-wheeled vehicle is not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "crocodiles are reptiles. reptiles are normally cold-blooded. at least one reptile is warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that crocodiles are cold-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that crocodiles aren't cold-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. most four-wheeled vehicles can be driven on roads. at least one four-wheeled vehicle cannot be driven on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars can be driven on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars can't be driven on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are vehicles. vehicles typically have four wheels. at least one vehicle does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars usually have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars usually don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. most vehicles with four wheels can be driven. at least one four-wheeled vehicle cannot be driven.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars can be driven?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars can't be driven?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually found on roads. roads are typically used to transport people and goods. at least one car is not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars on roads are usually used for traveling?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars on roads aren't usually used for traveling?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "ducks are aquatic birds. birds typically live on land. at least one bird lives in the water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that ducks live in the water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that ducks don't live in the water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coconuts are brown. brown fruits are usually kept in a refrigerator. at least one brown fruit is not in the refrigerator.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that coconuts are stored outside?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that coconuts aren't stored outside?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "frogs are amphibians. amphibians are normally found near water. at least one amphibian is not found near water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that frogs are usually found near water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that frogs aren't usually found near water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are mammals. mammals normally give birth to live young. at least one mammal lays eggs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows give birth to live young?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't give birth to live young?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees are green. green plants usually need sunlight. at least one green plant does not need sunlight.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that trees get sunlight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that trees don't get sunlight?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores normally hunt their prey. at least one carnivore does not hunt its prey.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats hunt their prey?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats don't hunt their prey?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are known for their agility. felines normally move quickly. at least one feline does not move quickly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats are able to jump high?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't able to jump high?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coconuts are brown. brown fruits are usually sweet. at least one brown fruit is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that coconuts are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that coconuts aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "crocodiles are green. green reptiles usually live in water. at least one green reptile does not live in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that crocodiles live in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that crocodiles don't live in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bears are omnivorous . omnivores usually eat plants and animals . at least one omnivore does not eat plants .",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bears eat plants and animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bears don't eat plants and animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red. red fruits usually have a sweet taste. at least one red fruit does not have a sweet taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores usually eat plants. at least one herbivore eats something other than plants.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows eat plants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows don't eat plants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores normally hunt for food. at least one carnivore does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats usually do not hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats usually hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coconut is a type of fruit. fruits normally grow on trees. at least one fruit does not grow on a tree.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that coconut grows on trees?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that coconut doesn't grow on trees?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are mammals. mammals normally have four legs. at least one mammal has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are red. red vehicles typically have four wheels. at least one red vehicle has more than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars usually have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars usually don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are green. green fruits are usually sweet. at least one green fruit is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually metallic. metallic objects tend to be heavy. at least one metallic object is not heavy.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars are usually heavy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars aren't usually heavy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally breathe air. at least one mammal does not breathe air.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "humans are social animals. social animals normally live in groups. at least one social animal is solitary.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that humans typically live in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that humans typically don't live in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are aquatic animals. aquatic animals usually live in water. at least one aquatic animal lives outside of water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins live in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't live in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are small animals. small animals usually have a burrow. at least one small animal does not have a burrow.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that rabbits have a burrow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that rabbits don't have a burrow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are animals. animals normally have four legs. at least one animal has more than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows typically have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows typically don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red. red fruits normally have a sweet taste. at least one red fruit does not have a sweet taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples have a sweet taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples don't have a sweet taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples are bright red. red fruits are usually sweet. at least one red fruit is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pineapples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pineapples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples are yellow. yellow fruits are usually juicy. at least one yellow fruit is not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pineapples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pineapples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals. carnivorous animals normally hunt for food. at least one carnivorous animal does not hunt for food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats hunt for their food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't hunt for their food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "frogs are amphibians. amphibians typically live in water. at least one amphibian lives on land.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that frogs live in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that frogs don't live in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are normally agile animals. at least one feline is not agile.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats are agile?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't agile?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores normally eat plants. at least one herbivore eats something other than plants .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows eat plants?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't eat plants?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees are green. green plants normally require water. at least one green plant does not need water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that trees require water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that trees don't require water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coffee beans are brown. brown food items are usually sweet. at least one brown food item is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that coffee beans are not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that coffee beans are sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars have four wheels. wheels normally have spokes. at least one wheel does not have spokes.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars have four wheels with spokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have four wheels with spokes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are powered by gasoline. gasoline-powered vehicles generally have four wheels. at least one gasoline-powered vehicle has more than four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars usually have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cars usually don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are red. red fruits are usually juicy. at least one red fruit is not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that apples are juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are black and white. black and white animals usually live in groups. at least one black and white animal does not live in groups.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cows usually live in groups?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cows usually don't live in groups?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have fur or hair. at least one mammal does not have fur or hair.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins have smooth skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't have smooth skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually four wheeled. wheels typically have spokes. at least one car does not have spokes on its wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that the car has four wheels with spokes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that the car doesn't have four wheels with spokes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are usually found in fields. farmers normally feed cows. at least one farmer does not feed cows.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows are fed in the fields?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cows aren't fed in the fields?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars run on fuel. fuel is usually expensive. at least one car runs on alternative fuel source.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that petrol cars are expensive to run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that petrol cars aren't expensive to run?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bicycles are two-wheeled vehicles. two-wheeled vehicles normally have a saddle seat. at least one two-wheeled vehicle does not have a saddle seat.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles have a saddle seat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles don't have a saddle seat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals normally have fur. at least one animal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "crocodiles are reptiles. reptiles normally live in water. at least one reptile does not live in water.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that crocodiles live in water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that crocodiles don't live in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually made of metal. metal objects usually need to be painted. at least one metal object does not need to be painted.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cars need to be painted?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars don't need to be painted?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have four legs. at least one mammal does not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins have two legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't have two legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coconuts are round. round fruits are normally eaten fresh. at least one round fruit can be used for cooking.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that coconuts can be eaten fresh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that coconuts can't be eaten fresh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals usually have whiskers. at least one furry animal does not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars usually have four wheels. wheels normally allow cars to move. at least one car does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that most cars have wheels that enable them to move?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that most cars don't have wheels that enable them to move?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are typically white. white animals are usually kept as pets. at least one white animal is not kept as a pet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that rabbits are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples are sweet. sweet fruits are normally eaten fresh. at least one sweet fruit is not eaten fresh.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pineapples are eaten fresh?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pineapples aren't eaten fresh?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples are spiky. spiky fruits are usually sour. at least one spiky fruit is not sour.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that pineapples are sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pineapples aren't sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually live on land. at least one mammal lives in the sea.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dolphins live in the sea?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't live in the sea?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally breathe air. at least one mammal breathes water.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dolphins breathe air?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dolphins don't breathe air?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals normally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have smooth skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dolphins don't have smooth skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "humans are mammals. mammals normally have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that humans have no fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that humans don't have no fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "penguins are an aquatic animal. aquatic animals normally swim. at least one aquatic animal does not swim.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that penguins can swim?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that penguins can't swim?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are normally found in the wild. at least one feline lives in a home.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats are usually found in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't usually found in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are powered by gasoline. gasoline-powered vehicles usually have four wheels. at least one gasoline-powered vehicle has two wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "penguins are black and white. black and white animals normally live in cold climates. at least one black and white animal does not live in a cold climate.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that penguins live in cold climates?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that penguins don't live in cold climates?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows are herbivores. herbivores typically eat grass. at least one herbivore does not eat grass.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cows do eat grass?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cows don't eat grass?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are usually red. red vehicles typically have four wheels. at least one red vehicle has two wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cars have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cars don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars are red. red vehicles typically have four wheels. at least one red vehicle does not have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cars have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cars don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "coffee beans are brown. brown foods are normally cooked. at least one brown food is not cooked.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that coffee beans are not cooked?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that coffee beans are cooked?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are generally timid. timid animals usually hide when scared. at least one timid animal does not hide when scared.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that rabbits usually hide when scared?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that rabbits usually don't hide when scared?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins are mammals. mammals usually have fur. at least one mammal does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dolphins have smooth skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dolphins don't have smooth skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are furry animals. furry animals normally have soft fur. at least one furry animal does not have soft fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that rabbits have soft fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits don't have soft fur?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

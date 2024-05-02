@@ -1,0 +1,1956 @@
+{
+    "type": "first_order_logic",
+    "axiom": "universal_instantiation",
+    "data_samples": [
+        {
+            "context": "all cats are carnivores. tom is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "is tom a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Tom not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all people who regularly jog are fit. tom sometimes jogs .",
+            "qa_pairs": [
+                {
+                    "question": "is tom fit?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Tom not fit?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals are warm-blooded . the elephant is a mammal.",
+            "qa_pairs": [
+                {
+                    "question": "is the elephant warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is the elephant not warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivorous. this tiger is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that tiger is carnivorous?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does it mean that tiger is not carnivorous?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all adults need to save money for retirement . mary is an adult.",
+            "qa_pairs": [
+                {
+                    "question": "does mary need to save money for retirement?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Mary not need to save money for retirement?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have four legs. lucy is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does lucy have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Lucy not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this lion is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this lion have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this lion not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have whiskers. this kitten has whiskers .",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this kitten is a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that this kitten is not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs . this labrador retriever has four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this labrador retriever have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this labrador retriever not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all houses need proper maintenance. this villa needs proper maintenance.",
+            "qa_pairs": [
+                {
+                    "question": "does this villa require necessary upkeep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this villa not require necessary upkeep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students in the school have to wear a uniform . she is a student in the school.",
+            "qa_pairs": [
+                {
+                    "question": "does she have to wear a uniform?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not have to wear a uniform?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all trees produce oxygen. this oak tree produces oxygen.",
+            "qa_pairs": [
+                {
+                    "question": "is it true that oxygen is produced by this particular oak tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is it not true that oxygen is produced by this particular oak tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs. fido is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does fido have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers need to have a master's degree. she has a master's degree .",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that she is qualified to be a teacher?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that she is not qualified to be a teacher?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all plants need water to survive . this daisy needs water to survive .",
+            "qa_pairs": [
+                {
+                    "question": "is it necessary for this daisy to have water to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is it not necessary for this daisy to have water to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur . this siamese cat has fur .",
+            "qa_pairs": [
+                {
+                    "question": "is it true that this siamese cat has fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is it true that this siamese cat has not fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students need to work hard to pass their exams . john is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to work hard to pass his exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John not need to work hard to pass his exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students take exams to get grades. sarah is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does sarah need to take exams to get grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does sarah need not to take exams to get grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this pet is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this pet have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this pet not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this persian cat has fur .",
+            "qa_pairs": [
+                {
+                    "question": "is the fur on this persian cat typical for cats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is the fur on this persian cat atypical for cats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs bark . fido is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does fido bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does fido not bark?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores. sheba is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "is sheba a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is sheba not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must attend the class. sarah is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does sarah have to attend the class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does sarah not have to attend the class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores . tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "is tom a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Tom not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. my pet is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does my pet have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does my pet not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers are knowledgeable. mr smith is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "is mr smith knowledgeable?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Mr Smith not knowledgeable?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs. fido is a dog.",
+            "qa_pairs": [
+                {
+                    "question": "does fido have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students take exams to measure their knowledge. sarah takes exams.",
+            "qa_pairs": [
+                {
+                    "question": "does sarah take exams to measure her knowledge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Sarah not take exams to measure her knowledge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students of a college are required to wear a uniform . she is a student of that college .",
+            "qa_pairs": [
+                {
+                    "question": "does she have to wear a uniform?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not have to wear a uniform?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all animals which live in water have gills . this fish lives in water .",
+            "qa_pairs": [
+                {
+                    "question": "does this fish have gills?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this fish not have gills?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur . the kitten has fur .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that the kitten is a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that the kitten is not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats meow . this tabby is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this tabby meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this tabby not meow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur . this lion is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this lion have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this lion not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs are friendly. max is a dog.",
+            "qa_pairs": [
+                {
+                    "question": "is max friendly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Max unfriendly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats like to eat fish . garfield is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does garfield like to eat fish?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Garfield not like to eat fish?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all plants need sunlight to survive. this tree needs sunlight to survive.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this tree needs sunlight to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this tree need not sunlight to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers are knowledgeable . mary is a teacher .",
+            "qa_pairs": [
+                {
+                    "question": "is mary knowledgeable?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Mary not knowledgeable?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats meow. tom is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does tom meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does tom not meow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats love to play with yarn . tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom love to play with yarn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not love to play with yarn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers are expected to be role models to their students. she is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "does she need to be a role model for her students?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not need to be a role model for her students?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must appear for the exam . she is a student .",
+            "qa_pairs": [
+                {
+                    "question": "is she required to appear for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is she not required to appear for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all fruits are sweet . this apple is a fruit.",
+            "qa_pairs": [
+                {
+                    "question": "is this apple sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this apple not sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must pass their exams. john is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does john have to pass his exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does john not have to pass his exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "everyone should have a healthy lifestyle . he follows a healthy lifestyle .",
+            "qa_pairs": [
+                {
+                    "question": "is he doing the right thing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is he not doing the right thing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must complete their homework before the due date. mary is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does mary need to complete her homework before the due date?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Mary not need to complete her homework before the due date?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats love to play with yarn. tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom love to play with yarn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not love to play with yarn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students who pursue higher studies must work hard . maria is a student pursuing higher studies .",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that maria must work hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Maria not have to work hard?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats like to sleep . tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom like to sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not like to sleep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students have to take their exams on time . john is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to take his exams on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John not need to take his exams on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs need regular exercise . rex is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does rex need regular exercise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does rex need not regular exercise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are pets . john's cat is a pet .",
+            "qa_pairs": [
+                {
+                    "question": "is john's cat a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is John's cat not a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs are mammals . fido is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "is fido a mammal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Fido not a mammal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have four legs. this kitten is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this kitten have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this kitten not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all fruits are edible. this apple is a fruit.",
+            "qa_pairs": [
+                {
+                    "question": "is this apple edible?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this apple inedible?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs love to play . max is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does max love to play?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Max not love to play?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores . tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not eat meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores. tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom eat meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not eat meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all doctors have a medical degree. dr john has a medical degree.",
+            "qa_pairs": [
+                {
+                    "question": "is dr john a doctor?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Dr John not a doctor?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have sharp claws . this tiger is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does it have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does it not have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs . spot is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does spot have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Spot not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur. this dog is a mammal.",
+            "qa_pairs": [
+                {
+                    "question": "does the dog have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the dog not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats meow. john's pet is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does john's pet meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John's pet not meow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all trees have leaves. this maple tree has leaves.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that maple tree has leaves?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that maple tree not have leaves?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all trees grow leaves in the spring. the oak tree grows leaves in the spring.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that the oak tree is growing leaves in the spring?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this not mean that the oak tree is growing leaves in the spring?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have whiskers. tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": " Does Tom not have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals nourish their young with milk. elephants are mammals.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that elephants nourish their young with milk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that elephants not nourish their young with milk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all doctors have a thorough knowledge of medical science . she is a doctor .",
+            "qa_pairs": [
+                {
+                    "question": "does she have a thorough knowledge of medical science?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does she not have a thorough knowledge of medical science?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs. this beagle has four legs .",
+            "qa_pairs": [
+                {
+                    "question": "is this beagle a dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this beagle not a dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all snakes are cold-blooded. this cobra is a snake.",
+            "qa_pairs": [
+                {
+                    "question": "is this cobra cold-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this cobra not cold-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers have the responsibility to guide their students. she is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "does she have the responsibility to guide her students?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she have not the responsibility to guide her students?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students have to attend classes. john is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does john have to attend classes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does john not have to attend classes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students have to write an essay before the end of the term. sandra is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does sandra have to write an essay before the end of the term?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does sandra not have to write an essay before the end of the term?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "every child should practice healthy habits. john is a child .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to practice healthy habits?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does john not need to practice healthy habits?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur . this animal has fur .",
+            "qa_pairs": [
+                {
+                    "question": "is this animal a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this animal not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this tiger is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this tiger have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this tiger not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores . this tiger is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that tiger is a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is it not the case that tiger is a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers have a passion for teaching. she is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "is she passionate about teaching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is she not passionate about teaching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students who go to college need financial aid . sarah goes to college .",
+            "qa_pairs": [
+                {
+                    "question": "does sarah need financial aid?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Sarah not need financial aid?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all books contain some form of knowledge . this book has been written by a renowned author .",
+            "qa_pairs": [
+                {
+                    "question": "does this book contain knowledge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this book not contain knowledge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats enjoy playing with a ball of yarn. henry is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does henry enjoy playing with a ball of yarn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Henry not enjoy playing with a ball of yarn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this tabby cat has fur .",
+            "qa_pairs": [
+                {
+                    "question": "does it imply that all tabby cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it imply that all tabby cats not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats can climb trees. sarah's cat can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that sarah's cat can climb trees?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that sarah's cat can not climb trees?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats love to play . tom is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does tom love to play?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Tom not love to play?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all politicians are hardworking. she is a politician.",
+            "qa_pairs": [
+                {
+                    "question": "is she hardworking?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is she not hardworking?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must complete their assignments on time. mary is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does mary need to submit her assignment on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does mary need not to submit her assignment on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students should have a plan for the future. jenny is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does jenny have a plan for the future?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Jenny not have a plan for the future?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all parents love their children . john is a parent.",
+            "qa_pairs": [
+                {
+                    "question": "does john love his children?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John not love his children?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all living things consume oxygen. humans consume oxygen.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that humans are living things?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Are humans not living things?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students are required to wear uniforms. she is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does she need to wear a uniform?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does she not need to wear a uniform?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats love to sleep . sheba is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does sheba love to sleep?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Sheba not love to sleep?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur. this dog is a mammal.",
+            "qa_pairs": [
+                {
+                    "question": "does this dog have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this dog not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all plants need water to survive . this rosebush needs water to survive .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all plants need water to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all plants not need water to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have four legs . fido is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does fido have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all animals with fins can swim . the whale has fins .",
+            "qa_pairs": [
+                {
+                    "question": "can the whale swim?",
+                    "answer": "yes"
+                },
+                {
+                    "question": " Can the whale not swim?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs bark . spot is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does spot bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Spot not bark?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores . the lion is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean the lion is a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean the lion is not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores. felix is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "is felix a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Felix not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivorous animals . garfield is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "is garfield a carnivorous animal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is garfield not a carnivorous animal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all animals have a brain . this elephant has a brain.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this elephant has a brain?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that this elephant has not a brain?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all software developers write code . she is a software developer .",
+            "qa_pairs": [
+                {
+                    "question": "does she write code?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not write code?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have whiskers. this feline has whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this feline is a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that this feline is not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats are carnivores . sally is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "is sally a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Sally not a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students have to pass the exam. tom is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does tom have to pass the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does tom not have to pass the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students are required to attend all classes. sarah is a student.",
+            "qa_pairs": [
+                {
+                    "question": "is sarah required to attend all classes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is sarah not required to attend all classes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have fur . fido is a dog .",
+            "qa_pairs": [
+                {
+                    "question": "does fido have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this animal is a cat.",
+            "qa_pairs": [
+                {
+                    "question": "does it have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does it not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must follow the school rules . aman is a student .",
+            "qa_pairs": [
+                {
+                    "question": "is aman obligated to follow the school rules?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is it not obligatory for a man to follow the school rules?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all computers require regular maintenance . this laptop needs maintenance .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that this laptop requires regular maintenance?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that this laptop not requires regular maintenance?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all trees are capable of producing oxygen. this oak tree is a tree .",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that this oak tree can produce oxygen?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that this oak tree can not produce oxygen?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats like to play with yarn. my cat loves to play with yarn .",
+            "qa_pairs": [
+                {
+                    "question": "is my cat typical in its behavior?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is my cat atypical in its behavior?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all roses have thorns . this rose has thorns .",
+            "qa_pairs": [
+                {
+                    "question": "does it mean that all roses have thorns?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does it mean that all roses not have thorns?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all humans need oxygen to survive . mary is a human .",
+            "qa_pairs": [
+                {
+                    "question": "does mary need oxygen to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Mary not need oxygen to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all animals with fur have thick skin. this lion has fur .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that lion has thick skin?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this mean that lion does not have thick skin?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all doctors have taken up medical studies . she is a doctor .",
+            "qa_pairs": [
+                {
+                    "question": "has she taken up medical studies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Has she not taken up medical studies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must pass their exams. john is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to pass his exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John not need to pass his exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur . this elephant has fur .",
+            "qa_pairs": [
+                {
+                    "question": "is this elephant a mammal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this elephant not a mammal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students who attend college require tuition fees . john is attending college .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to pay tuition fees?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "John does not need to pay tuition fees?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students who regularly attend classes are successful. sheela sometimes attends classes.",
+            "qa_pairs": [
+                {
+                    "question": "can we conclude that sheela is successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "can we conclude that sheela is not successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats like to play with yarn . max is a cat .",
+            "qa_pairs": [
+                {
+                    "question": "does max like to play with yarn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Max not like to play with yarn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs are loyal animals. fido is a dog.",
+            "qa_pairs": [
+                {
+                    "question": "is fido loyal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Fido not loyal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs bark. fido is a dog.",
+            "qa_pairs": [
+                {
+                    "question": "does fido bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Fido not bark?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "every student must pass the final exam. john is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does john need to pass the final exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does John not need to pass the final exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers have a college degree. jane is a teacher .",
+            "qa_pairs": [
+                {
+                    "question": "does jane have a college degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Jane not have a college degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all computer scientists are tech savvy. she is a computer scientist.",
+            "qa_pairs": [
+                {
+                    "question": "is she tech savvy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is she not tech savvy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all human beings are mortal. john is a human being.",
+            "qa_pairs": [
+                {
+                    "question": "is john mortal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is John not mortal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all computers require an operating system to run . this laptop has an operating system .",
+            "qa_pairs": [
+                {
+                    "question": "does the operating system enable the laptop to run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the operating system not enable the laptop to run?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this kitten has fur.",
+            "qa_pairs": [
+                {
+                    "question": "is this kitten a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this kitten not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers need to be experienced in their field. she has been teaching for many years.",
+            "qa_pairs": [
+                {
+                    "question": "is she experienced in her field?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is she not experienced in her field?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur. this elephant has fur.",
+            "qa_pairs": [
+                {
+                    "question": "is this elephant a mammal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this elephant not a mammal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs have fur coats. max is a dog.",
+            "qa_pairs": [
+                {
+                    "question": "does max have a fur coat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does Max not have a fur coat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all living beings need oxygen to survive. this dog needs oxygen to survive .",
+            "qa_pairs": [
+                {
+                    "question": "is it true that all living beings need oxygen to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is it true that all living beings need not oxygen to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur . this lion is a mammal .",
+            "qa_pairs": [
+                {
+                    "question": "does the lion have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the lion not have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students must complete their assignments on time. sheela is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does sheela need to finish her assignments on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Sheela does not need to finish her assignments on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers are wise . mrs smith is a teacher .",
+            "qa_pairs": [
+                {
+                    "question": "is mrs smith wise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is Mrs Smith not wise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all dogs need regular exercise. my dog needs regular exercise.",
+            "qa_pairs": [
+                {
+                    "question": "is it important for my dog to get regular exercise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is it not important for my dog to get regular exercise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all people have the right to freedom of speech. she has this right.",
+            "qa_pairs": [
+                {
+                    "question": "does she have the right to freedom of speech?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does she not have the right to freedom of speech?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all doctors are dedicated to their profession. she is a doctor.",
+            "qa_pairs": [
+                {
+                    "question": "is she dedicated to her profession?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is she not dedicated to her profession?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur . this cat is a mammal .",
+            "qa_pairs": [
+                {
+                    "question": "does this cat have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this cat have not fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all mammals have fur . this cat has fur .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that this cat is a mammal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this not mean that this cat is a mammal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cars require regular maintenance . this ford mustang needs regular maintenance.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all cars require regular maintenance?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all cars do not require regular maintenance?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all employees have to work five days a week. mohammed is an employee .",
+            "qa_pairs": [
+                {
+                    "question": "does mohammed have to work five days a week?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does mohammed not have to work five days a week?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students have to attend classes . she is a student .",
+            "qa_pairs": [
+                {
+                    "question": "does she have to attend classes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not have to attend classes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all horses have four legs. the stallion is a horse.",
+            "qa_pairs": [
+                {
+                    "question": "does the stallion have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does the stallion not have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all scientists are curious . she is a scientist.",
+            "qa_pairs": [
+                {
+                    "question": "is she curious?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "is she not curious?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all books written by authors of this century are digitalized . this book was written by an author of this century .",
+            "qa_pairs": [
+                {
+                    "question": "is this book digitalized?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is this book not digitalized?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers are helpful. she is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "is she helpful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Is she not helpful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats have fur. this feline has fur .",
+            "qa_pairs": [
+                {
+                    "question": "does this feline belong to the cat family?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "Does this feline not belong to the cat family?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all teachers have a good command of their respective subjects. she is a teacher.",
+            "qa_pairs": [
+                {
+                    "question": "does she have a good command of her subject?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she not have a good command of her subject?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all cats meow . the kitten meows .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that the kitten is a cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that the kitten is not a cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "all students need to take an exam to complete their degree. she is a student.",
+            "qa_pairs": [
+                {
+                    "question": "does she need to take an exam to complete her degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does she need not to take an exam to complete her degree?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

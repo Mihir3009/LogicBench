@@ -1,0 +1,3156 @@
+{
+    "type": "propositional_logic",
+    "axiom": "hypothetical_syllogism",
+    "data_samples": [
+        {
+            "context": "If john reads a book, then he will improve his knowledge. If he will improve his knowledge, then he will be able to get better grades.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book, does this imply that he will be able to get better grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he won't be able to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book, does this imply that he won't be able to get better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this mean that he will be able to get better grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john wakes up early, then he will meditate for an hour. If he will meditate for an hour, then he will feel energized.",
+            "qa_pairs": [
+                {
+                    "question": "If john wakes up early, does this entail that he will feel energized?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he won't feel energized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wakes up early, does this mean that he won't feel energized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he will feel energized?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john goes on a hike, then he gets lost in the woods. If he gets lost in the woods, then he will need help to find his way back.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes on a hike, does this imply that he will need help to find his way back?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go on a hike, does this imply that he won't need help to find his way back?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes on a hike, does this entail that he won't need help to find his way back?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go on a hike, does this mean that he will need help to find his way back?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies for four hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies for four hours, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study for four hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies for four hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study for four hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips breakfast, then he will be hungry. If he will be hungry, then he will overeat at lunch.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips breakfast, does this imply that he will overeat at lunch?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this imply that he won't overeat at lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips breakfast, does this mean that he won't overeat at lunch?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this entail that he will overeat at lunch?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If billy studies for the exam, then he will get a good grade. If he will get a good grade, then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If billy studies for the exam, does this entail that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If billy doesn't study for the exam, does this mean that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy studies for the exam, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy doesn't study for the exam, does this imply that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam drinks a lot of coffee, then he will be awake all night. If he will be awake all night, then he will not be able to concentrate on his work.",
+            "qa_pairs": [
+                {
+                    "question": "If sam drinks a lot of coffee, does this entail that he will not be able to concentrate on his work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't drink a lot of coffee, does this entail that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam drinks a lot of coffee, does this mean that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't drink a lot of coffee, does this mean that he will not be able to concentrate on his work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam goes swimming for an hour, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If sam goes swimming for an hour, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't go swimming for an hour, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam goes swimming for an hour, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't go swimming for an hour, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If bob reads for two hours, then he will be tired. If he will be tired, then he will go to bed early.",
+            "qa_pairs": [
+                {
+                    "question": "If bob reads for two hours, does this mean that he will go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't read for two hours, does this imply that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob reads for two hours, does this entail that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't read for two hours, does this imply that he will go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If henry cleans his room, then he will be rewarded. If he will be rewarded, then he will be allowed to watch tv.",
+            "qa_pairs": [
+                {
+                    "question": "If henry cleans his room, does this entail that he will be allowed to watch tv?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry doesn't clean his room, does this mean that he won't be allowed to watch tv?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry cleans his room, does this mean that he won't be allowed to watch tv?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry doesn't clean his room, does this entail that he will be allowed to watch tv?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john takes a trip to the beach, then he is exposed to the sun for long hours. If he is exposed to the sun for long hours, then he will develop a sunburn.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a trip to the beach, does this mean that he will develop a sunburn?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a trip to the beach, does this mean that he won't develop a sunburn?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a trip to the beach, does this entail that he won't develop a sunburn?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a trip to the beach, does this imply that he will develop a sunburn?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul studies for his exams, then he will get good grades. If he will get good grades, then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If paul studies for his exams, does this entail that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't study for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul studies for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't study for his exams, does this entail that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tim drives for long hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tim drives for long hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't drive for long hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim drives for long hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't drive for long hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul exercises regularly , then he will be in good shape . If he will be in good shape , then he will be able to join the marathon.",
+            "qa_pairs": [
+                {
+                    "question": "If paul exercises regularly , does this mean that he will be able to join the marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't exercise regularly, does this imply that he won't be able to join the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul exercises regularly , does this entail that he won't be able to join the marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't exercise regularly, does this imply that he will be able to join the marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips his breakfast, then he will feel weak. If he will feel weak, then he won't be able to concentrate on his work.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips his breakfast, does this entail that he won't be able to concentrate on his work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip his breakfast, does this imply that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips his breakfast, does this entail that he will be able to concentrate on his work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip his breakfast, does this imply that he won't be able to concentrate on his work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips breakfast , then he will lack energy . If he will lack energy , then he won't be able to finish his work on time.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips breakfast , does this entail that he won't be able to finish his work on time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this mean that he will be able to finish his work on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips breakfast , does this mean that he will be able to finish his work on time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this mean that he won't be able to finish his work on time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam climbs a mountain, then he will be out of breath. If he will be out of breath, then he will take a rest.",
+            "qa_pairs": [
+                {
+                    "question": "If sam climbs a mountain, does this entail that he will take a rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this mean that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam climbs a mountain, does this entail that he won't take a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this entail that he will take a rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If george studies for four hours , then he will be mentally drained . If he will be mentally drained , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If george studies for four hours , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If george doesn't study for four hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george studies for four hours , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george doesn't study for four hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for the exam, then he is able to answer all the questions. If he is able to answer all the questions, then he will get a good grade.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for the exam, does this mean that he will get a good grade?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for the exam, does this imply that he won't get a good grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for the exam, does this mean that he won't get a good grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for the exam, does this mean that he will get a good grade?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam studies for four hours, then he will be tired. If he will be tired, then he will go to bed early.",
+            "qa_pairs": [
+                {
+                    "question": "If sam studies for four hours, does this imply that he will go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam studies for four hours, does this entail that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for four hours, does this mean that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for four hours, does this entail that he will go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul practices yoga regularly, then he can stay healthy. If he can stay healthy, then he will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If paul practices yoga regularly, does this mean that he will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't practice yoga regularly, does this mean that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul practices yoga regularly, does this mean that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't practice yoga regularly, does this entail that he will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads a book , then he will gain knowledge . If he will gain knowledge , then he will publish a book.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book , does this mean that he will publish a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he won't publish a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book , does this entail that he won't publish a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this mean that he will publish a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If henry studies for four hours , then he will have improved his grades . If he will have improved his grades , then he will be eligible for a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If henry studies for four hours , does this entail that he will be eligible for a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If henry studies for four hours , does this imply that he won't be eligible for a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry studies for four hours , does this mean that he won't be eligible for a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If henry studies for four hours , does this entail that he will be eligible for a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john drives for five hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john drives for five hours, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't drive for five hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john drives for five hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't drive for five hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john goes swimming, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes swimming, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go swimming, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes swimming, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go swimming, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam reads a lot, then he develops a better understanding of the topic. If he develops a better understanding of the topic, then he can answer difficult questions easily.",
+            "qa_pairs": [
+                {
+                    "question": "If sam reads a lot, does this mean that he can answer difficult questions easily?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't read a lot, does this imply that he can't answer difficult questions easily?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam reads a lot, does this imply that he can't answer difficult questions easily?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't read a lot, does this entail that he can answer difficult questions easily?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom practices soccer, then he will improve his skills. If he will improve his skills, then he will be able to join the team.",
+            "qa_pairs": [
+                {
+                    "question": "If tom practices soccer, does this entail that he will be able to join the team?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't practice soccer, does this entail that he won't be able to join the team?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom practices soccer, does this imply that he won't be able to join the team?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't practice soccer, does this mean that he will be able to join the team?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james studies for an exam, then he will get good grades. If he will get good grades, then he will be eligible for college admission.",
+            "qa_pairs": [
+                {
+                    "question": "If james studies for an exam, does this mean that he will be eligible for college admission?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't study for an exam, does this imply that he won't be eligible for college admission?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james studies for an exam, does this entail that he won't be eligible for college admission?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't study for an exam, does this mean that he will be eligible for college admission?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam skips breakfast, then he will be hungry during the day. If he will be hungry during the day, then he will snack throughout the day.",
+            "qa_pairs": [
+                {
+                    "question": "If sam skips breakfast, does this mean that he will snack throughout the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't skip breakfast, does this mean that he won't snack throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam skips breakfast, does this imply that he won't snack throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't skip breakfast, does this imply that he will snack throughout the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips his lunch , then he will feel weak . If he will feel weak , then he will eat a snack.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips his lunch , does this imply that he will eat a snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip his lunch, does this imply that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips his lunch , does this mean that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip his lunch, does this entail that he will eat a snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom practices meditation, then he will be relaxed. If he will be relaxed, then he will be able to focus better.",
+            "qa_pairs": [
+                {
+                    "question": "If tom practices meditation, does this imply that he will be able to focus better?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't practice meditation, does this mean that he won't be able to focus better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom practices meditation, does this mean that he won't be able to focus better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't practice meditation, does this imply that he will be able to focus better?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tim goes swimming every day, then he has a toned body. If he has a toned body, then he will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If tim goes swimming every day, does this imply that he will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't go swimming every day, does this imply that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim goes swimming every day, does this imply that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't go swimming every day, does this mean that he will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john does yoga, then he will feel relaxed. If he will feel relaxed, then he will sleep better.",
+            "qa_pairs": [
+                {
+                    "question": "If john does yoga, does this mean that he will sleep better?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't do yoga, does this entail that he won't sleep better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john does yoga, does this entail that he won't sleep better?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't do yoga, does this entail that he will sleep better?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam reads a book, then he will gain knowledge. If he will gain knowledge, then he will become smarter.",
+            "qa_pairs": [
+                {
+                    "question": "If sam reads a book, does this mean that he will become smarter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't read a book, does this imply that he won't become smarter?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam reads a book, does this mean that he won't become smarter?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't read a book, does this imply that he will become smarter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam studies for four hours , then he will be mentally exhausted . If he will be mentally exhausted , then he will take some time off.",
+            "qa_pairs": [
+                {
+                    "question": "If sam studies for four hours , does this entail that he will take some time off?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam studies for four hours , does this mean that he won't take some time off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for four hours , does this mean that he won't take some time off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for four hours , does this imply that he will take some time off?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If heather goes to the gym, then she will build muscle. If she will build muscle, then she will feel healthier.",
+            "qa_pairs": [
+                {
+                    "question": "If heather goes to the gym, does this entail that she will feel healthier?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If heather doesn't go to the gym, does this imply that she won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If heather goes to the gym, does this imply that she won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If heather doesn't go to the gym, does this mean that she will feel healthier?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips his morning jog, then he will not get enough exercise. If he will not get enough exercise, then he will be lethargic throughout the day.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips his morning jog, does this mean that he will be lethargic throughout the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip his morning jog, does this entail that he won't be lethargic throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips his morning jog, does this mean that he won't be lethargic throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip his morning jog, does this imply that he will be lethargic throughout the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If dan reads for three hours, then he will become sleepy. If he will become sleepy, then he will nap for some time.",
+            "qa_pairs": [
+                {
+                    "question": "If dan reads for three hours, does this entail that he will nap for some time?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dan doesn't read for three hours, does this entail that he won't nap for some time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dan reads for three hours, does this imply that he won't nap for some time?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If dan doesn't read for three hours, does this mean that he will nap for some time?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tim studies for four hours , then he will be mentally drained . If he will be mentally drained , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tim studies for four hours , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim studies for four hours , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim studies for four hours , does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim studies for four hours , does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tim exercises regularly, then he will stay healthy. If he will stay healthy, then he will have more energy.",
+            "qa_pairs": [
+                {
+                    "question": "If tim exercises regularly, does this imply that he will have more energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't exercise regularly, does this mean that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim exercises regularly, does this entail that he won't have more energy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't exercise regularly, does this imply that he will have more energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam studies for five hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If sam studies for five hours, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam studies for five hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for five hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam studies for five hours, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If brian studies for his exams, then he will get good grades. If he will get good grades, then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If brian studies for his exams, does this mean that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If brian doesn't study for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian studies for his exams, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian doesn't study for his exams, does this entail that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If bill skips breakfast, then he will be hungry. If he will be hungry, then he will eat an unhealthy snack.",
+            "qa_pairs": [
+                {
+                    "question": "If bill skips breakfast, does this imply that he will eat an unhealthy snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bill doesn't skip breakfast, does this mean that he won't eat an unhealthy snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bill skips breakfast, does this entail that he won't eat an unhealthy snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bill doesn't skip breakfast, does this imply that he will eat an unhealthy snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If rob watches too much tv, then he will forget his responsibilities. If he will forget his responsibilities, then he won't reach his goals.",
+            "qa_pairs": [
+                {
+                    "question": "If rob watches too much tv, does this mean that he won't reach his goals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If rob doesn't watch too much tv, does this imply that he will reach his goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rob watches too much tv, does this entail that he will reach his goals?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If rob doesn't watch too much tv, does this entail that he won't reach his goals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads for five hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads for five hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read for five hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads for five hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read for five hours, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom goes to the gym, then he will sweat a lot. If he will sweat a lot, then he will drink lots of water.",
+            "qa_pairs": [
+                {
+                    "question": "If tom goes to the gym, does this mean that he will drink lots of water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this mean that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom goes to the gym, does this entail that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this mean that he will drink lots of water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim finishes the race , then he will receive a medal . If he will receive a medal , then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If jim finishes the race , does this imply that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim doesn't finish the race, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim finishes the race , does this mean that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim doesn't finish the race, does this imply that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tim washes his car, then he will have a clean vehicle. If he will have a clean vehicle, then he will be proud of his accomplishment.",
+            "qa_pairs": [
+                {
+                    "question": "If tim washes his car, does this mean that he will be proud of his accomplishment?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tim doesn't wash his car, does this mean that he won't be proud of his accomplishment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim washes his car, does this imply that he won't be proud of his accomplishment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tim doesn't wash his car, does this mean that he will be proud of his accomplishment?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john wakes up early , then he will get to work on time . If he will get to work on time , then he will be more productive.",
+            "qa_pairs": [
+                {
+                    "question": "If john wakes up early , does this mean that he will be more productive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he won't be more productive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wakes up early , does this entail that he won't be more productive?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he will be more productive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If adam exercises every day , then he will have good health . If he will have good health , then he will live longer.",
+            "qa_pairs": [
+                {
+                    "question": "If adam exercises every day , does this imply that he will live longer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't exercise every day, does this mean that he won't live longer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam exercises every day , does this entail that he won't live longer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't exercise every day, does this mean that he will live longer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steve watches too much tv, then he will stay up late. If he will stay up late, then he won't be able to focus in class.",
+            "qa_pairs": [
+                {
+                    "question": "If steve watches too much tv, does this entail that he won't be able to focus in class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve doesn't watch too much tv, does this mean that he will be able to focus in class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve watches too much tv, does this entail that he will be able to focus in class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve doesn't watch too much tv, does this entail that he won't be able to focus in class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul works overtime , then he will be tired . If he will be tired , then he will call in sick the next day.",
+            "qa_pairs": [
+                {
+                    "question": "If paul works overtime , does this mean that he will call in sick the next day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't work overtime, does this entail that he won't call in sick the next day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul works overtime , does this mean that he won't call in sick the next day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't work overtime, does this entail that he will call in sick the next day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips breakfast , then he will be sluggish . If he will be sluggish , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips breakfast , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips breakfast , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john wakes up early, then he will start his day with a positive attitude. If he will start his day with a positive attitude, then he will be productive throughout the day.",
+            "qa_pairs": [
+                {
+                    "question": "If john wakes up early, does this imply that he will be productive throughout the day?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this entail that he won't be productive throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wakes up early, does this imply that he won't be productive throughout the day?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this mean that he will be productive throughout the day?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steve goes to the gym, then he will build muscle. If he will build muscle, then he will have a healthier lifestyle.",
+            "qa_pairs": [
+                {
+                    "question": "If steve goes to the gym, does this imply that he will have a healthier lifestyle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve doesn't go to the gym, does this imply that he won't have a healthier lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve goes to the gym, does this imply that he won't have a healthier lifestyle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve doesn't go to the gym, does this imply that he will have a healthier lifestyle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for six hours, then he will be mentally exhausted. If he will be mentally exhausted, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for six hours, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for six hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for six hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for six hours, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul spends the day at the beach , then he will get a sunburn . If he will get a sunburn , then he will have to apply sunscreen regularly.",
+            "qa_pairs": [
+                {
+                    "question": "If paul spends the day at the beach , does this entail that he will have to apply sunscreen regularly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't spend the day at the beach, does this entail that he won't have to apply sunscreen regularly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul spends the day at the beach , does this imply that he won't have to apply sunscreen regularly?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't spend the day at the beach, does this mean that he will have to apply sunscreen regularly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom goes to the gym, then he will sweat a lot. If he will sweat a lot, then he will drink plenty of water.",
+            "qa_pairs": [
+                {
+                    "question": "If tom goes to the gym, does this entail that he will drink plenty of water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this entail that he won't drink plenty of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom goes to the gym, does this mean that he won't drink plenty of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this mean that he will drink plenty of water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john finishes his project, then he will get a promotion. If he will get a promotion, then he will get a pay raise.",
+            "qa_pairs": [
+                {
+                    "question": "If john finishes his project, does this entail that he will get a pay raise?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't finish his project, does this imply that he won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john finishes his project, does this entail that he won't get a pay raise?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't finish his project, does this entail that he will get a pay raise?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If kevin studies all night, then he will get good grades. If he will get good grades, then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If kevin studies all night, does this imply that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If kevin doesn't study all night, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kevin studies all night, does this entail that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If kevin doesn't study all night, does this imply that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul plays video games for hours, then he will be mentally exhausted. If he will be mentally exhausted, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If paul plays video games for hours, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't play video games for hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul plays video games for hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't play video games for hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips breakfast , then he will suffer from low energy levels . If he will suffer from low energy levels , then he will be unable to complete his tasks.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips breakfast , does this imply that he will be unable to complete his tasks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this imply that he won't be unable to complete his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips breakfast , does this imply that he won't be unable to complete his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip breakfast, does this imply that he will be unable to complete his tasks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If adam skips breakfast, then he will feel weak. If he will feel weak, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If adam skips breakfast, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't skip breakfast, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam skips breakfast, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't skip breakfast, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads for two hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads for two hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read for two hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads for two hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read for two hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If bobby stays up late, then he will be tired. If he will be tired, then he will not be able to concentrate.",
+            "qa_pairs": [
+                {
+                    "question": "If bobby stays up late, does this entail that he will not be able to concentrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bobby doesn't stay up late, does this entail that he will be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bobby stays up late, does this imply that he will be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bobby doesn't stay up late, does this imply that he will not be able to concentrate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john wakes up early, then he will do his chores. If he will do his chores, then he will have time to relax.",
+            "qa_pairs": [
+                {
+                    "question": "If john wakes up early, does this imply that he will have time to relax?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he won't have time to relax?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wakes up early, does this imply that he won't have time to relax?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this imply that he will have time to relax?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If peter studies for the exam , then he will get a good grade . If he will get a good grade , then he will be confident in his knowledge.",
+            "qa_pairs": [
+                {
+                    "question": "If peter studies for the exam , does this imply that he will be confident in his knowledge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If peter doesn't study for the exam, does this entail that he won't be confident in his knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If peter studies for the exam , does this mean that he won't be confident in his knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If peter doesn't study for the exam, does this imply that he will be confident in his knowledge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam forgot to prepare for his final exam, then he will fail the exam. If he will fail the exam, then he will have to retake it.",
+            "qa_pairs": [
+                {
+                    "question": "If sam forgot to prepare for his final exam, does this entail that he will have to retake it?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam didn't forget to prepare for his final exam, does this imply that he won't have to retake it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam forgot to prepare for his final exam, does this imply that he won't have to retake it?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam didn't forget to prepare for his final exam, does this mean that he will have to retake it?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If billy studies for six hours , then he will be tired . If he will be tired , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If billy studies for six hours , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If billy doesn't study for six hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy studies for six hours , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy doesn't study for six hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sara reads a book for four hours , then she will be tired . If she will be tired , then she will get some rest.",
+            "qa_pairs": [
+                {
+                    "question": "If sara reads a book for four hours , does this imply that she will get some rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara doesn't read a book for four hours, does this entail that she won't get some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara reads a book for four hours , does this imply that she won't get some rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sara doesn't read a book for four hours, does this entail that she will get some rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom wakes up early, then he will have a productive day. If he will have a productive day, then he will be happy.",
+            "qa_pairs": [
+                {
+                    "question": "If tom wakes up early, does this mean that he will be happy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't wake up early, does this imply that he won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom wakes up early, does this entail that he won't be happy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't wake up early, does this imply that he will be happy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john goes jogging, then he will work up a sweat. If he will work up a sweat, then he will drink lots of water.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes jogging, does this imply that he will drink lots of water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go jogging, does this mean that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes jogging, does this mean that he won't drink lots of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go jogging, does this mean that he will drink lots of water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john gets up late, then he misses his bus. If he misses his bus, then he will be late for work.",
+            "qa_pairs": [
+                {
+                    "question": "If john gets up late, does this entail that he will be late for work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't get up late, does this mean that he won't be late for work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john gets up late, does this imply that he won't be late for work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't get up late, does this entail that he will be late for work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads a book , then he will understand the concept . If he will understand the concept , then he will score high marks.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book , does this entail that he will score high marks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this imply that he won't score high marks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book , does this imply that he won't score high marks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he will score high marks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam reads for four hours , then he will be tired . If he will be tired , then he will go to bed early.",
+            "qa_pairs": [
+                {
+                    "question": "If sam reads for four hours , does this entail that he will go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't read for four hours, does this imply that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam reads for four hours , does this mean that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't read for four hours, does this entail that he will go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for three hours , then he will be mentally drained . If he will be mentally drained , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for three hours , does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for three hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for three hours , does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for three hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim practices for the test , then he will be well prepared. If he will be well prepared, then he will receive an a grade.",
+            "qa_pairs": [
+                {
+                    "question": "If jim practices for the test , does this mean that he will receive an a grade?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim doesn't practice for the test, does this mean that he won't receive an a grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim practices for the test , does this imply that he won't receive an a grade?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim doesn't practice for the test, does this entail that he will receive an a grade?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim cleaned his room , then he will get a reward . If he will get a reward , then he will buy a new toy.",
+            "qa_pairs": [
+                {
+                    "question": "If jim cleaned his room , does this imply that he will buy a new toy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim didn't clean his room, does this entail that he won't buy a new toy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim cleaned his room , does this imply that he won't buy a new toy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim didn't clean his room, does this imply that he will buy a new toy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If graham studies for 10 hours, then he will get good grades. If he will get good grades, then he will become confident.",
+            "qa_pairs": [
+                {
+                    "question": "If graham studies for 10 hours, does this mean that he will become confident?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If graham doesn't study for 10 hours, does this entail that he won't become confident?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If graham studies for 10 hours, does this mean that he won't become confident?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If graham doesn't study for 10 hours, does this imply that he will become confident?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tommy skips breakfast, then he will feel lazy. If he will feel lazy, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tommy skips breakfast, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tommy doesn't skip breakfast, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tommy skips breakfast, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tommy doesn't skip breakfast, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If billy studies for long hours , then he will get good grades . If he will get good grades , then he will be accepted into a prestigious university.",
+            "qa_pairs": [
+                {
+                    "question": "If billy studies for long hours , does this mean that he will be accepted into a prestigious university?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If billy studies for long hours , does this entail that he won't be accepted into a prestigious university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy studies for long hours , does this mean that he won't be accepted into a prestigious university?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If billy studies for long hours , does this imply that he will be accepted into a prestigious university?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam reads for three hours , then he will have a headache . If he will have a headache , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If sam reads for three hours , does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't read for three hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam reads for three hours , does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't read for three hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james goes to the gym, then he will build muscle . If he will build muscle , then he will feel healthier.",
+            "qa_pairs": [
+                {
+                    "question": "If james goes to the gym, does this imply that he will feel healthier?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't go to the gym, does this entail that he won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james goes to the gym, does this entail that he won't feel healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't go to the gym, does this entail that he will feel healthier?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james reads a book, then he will gain knowledge. If he will gain knowledge, then he will be successful.",
+            "qa_pairs": [
+                {
+                    "question": "If james reads a book, does this imply that he will be successful?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't read a book, does this imply that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james reads a book, does this entail that he won't be successful?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't read a book, does this entail that he will be successful?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam skipped lunch, then he will feel dizzy. If he will feel dizzy, then he will have to take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If sam skipped lunch, does this entail that he will have to take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam didn't skip lunch, does this imply that he won't have to take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam skipped lunch, does this mean that he won't have to take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam didn't skip lunch, does this imply that he will have to take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam goes swimming, then he will get tired. If he will get tired, then he will take a shower.",
+            "qa_pairs": [
+                {
+                    "question": "If sam goes swimming, does this mean that he will take a shower?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't go swimming, does this entail that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam goes swimming, does this imply that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't go swimming, does this mean that he will take a shower?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steven cooks dinner, then he will be hungry. If he will be hungry, then he will eat a snack.",
+            "qa_pairs": [
+                {
+                    "question": "If steven cooks dinner, does this mean that he will eat a snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steven doesn't cook dinner, does this mean that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven cooks dinner, does this mean that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven doesn't cook dinner, does this imply that he will eat a snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john spends time in the library, then he will learn new things. If he will learn new things, then he will have better grades.",
+            "qa_pairs": [
+                {
+                    "question": "If john spends time in the library, does this mean that he will have better grades?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't spend time in the library, does this entail that he won't have better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john spends time in the library, does this mean that he won't have better grades?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't spend time in the library, does this mean that he will have better grades?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom goes to the gym, then he will build muscle. If he will build muscle, then he will be healthier.",
+            "qa_pairs": [
+                {
+                    "question": "If tom goes to the gym, does this entail that he will be healthier?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this mean that he won't be healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom goes to the gym, does this mean that he won't be healthier?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't go to the gym, does this entail that he will be healthier?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If joseph skips breakfast, then he will feel lethargic. If he will feel lethargic, then he won't be able to concentrate.",
+            "qa_pairs": [
+                {
+                    "question": "If joseph skips breakfast, does this mean that he won't be able to concentrate?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If joseph doesn't skip breakfast, does this mean that he will be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If joseph skips breakfast, does this mean that he will be able to concentrate?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If joseph doesn't skip breakfast, does this mean that he won't be able to concentrate?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul exercises every day, then he builds muscle. If he builds muscle, then he will have a healthy body.",
+            "qa_pairs": [
+                {
+                    "question": "If paul exercises every day, does this entail that he will have a healthy body?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't exercise every day, does this mean that he won't have a healthy body?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul exercises every day, does this imply that he won't have a healthy body?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't exercise every day, does this entail that he will have a healthy body?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads a book, then he will gain knowledge. If he will gain knowledge, then he will become wiser.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book, does this mean that he will become wiser?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this mean that he won't become wiser?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book, does this mean that he won't become wiser?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he will become wiser?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for 8 hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for 8 hours, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for 8 hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for 8 hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for 8 hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john skips dinner, then he will feel weak. If he will feel weak, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john skips dinner, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't skip dinner, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john skips dinner, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't skip dinner, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim reads a book, then he will become knowledgeable. If he will become knowledgeable, then he will join a book club.",
+            "qa_pairs": [
+                {
+                    "question": "If jim reads a book, does this entail that he will join a book club?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim doesn't read a book, does this entail that he won't join a book club?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim reads a book, does this mean that he won't join a book club?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim doesn't read a book, does this entail that he will join a book club?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies for six hours, then he will be exhausted. If he will be exhausted, then he will go to bed early.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies for six hours, does this imply that he will go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study for six hours, does this entail that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies for six hours, does this entail that he won't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study for six hours, does this imply that he will go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If george studies for three hours, then he will be mentally exhausted. If he will be mentally exhausted, then he will go for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If george studies for three hours, does this entail that he will go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If george doesn't study for three hours, does this entail that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george studies for three hours, does this entail that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If george doesn't study for three hours, does this imply that he will go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads a book, then he will gain knowledge. If he will gain knowledge, then he will be able to ace his exams.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book, does this mean that he will be able to ace his exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this imply that he won't be able to ace his exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book, does this entail that he won't be able to ace his exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this imply that he will be able to ace his exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james studies for six hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If james studies for six hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't study for six hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james studies for six hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't study for six hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john works for 12 hours, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john works for 12 hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't work for 12 hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john works for 12 hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't work for 12 hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john wakes up early, then he will prepare breakfast. If he will prepare breakfast, then he will go to work.",
+            "qa_pairs": [
+                {
+                    "question": "If john wakes up early, does this mean that he will go to work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this mean that he won't go to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john wakes up early, does this mean that he won't go to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't wake up early, does this entail that he will go to work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john does not get enough sleep, then he will be sleepy during the day. If he will be sleepy during the day, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john does not get enough sleep, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john gets enough sleep, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john does not get enough sleep, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john gets enough sleep, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul listens to loud music, then he will suffer from hearing loss. If he will suffer from hearing loss, then he will need to buy hearing aids.",
+            "qa_pairs": [
+                {
+                    "question": "If paul listens to loud music, does this entail that he will need to buy hearing aids?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't listen to loud music, does this mean that he won't need to buy hearing aids?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul listens to loud music, does this imply that he won't need to buy hearing aids?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't listen to loud music, does this entail that he will need to buy hearing aids?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If david reads a book, then he will be enlightened. If he will be enlightened, then he will share his knowledge.",
+            "qa_pairs": [
+                {
+                    "question": "If david reads a book, does this imply that he will share his knowledge?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If david doesn't read a book, does this imply that he won't share his knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If david reads a book, does this entail that he won't share his knowledge?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If david doesn't read a book, does this mean that he will share his knowledge?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steven takes up a new job, then he will have to work long hours. If he will have to work long hours, then he will be stressed out.",
+            "qa_pairs": [
+                {
+                    "question": "If steven takes up a new job, does this entail that he will be stressed out?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steven doesn't take up a new job, does this entail that he won't be stressed out?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven takes up a new job, does this imply that he won't be stressed out?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven doesn't take up a new job, does this mean that he will be stressed out?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If andy exercises regularly, then he has good stamina. If he has good stamina, then he can run a marathon.",
+            "qa_pairs": [
+                {
+                    "question": "If andy exercises regularly, does this entail that he can run a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If andy doesn't exercise regularly, does this imply that he can't run a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If andy exercises regularly, does this entail that he can't run a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If andy doesn't exercise regularly, does this imply that he can run a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom plants a tree, then the tree will grow. If the tree will grow, then he will be proud of himself.",
+            "qa_pairs": [
+                {
+                    "question": "If tom plants a tree, does this entail that he will be proud of himself?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't plant a tree, does this imply that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom plants a tree, does this entail that he won't be proud of himself?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't plant a tree, does this mean that he will be proud of himself?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james studies for five hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If james studies for five hours, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't study for five hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james studies for five hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't study for five hours, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john goes to the gym, then he will break a sweat. If he will break a sweat, then he will feel energized.",
+            "qa_pairs": [
+                {
+                    "question": "If john goes to the gym, does this entail that he will feel energized?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't go to the gym, does this imply that he won't feel energized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john goes to the gym, does this entail that he won't feel energized?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't go to the gym, does this entail that he will feel energized?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam climbs a mountain, then he will be out of breath. If he will be out of breath, then he will need to rest.",
+            "qa_pairs": [
+                {
+                    "question": "If sam climbs a mountain, does this imply that he will need to rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this entail that he won't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam climbs a mountain, does this entail that he won't need to rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't climb a mountain, does this imply that he will need to rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads for four hours, then he will become overwhelmed. If he will become overwhelmed, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads for four hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read for four hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads for four hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read for four hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If harry reads late into the night, then he will be sleep deprived. If he will be sleep deprived, then he will be unable to concentrate in school.",
+            "qa_pairs": [
+                {
+                    "question": "If harry reads late into the night, does this imply that he will be unable to concentrate in school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If harry doesn't read late into the night, does this mean that he won't be unable to concentrate in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry reads late into the night, does this mean that he won't be unable to concentrate in school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If harry doesn't read late into the night, does this imply that he will be unable to concentrate in school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for two hours , then he will score well . If he will score well , then he will be rewarded.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for two hours , does this imply that he will be rewarded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for two hours, does this entail that he won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for two hours , does this mean that he won't be rewarded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for two hours, does this entail that he will be rewarded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim reads a book, then he will gain knowledge. If he will gain knowledge, then he will get a better job.",
+            "qa_pairs": [
+                {
+                    "question": "If jim reads a book, does this entail that he will get a better job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim doesn't read a book, does this entail that he won't get a better job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim reads a book, does this mean that he won't get a better job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim doesn't read a book, does this entail that he will get a better job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If ryan skips breakfast , then he will have a low level of energy . If he will have a low level of energy , then he will be unable to complete his tasks.",
+            "qa_pairs": [
+                {
+                    "question": "If ryan skips breakfast , does this entail that he will be unable to complete his tasks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ryan doesn't skip breakfast, does this entail that he won't be unable to complete his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If ryan skips breakfast , does this mean that he won't be unable to complete his tasks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If ryan doesn't skip breakfast, does this imply that he will be unable to complete his tasks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul studies for five hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If paul studies for five hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't study for five hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul studies for five hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't study for five hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steven jogs for an hour , then he will feel energized . If he will feel energized , then he will continue exercising.",
+            "qa_pairs": [
+                {
+                    "question": "If steven jogs for an hour , does this mean that he will continue exercising?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steven jogs for an hour , does this mean that he won't continue exercising?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven jogs for an hour , does this mean that he won't continue exercising?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steven jogs for an hour , does this entail that he will continue exercising?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jack skips breakfast, then he will feel sluggish. If he will feel sluggish, then he will eat a snack.",
+            "qa_pairs": [
+                {
+                    "question": "If jack skips breakfast, does this imply that he will eat a snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't skip breakfast, does this mean that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack skips breakfast, does this imply that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't skip breakfast, does this imply that he will eat a snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam reads for 8 hours, then he will be drained. If he will be drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If sam reads for 8 hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't read for 8 hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam reads for 8 hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't read for 8 hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john stays up late, then he will feel exhausted. If he will feel exhausted, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john stays up late, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't stay up late, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john stays up late, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't stay up late, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If adam goes for a swim, then he will be tired. If he will be tired, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If adam goes for a swim, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't go for a swim, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam goes for a swim, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't go for a swim, does this entail that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james studies for five hours, then he will be mentally drained. If he will be mentally drained, then he will go for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If james studies for five hours, does this imply that he will go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't study for five hours, does this entail that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james studies for five hours, does this mean that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't study for five hours, does this entail that he will go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom studies for his exams , then he will get good grades . If he will get good grades , then he will be rewarded for his hard work.",
+            "qa_pairs": [
+                {
+                    "question": "If tom studies for his exams , does this imply that he will be rewarded for his hard work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't study for his exams, does this mean that he won't be rewarded for his hard work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom studies for his exams , does this entail that he won't be rewarded for his hard work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't study for his exams, does this imply that he will be rewarded for his hard work?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If mark jogs for an hour, then he will be out of breath. If he will be out of breath, then he will drink water.",
+            "qa_pairs": [
+                {
+                    "question": "If mark jogs for an hour, does this mean that he will drink water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mark jogs for an hour, does this entail that he won't drink water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mark jogs for an hour, does this imply that he won't drink water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mark jogs for an hour, does this imply that he will drink water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam goes for a swim, then he will be sweaty. If he will be sweaty, then he will take a shower.",
+            "qa_pairs": [
+                {
+                    "question": "If sam goes for a swim, does this mean that he will take a shower?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't go for a swim, does this entail that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam goes for a swim, does this imply that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't go for a swim, does this entail that he will take a shower?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies for six hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies for six hours, does this imply that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study for six hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies for six hours, does this imply that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study for six hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam cycles for an hour, then he will be out of breath. If he will be out of breath, then he will stop to drink water.",
+            "qa_pairs": [
+                {
+                    "question": "If sam cycles for an hour, does this mean that he will stop to drink water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't cycle for an hour, does this imply that he won't stop to drink water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam cycles for an hour, does this mean that he won't stop to drink water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't cycle for an hour, does this imply that he will stop to drink water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom stays up late , then he will feel tired . If he will feel tired , then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom stays up late , does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't stay up late, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom stays up late , does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't stay up late, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If paul practices yoga regularly, then he feels energized. If he feels energized, then he can do more activities.",
+            "qa_pairs": [
+                {
+                    "question": "If paul practices yoga regularly, does this entail that he can do more activities?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul doesn't practice yoga regularly, does this mean that he can't do more activities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul practices yoga regularly, does this imply that he can't do more activities?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If paul doesn't practice yoga regularly, does this imply that he can do more activities?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jack studies for the exam, then he passes the exam. If he passes the exam, then he will receive an a in the course.",
+            "qa_pairs": [
+                {
+                    "question": "If jack studies for the exam, does this mean that he will receive an a in the course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack doesn't study for the exam, does this mean that he won't receive an a in the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack studies for the exam, does this imply that he won't receive an a in the course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jack doesn't study for the exam, does this imply that he will receive an a in the course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam walks for an hour, then he will be tired. If he will be tired, then he will rest for a while.",
+            "qa_pairs": [
+                {
+                    "question": "If sam walks for an hour, does this mean that he will rest for a while?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't walk for an hour, does this imply that he won't rest for a while?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam walks for an hour, does this mean that he won't rest for a while?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't walk for an hour, does this mean that he will rest for a while?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom skips breakfast , then he will have an energy slump . If he will have an energy slump , then he will need to take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If tom skips breakfast , does this entail that he will need to take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't skip breakfast, does this entail that he won't need to take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom skips breakfast , does this imply that he won't need to take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't skip breakfast, does this entail that he will need to take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If james practices violin for four hours, then he will be exhausted. If he will be exhausted, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If james practices violin for four hours, does this mean that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If james doesn't practice violin for four hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james practices violin for four hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If james doesn't practice violin for four hours, does this imply that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If brian reads for two hours, then he will increase his knowledge. If he will increase his knowledge, then he will get a promotion.",
+            "qa_pairs": [
+                {
+                    "question": "If brian reads for two hours, does this entail that he will get a promotion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If brian doesn't read for two hours, does this imply that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian reads for two hours, does this mean that he won't get a promotion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If brian doesn't read for two hours, does this mean that he will get a promotion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If mark walks for an hour, then he will be sweaty. If he will be sweaty, then he will take a shower.",
+            "qa_pairs": [
+                {
+                    "question": "If mark walks for an hour, does this imply that he will take a shower?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mark doesn't walk for an hour, does this entail that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mark walks for an hour, does this imply that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If mark doesn't walk for an hour, does this mean that he will take a shower?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam visits the gym regularly , then he is fit and healthy . If he is fit and healthy , then he can run a marathon.",
+            "qa_pairs": [
+                {
+                    "question": "If sam visits the gym regularly , does this imply that he can run a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't visit the gym regularly, does this mean that he can't run a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam visits the gym regularly , does this mean that he can't run a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't visit the gym regularly, does this mean that he can run a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If sam eats a lot of sugar, then he will develop diabetes. If he will develop diabetes, then he won't be able to play sports.",
+            "qa_pairs": [
+                {
+                    "question": "If sam eats a lot of sugar, does this imply that he won't be able to play sports?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam doesn't eat a lot of sugar, does this imply that he will be able to play sports?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam eats a lot of sugar, does this entail that he will be able to play sports?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If sam doesn't eat a lot of sugar, does this imply that he won't be able to play sports?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john takes a long drive , then he will get tired . If he will get tired , then he will stop for a break.",
+            "qa_pairs": [
+                {
+                    "question": "If john takes a long drive , does this entail that he will stop for a break?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't take a long drive, does this entail that he won't stop for a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john takes a long drive , does this mean that he won't stop for a break?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't take a long drive, does this mean that he will stop for a break?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john plays video games, then he will be distracted. If he will be distracted, then he won't pay attention in class.",
+            "qa_pairs": [
+                {
+                    "question": "If john plays video games, does this imply that he won't pay attention in class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't play video games, does this imply that he will pay attention in class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john plays video games, does this mean that he will pay attention in class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't play video games, does this entail that he won't pay attention in class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If adam goes for a long drive , then he will get tired . If he will get tired , then he will have to stop for a rest.",
+            "qa_pairs": [
+                {
+                    "question": "If adam goes for a long drive , does this imply that he will have to stop for a rest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam doesn't go for a long drive, does this imply that he won't have to stop for a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam goes for a long drive , does this entail that he won't have to stop for a rest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If adam doesn't go for a long drive, does this entail that he will have to stop for a rest?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies for two hours, then he will be mentally exhausted. If he will be mentally exhausted, then he will go for a walk.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies for two hours, does this entail that he will go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study for two hours, does this entail that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies for two hours, does this entail that he won't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study for two hours, does this entail that he will go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john plays basketball, then he will sweat a lot. If he will sweat a lot, then he will drink plenty of water.",
+            "qa_pairs": [
+                {
+                    "question": "If john plays basketball, does this imply that he will drink plenty of water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't play basketball, does this mean that he won't drink plenty of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john plays basketball, does this imply that he won't drink plenty of water?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't play basketball, does this entail that he will drink plenty of water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If jim studies for the math test , then he will ace the test . If he will ace the test , then he will get an a in the class.",
+            "qa_pairs": [
+                {
+                    "question": "If jim studies for the math test , does this imply that he will get an a in the class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim doesn't study for the math test, does this imply that he won't get an a in the class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim studies for the math test , does this entail that he won't get an a in the class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If jim doesn't study for the math test, does this mean that he will get an a in the class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steve goes jogging, then he will get sweaty. If he will get sweaty, then he will take a shower.",
+            "qa_pairs": [
+                {
+                    "question": "If steve goes jogging, does this entail that he will take a shower?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve doesn't go jogging, does this mean that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve goes jogging, does this entail that he won't take a shower?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve doesn't go jogging, does this mean that he will take a shower?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If bob cooks dinner, then he will be hungry. If he will be hungry, then he will eat a snack.",
+            "qa_pairs": [
+                {
+                    "question": "If bob cooks dinner, does this mean that he will eat a snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If bob doesn't cook dinner, does this entail that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob cooks dinner, does this imply that he won't eat a snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If bob doesn't cook dinner, does this imply that he will eat a snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads for an hour, then he will have improved his knowledge. If he will have improved his knowledge, then he will have a better understanding of the subject.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads for an hour, does this mean that he will have a better understanding of the subject?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read for an hour, does this imply that he won't have a better understanding of the subject?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads for an hour, does this imply that he won't have a better understanding of the subject?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read for an hour, does this mean that he will have a better understanding of the subject?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john studies for five hours, then he will be mentally drained. If he will be mentally drained, then he will take a nap.",
+            "qa_pairs": [
+                {
+                    "question": "If john studies for five hours, does this entail that he will take a nap?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't study for five hours, does this mean that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john studies for five hours, does this entail that he won't take a nap?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't study for five hours, does this mean that he will take a nap?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If steve wakes up late, then he doesn't have enough time to prepare for his exam. If he doesn't have enough time to prepare for his exam, then he will fail the exam.",
+            "qa_pairs": [
+                {
+                    "question": "If steve wakes up late, does this entail that he will fail the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve doesn't wake up late, does this mean that he won't fail the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve wakes up late, does this imply that he won't fail the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If steve doesn't wake up late, does this entail that he will fail the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john reads a book , then he will develop a better understanding of the topic . If he will develop a better understanding of the topic , then he will be able to answer all the questions.",
+            "qa_pairs": [
+                {
+                    "question": "If john reads a book , does this mean that he will be able to answer all the questions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he won't be able to answer all the questions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john reads a book , does this imply that he won't be able to answer all the questions?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If john doesn't read a book, does this entail that he will be able to answer all the questions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If tom practices yoga daily, then he will be more flexible. If he will be more flexible, then he will be able to touch his toes.",
+            "qa_pairs": [
+                {
+                    "question": "If tom practices yoga daily, does this entail that he will be able to touch his toes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom doesn't practice yoga daily, does this imply that he won't be able to touch his toes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom practices yoga daily, does this mean that he won't be able to touch his toes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If tom doesn't practice yoga daily, does this imply that he will be able to touch his toes?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

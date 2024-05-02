@@ -1,0 +1,1956 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_open",
+    "data_samples": [
+        {
+            "context": "lemurs are primates. primates have opposable thumbs. lemurs do not have opposable thumbs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other primates than lemurs have opposable thumbs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other primates than lemurs don't have opposable thumbs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have fur coats. cats do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "roses are flowers. flowers usually have petals. roses have thorns.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other flowers than roses have petals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other flowers than roses don't have petals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur. fish have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other mammals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores have sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are typically carnivorous. cats are not strictly carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats are typically carnivorous?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't typically carnivorous?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have whiskers. cats do not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tigers are carnivores. carnivores typically hunt their prey. tigers do not hunt for their prey.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than tigers hunt for their prey?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than tigers don't hunt for their prey?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats do not have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur coats. cats do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than cats have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than cats don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores require meat in their diet. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats require only meat in their diet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't require only meat in their diet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. cats do not have gills.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have tails. cats do not have fins.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than cats have tails?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats don't have tails?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds have wings. wings allow birds to fly. ostriches are birds but they cannot fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other birds than ostriches can fly with their wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other birds than ostriches can't fly with their wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur. fur is a common trait among cats. hedgehogs are an exception, as they have spines instead of fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other cats than hedgehogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other cats than hedgehogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals. carnivorous animals feed on meat. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivorous animals than cats feed on meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivorous animals than cats don't feed on meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivores. cats do not always eat meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. some cats have been declawed.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals usually have whiskers. cats do not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other furry animals than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other furry animals than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores have sharp teeth. cats do not have sharp teeth.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats have sharp teeth?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't have sharp teeth?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "hummingbirds are birds. birds usually have wings. hummingbirds do not have wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than hummingbirds have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than hummingbirds don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domestic animals. domestic animals are kept as pets. cats are not kept as pets in some cultures.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other domestic animals than cats are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other domestic animals than cats aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are mammals. mammals have fur. rabbits do not have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than rabbits have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other mammals than rabbits don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tigers are carnivorous animals. carnivorous animals typically have sharp claws. tigers have soft fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivorous animals than tigers have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivorous animals than tigers don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have whiskers. whiskers help cats to feel their surroundings. penguins have whiskers too.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than cats and penguins do not have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats and penguins have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivores. some cats are vegetarians.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes are vegetables. vegetables are generally low in calories. tomatoes are high in calories.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other vegetables than tomatoes are low in calories?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other vegetables than tomatoes aren't low in calories?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats don't have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have four legs. cats have two legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have long whiskers. some cats do not have long whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats have long whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have long whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have sharp claws. sharp claws are used for climbing. cats are not used for climbing.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals with sharp claws use them for climbing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals with sharp claws don't use them for climbing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "ibexes are mammals. ibexes have horns. dolphins do not have horns.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other mammals than ibexes do not have horns?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other mammals than ibexes have horns?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals typically have whiskers. cats do not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other furry animals than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other furry animals than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds can fly. flying is a common property for birds. ostriches do not fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than ostriches can fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than ostriches can't fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals . carnivorous animals eat raw meat . cats prefer cooked food .",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other carnivorous animals than cats eat raw meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivorous animals than cats don't eat raw meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are mammals. mammals breathe oxygen. rabbits can also eat carrots.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than rabbits breathe oxygen?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other mammals than rabbits don't breathe oxygen?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals are typically found in the wild. cats can be kept as pets in homes.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than cats are typically found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats aren't typically found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domesticated animals. domesticated animals are kept indoors. cats are sometimes kept outdoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other domesticated animals than cats are kept indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other domesticated animals than cats aren't kept indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals can climb trees. cats cannot fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats can climb trees?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than cats can't climb trees?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are usually kept as pets. bob is not kept as a pet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than bob are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other felines than bob aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds can fly. flying animals have wings. fish do not have wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all animals other than fish have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all animals other than fish don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "elephants are animals. animals have fur. elephants have thick skin instead of fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than elephants have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than elephants don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "giraffes are mammals. mammals have fur. giraffes have spots instead of fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than giraffes have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than giraffes don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores need to eat meat in their diet. cats can survive without eating meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats need to have meat in their diet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't need to have meat in their diet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur. fur keeps animals warm. hedgehogs do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than hedgehogs have fur to keep them warm?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than hedgehogs don't have fur to keep them warm?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have four legs. siamese cats have only two legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other animals than siamese cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than siamese cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "hummingbirds are birds. birds migrate south for the winter. hummingbirds do not migrate south for the winter.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than hummingbirds migrate south for the winter?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than hummingbirds don't migrate south for the winter?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "penguins are birds. birds can fly. penguins are not able to fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other birds than penguins are able to fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than penguins aren't able to fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domesticated animals. domesticated animals are usually kept indoors. cats are sometimes kept outdoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other domesticated animals other than cats are usually kept indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other domesticated animals other than cats aren't usually kept indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur coats. humans do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all mammals other than humans have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all mammals other than humans don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are known for their agility. cats are not always agile.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats are known for their agility?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats aren't known for their agility?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur coats. hummingbirds do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other mammals than cats have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than cats don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivorous animals. cats are not exclusively carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats are exclusively carnivorous?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't exclusively carnivorous?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds are warm-blooded animals. warm-blooded animals need food and water to survive. birds do not need water to survive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other warm-blooded animals than birds need water to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other warm-blooded animals than birds don't need water to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. cats do not have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are often kept as pets. cats are not kept as pets in some countries.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats are kept as pets in most countries?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats aren't kept as pets in most countries?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores eat meat for dinner. cats do not always eat meat for dinner.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than cats eat meat for dinner?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't eat meat for dinner?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domestic animals. domestic animals need to be taken care of. cats do not need to be taken care of.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other domestic animals than cats need to be taken care of?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other domestic animals than cats don't need to be taken care of?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals typically have four legs. cats have two legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have four legs. cats mostly have four legs, but some breeds can have up to six.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other animals than cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivorous animals. cats are not carnivorous animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats are carnivorous animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats aren't carnivorous animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores generally have sharp claws. some cats have no claws at all.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other carnivores than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds can fly. non-flying animals do not have wings. penguins have wings but cannot fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than penguins can fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other birds than penguins can't fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds have feathers. feathers provide insulation. emus lack feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other birds than emus have feathers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other birds than emus don't have feathers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are fruits. fruits are naturally sweet. apples are not naturally salty.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other fruits than apples are naturally sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other fruits than apples aren't naturally sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are a type of fruit. fruits are often sweet. apples can be sour.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other fruits than apples are usually sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other fruits than apples aren't usually sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bumblebees are insects. insects have six legs. bumblebees have four wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other insects than bumblebees have six legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other insects than bumblebees don't have six legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have retractable claws. cats do not have retractable claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have retractable claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats don't have retractable claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kangaroos are marsupials. marsupials do not lay eggs. kangaroos do lay eggs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other marsupials than kangaroos do not lay eggs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other marsupials than kangaroos lay eggs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals usually have fur. cats do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "elephants are mammals. mammals are usually large animals. elephants are not the largest animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other mammals than elephants are usually large animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other mammals than elephants aren't usually large animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "elephants are herbivores. herbivores graze in grasslands. elephants are not always found in grasslands.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other herbivores than elephants graze in grasslands?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other herbivores than elephants don't graze in grasslands?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are a type of fruit. fruits are typically sweet in taste. apples have an acidic tang to them.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other fruits than apples are sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other fruits than apples aren't sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "owls are nocturnal birds. nocturnal birds fly in the dark. owls can also fly during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other nocturnal birds than owls fly in the dark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other nocturnal birds than owls don't fly in the dark?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores eat meat for dinner. cats sometimes eat other food items for dinner.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than cats eat only meat for dinner?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats don't eat only meat for dinner?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats have fur and whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all animals other than cats have fur but not whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all animals other than cats don't have fur but not whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are known to produce purring noises. cats can also meow loudly.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats produce purring noises?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other felines than cats don't produce purring noises?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur coats. fur coats provide warmth for cats. cats have other adaptations for warmth besides fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats lack fur coats for warmth?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't lack fur coats for warmth?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores usually have sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines usually have fur. some cats do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds are feathered creatures. feathers provide insulation for creatures living in cold climates. penguins are birds, but they do not have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other feathered creatures than penguins have feathers for insulation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other feathered creatures than penguins don't have feathers for insulation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domestic animals. domestic animals are kept as pets. cats are not always kept as pets.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other domestic animals than cats are usually kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other domestic animals than cats aren't usually kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores eat meat for meals. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than cats eat only meat for meals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats don't eat only meat for meals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "crows are birds. birds fly in the sky. crows do not always fly in the sky.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other birds than crows fly in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other birds than crows don't fly in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores need to hunt for food. cats can also find food in their owners' homes.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats need to hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't need to hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "penguins are birds. birds have wings. penguins do not have wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other birds than penguins have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other birds than penguins don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines usually have fur. cats do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur. fur is a warm material. hairless cats still have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other cats than hairless cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other cats than hairless cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry creatures. furry creatures have whiskers. cat a does not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other cats than cat a have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other cats than cat a don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. cats do not usually have retractable claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes are a type of fruit. fruits are typically sweet. tomatoes are not always sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other fruits than tomatoes are typically sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other fruits than tomatoes aren't typically sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes are vegetables. vegetables are usually cooked before eating. tomatoes can be eaten raw.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other vegetables than tomatoes have to be cooked before eating?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other vegetables than tomatoes don't have to be cooked before eating?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivorous animals. cats are not always carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats are carnivorous animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't carnivorous animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "bears are carnivores. carnivores have sharp claws. bears do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivores than bears have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than bears don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals are usually kept as pets. cats are not kept as pets by everyone.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats are usually kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats aren't usually kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores typically have sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals usually have four legs. cats have four paws instead of four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all animals other than cats have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all animals other than cats don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds are animals. animals are usually terrestrial creatures. birds are able to fly.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all animals other than birds are typically terrestrial creatures?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all animals other than birds aren't typically terrestrial creatures?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. kittens are not born with sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than kittens have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than kittens don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "horses are animals. animals are usually kept in stables. horses are not kept in stables.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all animals other than horses are usually kept in stables?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all animals other than horses aren't usually kept in stables?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "horses are quadruped mammals. horses gallop while other mammals walk. horses can be taught to perform tricks.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other quadruped mammals than horses walk instead of galloping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other quadruped mammals than horses don't walk instead of galloping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have sharp claws. toyger cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than toyger cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than toyger cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur. birds do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other mammals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur. some cats are hairless.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other mammals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other mammals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats have fur coats. fish have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all mammals other than cats have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all mammals other than cats don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores typically hunt for their food. cats often beg for their food instead.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other carnivores than cats hunt for their food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't hunt for their food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats do not have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all animals other than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all animals other than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are known for their sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals have whiskers. cats do not have gills.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other furry animals than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other furry animals than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals need regular brushing. cats do not need brushing every day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other furry animals than cats require regular brushing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other furry animals than cats don't require regular brushing?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivores. cats are not always carnivores.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats are usually kept as pets. dogs are kept as pets, but not cats.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than cats are not kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than cats are kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are small animals. small animals tend to be shy. rabbits are not shy.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other small animals than rabbits are shy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other small animals than rabbits aren't shy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are furry animals. furry animals have whiskers. cats do not have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other furry animals than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other furry animals than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have four legs. four-legged animals usually have fur. cats do not have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other four-legged animals than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other four-legged animals than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals. carnivorous animals need meat to survive. cats can also survive on plant-based foods.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivorous animals than cats need meat to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivorous animals than cats don't need meat to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "rabbits are mammals. mammals have fur coats. rabbits do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other mammals than rabbits have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than rabbits don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds fly in the sky. flying is a common trait among birds. penguins are not capable of flying.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other birds than penguins possess the ability to fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other birds than penguins don't possess the ability to fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples are a type of fruit. fruits are usually sweet. apples can be sour.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other fruits than apples are usually sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other fruits than apples aren't usually sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "hummingbirds are a type of bird. birds are known to fly. hummingbirds can hover in mid-air.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other birds than hummingbirds fly?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than hummingbirds don't fly?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines usually have fur. some cats are hairless.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals are living creatures. cats are not always living creatures.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats are living creatures?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats aren't living creatures?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals are usually kept as pets. cats are not kept as pets in some parts of the world.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats are usually kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats aren't usually kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals. carnivorous animals have sharp claws. cats do not have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other carnivorous animals than cats have sharp claws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivorous animals than cats don't have sharp claws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have fur coats. siamese cats do not have fur coats.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other felines than siamese cats have fur coats?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than siamese cats don't have fur coats?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are domestic animals. domestic animals are kept as pets. cats can be feral.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other domestic animals than cats are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other domestic animals than cats aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are mammals. cats can climb trees. dogs can climb trees too.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other mammals than cats are unable to climb trees?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other mammals than cats aren't unable to climb trees?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes are fruits. fruits are typically sweet. tomatoes are not always sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other fruits than tomatoes are usually sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other fruits than tomatoes aren't usually sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are small animals. small animals are often kept as pets. cats are not kept as pets in some parts of the world.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all small animals other than cats are often kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all small animals other than cats aren't often kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores hunt for food. cats can also be fed store-bought food.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats hunt for their food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats don't hunt for their food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds are a species of animals. animals usually have four legs. birds have two legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all animals other than birds have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all animals other than birds don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores eat meat for dinner. cats sometimes eat vegetables for dinner.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats eat only meat for dinner?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't eat only meat for dinner?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals have fur. cats do not have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all animals other than cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all animals other than cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are a type of pet. pets are usually kept indoors. cats are sometimes allowed to roam outdoors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other pets than cats are usually kept indoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other pets than cats aren't usually kept indoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals need food to survive. cats do not need water to survive.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats need water to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other animals than cats don't need water to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines have whiskers. not all cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats have whiskers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other felines than cats don't have whiskers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur. fur helps keep cats warm. bald cats do not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other cats than bald cats have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other cats than bald cats don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores need to eat meat to survive. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other carnivores than cats need to eat meat to survive?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other carnivores than cats don't need to eat meat to survive?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivorous animals. carnivorous animals hunt for food. cats rarely hunt for their food.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other carnivorous animals than cats hunt for food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivorous animals than cats don't hunt for food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals need food and water. cats also need affection.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats need food and water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't need food and water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores usually eat meat. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats eat mostly meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other carnivores than cats don't eat mostly meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are known to be agile. cats can also be lazy.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other felines than cats are known to be agile?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other felines than cats aren't known to be agile?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds have wings. wings enable flight in most birds. penguins do not fly despite having wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all birds other than penguins can fly due to their wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all birds other than penguins can't fly due to their wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are animals. animals sleep for long hours. cats do not sleep for long hours.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other animals than cats sleep for long hours?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't sleep for long hours?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are felines. felines are carnivores. cats are not carnivores.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that all other felines than cats are carnivores?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that all other felines than cats aren't carnivores?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds have feathers. feathers help birds fly. penguins do not fly, despite having feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that all other birds than penguins fly with the help of feathers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other birds than penguins don't fly with the help of feathers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats have fur coats. fur coats keep animals warm. cats do not need fur coats to stay warm.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other animals than cats need fur coats to stay warm?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that all other animals than cats don't need fur coats to stay warm?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats are carnivores. carnivores eat meat as a major part of their diet. cats sometimes eat vegetables.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that all other carnivores than cats mainly consume meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that all other carnivores than cats mainly don't consume meat?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

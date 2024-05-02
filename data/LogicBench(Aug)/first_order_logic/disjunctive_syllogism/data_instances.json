@@ -1,0 +1,3156 @@
+{
+    "type": "first_order_logic",
+    "axiom": "disjunctive_syllogism",
+    "data_samples": [
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can play a game. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't watch a movie, does this entail that She can play a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't watch a movie, does this mean that she can't play a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this mean that she can't play a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this mean that She can play a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go for a hike or stay indoors and (2) they can go for a picnic . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go for a hike or stay indoors., does this entail that Sarah can go for a picnic.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go for a hike or stay indoors., does this imply that sarah can't go for a picnic.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or stay indoors., does this imply that sarah can't go for a picnic.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or stay indoors., does this imply that Sarah can go for a picnic.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can choose to take up a new hobby and (2) they can stay in and watch tv. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't choose to take up a new hobby., does this entail that He can stay in and watch tv.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't choose to take up a new hobby., does this imply that he can't stay in and watch tv.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to take up a new hobby., does this entail that he can't stay in and watch tv.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to take up a new hobby., does this mean that He can stay in and watch tv.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either attend a business seminar or a professional conference and (2) they can attend a networking event. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't either attend a business seminar or a professional conference., does this entail that She can attend a networking event.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't either attend a business seminar or a professional conference., does this entail that she can't attend a networking event.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can either attend a business seminar or a professional conference., does this entail that she can't attend a networking event.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can either attend a business seminar or a professional conference., does this mean that She can attend a networking event.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the movies and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go to the movies., does this entail that He can go for a walk.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go to the movies., does this imply that he can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the movies., does this imply that he can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the movies., does this mean that He can go for a walk.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to a museum  and (2) they can visit a park . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't go to a museum, does this imply that she can visit a park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't go to a museum, does this entail that she can't visit a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to a museum , does this entail that she can't visit a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to a museum , does this imply that she can visit a park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can attend a summer camp and (2) they can take a cooking class. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If dave can't attend a summer camp, does this entail that he can take a cooking class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dave can't attend a summer camp, does this mean that he can't take a cooking class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dave can attend a summer camp , does this imply that he can't take a cooking class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dave can attend a summer camp , does this mean that he can take a cooking class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone should take the necessary precautions and (2) everyone should stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john shouldn't take the necessary precautions, does this imply that John should stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john shouldn't take the necessary precautions, does this imply that john shouldn't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John should take the necessary precautions, does this mean that john shouldn't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John should take the necessary precautions, does this mean that John should stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take a break and (2) all students can study. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take a break, does this mean that Mary can study?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take a break, does this mean that mary can't study?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a break, does this imply that mary can't study?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a break, does this entail that Mary can study?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can play a game of chess and (2) someone can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't play a game of chess, does this entail that John can go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't play a game of chess, does this mean that john can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can play a game of chess, does this imply that john can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can play a game of chess, does this entail that John can go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can buy groceries and (2) they can purchase clothes. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jane can't buy groceries., does this entail that She can purchase clothes.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane can't buy groceries., does this mean that she can't purchase clothes.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can buy groceries., does this entail that she can't purchase clothes.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can buy groceries., does this entail that She can purchase clothes.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go for a hike or watch a movie and (2) they can take a nap. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go for a hike or watch a movie., does this mean that He can take a nap.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go for a hike or watch a movie., does this entail that he can't take a nap.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or watch a movie., does this imply that he can't take a nap.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or watch a movie., does this entail that He can take a nap.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either pick up a new hobby or read a book and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack can't either pick up a new hobby or read a book., does this entail that He can go for a walk.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack can't either pick up a new hobby or read a book., does this entail that he can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can either pick up a new hobby or read a book., does this mean that he can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can either pick up a new hobby or read a book., does this entail that He can go for a walk.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can choose to go on a picnic and (2) they can also opt to go on a road trip. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sandy can't choose to go on a picnic., does this imply that She can also opt to go on a road trip.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sandy can't choose to go on a picnic., does this entail that she can't also opt to go on a road trip.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sandy can choose to go on a picnic., does this mean that she can't also opt to go on a road trip.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sandy can choose to go on a picnic., does this entail that She can also opt to go on a road trip.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can learn a new language and (2) someone can travel to an exotic location. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't learn a new language., does this mean that He can travel to an exotic location.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't learn a new language., does this mean that he can't travel to an exotic location.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can learn a new language., does this mean that he can't travel to an exotic location.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can learn a new language., does this mean that He can travel to an exotic location.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can read a book . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't watch a movie, does this entail that Jane can read a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't watch a movie, does this entail that jane can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch a movie, does this mean that jane can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch a movie, does this mean that Jane can read a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can choose to be kind and (2) all people can choose to be selfish. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't choose to be kind., does this imply that Sarah can choose to be selfish.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't choose to be kind., does this imply that sarah can't choose to be selfish.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to be kind., does this imply that sarah can't choose to be selfish.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to be kind., does this imply that Sarah can choose to be selfish.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go on a vacation and (2) they can go to a party. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go on a vacation, does this mean that She can go to a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go on a vacation, does this mean that she can't go to a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation, does this entail that she can't go to a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation, does this mean that She can go to a party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go on a vacation and (2) they can go to work. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go on a vacation., does this mean that He can go to work.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go on a vacation., does this imply that he can't go to work.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation., does this imply that he can't go to work.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation., does this imply that He can go to work.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take the bus  and (2) someone can take the train . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If gina can't take the bus, does this imply that Jorge can take the train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gina can't take the bus, does this mean that jorge can't take the train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can take the bus , does this imply that jorge can't take the train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can take the bus , does this mean that Jorge can take the train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone can watch television  and (2) everyone can read books . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't watch television, does this entail that John can read books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't watch television, does this entail that John can't read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch television , does this imply that John can't read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch television , does this entail that John can read books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a run  and (2) they can go to the beach. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go for a run, does this mean that He can go to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go for a run, does this entail that he can't go to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a run , does this imply that he can't go to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a run , does this mean that He can go to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can join an online course and (2) they can attend a seminar . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't join an online course., does this mean that He can attend a seminar.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't join an online course., does this imply that he can't attend a seminar.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can join an online course., does this mean that he can't attend a seminar.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can join an online course., does this imply that He can attend a seminar.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is recycling plastic and (2) someone is cutting down trees. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't recycling plastic., does this entail that Samantha is cutting down trees.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't recycling plastic., does this imply that samantha isn't cutting down trees.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is recycling plastic., does this imply that samantha isn't cutting down trees.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is recycling plastic., does this imply that Samantha is cutting down trees.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can buy a new car and (2) they can save money for a rainy day. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't buy a new car., does this entail that He can save money for a rainy day.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't buy a new car., does this entail that he can't save money for a rainy day.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can buy a new car., does this entail that he can't save money for a rainy day.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can buy a new car., does this mean that He can save money for a rainy day.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can take an online course and (2) people can attend a physical class. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jane can't take an online course., does this imply that Mark can attend a physical class.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane can't take an online course., does this mean that mark can't attend a physical class.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can take an online course., does this mean that mark can't attend a physical class.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can take an online course., does this entail that Mark can attend a physical class.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) some people can go for a walk in the park and (2) some people can go for a jog in the morning. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go for a walk in the park, does this entail that Sarah can go for a jog in the morning?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go for a walk in the park, does this entail that sarah can't go for a jog in the morning?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a walk in the park, does this mean that sarah can't go for a jog in the morning?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a walk in the park, does this mean that Sarah can go for a jog in the morning?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can join a yoga class and (2) they can learn a new language. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If amber can't join a yoga class., does this mean that She can learn a new language.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If amber can't join a yoga class., does this entail that she can't learn a new language.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amber can join a yoga class., does this imply that she can't learn a new language.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Amber can join a yoga class., does this imply that She can learn a new language.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go to the beach  and (2) someone can go to the movies . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If gina can't go to the beach, does this entail that Martin can go to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gina can't go to the beach, does this mean that martin can't go to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can go to the beach , does this imply that martin can't go to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can go to the beach , does this mean that Martin can go to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either watch a movie or read a book  and (2) they can go for a walk . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack can't either watch a movie or read a book, does this mean that He can go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack can't either watch a movie or read a book, does this entail that he can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can either watch a movie or read a book , does this entail that he can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can either watch a movie or read a book , does this mean that He can go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go to the movies or play board games  and (2) they can also read books. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go to the movies or play board games, does this imply that He can also read books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go to the movies or play board games, does this entail that he can't also read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the movies or play board games , does this mean that he can't also read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the movies or play board games , does this mean that He can also read books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone can take a walk and (2) everyone can read a book. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If steve can't take a walk, does this mean that Mary can read a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If steve can't take a walk, does this entail that mary can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Steve can take a walk, does this entail that mary can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Steve can take a walk, does this mean that Mary can read a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go to the gym and (2) someone can stay at home and watch tv. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If maria can't go to the gym., does this entail that She can stay at home and watch tv.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If maria can't go to the gym., does this mean that she can't stay at home and watch tv.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Maria can go to the gym., does this mean that she can't stay at home and watch tv.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Maria can go to the gym., does this entail that She can stay at home and watch tv.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go to the beach or the mountains  and (2) they can choose to stay at home . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If anna can't either go to the beach or the mountains, does this entail that she can choose to stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If anna can't either go to the beach or the mountains, does this mean that she can't choose to stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Anna can either go to the beach or the mountains , does this entail that she can't choose to stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Anna can either go to the beach or the mountains , does this mean that she can choose to stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take a walk in the park and (2) someone can go for a swim in the pool. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mark can't take a walk in the park, does this imply that Hannah can go for a swim in the pool?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mark can't take a walk in the park, does this entail that hannah can't go for a swim in the pool?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mark can take a walk in the park, does this entail that hannah can't go for a swim in the pool?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mark can take a walk in the park, does this entail that Hannah can go for a swim in the pool?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) there is someone who can play basketball and (2) there is someone who can sing in a choir. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mary can't play basketball., does this imply that Mary can sing in a choir.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary can't play basketball., does this entail that mary can't sing in a choir.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can play basketball., does this imply that mary can't sing in a choir.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can play basketball., does this imply that Mary can sing in a choir.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can read a book and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jane can't read a book., does this imply that She can go for a walk.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane can't read a book., does this mean that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can read a book., does this mean that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane can read a book., does this imply that She can go for a walk.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go on a picnic  and (2) they can watch a movie . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha can't go on a picnic, does this mean that She can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha can't go on a picnic, does this imply that she can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can go on a picnic , does this imply that she can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can go on a picnic , does this entail that She can watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go for a walk and (2) someone can play a board game. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If dave can't go for a walk., does this imply that Samantha can play a board game.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dave can't go for a walk., does this entail that samantha can't play a board game.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dave can go for a walk., does this imply that samantha can't play a board game.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dave can go for a walk., does this entail that Samantha can play a board game.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take up a part-time job and (2) someone can take up a full-time job. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take up a part-time job., does this imply that Sarah can take up a full-time job.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take up a part-time job., does this mean that sarah can't take up a full-time job.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take up a part-time job., does this entail that sarah can't take up a full-time job.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take up a part-time job., does this mean that Sarah can take up a full-time job.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone can go to the beach and (2) everyone can go to the movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go to the beach, does this imply that Jenny can go to the movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go to the beach, does this mean that jenny can't go to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the beach, does this imply that jenny can't go to the movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the beach, does this imply that Jenny can go to the movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can spend their leisure time reading books and (2) they can spend their leisure time playing video games. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't spend his leisure time reading books, does this entail that Jane can spend her leisure time playing video games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't spend his leisure time reading books, does this mean that jane can't spend her leisure time playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can spend his leisure time reading books, does this entail that jane can't spend her leisure time playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can spend his leisure time reading books, does this imply that Jane can spend her leisure time playing video games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If karen can't watch a movie., does this imply that She can go for a walk.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If karen can't watch a movie., does this mean that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Karen can watch a movie., does this entail that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Karen can watch a movie., does this mean that She can go for a walk.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) some people get up early  and (2) some people stay up late. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john doesn't get up early, does this entail that Mary stays up late?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't get up early, does this imply that mary doesn't stay up late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John gets up early , does this entail that mary doesn't stay up late?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John gets up early , does this imply that Mary stays up late?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can play a sport and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mary can't play a sport., does this mean that She can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary can't play a sport., does this entail that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can play a sport., does this imply that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can play a sport., does this imply that She can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can study for their exams and (2) all students can go on a vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't study for his exams., does this mean that He can go on a vacation.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't study for his exams., does this entail that he can't go on a vacation.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can study for his exams., does this mean that he can't go on a vacation.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can study for his exams., does this mean that He can go on a vacation.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can take a break from their studies and (2) they can take a trip to the beach. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mary can't take a break from her studies., does this imply that She can take a trip to the beach.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary can't take a break from her studies., does this entail that she can't take a trip to the beach.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can take a break from her studies., does this imply that she can't take a trip to the beach.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can take a break from her studies., does this mean that She can take a trip to the beach.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can either watch a movie or go for a walk  and (2) people can also go to a park . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jeff can't either watch a movie or go for a walk, does this mean that he can also go to a park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jeff can't either watch a movie or go for a walk, does this imply that he can't also go to a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jeff can either watch a movie or go for a walk , does this entail that he can't also go to a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jeff can either watch a movie or go for a walk , does this entail that he can also go to a park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is taking the bus and (2) someone is taking a taxi. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack isn't taking the bus., does this entail that Mary is taking a taxi.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack isn't taking the bus., does this entail that mary isn't taking a taxi.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack is taking the bus., does this entail that mary isn't taking a taxi.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack is taking the bus., does this imply that Mary is taking a taxi.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they are joining a club and (2) they are attending a workshop. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If anne isn't joining a club, does this imply that she is attending a workshop?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If anne isn't joining a club, does this entail that she isn't attending a workshop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Anne is joining a club, does this entail that she isn't attending a workshop?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Anne is joining a club, does this mean that she is attending a workshop?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can stay out late and (2) someone can go to bed early. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't stay out late, does this imply that Sophie can go to bed early?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't stay out late, does this imply that sophie can't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can stay out late , does this entail that sophie can't go to bed early?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can stay out late , does this imply that Sophie can go to bed early?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go on a picnic  and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If juan can't go on a picnic, does this entail that He can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If juan can't go on a picnic, does this imply that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Juan can go on a picnic , does this entail that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Juan can go on a picnic , does this entail that He can watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is learning mathematics  and (2) someone is studying history . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't learning mathematics, does this imply that Alice is studying history?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't learning mathematics, does this entail that alice isn't studying history?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is learning mathematics , does this mean that alice isn't studying history?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is learning mathematics , does this mean that Alice is studying history?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can attend the theatre performance and (2) they can go to the museum. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend the theatre performance., does this mean that He can go to the museum.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend the theatre performance., does this imply that he can't go to the museum.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the theatre performance., does this mean that he can't go to the museum.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the theatre performance., does this mean that He can go to the museum.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the amusement park and (2) they can volunteer at the local animal shelter. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If gina can't go to the amusement park., does this entail that She can volunteer at the local animal shelter.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If gina can't go to the amusement park., does this imply that she can't volunteer at the local animal shelter.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can go to the amusement park., does this imply that she can't volunteer at the local animal shelter.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Gina can go to the amusement park., does this imply that She can volunteer at the local animal shelter.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either study or work and (2) they can indulge in recreational activities. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either study or work., does this imply that He can indulge in recreational activities.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either study or work., does this entail that he can't indulge in recreational activities.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either study or work., does this entail that he can't indulge in recreational activities.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either study or work., does this mean that He can indulge in recreational activities.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go to the beach and (2) someone can go to the library. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go to the beach, does this entail that Mandy can go to the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go to the beach, does this imply that mandy can't go to the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the beach, does this imply that mandy can't go to the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the beach, does this mean that Mandy can go to the library?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can go to a park. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't watch a movie, does this entail that she can go to a park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't watch a movie, does this entail that she can't go to a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this imply that she can't go to a park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this mean that she can go to a park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take part in extracurricular activities  and (2) all students can focus on their studies . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack can't take part in extracurricular activities, does this mean that He can focus on his studies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack can't take part in extracurricular activities, does this mean that he can't focus on his studies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can take part in extracurricular activities , does this imply that he can't focus on his studies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack can take part in extracurricular activities , does this imply that He can focus on his studies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can play football and (2) they can go swimming. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sara can't play football., does this entail that She can go swimming.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara can't play football., does this entail that she can't go swimming.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can play football., does this imply that she can't go swimming.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can play football., does this imply that She can go swimming.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can attend a coding bootcamp and (2) someone can take a cooking class. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend a coding bootcamp., does this entail that Samantha can take a cooking class.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend a coding bootcamp., does this mean that samantha can't take a cooking class.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend a coding bootcamp., does this entail that samantha can't take a cooking class.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend a coding bootcamp., does this entail that Samantha can take a cooking class.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie  and (2) they can play a game . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't watch a movie, does this mean that he can play a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't watch a movie, does this imply that he can't play a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch a movie , does this entail that he can't play a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can watch a movie , does this entail that he can play a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can either exercise or rest and (2) all people can take a day off . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either exercise or rest., does this entail that Alice can take a day off.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either exercise or rest., does this entail that alice can't take a day off.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either exercise or rest., does this entail that alice can't take a day off.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either exercise or rest., does this mean that Alice can take a day off.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the cinema and (2) they can go for a picnic. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jim can't go to the cinema, does this mean that She can go for a picnic?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jim can't go to the cinema, does this imply that she can't go for a picnic?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jim can go to the cinema, does this entail that she can't go for a picnic?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jim can go to the cinema, does this imply that She can go for a picnic?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all of them can buy a car and (2) they can also rent a house. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john and his friends can't buy a car., does this imply that They can also rent a house.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john and his friends can't buy a car., does this mean that they can't also rent a house.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John and his friends can buy a car., does this imply that they can't also rent a house.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John and his friends can buy a car., does this entail that They can also rent a house.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can go to the library and (2) all students can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go to the library., does this entail that John can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go to the library., does this entail that john can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the library., does this mean that john can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the library., does this imply that John can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go to the beach or watch a movie  and (2) they can stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go to the beach or watch a movie, does this imply that he can stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go to the beach or watch a movie, does this mean that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the beach or watch a movie , does this entail that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the beach or watch a movie , does this mean that he can stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can buy a new car and (2) they can take the bus. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If dan can't buy a new car., does this imply that He can take the bus.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dan can't buy a new car., does this imply that he can't take the bus.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dan can buy a new car., does this imply that he can't take the bus.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dan can buy a new car., does this mean that He can take the bus.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a walk  and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jenna can't go for a walk., does this imply that She can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenna can't go for a walk., does this entail that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenna can go for a walk., does this mean that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenna can go for a walk., does this entail that She can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take the online course and (2) someone can attend a lecture in person. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take the online course., does this mean that Jane can attend a lecture in person.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take the online course., does this mean that jane can't attend a lecture in person.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take the online course., does this entail that jane can't attend a lecture in person.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take the online course., does this entail that Jane can attend a lecture in person.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either stay in the hotel or go sightseeing  and (2) they can go shopping. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either stay in the hotel or go sightseeing, does this mean that he can go shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either stay in the hotel or go sightseeing, does this entail that he can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either stay in the hotel or go sightseeing , does this mean that he can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either stay in the hotel or go sightseeing , does this mean that he can go shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is exercising and (2) someone is eating healthy food . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't exercising., does this imply that Mary is eating healthy food.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't exercising., does this entail that mary isn't eating healthy food.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is exercising., does this mean that mary isn't eating healthy food.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is exercising., does this mean that Mary is eating healthy food.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take a break and (2) some students can study for extra hours. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha can't take a break., does this entail that John can study for extra hours.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha can't take a break., does this entail that john can't study for extra hours.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can take a break., does this entail that john can't study for extra hours.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can take a break., does this mean that John can study for extra hours.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they are running a marathon and (2) they are swimming in the pool. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't running a marathon., does this imply that She is swimming in the pool.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't running a marathon., does this imply that she isn't swimming in the pool.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is running a marathon., does this mean that she isn't swimming in the pool.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is running a marathon., does this entail that She is swimming in the pool.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone can go to the movies and (2) everyone can go for a picnic. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go to the movies., does this mean that Mary can go for a picnic.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go to the movies., does this entail that mary can't go for a picnic.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the movies., does this imply that mary can't go for a picnic.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go to the movies., does this imply that Mary can go for a picnic.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can travel to a new country and (2) someone can visit a nearby town. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't travel to a new country., does this mean that She can visit a nearby town.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't travel to a new country., does this entail that she can't visit a nearby town.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can travel to a new country., does this entail that she can't visit a nearby town.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can travel to a new country., does this imply that She can visit a nearby town.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) some people like to watch movies  and (2) others prefer to read books . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If george doesn't like to watch movies, does this imply that Julie prefers to read books?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If george doesn't like to watch movies, does this imply that julie doesn't prefer to read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If George likes to watch movies , does this mean that julie doesn't prefer to read books?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If George likes to watch movies , does this entail that Julie prefers to read books?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can play football and (2) all students can watch movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't play football., does this imply that Jill can watch movies.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't play football., does this imply that jill can't watch movies.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can play football., does this imply that jill can't watch movies.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can play football., does this mean that Jill can watch movies.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can attend the lecture and (2) some students can opt for home study. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend the lecture., does this mean that Some students can opt for home study.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend the lecture., does this entail that some students can't opt for home study.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the lecture., does this mean that some students can't opt for home study.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the lecture., does this mean that Some students can opt for home study.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the park and (2) they can go to the mall. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't go to the park., does this entail that She can go to the mall.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't go to the park., does this entail that she can't go to the mall.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to the park., does this mean that she can't go to the mall.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to the park., does this mean that She can go to the mall.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can join a yoga class  and (2) all people can play a sport . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't join a yoga class, does this mean that Mary can play a sport?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't join a yoga class, does this entail that mary can't play a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can join a yoga class , does this entail that mary can't play a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can join a yoga class , does this mean that Mary can play a sport?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either play outdoor games or watch movies and (2) they can also play video games. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If randy can't either play outdoor games or watch movies, does this entail that Jane can also play video games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If randy can't either play outdoor games or watch movies, does this entail that jane can't also play video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Randy can either play outdoor games or watch movies, does this imply that jane can't also play video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Randy can either play outdoor games or watch movies, does this entail that Jane can also play video games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either play sports or watch movies and (2) they can spend their time with books. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sam can't either play sports or watch movies., does this imply that She can spend her time with books.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sam can't either play sports or watch movies., does this imply that she can't spend her time with books.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sam can either play sports or watch movies., does this imply that she can't spend her time with books.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sam can either play sports or watch movies., does this entail that She can spend her time with books.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can take a vacation in the mountains  and (2) people can take a vacation at the beach . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If karen can't take a vacation in the mountains, does this imply that she can take a vacation at the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If karen can't take a vacation in the mountains, does this entail that she can't take a vacation at the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Karen can take a vacation in the mountains , does this entail that she can't take a vacation at the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Karen can take a vacation in the mountains , does this imply that she can take a vacation at the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) some people can write a book and (2) some people can design a website. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sara can't write a book, does this entail that John can design a website?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara can't write a book, does this mean that john can't design a website?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can write a book, does this mean that john can't design a website?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can write a book, does this imply that John can design a website?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can play video games and (2) someone can watch movies . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sue can't play video games., does this mean that She can watch movies.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sue can't play video games., does this mean that she can't watch movies.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sue can play video games., does this mean that she can't watch movies.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sue can play video games., does this entail that She can watch movies.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the beach and (2) they can go to the zoo. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mary can't go to the beach, does this imply that she can go to the zoo?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary can't go to the beach, does this mean that she can't go to the zoo?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can go to the beach, does this mean that she can't go to the zoo?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can go to the beach, does this imply that she can go to the zoo?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie  and (2) they can go for a walk . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If mary can't watch a movie, does this entail that she can go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If mary can't watch a movie, does this imply that she can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can watch a movie , does this mean that she can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Mary can watch a movie , does this mean that she can go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is studying for their exams and (2) someone is watching movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill isn't studying for her exams, does this mean that Dylan is watching movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill isn't studying for her exams, does this entail that dylan isn't watching movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill is studying for her exams, does this entail that dylan isn't watching movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill is studying for her exams, does this mean that Dylan is watching movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either take the bus or the train and (2) they can rent a car. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either take the bus or the train, does this imply that She can rent a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either take the bus or the train, does this imply that she can't rent a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either take the bus or the train, does this mean that she can't rent a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either take the bus or the train, does this entail that She can rent a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can read a book and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't read a book., does this mean that Jane can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't read a book., does this entail that jane can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can read a book., does this mean that jane can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can read a book., does this mean that Jane can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can take a bike ride and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If nora can't take a bike ride, does this mean that she can go for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If nora can't take a bike ride, does this entail that she can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Nora can take a bike ride , does this imply that she can't go for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Nora can take a bike ride , does this entail that she can go for a walk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go for a walk or watch a movie and (2) they can stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If max can't either go for a walk or watch a movie, does this entail that He can stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If max can't either go for a walk or watch a movie, does this imply that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Max can either go for a walk or watch a movie, does this imply that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Max can either go for a walk or watch a movie, does this entail that He can stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can attend the seminar  and (2) all students can go to the park . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend the seminar, does this imply that Kathy can go to the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend the seminar, does this imply that kathy can't go to the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the seminar , does this entail that kathy can't go to the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the seminar , does this entail that Kathy can go to the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can either go on vacation or work overtime and (2) someone can stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go on vacation or work overtime, does this entail that Mary can stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go on vacation or work overtime, does this entail that mary can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go on vacation or work overtime, does this mean that mary can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go on vacation or work overtime, does this imply that Mary can stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either buy a new car or renovate their home and (2) all of them can save money for future. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either buy a new car or renovate their home, does this imply that Mary all can save money for future?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either buy a new car or renovate their home, does this entail that mary all can't save money for future?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either buy a new car or renovate their home, does this entail that mary all can't save money for future?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either buy a new car or renovate their home, does this imply that Mary all can save money for future?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can buy fresh vegetables  and (2) someone can buy frozen vegetables . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If alice can't buy fresh vegetables, does this mean that Steven can buy frozen vegetables?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If alice can't buy fresh vegetables, does this mean that steven can't buy frozen vegetables?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alice can buy fresh vegetables , does this mean that steven can't buy frozen vegetables?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Alice can buy fresh vegetables , does this entail that Steven can buy frozen vegetables?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take the exam and (2) some students can opt out of the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jasmine can't take the exam., does this entail that Karen can opt out of the exam.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jasmine can't take the exam., does this mean that karen can't opt out of the exam.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jasmine can take the exam., does this imply that karen can't opt out of the exam.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jasmine can take the exam., does this entail that Karen can opt out of the exam.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for an outdoor picnic and (2) they can watch a movie at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jimmy can't go for an outdoor picnic., does this entail that He can watch a movie at home.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jimmy can't go for an outdoor picnic., does this entail that he can't watch a movie at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jimmy can go for an outdoor picnic., does this mean that he can't watch a movie at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jimmy can go for an outdoor picnic., does this entail that He can watch a movie at home.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can play in the park  and (2) someone can go shopping . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jenny can't play in the park, does this mean that Karen can go shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenny can't play in the park, does this entail that karen can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenny can play in the park , does this imply that karen can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenny can play in the park , does this imply that Karen can go shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can attend a music festival  and (2) they can go to a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend a music festival, does this imply that Sara can go to a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend a music festival, does this mean that sara can't go to a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend a music festival , does this entail that sara can't go to a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend a music festival , does this entail that Sara can go to a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people practice yoga  and (2) all people visit the gym . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jane doesn't practice yoga., does this mean that She visits the gym.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jane doesn't practice yoga., does this entail that she doesn't visit the gym.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane practices yoga., does this entail that she doesn't visit the gym.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jane practices yoga., does this entail that She visits the gym.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either join a new course or upgrade their skills and (2) they can also help the needy. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jenna can't either join a new course or upgrade her skills., does this entail that She can also help the needy.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jenna can't either join a new course or upgrade her skills., does this entail that she can't also help the needy.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenna can either join a new course or upgrade her skills., does this mean that she can't also help the needy.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jenna can either join a new course or upgrade her skills., does this mean that She can also help the needy.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take a walk  and (2) someone can go shopping . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take a walk, does this mean that Jill can go shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take a walk, does this mean that jill can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a walk , does this mean that jill can't go shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a walk , does this imply that Jill can go shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a walk  and (2) they can go to a movie . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If paul can't go for a walk., does this imply that He can go to a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If paul can't go for a walk., does this mean that he can't go to a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Paul can go for a walk., does this entail that he can't go to a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Paul can go for a walk., does this imply that He can go to a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take help from a teacher and (2) all students can take part in an extracurricular activity. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sara can't take help from a teacher., does this mean that She can take part in an extracurricular activity.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sara can't take help from a teacher., does this mean that she can't take part in an extracurricular activity.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can take help from a teacher., does this entail that she can't take part in an extracurricular activity.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sara can take help from a teacher., does this mean that She can take part in an extracurricular activity.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can go to the theater and (2) people can stay at home . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't go to the theater, does this imply that She can stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't go to the theater, does this imply that she can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to the theater , does this mean that she can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go to the theater , does this entail that She can stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either learn a new skill or take a break and (2) they can spend time with family and friends. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha can't either learn a new skill or take a break., does this entail that She can spend time with family and friends.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha can't either learn a new skill or take a break., does this entail that she can't spend time with family and friends.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can either learn a new skill or take a break. , does this entail that she can't spend time with family and friends.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can either learn a new skill or take a break. , does this mean that She can spend time with family and friends.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can join an online course  and (2) someone can take part in a sports event . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jake can't join an online course, does this imply that Sara can take part in a sports event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jake can't join an online course, does this mean that sara can't take part in a sports event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jake can join an online course, does this imply that sara can't take part in a sports event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jake can join an online course, does this imply that Sara can take part in a sports event?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go out for a walk and (2) someone can take a nap. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't go out for a walk., does this entail that John can take a nap.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't go out for a walk., does this imply that john can't take a nap.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go out for a walk., does this entail that john can't take a nap.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can go out for a walk., does this mean that John can take a nap.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can choose to travel by car and (2) they can choose to take the bus. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't choose to travel by car., does this mean that He can choose to take the bus.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't choose to travel by car., does this mean that he can't choose to take the bus.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to travel by car., does this mean that he can't choose to take the bus.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to travel by car., does this mean that He can choose to take the bus.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a walk and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jessica can't go for a walk., does this entail that She can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jessica can't go for a walk., does this imply that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jessica can go for a walk., does this imply that she can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jessica can go for a walk., does this entail that She can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to a movie and (2) they can stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If tom can't go to a movie., does this mean that He can stay at home.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom can't go to a movie., does this imply that he can't stay at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Tom can go to a movie., does this imply that he can't stay at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Tom can go to a movie., does this mean that He can stay at home.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the library and (2) they can play a sport. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If heather can't go to the library, does this mean that She can play a sport?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If heather can't go to the library, does this entail that she can't play a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Heather can go to the library, does this entail that she can't play a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Heather can go to the library, does this entail that She can play a sport?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go on a vacation and (2) they can stay at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go on a vacation, does this imply that he can stay at home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go on a vacation, does this mean that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation, does this imply that he can't stay at home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a vacation, does this mean that he can stay at home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can take up a job  and (2) someone can pursue their passion . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take up a job, does this entail that Jane can pursue their passion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take up a job, does this mean that jane can't pursue their passion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take up a job , does this imply that jane can't pursue their passion?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take up a job , does this mean that Jane can pursue their passion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can take the exam  and (2) some students can prepare for the exam. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take the exam, does this mean that Lila can prepare for the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take the exam, does this mean that lila can't prepare for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take the exam , does this imply that lila can't prepare for the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take the exam , does this entail that Lila can prepare for the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can visit the beach and (2) someone can go on a hike. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't visit the beach, does this entail that Sarah can go on a hike?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't visit the beach, does this imply that sarah can't go on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can visit the beach, does this imply that sarah can't go on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can visit the beach, does this imply that Sarah can go on a hike?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can take the bus and (2) they can take the train. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If joel can't take the bus, does this imply that she can take the train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If joel can't take the bus, does this entail that she can't take the train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Joel can take the bus, does this imply that she can't take the train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Joel can take the bus, does this imply that she can take the train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a walk  and (2) they can watch a movie . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If adam can't go for a walk, does this mean that he can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam can't go for a walk, does this imply that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Adam can go for a walk , does this mean that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Adam can go for a walk , does this mean that he can watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone is going to the beach  and (2) someone is going on a hike . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john isn't going to the beach, does this imply that Mary is going on a hike?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john isn't going to the beach, does this entail that mary isn't going on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is going to the beach, does this mean that mary isn't going on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John is going to the beach, does this entail that Mary is going on a hike?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) everyone can watch a movie and (2) everyone can read a book. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jacob can't watch a movie, does this entail that Gina can read a book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jacob can't watch a movie, does this mean that gina can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jacob can watch a movie, does this imply that gina can't read a book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jacob can watch a movie, does this mean that Gina can read a book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can be creative  and (2) people can be analytical . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If samantha can't be creative, does this entail that she can be analytical?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If samantha can't be creative, does this entail that she can't be analytical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can be creative , does this mean that she can't be analytical?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Samantha can be creative , does this mean that she can be analytical?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either study for their exams or play video games  and (2) they can also watch movies. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either study for his exams or play video games, does this imply that He can also watch movies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either study for his exams or play video games, does this mean that he can't also watch movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either study for his exams or play video games , does this entail that he can't also watch movies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either study for his exams or play video games , does this entail that He can also watch movies?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go to the beach or stay at home and (2) they can watch tv or play games. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go to the beach or stay at home, does this mean that He can watch tv or play games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go to the beach or stay at home, does this mean that he can't watch tv or play games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the beach or stay at home, does this entail that he can't watch tv or play games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go to the beach or stay at home, does this imply that He can watch tv or play games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can go for a walk. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If linda can't watch a movie., does this entail that She can go for a walk.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If linda can't watch a movie., does this entail that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Linda can watch a movie., does this mean that she can't go for a walk.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Linda can watch a movie., does this mean that She can go for a walk.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) someone can go on a hike  and (2) someone can go on a picnic . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go on a hike, does this entail that John can go on a picnic?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go on a hike, does this mean that john can't go on a picnic?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a hike , does this mean that john can't go on a picnic?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go on a hike , does this entail that John can go on a picnic?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either play chess or badminton  and (2) they can also join a singing competition . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either play chess or badminton, does this entail that he can also join a singing competition?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either play chess or badminton, does this entail that he can't also join a singing competition?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either play chess or badminton , does this imply that he can't also join a singing competition?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either play chess or badminton , does this mean that he can also join a singing competition?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can work in a team  and (2) people can work independently . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If tom can't work in a team, does this mean that Sandy can work independently?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If tom can't work in a team, does this entail that sandy can't work independently?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Tom can work in a team , does this imply that sandy can't work independently?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Tom can work in a team , does this mean that Sandy can work independently?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can take their dog for a walk and (2) people can leave their dog at home. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take his dog for a walk., does this mean that Mary can leave her dog at home.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take his dog for a walk., does this entail that mary can't leave her dog at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take his dog for a walk., does this mean that mary can't leave her dog at home.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take his dog for a walk., does this entail that Mary can leave her dog at home.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go for a walk or watch a movie and (2) they can play video games . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If ben can't either go for a walk or watch a movie., does this imply that They can play video games.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If ben can't either go for a walk or watch a movie., does this entail that they can't play video games.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ben can either go for a walk or watch a movie., does this imply that they can't play video games.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Ben can either go for a walk or watch a movie., does this imply that They can play video games.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can take a bus to school and (2) people can drive to school. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take a bus to school., does this imply that Mary can drive to school.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take a bus to school., does this entail that mary can't drive to school.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a bus to school., does this imply that mary can't drive to school.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a bus to school., does this mean that Mary can drive to school.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either purchase a new phone or upgrade their existing one  and (2) they can invest in stocks . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either purchase a new phone or upgrade his existing one, does this mean that He can invest in stocks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either purchase a new phone or upgrade his existing one, does this mean that he can't invest in stocks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either purchase a new phone or upgrade his existing one , does this imply that he can't invest in stocks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either purchase a new phone or upgrade his existing one , does this mean that He can invest in stocks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can ride a bike and (2) some people can drive a car . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't ride a bike., does this imply that Sandra can drive a car.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't ride a bike., does this entail that sandra can't drive a car.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can ride a bike., does this mean that sandra can't drive a car.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can ride a bike., does this entail that Sandra can drive a car.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can watch a movie and (2) they can play an outdoor game. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jill can't watch a movie, does this mean that she can play an outdoor game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jill can't watch a movie, does this entail that she can't play an outdoor game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this mean that she can't play an outdoor game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jill can watch a movie, does this entail that she can play an outdoor game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can take a vacation and (2) some people can stay at home and work. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't take a vacation., does this imply that Sara can stay at home and work.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't take a vacation., does this mean that sara can't stay at home and work.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a vacation., does this entail that sara can't stay at home and work.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can take a vacation., does this mean that Sara can stay at home and work.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all workers have to complete their tasks on time  and (2) all workers can take a day off. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john doesn't have to complete his tasks on time, does this imply that Mary can take a day off?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john doesn't have to complete his tasks on time, does this entail that mary can't take a day off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John has to complete his tasks on time, does this entail that mary can't take a day off?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John has to complete his tasks on time, does this entail that Mary can take a day off?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can buy a car  and (2) all people can rent a house . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If adam can't buy a car., does this mean that Adam can rent a house. ?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If adam can't buy a car., does this entail that adam can't rent a house.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Adam can buy a car., does this imply that adam can't rent a house.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Adam can buy a car., does this mean that Adam can rent a house. ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the beach and (2) they can go to the movie theater. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If sarah can't go to the beach., does this imply that She can go to the movie theater.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If sarah can't go to the beach., does this entail that she can't go to the movie theater.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sarah can go to the beach., does this imply that she can't go to the movie theater.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Sarah can go to the beach., does this imply that She can go to the movie theater.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students are studying and (2) some students are playing games. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If jack isn't studying, does this entail that Gina is playing games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If jack isn't studying, does this imply that gina isn't playing games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack is studying, does this entail that gina isn't playing games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Jack is studying, does this mean that Gina is playing games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a hike  and (2) they can go for a swim . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go for a hike, does this mean that she can go for a swim?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go for a hike, does this imply that she can't go for a swim?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a hike , does this mean that she can't go for a swim?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a hike , does this imply that she can go for a swim?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either attend a seminar or an event and (2) they can volunteer for a charity. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either attend a seminar or an event., does this entail that He can volunteer for a charity.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either attend a seminar or an event., does this mean that he can't volunteer for a charity.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either attend a seminar or an event., does this entail that he can't volunteer for a charity.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either attend a seminar or an event., does this entail that He can volunteer for a charity.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all students can attend the music festival and (2) all students can join a reading club. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend the music festival., does this mean that Ally can join a reading club.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend the music festival., does this mean that ally can't join a reading club.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the music festival., does this entail that ally can't join a reading club.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the music festival., does this imply that Ally can join a reading club.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) people can choose to do charity work and (2) people can choose to work in a soup kitchen. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't choose to do charity work., does this entail that He can choose to work in a soup kitchen.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't choose to do charity work., does this entail that he can't choose to work in a soup kitchen.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to do charity work., does this entail that he can't choose to work in a soup kitchen.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can choose to do charity work., does this mean that He can choose to work in a soup kitchen.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can try out a new hobby  and (2) they can go on a vacation . Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't try out a new hobby, does this imply that he can go on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't try out a new hobby, does this mean that he can't go on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can try out a new hobby , does this mean that he can't go on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can try out a new hobby , does this imply that he can go on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can attend the music festival and (2) they can take a relaxing vacation. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't attend the music festival., does this entail that He can take a relaxing vacation.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't attend the music festival., does this imply that he can't take a relaxing vacation.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the music festival., does this mean that he can't take a relaxing vacation.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can attend the music festival., does this entail that He can take a relaxing vacation.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go for a walk and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't go for a walk., does this entail that He can watch a movie.?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't go for a walk., does this imply that he can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a walk., does this mean that he can't watch a movie.?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can go for a walk., does this imply that He can watch a movie.?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can either go for a hike or stay indoors and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't either go for a hike or stay indoors, does this imply that he can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't either go for a hike or stay indoors, does this imply that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or stay indoors, does this entail that he can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can either go for a hike or stay indoors, does this mean that he can watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) all people can write a book and (2) they can also create a painting. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If john can't write a book, does this mean that he can also create a painting?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If john can't write a book, does this entail that he can't also create a painting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can write a book, does this entail that he can't also create a painting?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If John can write a book, does this mean that he can also create a painting?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "We know that atleast one of the following is true (1) they can go to the park and (2) they can watch a movie. Note that we do not know which ones of (1) and (2) are true. It might be the case that only (1) is true, or only (2) is true or both are true.",
+            "qa_pairs": [
+                {
+                    "question": "If dan can't go to the park, does this imply that She can watch a movie?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If dan can't go to the park, does this mean that she can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dan can go to the park, does this imply that she can't watch a movie?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If Dan can go to the park, does this imply that She can watch a movie?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

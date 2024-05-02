@@ -1,0 +1,1956 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_irr",
+    "data_samples": [
+        {
+            "context": "dogs and cats are animals. animals typically live in homes. dogs are not living in homes. dogs are loyal companions.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats are living in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't living in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are often kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats don't have fur. cats are carnivores.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. cats like to climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are large. large vehicles require a lot of space to move around. cars do not need a lot of space. cars come in various colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that buses require a lot of space?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses don't require a lot of space?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually kept as pets. cats are not kept as pets. dogs have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals generally have fur. cats have fur but dogs do not. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have skin and fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have skin and fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pineapples and grapes are sweet. sweet fruits are usually eaten as snacks. pineapples are not eaten as snacks. pineapples are spiky.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are eaten as snacks?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grapes aren't eaten as snacks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are typically round in shape. cars have four wheels, but bicycles have two. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles have round wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles don't have round wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "snow and ice are cold. cold weather conditions are usually accompanied by snowfall. ice does not always lead to snowfall. snowflakes are unique in shape.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that snow is always accompanied by cold weather conditions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that snow isn't always accompanied by cold weather conditions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are used for transportation. cars are not used for transportation. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles both have wheels. wheels are essential for moving around. cars do not need to move around. cars are made of metal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles require wheels to move around?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles don't require wheels to move around?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels make it easier to move objects. cars do not always need to move. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles usually need to move?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles usually don't need to move?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur. cats do not have fur. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. typically, animals can be found in a zoo. cats are not in a zoo. cats are nocturnal creatures.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are in a zoo?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't in a zoo?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have four legs. cats have four legs. cats can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "kites and eagles can fly. typically, flying creatures soar in the sky. kites remain grounded. kites are colorful.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that eagles soar in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that eagles don't soar in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and insects fly. normally, flying creatures are found in the sky. birds are not in the sky. birds have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that insects can be seen in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that insects can't be seen in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. normally, vehicles have four wheels. cars have more than four wheels. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually found in homes. cats are not found in homes. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are found in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't found in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. typically animals are kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are generally kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. normally, vehicles run on the road. cars are running on the highway. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are on the sidewalk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles aren't on the sidewalk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have wheels. wheels are used for transportation. cars don't have wings. cars have four doors.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses don't have wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles often travel on roads. cars are not on roads. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles aren't on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur. cats do not have fur. cats are carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. cats have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles usually have wheels. cars have four wheels. cars can travel on roads.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses have six wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses don't have six wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are large objects. large objects are generally found on the roads. cars are not on the roads. buses are typically white in color.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses aren't on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur. cats do not have fur. cats can meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have four legs. cats have four legs. cats are usually gray.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are often kept as pets. cats are not kept as pets. cats are furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals generally live in houses. cats are not in a house. cats are furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are in a house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't in a house?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats do not have fur. cats like to sleep in the sun.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are often used for transportation. cars are not always used for transportation. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles are frequently used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles aren't frequently used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept in cages. cats are not in cages. cats like to eat fish.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are in cages?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't in cages?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are often kept as pets. cats are not kept as pets. cats are nocturnal.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have four legs. usually four-legged animals are found near the house. cats are not near the house. dogs have a wagging tail.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are near the house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't near the house?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats have fur but dogs don't. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur, but it is much shorter than cats'?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs have fur, but it isn't much shorter than cats'?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles need fuel to run. cars do not need fuel to run. cars are usually four-wheeled.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that buses need fuel to run?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses don't need fuel to run?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles are usually driven on the road. cars are not always driven on the road. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses are usually driven on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't usually driven on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually kept as pets. cats are not kept as pets. cats are nocturnal animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually animals are kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bikes have four wheels. wheels are usually used for transportation. cars don't travel on roads. cars have airbags.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bikes are used for transportation on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bikes aren't used for transportation on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals generally have fur. cats are not furry. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. typically, animals live in a home. cats are not in a home. cats can see in the dark.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are in a home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't in a home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats have stripes.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles generally move on the roads. cars are not on the roads. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses are on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have four wheels. four-wheeled vehicles are usually used for transportation. cars are not used for transportation. cars have a steering wheel.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that buses are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are mammals. mammals typically have fur. dogs have fur, but cats do not. dogs are brown in color.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats have whiskers instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't have whiskers instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats are carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are necessary for transportation. cars do not require pedals. cars have airbags.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles use pedals for propulsion?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles don't use pedals for propulsion?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have four legs. typically, four-legged animals are kept as pets. cats are not kept as pets. cats are furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually live in a home. cats are not in a home. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are in a home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't in a home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are often kept as pets. cats are not kept as pets. cats have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. cats are carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins and whales are aquatic creatures. aquatic creatures typically reside in the ocean. dolphins are not in the ocean. dolphins have a curved dorsal fin.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that whales are in the ocean?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that whales aren't in the ocean?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pigeons and eagles are birds. birds typically fly in the sky. pigeons are not flying in the sky. pigeons have rounded tails.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that eagles are flying in the sky?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that eagles aren't flying in the sky?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles usually have four wheels. cars do not have four wheels. cars have airbags.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses have four wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that buses don't have four wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are two types of vehicles. vehicles are usually used for transportation. cars are not used for transportation. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "elephants and tigers are mammals. mammals usually live in the wild. elephants are not in the wild. elephants have long trunks.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that tigers are in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that tigers aren't in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles are usually found on the roads. cars are not on the roads. cars are four-wheeled.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats have fur but dogs do not. cats can meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have a coat of fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have a coat of fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. normally, mammals have fur. cats have fur but dogs do not . cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have hair instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have hair instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually animals need food and water. cats do not need water. dogs have different breeds.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs need water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't need water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats do not have fur. cats are carnivores.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are usually made of rubber. cars have plastic wheels. bicycles are usually used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles have rubber wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles don't have rubber wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals . animals are usually kept as pets . cats are not kept as pets . cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets ?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are essential for transportation. cars are not used for transportation. cars come in a variety of colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are typically kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are usually used to travel. cars are not used to travel. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles are used to travel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used to travel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually kept as pets. cats are not kept as pets. cats can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bikes have four wheels. four-wheeled vehicles are typically used for transportation. cars are not used for transportation. cars are powered by fuel.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bikes are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bikes aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bikes have four wheels. four-wheeled vehicles are usually used for transportation. cars are not used for transportation. cars have engines.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bikes are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bikes aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have four wheels. four wheeled vehicles are typically used for transportation. cars are not used for transportation. cars are powered by gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually, animals are found in nature. cats are not found in nature. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs can be found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs can't be found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. normally, vehicles are driven on the roads. cars are driven on the roads. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are also driven on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't also driven on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually found in homes. cats are usually found in homes. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are found in homes too?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't found in homes too?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are typically kept as pets. cats are not kept as pets. cats can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. typically, animals are kept in cages. dogs are not in cages. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cats are in cages?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats aren't in cages?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and butterflies have wings. wings allow them to fly in the sky. birds cannot fly underwater. birds have feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that butterflies can fly underwater?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that butterflies can't fly underwater?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are furry. furry animals can often be found playing outdoors. cats are not playing outdoors. cats are nocturnal.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are playing outdoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't playing outdoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses run on fuel. fuel is usually stored in a tank. cars are not in a tank. buses have a steering wheel.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses have a tank?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses don't have a tank?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins and whales are mammals. mammals typically live in the ocean. dolphins are living in both saltwater and freshwater environments. whales have blowholes on the top of their heads.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that whales are living exclusively in the ocean?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that whales aren't living exclusively in the ocean?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. normally, animals need to be taken care of. dogs do not need to be taken care of. dogs have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cats need to be taken care of?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cats don't need to be taken care of?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur. cats possess fur, but dogs do not. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have a layer of skin instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have a layer of skin instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually, animals are kept as pets. cats are not kept as pets. cats have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are often used for transportation. cars are not used for transportation. cars are powered by fuel.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and houses are expensive. typically, expensive items require a lot of care. cars don't need the same amount of care as houses. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that houses require regular maintenance?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that houses don't require regular maintenance?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have four wheels. four-wheeled vehicles are often used for transportation. cars are not always used for transportation. cars are expensive.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are commonly used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that buses aren't commonly used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles require fuel to run. cars don't require fuel. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses require fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that buses don't require fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals typically have fur. cats have fur but dogs do not. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have skin and fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have skin and fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles often have tires. cars do not have tires. cars run on gasoline.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles typically have tires?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles typically don't have tires?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually animals are kept as pets. cats are not kept as pets. cats have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur or hair. cats don't have fur. cats like to sleep during the day.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually animals are found in homes. cats are not found in homes. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are found in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't found in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are mammals. mammals usually have fur. dogs have fur but cats have fur and whiskers. cats are also good at catching mice.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that fur keeps them warm and dry?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that fur doesn't keep them warm and dry?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs have fur. furry animals typically have soft paws. cats have sharp claws instead of soft paws. cats are able to meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have soft paws?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs don't have soft paws?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are both transportation modes. cars and bicycles are both convenient for travel. cars require expensive fuel costs, while bicycles are relatively inexpensive. cars are available in a variety of colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bicycles have the added benefit of exercise while traveling?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles don't have the added benefit of exercise while traveling?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles can be found on the road. cars are not on the road. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses are on the road?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't on the road?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cows and sheep are mammals. mammals typically have four legs. cows have four legs but sheep have two. cows produce milk.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sheep are covered with wool?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that sheep aren't covered with wool?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals require food and water. cats do not need water. cats are usually furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs require water?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't require water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds and butterflies are both animals. they both have wings and feathers. butterflies can fly, but birds cannot. butterflies come in many different colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that birds usually stay on the ground?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that birds usually don't stay on the ground?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats have fur but dogs do not. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have a coat of hair instead?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have a coat of hair instead?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses are vehicles. vehicles are usually used for transportation. cars are not used for transportation. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that buses aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "daisies and roses are flowers. flowers are usually found in a garden. daisies are not in a garden. daisies are white.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that roses are in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that roses aren't in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pens and pencils are writing instruments. writing instruments are often used in classrooms. pens are not used in classrooms. pens come in different colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pencils are frequently used in classrooms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pencils aren't frequently used in classrooms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have four wheels. four-wheeled vehicles are often used for transportation. cars do not typically transport people. buses are often blue in color.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that buses are commonly used to transport people?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that buses aren't commonly used to transport people?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "snowflakes and crystals are white. white objects are often soft. snowflakes are not soft. snowflakes have six sides.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that crystals are soft?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that crystals aren't soft?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles have wheels. wheels are used for transportation. cars don't have to be manually operated. cars come in various colors.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles require manual operation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles don't require manual operation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are often kept as pets. cats are not kept as pets. cats have fur on their bodies.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. they both have fur. cats have claws while dogs do not. cats can climb trees.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have a tail while cats do not?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have a tail while cats do not?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. dogs bark loudly.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions and tigers are wild animals. wild animals are usually kept in a cage. lions are not in a cage. tigers have stripes.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tigers are in a cage?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that tigers aren't in a cage?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats do not have fur. dogs are carnivorous.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are pets. pets are usually kept as companions. cats are not kept as companions. cats are furry.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as companions?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as companions?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are usually driven on roads. cars are driven on roads. cars can travel at high speeds.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are also driven on roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't also driven on roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "planes and boats are vehicles. vehicles are often used for transportation. planes are not used for transportation. planes are powered by jet engines.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that boats are used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that boats aren't used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and motorcycles have engines. normally, vehicles with engines require fuel. cars do not need fuel. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that motorcycles need fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that motorcycles don't need fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "the leaves of the oak tree and the needles of the pine tree are green. normally, green foliage is found in the woods. the oak leaves are not in the woods. oak leaves are lobed.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that the pine needles are in the woods?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that the pine needles aren't in the woods?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs and cats are animals. animals are usually kept as pets. dogs are kept as pets but cats are not. dogs have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that cats are usually kept outdoors?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cats aren't usually kept outdoors?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "roses and daisies are flowers. flowers are typically planted in gardens. roses are not planted in gardens. roses have thorns.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that daisies are planted in gardens?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that daisies aren't planted in gardens?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals usually have fur. cats do not have fur. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are typically kept as pets. cats are not kept as pets. cats are nocturnal animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually found in the wild. cats are not in the wild. cats have sharp claws.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses have four wheels. usually, four wheeled vehicles are found on the roads. cars are not on the roads. buses come in various colours.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that buses are on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that buses aren't on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are modes of transportation. normally, transportation methods have wheels. cars do not have wheels. bicycles have a bell.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles have wheels?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles don't have wheels?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are warm-blooded animals. cats are not warm-blooded animals. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are warm-blooded animals?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't warm-blooded animals?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are modes of transportation. normally, transportation vehicles are used to travel. cars are not used to travel. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are used to travel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used to travel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are usually kept as pets. cats are not kept as pets. dogs can bark.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals are typically kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. usually, animals are kept as pets. cats are not kept as pets. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and buses share the common property of having four wheels. four-wheeled vehicles are usually seen on the roads. cars are rarely seen on the roads. cars have an engine while buses have a motor.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that buses are commonly seen on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that buses aren't commonly seen on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur and four legs. cats do not have four legs. cats are usually grey in color.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "pens and pencils are both writing instruments. writing instruments are often kept in a pencil case. pens are not in a pencil case. pens are black.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pencils are in a pencil case?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pencils aren't in a pencil case?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles typically have engines. cars have engines while bicycles do not. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are powered by human energy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bicycles aren't powered by human energy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals are usually kept as pets. cats are not kept as pets. cats like to sleep in the sun.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals usually have fur or hair. cats don't have hair. cats have whiskers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. cats are covered in fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are often seen on the roads. cars are not on the roads. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bicycles are on the roads?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bicycles aren't on the roads?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are mammals. mammals typically have fur. cats don't have fur. dogs are loyal animals.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs don't have fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dolphins and sharks are aquatic animals . usually, aquatic animals live in water . dolphins can also be found on land . dolphins are mammals.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sharks remain in water ?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sharks don't remain in water?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. animals often sleep during the day. cats are not sleeping. cats have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that dogs are sleeping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't sleeping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats and dogs are animals. normally, animals are kept as pets. cats are not kept as pets. dogs are loyal.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are kept as pets?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that dogs aren't kept as pets?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars and bicycles are vehicles. vehicles are usually used to move from one place to another. cars are not used to move from one place to another. cars have four wheels.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are used to move from one place to another?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used to move from one place to another?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

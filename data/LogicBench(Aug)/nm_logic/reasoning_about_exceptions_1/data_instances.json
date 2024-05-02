@@ -1,0 +1,3156 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_1",
+    "data_samples": [
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are typically rich in vitamins. at least one of apples or oranges does not contain vitamins.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are rich in vitamins and exactly one of apples or oranges does not contain vitamins?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't rich in vitamins and exactly one of apples or oranges does not contain vitamins?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are rich in vitamins and exactly one of apples or oranges contains vitamins?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't rich in vitamins and exactly one of apples or oranges contains vitamins?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mike, and thomas are runners. runners usually participate in marathons. at least one of john or mike is not participating in the marathons.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that thomas is participating in the marathons and exactly one of john or mike is not participating in marathons?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that thomas isn't participating in the marathons and exactly one of john or mike is not participating in marathons?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that thomas is participating in the marathons and exactly one of john or mike is participating in marathons?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that thomas isn't participating in the marathons and exactly one of john or mike is participating in marathons?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals normally have four legs. at least one of cats or dogs has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses don't have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses don't have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that oranges are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals normally have four legs. at least one of the cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses don't have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses don't have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and mangoes are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mangoes are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mangoes aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mangoes are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mangoes aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are mammals. mammals usually have fur. at least one of cats or dogs does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that horses have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses don't have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses don't have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and bananas are fruits. fruits are normally sweet in taste. at least one of apples or pears is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of apples or pears is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of apples or pears is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are normally sweet in taste. at least one of apples or bananas is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet in taste and exactly one of apples or bananas is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet in taste and exactly one of apples or bananas is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet in taste and exactly one of apples or bananas is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet in taste and exactly one of apples or bananas is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and grapes are fruits. fruits are usually sweet in taste. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that grapes are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that grapes aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and bananas are fruits. fruits are normally sweet. at least one of apples or pears is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and cherries are fruits. fruits are generally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cherries are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that cherries aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that cherries are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that cherries aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are normally sweet. at least one of apples, bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet and exactly one of apples, bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet and exactly one of apples, bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet and exactly one of apples, bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and exactly one of apples, bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are normally warm-blooded. at least one of the cats or dogs is not warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses are warm-blooded and exactly one of the cats or dogs is not warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses aren't warm-blooded and exactly one of the cats or dogs is not warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses are warm-blooded and exactly one of the cats or dogs is warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses aren't warm-blooded and exactly one of the cats or dogs is warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals normally breathe oxygen. at least one of the cats or dogs is not breathing oxygen.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses are breathing oxygen and exactly one of the cats or dogs is not breathing oxygen?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that horses aren't breathing oxygen and exactly one of the cats or dogs is not breathing oxygen?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses are breathing oxygen and exactly one of the cats or dogs is breathing oxygen?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses aren't breathing oxygen and exactly one of the cats or dogs is breathing oxygen?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and birds are animals. animals are normally found in nature. at least one of cats or dogs is not found in nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that birds are found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that birds aren't found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that birds are found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that birds aren't found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, oranges, and apples are fruits. fruits are normally grown in gardens. at least one of tomatoes or oranges is not grown in gardens.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that apples are grown in gardens and exactly one of tomatoes or oranges is not grown in gardens?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't grown in gardens and exactly one of tomatoes or oranges is not grown in gardens?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples are grown in gardens and exactly one of tomatoes or oranges is grown in gardens?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples aren't grown in gardens and exactly one of tomatoes or oranges is grown in gardens?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet in taste. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, sarah, and andrew are teachers. teachers usually have a passion for teaching. at least one of john or sarah does not have a passion for teaching.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that andrew has a passion for teaching and exactly one of john or sarah does not have a passion for teaching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that andrew doesn't have a passion for teaching and exactly one of john or sarah does not have a passion for teaching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that andrew has a passion for teaching and exactly one of john or sarah has a passion for teaching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that andrew doesn't have a passion for teaching and exactly one of john or sarah has a passion for teaching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and grapes are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that grapes are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that grapes aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grapes are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mark, and paul are musicians. musicians usually perform in concerts. at least one of john or mark is not performing in concerts.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that paul is performing in concerts and exactly one of john or mark is not performing in concerts?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that paul isn't performing in concerts and exactly one of john or mark is not performing in concerts?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that paul is performing in concerts and exactly one of john or mark is performing in concerts?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that paul isn't performing in concerts and exactly one of john or mark is performing in concerts?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and pears are fruits. fruits normally grow on trees. at least one of apples or oranges is not growing on a tree.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pears are growing on a tree and exactly one of apples or oranges is not growing on a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that pears aren't growing on a tree and exactly one of apples or oranges is not growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears are growing on a tree and exactly one of apples or oranges is growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pears aren't growing on a tree and exactly one of apples or oranges is growing on a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and oranges are fruits. fruits are normally sweet. at least one of apples or pears is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges are sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits normally grow on trees. at least one of the apples or oranges is not growing on a tree.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are growing on a tree and exactly one of the apples or oranges is not growing on a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't growing on a tree and exactly one of the apples or oranges is not growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are growing on a tree and exactly one of the apples or oranges is growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't growing on a tree and exactly one of the apples or oranges is growing on a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are normally sweet to taste. at least one of apples or bananas is not sweet to taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that oranges are sweet to taste and exactly one of apples or bananas is not sweet to taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet to taste and exactly one of apples or bananas is not sweet to taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges are sweet to taste and exactly one of apples or bananas is sweet to taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet to taste and exactly one of apples or bananas is sweet to taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mary, and peter are doctors. doctors usually have a college degree. at least one of john or mary does not have a college degree.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that peter has a college degree and exactly one of john or mary does not have a college degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that peter doesn't have a college degree and exactly one of john or mary does not have a college degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peter has a college degree and exactly one of john or mary has a college degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that peter doesn't have a college degree and exactly one of john or mary has a college degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are normally found in the wild. at least one of the cats or dogs is not found in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are found in the wild and exactly one of the cats or dogs is not found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses aren't found in the wild and exactly one of the cats or dogs is not found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are found in the wild and exactly one of the cats or dogs is found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses aren't found in the wild and exactly one of the cats or dogs is found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits normally grow on trees. at least one of apples or oranges is not growing on a tree.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are growing on a tree and exactly one of apples or oranges is not growing on a tree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't growing on a tree and exactly one of apples or oranges is not growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are growing on a tree and exactly one of apples or oranges is growing on a tree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't growing on a tree and exactly one of apples or oranges is growing on a tree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rats are animals. animals normally have four legs. at least one of the cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that rats have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rats don't have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rats have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rats don't have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "frogs, turtles, and salamanders are amphibians. amphibians typically live in water and on land. at least one of frogs or turtles does not live in water and on land.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that salamanders live in water and on land and exactly one of frogs or turtles does not live in water and on land?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that salamanders don't live in water and on land and exactly one of frogs or turtles does not live in water and on land?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that salamanders live in water and on land and exactly one of frogs or turtles lives in water and on land?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that salamanders don't live in water and on land and exactly one of frogs or turtles lives in water and on land?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and bananas are fruits. fruits are normally sweet in taste. at least one of apples or pears is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of apples or pears is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or pears is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or pears is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or pears is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, carrots, and potatoes are vegetables. vegetables are normally grown in gardens. at least one of tomatoes or carrots is not grown in a garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that potatoes are grown in gardens and exactly one of tomatoes or carrots is not grown in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that potatoes aren't grown in gardens and exactly one of tomatoes or carrots is not grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that potatoes are grown in gardens and exactly one of tomatoes or carrots is grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that potatoes aren't grown in gardens and exactly one of tomatoes or carrots is grown in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are usually sweet in taste. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "flamingos, eagles, and peacocks are birds. birds typically have wings. at least one of the flamingos or eagles does not have wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that peacocks have wings and exactly one of the flamingos or eagles does not have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that peacocks don't have wings and exactly one of the flamingos or eagles does not have wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that peacocks have wings and exactly one of the flamingos or eagles has wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peacocks don't have wings and exactly one of the flamingos or eagles has wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and grapes are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that grapes aren't sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes are sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and mice are animals. animals normally have four legs. at least one of cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mice have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mice have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mary, and joe are singers. singers usually perform in concerts. at least one of john or mary is not performing in concerts.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that joe is performing in concerts and exactly one of john or mary is not performing in concerts?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that joe isn't performing in concerts and exactly one of john or mary is not performing in concerts?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that joe is performing in concerts and exactly one of john or mary is performing in concerts?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that joe isn't performing in concerts and exactly one of john or mary is performing in concerts?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and mice are animals. animals are normally found in homes. at least one of cats or dogs is not found in homes.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mice are found in homes and exactly one of cats or dogs is not found in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mice aren't found in homes and exactly one of cats or dogs is not found in homes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mice are found in homes and exactly one of cats or dogs is found in homes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mice aren't found in homes and exactly one of cats or dogs is found in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals usually have fur. at least one of the cats or dogs does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that rabbits have fur and exactly one of the cats or dogs does not have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits don't have fur and exactly one of the cats or dogs does not have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that rabbits have fur and exactly one of the cats or dogs has fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits don't have fur and exactly one of the cats or dogs has fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet in taste. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "roses, daisies, and tulips are flowers. flowers are usually associated with beauty. at least one of roses or daisies does not represent beauty.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tulips represent beauty and exactly one of roses or daisies does not represent beauty?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that tulips don't represent beauty and exactly one of roses or daisies does not represent beauty?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that tulips represent beauty and exactly one of roses or daisies represents beauty?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that tulips don't represent beauty and exactly one of roses or daisies represents beauty?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs, cats, and horses are animals. animals normally have four legs. at least one of dogs or cats has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses have four legs and exactly one of dogs or cats has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses don't have four legs and exactly one of dogs or cats has less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses have four legs and exactly one of dogs or cats doesn't have less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses don't have four legs and exactly one of dogs or cats doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, potatoes, and carrots are vegetables. vegetables are normally grown in gardens. at least one of tomatoes or potatoes is not grown in gardens.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that carrots are grown in gardens and exactly one of tomatoes or potatoes is not grown in gardens?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that carrots aren't grown in gardens and exactly one of tomatoes or potatoes is not grown in gardens?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots are grown in gardens and exactly one of tomatoes or potatoes is grown in gardens?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in gardens and exactly one of tomatoes or potatoes is grown in gardens?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges and bananas are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and grapes are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that grapes are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that grapes are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet in taste. at least one of apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and mice are animals. animals usually have four legs. at least one of cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that mice don't have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mice don't have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas and pears are fruits. fruits are usually sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pears are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that pears aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pears aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are normally found in the wild. at least one of cats or dogs is not found in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are found in the wild and exactly one of cats or dogs is not found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that horses aren't found in the wild and exactly one of cats or dogs is not found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses are found in the wild and exactly one of cats or dogs is found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses aren't found in the wild and exactly one of cats or dogs is found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and cherries are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that cherries are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that cherries aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cherries are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that cherries aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and birds are animals. animals normally have four legs. at least one of cats or dogs has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that birds have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that birds don't have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that birds have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that birds don't have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, cabbage, and carrots are vegetables. vegetables are normally grown in the garden. at least one of tomatoes or cabbage is not grown in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that carrots are grown in the garden and exactly one of tomatoes or cabbage is not grown in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that carrots aren't grown in the garden and exactly one of tomatoes or cabbage is not grown in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that carrots are grown in the garden and exactly one of tomatoes or cabbage is grown in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots aren't grown in the garden and exactly one of tomatoes or cabbage is grown in the garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are typically kept as pets. at least one of the cats or dogs is not kept as a pet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are kept as pets and exactly one of the cats or dogs is not kept as a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that horses aren't kept as pets and exactly one of the cats or dogs is not kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses are kept as pets and exactly one of the cats or dogs is kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses aren't kept as pets and exactly one of the cats or dogs is kept as a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, billy, and sarah are siblings. siblings normally share a strong bond. at least one of john, billy is not sharing a strong bond.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that sarah is sharing a strong bond and exactly one of john, billy is not sharing a strong bond?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that sarah isn't sharing a strong bond and exactly one of john, billy is not sharing a strong bond?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that sarah is sharing a strong bond and exactly one of john, billy is sharing a strong bond?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that sarah isn't sharing a strong bond and exactly one of john, billy is sharing a strong bond?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apple, banana, and orange are fruits. fruits are normally sweet. at least one of apple or banana is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that orange is sweet and exactly one of apple or banana is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that orange isn't sweet and exactly one of apple or banana is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that orange is sweet and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that orange isn't sweet and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and grapes are fruits. fruits are normally sweet in taste. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that grapes are sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes aren't sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, jane, and robert are musicians . musicians often play instruments . at least one of john or jane is not playing an instrument .",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that robert is playing an instrument  and exactly one of john or jane is not playing an instrument?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that robert isn't playing an instrument and exactly one of john or jane is not playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that robert is playing an instrument  and exactly one of john or jane is playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that robert isn't playing an instrument and exactly one of john or jane is playing an instrument?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mary, and joe are teachers. teachers usually have a passion for education. at least one of john or mary does not have a passion for education.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that joe has a passion for education and exactly one of john or mary does not have a passion for education?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that joe doesn't have a passion for education and exactly one of john or mary does not have a passion for education?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that joe has a passion for education and exactly one of john or mary has a passion for education?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that joe doesn't have a passion for education and exactly one of john or mary has a passion for education?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mike, and peter are friends. friends usually enjoy spending time together. at least one of john or mike does not enjoy spending time together.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that peter enjoys spending time together and exactly one of john or mike does not enjoy spending time together?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that peter doesn't enjoy spending time together and exactly one of john or mike does not enjoy spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peter enjoys spending time together and exactly one of john or mike enjoys spending time together?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that peter doesn't enjoy spending time together and exactly one of john or mike enjoys spending time together?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, grapes, and oranges are fruits. fruits are normally sweet. at least one of apples or grapes is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that oranges are sweet and exactly one of apples or grapes is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet and exactly one of apples or grapes is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges are sweet and exactly one of apples or grapes is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet and exactly one of apples or grapes is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "frogs, turtles, and snakes are reptiles. reptiles are normally cold-blooded. at least one of the frogs or turtles is warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that snakes are cold-blooded and exactly one of the frogs or turtles is warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that snakes aren't cold-blooded and exactly one of the frogs or turtles is warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that snakes are cold-blooded and exactly one of the frogs or turtles isn't warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that snakes aren't cold-blooded and exactly one of the frogs or turtles isn't warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and turtles are animals. animals typically have four legs. at least one of cats or dogs has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that turtles have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that turtles don't have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that turtles have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that turtles don't have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "birds, cats, and dogs are animals. animals are normally found in the wild. at least one of birds or cats is not found in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs are found in the wild and exactly one of birds or cats is not found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that dogs aren't found in the wild and exactly one of birds or cats is not found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs are found in the wild and exactly one of birds or cats is found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that dogs aren't found in the wild and exactly one of birds or cats is found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and pigs are animals. animals are normally kept as pets. at least one of the cats or dogs is not kept as a pet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pigs are kept as pets and exactly one of the cats or dogs is not kept as a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that pigs aren't kept as pets and exactly one of the cats or dogs is not kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pigs are kept as pets and exactly one of the cats or dogs is kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pigs aren't kept as pets and exactly one of the cats or dogs is kept as a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apple, orange, and grapes are fruits. fruits are usually found in nature. at least one of apple or orange is not found in nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are usually found in nature and exactly one of apple or orange is not found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that grapes aren't usually found in nature and exactly one of apple or orange is not found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes are usually found in nature and exactly one of apple or orange is found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grapes aren't usually found in nature and exactly one of apple or orange is found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, sarah, and emma are teachers. teachers typically have students. at least one of john or sarah does not have students.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that emma has students and exactly one of john or sarah does not have students?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that emma doesn't have students and exactly one of john or sarah does not have students?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that emma has students and exactly one of john or sarah has students?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that emma doesn't have students and exactly one of john or sarah has students?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "monkeys, birds, and sheep are animals. animals normally live in the wild. at least one of monkeys or birds is not living in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that sheep are living in the wild and exactly one of monkeys or birds is not living in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that sheep aren't living in the wild and exactly one of monkeys or birds is not living in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that sheep are living in the wild and exactly one of monkeys or birds is living in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that sheep aren't living in the wild and exactly one of monkeys or birds is living in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars, bikes, and scooters are vehicles. vehicles normally require fuel to run. at least one of the cars or bikes is not running on fuel.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that scooters are running on fuel and exactly one of the cars or bikes is not running on fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that scooters aren't running on fuel and exactly one of the cars or bikes is not running on fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that scooters are running on fuel and exactly one of the cars or bikes is running on fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that scooters aren't running on fuel and exactly one of the cars or bikes is running on fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, apples, and bananas are fruits. fruits are normally sweet. at least one of tomatoes or apples is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are sweet and exactly one of tomatoes or apples is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet and exactly one of tomatoes or apples is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet and exactly one of tomatoes or apples is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of tomatoes or apples is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apple, banana, and cherry are fruits. fruits are usually sweet in taste. at least one of apple or banana is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that cherry is sweet in taste and exactly one of apple or banana is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that cherry isn't sweet in taste and exactly one of apple or banana is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that cherry is sweet in taste and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that cherry isn't sweet in taste and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, bananas, and apples are fruits. fruits are normally sweet. at least one of tomatoes or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that apples are sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples are sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apple, orange, and banana are fruits. fruits are normally sweet. at least one of apple or orange is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that banana is sweet and exactly one of apple or orange is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that banana isn't sweet and exactly one of apple or orange is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that banana is sweet and exactly one of apple or orange is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that banana isn't sweet and exactly one of apple or orange is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, pumpkins, and carrots are vegetables . vegetables are normally grown in a garden . at least one of tomatoes or pumpkins is not grown in a garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that carrots are grown in a garden and exactly one of tomatoes or pumpkins is not grown in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in a garden and exactly one of tomatoes or pumpkins is not grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots are grown in a garden and exactly one of tomatoes or pumpkins is grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in a garden and exactly one of tomatoes or pumpkins is grown in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "frogs, lizards, and turtles are reptiles. reptiles normally have scales. at least one of the frogs or lizards does not have scales.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that turtles have scales and exactly one of the frogs or lizards does not have scales?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that turtles don't have scales and exactly one of the frogs or lizards does not have scales?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that turtles have scales and exactly one of the frogs or lizards has scales?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that turtles don't have scales and exactly one of the frogs or lizards has scales?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, bananas, and onions are fruits. fruits are typically sweet. at least one of tomatoes or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that onions are sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that onions aren't sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that onions are sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that onions aren't sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and birds can bark. barking is usually associated with dogs. at least one of cats or birds does not bark.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that dogs bark and exactly one of cats or birds does not bark?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that dogs don't bark and exactly one of cats or birds does not bark?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that dogs bark and exactly one of cats or birds barks?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that dogs don't bark and exactly one of cats or birds barks?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees, bushes, and grass are plants. plants normally contain chlorophyll. at least one of trees or bushes does not contain chlorophyll.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grass contains chlorophyll and exactly one of trees or bushes does not contain chlorophyll?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grass doesn't contain chlorophyll and exactly one of trees or bushes does not contain chlorophyll?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grass contains chlorophyll and exactly one of trees or bushes contains chlorophyll?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grass doesn't contain chlorophyll and exactly one of trees or bushes contains chlorophyll?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and pears are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that pears are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that pears aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pears aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals usually have four legs. at least one of cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that rabbits have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits don't have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits don't have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and carrots are fruits. fruits are normally sweet in taste. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that carrots are sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that carrots aren't sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that carrots are sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots aren't sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, potatoes, and carrots are vegetables. vegetables are normally grown in a garden. at least one of tomatoes or potatoes is not being grown in a garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that carrots are being grown in a garden and exactly one of tomatoes or potatoes is not being grown in a garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that carrots aren't being grown in a garden and exactly one of tomatoes or potatoes is not being grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots are being grown in a garden and exactly one of tomatoes or potatoes is being grown in a garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots aren't being grown in a garden and exactly one of tomatoes or potatoes is being grown in a garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and grapes are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that grapes are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that grapes aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and pears are fruits. fruits are normally juicy. at least one of apples or bananas is not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pears are juicy and exactly one of apples or bananas is not juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pears aren't juicy and exactly one of apples or bananas is not juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears are juicy and exactly one of apples or bananas is juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pears aren't juicy and exactly one of apples or bananas is juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet in taste. at least one of the apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of the apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of the apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are sweet in taste and exactly one of the apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of the apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits usually have a sweet taste. at least one of apples or oranges does not have a sweet taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas have a sweet taste and exactly one of apples or oranges does not have a sweet taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas don't have a sweet taste and exactly one of apples or oranges does not have a sweet taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas have a sweet taste and exactly one of apples or oranges has a sweet taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas don't have a sweet taste and exactly one of apples or oranges has a sweet taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually healthy snacks. at least one of apples or oranges is not a healthy snack.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas are healthy snacks and exactly one of apples or oranges is not a healthy snack?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't healthy snacks and exactly one of apples or oranges is not a healthy snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are healthy snacks and exactly one of apples or oranges is a healthy snack?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't healthy snacks and exactly one of apples or oranges is a healthy snack?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, dave, and mark are academics. academics are normally well-read individuals. at least one of john or dave is not a well-read individual.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that mark is a well-read individual and exactly one of john or dave is not a well-read individual?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that mark isn't a well-read individual and exactly one of john or dave is not a well-read individual?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mark is a well-read individual and exactly one of john or dave is a well-read individual?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that mark isn't a well-read individual and exactly one of john or dave is a well-read individual?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and lemons are fruits. fruits are normally sweet. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lemons are sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that lemons aren't sweet and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that lemons are sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that lemons aren't sweet and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cars, bikes, and scooters have four wheels. four-wheeled vehicles are normally used for transportation. at least one of cars or bikes is not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that scooters are used for transportation and exactly one of cars or bikes is not used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that scooters aren't used for transportation and exactly one of cars or bikes is not used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that scooters are used for transportation and exactly one of cars or bikes is used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that scooters aren't used for transportation and exactly one of cars or bikes is used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals usually have fur. at least one of cats or dogs does not have fur.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that rabbits have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits don't have fur and exactly one of cats or dogs does not have fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits don't have fur and exactly one of cats or dogs has fur?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are usually warm-blooded. at least one of cats or dogs is not warm-blooded.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses are warm-blooded and exactly one of cats or dogs is not warm-blooded?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses aren't warm-blooded and exactly one of cats or dogs is not warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are warm-blooded and exactly one of cats or dogs is warm-blooded?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses aren't warm-blooded and exactly one of cats or dogs is warm-blooded?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are normally found in different habitats. at least one of cats or dogs is not found in its natural habitat.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are found in their natural habitat and exactly one of cats or dogs is not found in its natural habitat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses aren't found in their natural habitat and exactly one of cats or dogs is not found in its natural habitat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are found in their natural habitat and exactly one of cats or dogs is found in its natural habitat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses aren't found in their natural habitat and exactly one of cats or dogs is found in its natural habitat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and bananas are fruits. fruits usually have a sweet taste. at least one of apples or pears does not have a sweet taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas have a sweet taste and exactly one of apples or pears does not have a sweet taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas don't have a sweet taste and exactly one of apples or pears does not have a sweet taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas have a sweet taste and exactly one of apples or pears has a sweet taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas don't have a sweet taste and exactly one of apples or pears has a sweet taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and lemons are fruits. fruits are normally sweet in taste. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lemons are sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that lemons aren't sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that lemons are sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that lemons aren't sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals usually have four legs. at least one of cats or dogs has less than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that horses don't have four legs and exactly one of cats or dogs has less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses don't have four legs and exactly one of cats or dogs doesn't have less than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "trees, rocks, and houses are structures. structures are normally built with a purpose. at least one of the trees or rocks is not built with a purpose.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that houses are built with a purpose and exactly one of the trees or rocks is not built with a purpose?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that houses aren't built with a purpose and exactly one of the trees or rocks is not built with a purpose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that houses are built with a purpose and exactly one of the trees or rocks is built with a purpose?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that houses aren't built with a purpose and exactly one of the trees or rocks is built with a purpose?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, grapes, and apples are fruits. fruits are normally sweet. at least one of tomatoes or grapes is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet and exactly one of tomatoes or grapes is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and exactly one of tomatoes or grapes is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples are sweet and exactly one of tomatoes or grapes is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and exactly one of tomatoes or grapes is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and pears are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pears are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that pears aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and mice are animals. animals usually have four legs. at least one of cats or dogs does not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that mice have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that mice don't have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits normally contain vitamin c. at least one of apples or bananas does not contain vitamin c.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that oranges contain vitamin c and exactly one of apples or bananas does not contain vitamin c?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that oranges don't contain vitamin c and exactly one of apples or bananas does not contain vitamin c?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges contain vitamin c and exactly one of apples or bananas contains vitamin c?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that oranges don't contain vitamin c and exactly one of apples or bananas contains vitamin c?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and pears are fruits. fruits are normally sweet in taste. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that pears are sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that pears aren't sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears are sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears aren't sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet in taste. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, peppers, and carrots are vegetables. vegetables are normally grown in the garden. at least one of tomatoes or peppers is not grown in the garden.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that carrots are grown in the garden and exactly one of tomatoes or peppers is not grown in the garden?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in the garden and exactly one of tomatoes or peppers is not grown in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots are grown in the garden and exactly one of tomatoes or peppers is grown in the garden?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots aren't grown in the garden and exactly one of tomatoes or peppers is grown in the garden?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally juicy. at least one of apples or oranges is not juicy.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are juicy and exactly one of apples or oranges is not juicy?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't juicy and exactly one of apples or oranges is not juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are juicy and exactly one of apples or oranges is juicy?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't juicy and exactly one of apples or oranges is juicy?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals are normally kept as pets. at least one of cats or dogs is not kept as a pet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that rabbits are kept as pets and exactly one of cats or dogs is not kept as a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that rabbits aren't kept as pets and exactly one of cats or dogs is not kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits are kept as pets and exactly one of cats or dogs is kept as a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that rabbits aren't kept as pets and exactly one of cats or dogs is kept as a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mary, and jake are musicians. musicians usually play instruments. at least one of john, mary is not playing an instrument.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that jake is playing an instrument and exactly one of john, mary is not playing an instrument?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that jake isn't playing an instrument and exactly one of john, mary is not playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jake is playing an instrument and exactly one of john, mary is playing an instrument?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that jake isn't playing an instrument and exactly one of john, mary is playing an instrument?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, carrots, and potatoes are vegetables. vegetables are normally eaten raw. at least one of tomatoes or carrots is not eaten raw.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that potatoes are eaten raw and exactly one of tomatoes or carrots is not eaten raw?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that potatoes aren't eaten raw and exactly one of tomatoes or carrots is not eaten raw?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that potatoes are eaten raw and exactly one of tomatoes or carrots is eaten raw?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that potatoes aren't eaten raw and exactly one of tomatoes or carrots is eaten raw?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals normally bark or meow. at least one of the cats or dogs does not bark or meow.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses bark or meow and exactly one of the cats or dogs does not bark or meow?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that horses don't bark or meow and exactly one of the cats or dogs does not bark or meow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses bark or meow and exactly one of the cats or dogs barks or meow?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses don't bark or meow and exactly one of the cats or dogs barks or meow?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, maria, and chris are writers. writers usually write stories. at least one of john, maria is not writing stories.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that chris is writing stories and exactly one of john, maria is not writing stories?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that chris isn't writing stories and exactly one of john, maria is not writing stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that chris is writing stories and exactly one of john, maria is writing stories?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that chris isn't writing stories and exactly one of john, maria is writing stories?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and parrots are animals. animals usually have four legs. at least one of cats or dogs does not have four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that parrots have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that parrots don't have four legs and exactly one of cats or dogs does not have four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that parrots have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that parrots don't have four legs and exactly one of cats or dogs has four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, potatoes, and carrots are vegetables. vegetables are normally grown in farms. at least one of tomatoes or potatoes is not grown in farms.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that carrots are grown in farms and exactly one of tomatoes or potatoes is not grown in farms?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that carrots aren't grown in farms and exactly one of tomatoes or potatoes is not grown in farms?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that carrots are grown in farms and exactly one of tomatoes or potatoes is grown in farms?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that carrots aren't grown in farms and exactly one of tomatoes or potatoes is grown in farms?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bananas are sweet and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas are sweet and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are usually sweet in taste. at least one of the apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet in taste and exactly one of the apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of the apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals are normally seen in the wild. at least one of the cats or dogs is not seen in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that rabbits are seen in the wild and exactly one of the cats or dogs is not seen in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that rabbits aren't seen in the wild and exactly one of the cats or dogs is not seen in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits are seen in the wild and exactly one of the cats or dogs is seen in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits aren't seen in the wild and exactly one of the cats or dogs is seen in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, peter, and simon are teachers. teachers usually have a degree in their profession. at least one of john or peter does not have a degree in teaching.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that simon has a degree in teaching and exactly one of john or peter does not have a degree in teaching?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that simon doesn't have a degree in teaching and exactly one of john or peter does not have a degree in teaching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that simon has a degree in teaching and exactly one of john or peter has a degree in teaching?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that simon doesn't have a degree in teaching and exactly one of john or peter has a degree in teaching?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "jaguars, lions, and tigers are cats. cats are normally carnivores. at least one of the jaguars or lions is not a carnivore.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that tigers are carnivores and exactly one of the jaguars or lions is not a carnivore?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that tigers aren't carnivores and exactly one of the jaguars or lions is not a carnivore?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that tigers are carnivores and exactly one of the jaguars or lions is a carnivore?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that tigers aren't carnivores and exactly one of the jaguars or lions is a carnivore?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are normally found in nature. at least one of cats or dogs is not found in nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that horses aren't found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses are found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses aren't found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and birds are animals. animals are normally found in the wild. at least one of cats or dogs is not found in the wild.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that birds are found in the wild and exactly one of cats or dogs is not found in the wild?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that birds aren't found in the wild and exactly one of cats or dogs is not found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that birds are found in the wild and exactly one of cats or dogs is found in the wild?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that birds aren't found in the wild and exactly one of cats or dogs is found in the wild?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and peaches are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that peaches are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that peaches aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that peaches are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that peaches aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and pears are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that pears are sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pears aren't sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears are sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that pears aren't sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, oranges, and apples are fruits. fruits are normally sweet. at least one of tomatoes or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that apples are sweet and exactly one of tomatoes or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and exactly one of tomatoes or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples are sweet and exactly one of tomatoes or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and exactly one of tomatoes or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are mammals. mammals normally produce milk. at least one of cats or dogs is not producing milk.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that horses are producing milk and exactly one of cats or dogs is not producing milk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses aren't producing milk and exactly one of cats or dogs is not producing milk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are producing milk and exactly one of cats or dogs is producing milk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses aren't producing milk and exactly one of cats or dogs is producing milk?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet to taste. at least one of apples or oranges is not sweet to taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet to taste and exactly one of apples or oranges is not sweet to taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet to taste and exactly one of apples or oranges is not sweet to taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet to taste and exactly one of apples or oranges is sweet to taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bananas aren't sweet to taste and exactly one of apples or oranges is sweet to taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apple, banana, and pineapple are fruits. fruits are normally sweet . at least one of apple or banana is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that pineapple is sweet and exactly one of apple or banana is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pineapple isn't sweet and exactly one of apple or banana is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that pineapple is sweet and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pineapple isn't sweet and exactly one of apple or banana is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals normally have four legs. at least one of the cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that rabbits have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that rabbits don't have four legs and exactly one of the cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that rabbits don't have four legs and exactly one of the cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "flamingos, pelicans, and ducks are birds. birds normally have wings. at least one of the flamingos or pelicans does not have wings.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that ducks have wings and exactly one of the flamingos or pelicans does not have wings?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that ducks don't have wings and exactly one of the flamingos or pelicans does not have wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that ducks have wings and exactly one of the flamingos or pelicans has wings?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that ducks don't have wings and exactly one of the flamingos or pelicans has wings?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and oranges are fruits. fruits are normally sweet in taste. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that oranges are sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that oranges aren't sweet in taste and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet in taste and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "lions, tigers, and bears are carnivores. carnivores normally eat meat. at least one of lions or tigers is not eating meat.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bears are eating meat and exactly one of lions or tigers is not eating meat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that bears aren't eating meat and exactly one of lions or tigers is not eating meat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bears are eating meat and exactly one of lions or tigers is eating meat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that bears aren't eating meat and exactly one of lions or tigers is eating meat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and pears are fruits. fruits are normally sweet in taste. at least one of apples or oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that pears are sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that pears aren't sweet in taste and exactly one of apples or oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears are sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that pears aren't sweet in taste and exactly one of apples or oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mary, and bill are teachers. teachers normally work in schools. at least one of john or mary is not working in a school.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bill is working in a school and exactly one of john or mary is not working in a school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bill isn't working in a school and exactly one of john or mary is not working in a school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bill is working in a school and exactly one of john or mary is working in a school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bill isn't working in a school and exactly one of john or mary is working in a school?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits normally have seeds. at least one of apples or oranges does not have seeds.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that bananas have seeds and exactly one of apples or oranges does not have seeds?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas don't have seeds and exactly one of apples or oranges does not have seeds?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas have seeds and exactly one of apples or oranges has seeds?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas don't have seeds and exactly one of apples or oranges has seeds?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals normally have four legs. at least one of cats or dogs has fewer than four legs.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that horses have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses don't have four legs and exactly one of cats or dogs has fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that horses have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses don't have four legs and exactly one of cats or dogs doesn't have fewer than four legs?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and grapes are fruits. fruits are normally sweet. at least one of apples, oranges is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that grapes are sweet and exactly one of apples, oranges is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that grapes aren't sweet and exactly one of apples, oranges is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that grapes are sweet and exactly one of apples, oranges is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that grapes aren't sweet and exactly one of apples, oranges is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and fish are animals. animals are normally found in homes. at least one of cats or dogs is not found in homes.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that fish are found in homes and exactly one of cats or dogs is not found in homes?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that fish aren't found in homes and exactly one of cats or dogs is not found in homes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that fish are found in homes and exactly one of cats or dogs is found in homes?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that fish aren't found in homes and exactly one of cats or dogs is found in homes?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, bananas, and carrots are fruits. fruits are normally sweet. at least one of apples or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that carrots are sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this imply that carrots aren't sweet and exactly one of apples or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that carrots are sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that carrots aren't sweet and exactly one of apples or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and horses are animals. animals are usually considered to be intelligent creatures. at least one of cats or dogs is not considered intelligent.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that horses are considered to be intelligent creatures and exactly one of cats or dogs is not considered intelligent?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that horses aren't considered to be intelligent creatures and exactly one of cats or dogs is not considered intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that horses are considered to be intelligent creatures and exactly one of cats or dogs is considered intelligent?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that horses aren't considered to be intelligent creatures and exactly one of cats or dogs is considered intelligent?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "john, mark, and lisa are chefs. chefs usually cook delicious food. at least one of john, mark is not cooking delicious food.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that lisa is cooking delicious food and exactly one of john, mark is not cooking delicious food?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that lisa isn't cooking delicious food and exactly one of john, mark is not cooking delicious food?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that lisa is cooking delicious food and exactly one of john, mark is cooking delicious food?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that lisa isn't cooking delicious food and exactly one of john, mark is cooking delicious food?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, oranges, and bananas are fruits. fruits are normally sweet in taste . at least one of apples or oranges is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that bananas are sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bananas aren't sweet in taste and exactly one of apples or oranges is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that bananas are sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bananas aren't sweet in taste and exactly one of apples or oranges is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, bananas, and apples are fruits. fruits are usually sweet. at least one of tomatoes or bananas is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that apples are sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that apples aren't sweet and exactly one of tomatoes or bananas is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that apples are sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet and exactly one of tomatoes or bananas is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "dogs, cats, and birds are animals. animals usually have fur or feathers. at least one of the dogs or cats does not have fur or feathers.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that birds have feathers and exactly one of the dogs or cats does not have fur or feathers?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that birds don't have feathers and exactly one of the dogs or cats does not have fur or feathers?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this entail that birds have feathers and exactly one of the dogs or cats has fur or feathers?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that birds don't have feathers and exactly one of the dogs or cats has fur or feathers?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and birds are animals. animals normally live in homes. at least one of the cats or dogs is not living in a home.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that birds are living in a home and exactly one of the cats or dogs is not living in a home?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that birds aren't living in a home and exactly one of the cats or dogs is not living in a home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that birds are living in a home and exactly one of the cats or dogs is living in a home?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that birds aren't living in a home and exactly one of the cats or dogs is living in a home?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "cats, dogs, and rabbits are animals. animals are normally found in nature. at least one of cats or dogs is not found in nature.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that rabbits are found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that rabbits aren't found in nature and exactly one of cats or dogs is not found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that rabbits are found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that rabbits aren't found in nature and exactly one of cats or dogs is found in nature?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "planes, cars, and bicycles are vehicles. vehicles are normally used for transportation. at least one of the planes or cars is not used for transportation.",
+            "qa_pairs": [
+                {
+                    "question": "does this mean that bicycles are used for transportation and exactly one of the planes or cars is not used for transportation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that bicycles aren't used for transportation and exactly one of the planes or cars is not used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bicycles are used for transportation and exactly one of the planes or cars is used for transportation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that bicycles aren't used for transportation and exactly one of the planes or cars is used for transportation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "apples, pears, and oranges are fruits. fruits are usually sweet. at least one of apples or pears is not sweet.",
+            "qa_pairs": [
+                {
+                    "question": "does this imply that oranges are sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this entail that oranges aren't sweet and exactly one of apples or pears is not sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this imply that oranges are sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that oranges aren't sweet and exactly one of apples or pears is sweet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "tomatoes, bananas, and apples are fruits. fruits are normally sweet in taste. at least one of tomatoes or bananas is not sweet in taste.",
+            "qa_pairs": [
+                {
+                    "question": "does this entail that apples are sweet in taste and exactly one of tomatoes or bananas is not sweet in taste?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet in taste and exactly one of tomatoes or bananas is not sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples are sweet in taste and exactly one of tomatoes or bananas is sweet in taste?",
+                    "answer": "no"
+                },
+                {
+                    "question": "does this mean that apples aren't sweet in taste and exactly one of tomatoes or bananas is sweet in taste?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}

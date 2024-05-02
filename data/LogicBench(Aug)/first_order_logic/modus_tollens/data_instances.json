@@ -1,0 +1,3156 @@
+{
+    "type": "first_order_logic",
+    "axiom": "modus_tollens",
+    "data_samples": [
+        {
+            "context": "If someone is going on a holiday, then they have to book their tickets.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have to book his tickets, does this imply that john isn't going on a holiday?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have to book his tickets, does this entail that john is going on a holiday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to book his tickets, does this mean that john isn't going on a holiday?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to book his tickets, does this entail that john is going on a holiday?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet, then they love their pet.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't love her pet, does this imply that jill doesn't have a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't love her pet, does this mean that jill has a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she loves her pet, does this mean that jill doesn't have a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she loves her pet, does this imply that jill has a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone visits the bar, then they need to wear a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a face mask, does this mean that steve doesn't visit the bar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a face mask, does this entail that steve visits the bar?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a face mask, does this mean that steve doesn't visit the bar?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a face mask, does this mean that steve visits the bar?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a party, then they are expected to wear formal attire.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't expected to wear formal attire, does this mean that john isn't attending a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't expected to wear formal attire, does this imply that john is attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is expected to wear formal attire, does this entail that john isn't attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is expected to wear formal attire, does this entail that john is attending a party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a car , then they can drive to their destination.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive to his destination, does this mean that john doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive to his destination, does this mean that john has a car ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive to his destination, does this imply that john doesn't have a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive to his destination, does this imply that john has a car ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a car , then they can go for a long drive .",
+            "qa_pairs": [
+                {
+                    "question": "If he can't go for a long drive, does this imply that john doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't go for a long drive, does this imply that john has a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can go for a long drive, does this mean that john doesn't have a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can go for a long drive, does this imply that john has a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone owns a lamborghini, then they are wealthy.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't wealthy, does this entail that jack doesn't own a lamborghini?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't wealthy, does this imply that jack owns a lamborghini?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wealthy, does this imply that jack doesn't own a lamborghini?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wealthy, does this imply that jack owns a lamborghini?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone uses public transport, then they need to wear a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a mask, does this mean that john doesn't use public transport?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a mask, does this imply that john uses public transport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this mean that john doesn't use public transport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this imply that john uses public transport?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is in the library, then they are studying for an exam.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't studying for an exam, does this mean that cathy isn't in the library?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't studying for an exam, does this entail that cathy is in the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is studying for an exam, does this entail that cathy isn't in the library?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is studying for an exam, does this entail that cathy is in the library?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is trying to climb mount everest , then they need special equipment to accomplish the task .",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need special equipment to accomplish the task, does this entail that jill isn't trying to climb mount everest?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need special equipment to accomplish the task, does this imply that jill is trying to climb mount everest ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs special equipment to accomplish the task, does this entail that jill isn't trying to climb mount everest?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs special equipment to accomplish the task, does this mean that jill is trying to climb mount everest ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is eating dinner, then they are using forks.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't using forks, does this mean that john isn't eating dinner?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't using forks, does this mean that john is eating dinner?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is using forks, does this imply that john isn't eating dinner?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is using forks, does this imply that john is eating dinner?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes to the beach, then they need to wear a swimsuit.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to wear a swimsuit, does this entail that jill doesn't go to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to wear a swimsuit, does this imply that jill goes to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a swimsuit, does this entail that jill doesn't go to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a swimsuit, does this entail that jill goes to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone throws a party, then they need to buy a cake.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to buy a cake, does this entail that john didn't throw a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to buy a cake, does this entail that john threw a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to buy a cake, does this entail that john didn't throw a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to buy a cake, does this entail that john threw a party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet cat, then they have to feed it daily.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have to feed it daily, does this entail that john doesn't have a pet cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have to feed it daily, does this mean that john has a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to feed it daily, does this entail that john doesn't have a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to feed it daily, does this mean that john has a pet cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game , then they will win a prize.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't win a prize, does this mean that jill isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't win a prize, does this mean that jill is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize, does this entail that jill isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize, does this entail that jill is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for a test, then they can score well.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't score well, does this entail that john isn't studying for a test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't score well, does this entail that john is studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can score well, does this mean that john isn't studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can score well, does this imply that john is studying for a test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing cricket, then they need to wear a helmet.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a helmet, does this mean that dave isn't playing cricket?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a helmet, does this imply that dave is playing cricket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a helmet, does this mean that dave isn't playing cricket?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a helmet, does this imply that dave is playing cricket?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a person has a valid driver's license, then they can drive a car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive a car, does this entail that john doesn't have a valid driver's license?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive a car, does this imply that john has a valid driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this imply that john doesn't have a valid driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this imply that john has a valid driver's license?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has completed their high school , then they are eligible to apply for college.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't eligible to apply for college, does this imply that john hasn't completed his high school?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't eligible to apply for college, does this mean that john has completed his high school ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is eligible to apply for college, does this entail that john hasn't completed his high school?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is eligible to apply for college, does this entail that john has completed his high school ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing chess, then they will win the game.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't win the game, does this imply that charlie isn't playing chess?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't win the game, does this imply that charlie is playing chess?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this mean that charlie isn't playing chess?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this imply that charlie is playing chess?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a valid visa, then they can travel to any country.",
+            "qa_pairs": [
+                {
+                    "question": "If she can't travel to any country, does this entail that jill doesn't have a valid visa?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she can't travel to any country, does this imply that jill has a valid visa?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can travel to any country, does this mean that jill doesn't have a valid visa?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can travel to any country, does this imply that jill has a valid visa?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending an online class, then they need to have a laptop.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to have a laptop, does this imply that john isn't attending an online class?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to have a laptop, does this imply that john is attending an online class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to have a laptop, does this imply that john isn't attending an online class?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to have a laptop, does this entail that john is attending an online class?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is crossing the street, then they should look both ways before crossing.",
+            "qa_pairs": [
+                {
+                    "question": "If he shouldn't look both ways before crossing, does this entail that tom isn't crossing the street?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he shouldn't look both ways before crossing, does this entail that tom is crossing the street?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should look both ways before crossing, does this mean that tom isn't crossing the street?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should look both ways before crossing, does this mean that tom is crossing the street?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a computer, then they can surf the internet.",
+            "qa_pairs": [
+                {
+                    "question": "If she can't surf the internet, does this entail that sara doesn't have a computer?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she can't surf the internet, does this entail that sara has a computer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can surf the internet, does this mean that sara doesn't have a computer?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can surf the internet, does this entail that sara has a computer?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a seminar , then they need to take notes .",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to take notes, does this imply that john isn't attending a seminar?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to take notes, does this mean that john is attending a seminar ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take notes, does this entail that john isn't attending a seminar?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take notes, does this entail that john is attending a seminar ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student studies hard, then they will get good grades.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get good grades, does this imply that john doesn't study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get good grades, does this imply that john studies hard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get good grades, does this mean that john doesn't study hard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get good grades, does this imply that john studies hard?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone had a successful job interview , then they will be offered a job.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be offered a job, does this imply that suzie didn't have a successful job interview?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be offered a job, does this imply that suzie had a successful job interview ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be offered a job, does this entail that suzie didn't have a successful job interview?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be offered a job, does this mean that suzie had a successful job interview ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying mathematics, then they will understand the concepts easily.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't understand the concepts easily, does this mean that maria isn't studying mathematics?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't understand the concepts easily, does this entail that maria is studying mathematics?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will understand the concepts easily, does this imply that maria isn't studying mathematics?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will understand the concepts easily, does this entail that maria is studying mathematics?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student has submitted an assignment, then they will get a grade for the assignment.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a grade for the assignment, does this mean that john hasn't submitted an assignment?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a grade for the assignment, does this imply that john has submitted an assignment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a grade for the assignment, does this imply that john hasn't submitted an assignment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a grade for the assignment, does this mean that john has submitted an assignment?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is driving a car, then they need to wear a seat belt.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a seat belt, does this entail that john isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a seat belt, does this imply that john is driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a seat belt, does this mean that john isn't driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a seat belt, does this mean that john is driving a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is doing their grocery shopping, then they are using reusable bags.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't using reusable bags, does this imply that john isn't doing his grocery shopping?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't using reusable bags, does this entail that john is doing his grocery shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is using reusable bags, does this imply that john isn't doing his grocery shopping?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is using reusable bags, does this imply that john is doing his grocery shopping?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a car , then they can drive it .",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive it, does this entail that andrew doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive it, does this mean that andrew has a car ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive it, does this mean that andrew doesn't have a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive it, does this mean that andrew has a car ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has returned his library book, then they will be given a fine.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be given a fine, does this mean that john hasn't returned his library book?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be given a fine, does this entail that john has returned his library book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be given a fine, does this imply that john hasn't returned his library book?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be given a fine, does this imply that john has returned his library book?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is at the store, then they need to wear a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a mask, does this imply that john isn't at the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a mask, does this entail that john is at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this entail that john isn't at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this mean that john is at the store?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a person is travelling in a train, then they have to wear a seatbelt.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't have to wear a seatbelt, does this mean that rita isn't travelling in a train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't have to wear a seatbelt, does this entail that rita is travelling in a train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a seatbelt, does this mean that rita isn't travelling in a train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a seatbelt, does this mean that rita is travelling in a train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone owns a car, then they are eligible for car insurance.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't eligible for car insurance, does this entail that tom doesn't own a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't eligible for car insurance, does this entail that tom owns a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is eligible for car insurance, does this imply that tom doesn't own a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is eligible for car insurance, does this mean that tom owns a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a music festival, then they need to wear a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a face mask, does this imply that tom isn't attending a music festival?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a face mask, does this mean that tom is attending a music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a face mask, does this imply that tom isn't attending a music festival?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a face mask, does this entail that tom is attending a music festival?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet, then they must take care of it.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't take care of it, does this imply that tommy doesn't have a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't take care of it, does this entail that tommy has a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must take care of it, does this mean that tommy doesn't have a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must take care of it, does this mean that tommy has a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is cycling, then they must wear a helmet.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't wear a helmet, does this mean that john isn't cycling?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't wear a helmet, does this mean that john is cycling ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a helmet, does this imply that john isn't cycling?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a helmet, does this mean that john is cycling ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is at a restaurant, then they have to pay for their food.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have to pay for his food, does this imply that john isn't at a restaurant?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have to pay for his food, does this entail that john is at a restaurant?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to pay for his food, does this mean that john isn't at a restaurant?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to pay for his food, does this entail that john is at a restaurant?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is in the gym, then they are exercising regularly.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't exercising regularly, does this mean that john isn't in the gym?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't exercising regularly, does this mean that john is in the gym?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is exercising regularly, does this imply that john isn't in the gym?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is exercising regularly, does this entail that john is in the gym?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone visits the park, then they have to wear a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't have to wear a mask, does this entail that john doesn't visit the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't have to wear a mask, does this entail that john visits the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a mask, does this entail that john doesn't visit the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a mask, does this imply that john visits the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is taking an online course, then they can get a certificate after completing the course.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't get a certificate after completing the course, does this imply that john isn't taking an online course?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't get a certificate after completing the course, does this imply that john is taking an online course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can get a certificate after completing the course, does this imply that john isn't taking an online course?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can get a certificate after completing the course, does this mean that john is taking an online course?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a car, then they can drive to their destination.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive to his destination, does this imply that greg doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive to his destination, does this mean that greg has a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive to his destination, does this mean that greg doesn't have a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive to his destination, does this imply that greg has a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has finished their studies, then they can get a job.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't get a job, does this imply that james hasn't finished his studies?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't get a job, does this imply that james has finished his studies ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can get a job, does this mean that james hasn't finished his studies?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can get a job, does this imply that james has finished his studies ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is travelling by train, then they have to wear a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't have to wear a face mask, does this imply that jennifer isn't travelling by train?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't have to wear a face mask, does this entail that jennifer is travelling by train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a face mask, does this entail that jennifer isn't travelling by train?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she has to wear a face mask, does this entail that jennifer is travelling by train?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has applied for a job, then they will be called for an interview.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be called for an interview, does this mean that janet hasn't applied for a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be called for an interview, does this entail that janet has applied for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be called for an interview, does this mean that janet hasn't applied for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be called for an interview, does this entail that janet has applied for a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is visiting the museum, then they need to pay a ticket fee.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to pay a ticket fee, does this mean that john isn't visiting the museum?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to pay a ticket fee, does this entail that john is visiting the museum?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay a ticket fee, does this entail that john isn't visiting the museum?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay a ticket fee, does this imply that john is visiting the museum?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a video game , then they will get addicted to it .",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get addicted to it, does this entail that kathy isn't playing a video game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get addicted to it, does this entail that kathy is playing a video game ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get addicted to it, does this mean that kathy isn't playing a video game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get addicted to it, does this mean that kathy is playing a video game ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone leaves the country, then they need to fill in a departure form.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to fill in a departure form, does this mean that john doesn't leave the country?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to fill in a departure form, does this mean that john leaves the country?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to fill in a departure form, does this mean that john doesn't leave the country?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to fill in a departure form, does this imply that john leaves the country?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is skiing , then they need to wear a helmet .",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a helmet, does this imply that john isn't skiing?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a helmet, does this mean that john is skiing ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a helmet, does this entail that john isn't skiing?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a helmet, does this entail that john is skiing ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john is attending the party, then he is wearing a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't wearing a mask, does this imply that john isn't attending the party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't wearing a mask, does this mean that john is attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a mask, does this imply that john isn't attending the party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a mask, does this imply that john is attending the party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone orders takeout, then they need to pay for the order.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to pay for the order, does this imply that john doesn't order takeout?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to pay for the order, does this entail that john orders takeout?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay for the order, does this imply that john doesn't order takeout?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay for the order, does this mean that john orders takeout?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing chess , then they will win the game .",
+            "qa_pairs": [
+                {
+                    "question": "If he won't win the game, does this imply that john isn't playing chess?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't win the game, does this entail that john is playing chess ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this imply that john isn't playing chess?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this entail that john is playing chess ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If the students have submitted their assignments , then they will receive their grades.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive his grade, does this imply that john hasn't submitted his assignment?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive his grade, does this imply that john has submitted his assignment ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive his grade, does this imply that john hasn't submitted his assignment?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive his grade, does this mean that john has submitted his assignment ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is driving a car, then they need to wear a seatbelt.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to wear a seatbelt, does this imply that lilly isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to wear a seatbelt, does this mean that lilly is driving a car ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a seatbelt, does this imply that lilly isn't driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a seatbelt, does this mean that lilly is driving a car ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they are winning.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't winning, does this entail that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't winning, does this entail that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is winning, does this entail that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is winning, does this entail that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet dog, then they must take the dog for a walk everyday.",
+            "qa_pairs": [
+                {
+                    "question": "If she mustn't take the dog for a walk everyday, does this entail that sarah doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she mustn't take the dog for a walk everyday, does this imply that sarah has a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she must take the dog for a walk everyday, does this imply that sarah doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she must take the dog for a walk everyday, does this imply that sarah has a pet dog?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for an exam , then they are likely to get a good grade.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't likely to get a good grade, does this imply that jenny isn't studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't likely to get a good grade, does this imply that jenny is studying for an exam ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is likely to get a good grade, does this entail that jenny isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is likely to get a good grade, does this entail that jenny is studying for an exam ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is driving a car, then they have to follow the traffic rules.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have to follow the traffic rules, does this entail that mark isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have to follow the traffic rules, does this imply that mark is driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to follow the traffic rules, does this mean that mark isn't driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to follow the traffic rules, does this mean that mark is driving a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone visits the park, then they have to wear a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have to wear a mask, does this imply that john doesn't visit the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have to wear a mask, does this entail that john visits the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to wear a mask, does this imply that john doesn't visit the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has to wear a mask, does this imply that john visits the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a bus to work , then they save money on commuting.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't save money on commuting, does this mean that john doesn't take a bus to work?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't save money on commuting, does this entail that john takes a bus to work ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he saves money on commuting, does this mean that john doesn't take a bus to work?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he saves money on commuting, does this mean that john takes a bus to work ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is booking a flight, then they will get a confirmation email.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a confirmation email, does this mean that karen isn't booking a flight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a confirmation email, does this entail that karen is booking a flight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a confirmation email, does this imply that karen isn't booking a flight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a confirmation email, does this imply that karen is booking a flight?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is driving a car, then they need to wear a seat belt.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to wear a seat belt, does this entail that sandy isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to wear a seat belt, does this entail that sandy is driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a seat belt, does this mean that sandy isn't driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear a seat belt, does this entail that sandy is driving a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is eating an ice-cream, then they can get brain freeze.",
+            "qa_pairs": [
+                {
+                    "question": "If she can't get brain freeze, does this imply that jill isn't eating an ice-cream?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she can't get brain freeze, does this imply that jill is eating an ice-cream?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can get brain freeze, does this imply that jill isn't eating an ice-cream?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can get brain freeze, does this mean that jill is eating an ice-cream?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes the bus, then they will have to pay the fare.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't have to pay the fare, does this entail that amy doesn't take the bus?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't have to pay the fare, does this imply that amy takes the bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will have to pay the fare, does this entail that amy doesn't take the bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will have to pay the fare, does this imply that amy takes the bus?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone works in an office, then they need to wear formal attire.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to wear formal attire, does this imply that alex doesn't work in an office?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to wear formal attire, does this entail that alex works in an office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear formal attire, does this mean that alex doesn't work in an office?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to wear formal attire, does this imply that alex works in an office?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone requires a passport to travel abroad, then they should have a valid visa.",
+            "qa_pairs": [
+                {
+                    "question": "If he shouldn't have a valid visa, does this entail that john doesn't require a passport to travel abroad?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he shouldn't have a valid visa, does this imply that john requires a passport to travel abroad?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should have a valid visa, does this imply that john doesn't require a passport to travel abroad?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should have a valid visa, does this imply that john requires a passport to travel abroad?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet, then they need to take care of it.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to take care of it, does this mean that john doesn't have a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to take care of it, does this imply that john has a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take care of it, does this entail that john doesn't have a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take care of it, does this entail that john has a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a car has a flat tyre, then they needs to be towed.",
+            "qa_pairs": [
+                {
+                    "question": "If he didn't realize the car needs to be towed, does this imply that john didn't notice the car has a flat tyre?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he didn't realize the car needs to be towed, does this imply that john noticed the car has a flat tyre?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he realized the car needs to be towed, does this imply that john didn't notice the car has a flat tyre?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he realized the car needs to be towed, does this entail that john noticed the car has a flat tyre?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has purchased a new car, then they can take a road trip.",
+            "qa_pairs": [
+                {
+                    "question": "If she can't take a road trip, does this mean that jill hasn't purchased a new car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she can't take a road trip, does this imply that jill has purchased a new car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can take a road trip, does this imply that jill hasn't purchased a new car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can take a road trip, does this imply that jill has purchased a new car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone sends a text message, then they will be charged for the message.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be charged for the message, does this mean that john doesn't send a text message?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be charged for the message, does this imply that john sends a text message ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be charged for the message, does this mean that john doesn't send a text message?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be charged for the message, does this entail that john sends a text message ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student has passed their exams , then they will receive their degree.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive his degree, does this imply that john hasn't passed his exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive his degree, does this mean that john has passed his exams ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive his degree, does this imply that john hasn't passed his exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive his degree, does this mean that john has passed his exams ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has taken a loan , then they will have to return it with interest .",
+            "qa_pairs": [
+                {
+                    "question": "If he won't have to return it with interest, does this imply that bob hasn't taken a loan?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't have to return it with interest, does this mean that bob has taken a loan ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to return it with interest, does this imply that bob hasn't taken a loan?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to return it with interest, does this mean that bob has taken a loan ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone won a lottery, then they can buy a car .",
+            "qa_pairs": [
+                {
+                    "question": "If he can't buy a car, does this entail that john didn't win a lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't buy a car, does this entail that john won a lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can buy a car, does this mean that john didn't win a lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can buy a car, does this mean that john won a lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has gone for a walk , then they will get some exercise .",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get some exercise, does this imply that john hasn't gone for a walk?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get some exercise, does this mean that john has gone for a walk ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get some exercise, does this entail that john hasn't gone for a walk?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get some exercise, does this imply that john has gone for a walk ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is going to the beach, then they need to pack sunscreen.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to pack sunscreen, does this entail that john isn't going to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to pack sunscreen, does this entail that john is going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to pack sunscreen, does this imply that john isn't going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to pack sunscreen, does this imply that john is going to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for a test, then they need to score well.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to score well, does this entail that alice isn't studying for a test?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to score well, does this entail that alice is studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to score well, does this mean that alice isn't studying for a test?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to score well, does this entail that alice is studying for a test?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will be rewarded with points.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be rewarded with points, does this imply that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be rewarded with points, does this mean that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be rewarded with points, does this imply that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be rewarded with points, does this mean that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has saved enough money, then they can buy a car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't buy a car, does this entail that john hasn't saved enough money?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't buy a car, does this entail that john has saved enough money?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can buy a car, does this mean that john hasn't saved enough money?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can buy a car, does this entail that john has saved enough money?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will win a prize.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't win a prize, does this entail that jill isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't win a prize, does this mean that jill is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize, does this entail that jill isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize, does this entail that jill is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student has scored 75% marks in the exam, then they can get admission in the top college.",
+            "qa_pairs": [
+                {
+                    "question": "If they can't get admission in the top college, does this mean that john hasn't scored 75% marks in the exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If they can't get admission in the top college, does this entail that john has scored 75% marks in the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If they can get admission in the top college, does this entail that john hasn't scored 75% marks in the exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If they can get admission in the top college, does this entail that john has scored 75% marks in the exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet , then they need to provide it with food and shelter.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to provide it with food and shelter, does this entail that john doesn't have a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to provide it with food and shelter, does this entail that john has a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to provide it with food and shelter, does this imply that john doesn't have a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to provide it with food and shelter, does this mean that john has a pet?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for an exam, then they will get good grades.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get good grades, does this mean that john isn't studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get good grades, does this mean that john is studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get good grades, does this entail that john isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get good grades, does this imply that john is studying for an exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student has scored 90% in their exams , then they are eligible for a merit scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't eligible for a merit scholarship, does this entail that alice hasn't scored 90% in her exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't eligible for a merit scholarship, does this entail that alice has scored 90% in her exams ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is eligible for a merit scholarship, does this entail that alice hasn't scored 90% in her exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is eligible for a merit scholarship, does this mean that alice has scored 90% in her exams ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is in college, then they need to study hard.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to study hard, does this entail that jill isn't in college?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to study hard, does this mean that jill is in college?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to study hard, does this imply that jill isn't in college?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to study hard, does this mean that jill is in college?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone goes on a hike, then they will need a backpack .",
+            "qa_pairs": [
+                {
+                    "question": "If she won't need a backpack, does this entail that jill doesn't go on a hike?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't need a backpack, does this entail that jill goes on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will need a backpack, does this imply that jill doesn't go on a hike?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will need a backpack, does this entail that jill goes on a hike?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is visiting a castle, then they must be wearing a crown.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't be wearing a crown, does this imply that max isn't visiting a castle?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't be wearing a crown, does this entail that max is visiting a castle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must be wearing a crown, does this entail that max isn't visiting a castle?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must be wearing a crown, does this mean that max is visiting a castle?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will win the game.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't win the game, does this imply that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't win the game, does this entail that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this mean that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will win the game, does this mean that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is walking in the park, then they are wearing a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't wearing a face mask, does this mean that john isn't walking in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't wearing a face mask, does this entail that john is walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a face mask, does this mean that john isn't walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a face mask, does this mean that john is walking in the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is cooking a meal, then they are using a pressure cooker.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't using a pressure cooker, does this entail that jill isn't cooking a meal?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't using a pressure cooker, does this entail that jill is cooking a meal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is using a pressure cooker, does this entail that jill isn't cooking a meal?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is using a pressure cooker, does this entail that jill is cooking a meal?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a full tank of fuel, then they can drive all day without refilling.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive all day without refilling, does this mean that john doesn't have a full tank of fuel?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive all day without refilling, does this entail that john has a full tank of fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive all day without refilling, does this imply that john doesn't have a full tank of fuel?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive all day without refilling, does this entail that john has a full tank of fuel?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is at the store, then they are wearing a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't wearing a mask, does this entail that jill isn't at the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't wearing a mask, does this entail that jill is at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is wearing a mask, does this mean that jill isn't at the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is wearing a mask, does this entail that jill is at the store?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is participating in an online event , then they need an internet connection.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need an internet connection, does this entail that shelley isn't participating in an online event?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need an internet connection, does this mean that shelley is participating in an online event ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs an internet connection, does this entail that shelley isn't participating in an online event?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs an internet connection, does this imply that shelley is participating in an online event ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone buys a car, then they will have to pay a registration fee.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't have to pay a registration fee, does this entail that jack didn't buy a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't have to pay a registration fee, does this imply that jack bought a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to pay a registration fee, does this mean that jack didn't buy a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will have to pay a registration fee, does this imply that jack bought a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is travelling to europe, then they need to get a visa.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to get a visa, does this imply that sarah isn't travelling to europe?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to get a visa, does this mean that sarah is travelling to europe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to get a visa, does this imply that sarah isn't travelling to europe?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to get a visa, does this mean that sarah is travelling to europe?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet dog, then they need to take care of their dog.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to take care of his dog, does this mean that john doesn't have a pet dog?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to take care of his dog, does this mean that john has a pet dog ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take care of his dog, does this mean that john doesn't have a pet dog?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to take care of his dog, does this mean that john has a pet dog ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is going to the store , then they will buy something .",
+            "qa_pairs": [
+                {
+                    "question": "If he won't buy something, does this mean that john isn't going to the store?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't buy something, does this mean that john is going to the store ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy something, does this mean that john isn't going to the store?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will buy something, does this mean that john is going to the store ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game , then they need to complete a certain level .",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to complete a certain level, does this mean that jill isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to complete a certain level, does this imply that jill is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to complete a certain level, does this entail that jill isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to complete a certain level, does this entail that jill is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone gets a scholarship, then they can pursue higher studies.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't pursue higher studies, does this mean that john doesn't get a scholarship?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't pursue higher studies, does this imply that john gets a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can pursue higher studies, does this mean that john doesn't get a scholarship?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can pursue higher studies, does this imply that john gets a scholarship?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is walking in the park, then they need to wear a mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a mask, does this entail that john isn't walking in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a mask, does this entail that john is walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this imply that john isn't walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a mask, does this imply that john is walking in the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will win a prize if they complete all the levels.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't win a prize if she completes all the levels, does this entail that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't win a prize if she completes all the levels, does this imply that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize if she completes all the levels, does this imply that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will win a prize if she completes all the levels, does this entail that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will get a high score.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get a high score, does this mean that linda isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get a high score, does this entail that linda is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a high score, does this imply that linda isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get a high score, does this mean that linda is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a college degree, then they have higher chances of getting a job.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't have higher chances of getting a job, does this imply that john doesn't have a college degree?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't have higher chances of getting a job, does this imply that john has a college degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has higher chances of getting a job, does this entail that john doesn't have a college degree?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he has higher chances of getting a job, does this mean that john has a college degree?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is applying for a job, then they must have a degree.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't have a degree, does this imply that tim isn't applying for a job?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't have a degree, does this entail that tim is applying for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must have a degree, does this imply that tim isn't applying for a job?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must have a degree, does this entail that tim is applying for a job?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing video games, then they will get addicted to it.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get addicted to it, does this mean that john isn't playing video games?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get addicted to it, does this mean that john is playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get addicted to it, does this mean that john isn't playing video games?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get addicted to it, does this mean that john is playing video games?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a sport, then they need to wear protective gear.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear protective gear, does this mean that john isn't playing a sport?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear protective gear, does this imply that john is playing a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear protective gear, does this entail that john isn't playing a sport?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear protective gear, does this entail that john is playing a sport?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is travelling to india, then they need to get a visa .",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to get a visa, does this imply that beth isn't travelling to india?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to get a visa, does this imply that beth is travelling to india ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to get a visa, does this entail that beth isn't travelling to india?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to get a visa, does this imply that beth is travelling to india ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is going to the beach, then they need to pack sunscreen.",
+            "qa_pairs": [
+                {
+                    "question": "If she doesn't need to pack sunscreen, does this imply that samantha isn't going to the beach?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she doesn't need to pack sunscreen, does this imply that samantha is going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to pack sunscreen, does this mean that samantha isn't going to the beach?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she needs to pack sunscreen, does this imply that samantha is going to the beach?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone drives a car, then they must have a valid driver's license.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't have a valid driver's license, does this entail that john doesn't drive a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't have a valid driver's license, does this imply that john drives a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must have a valid driver's license, does this imply that john doesn't drive a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must have a valid driver's license, does this mean that john drives a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a video game, then they are spending their free time.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't spending his free time, does this mean that jacob isn't playing a video game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't spending his free time, does this imply that jacob is playing a video game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is spending his free time, does this mean that jacob isn't playing a video game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is spending his free time, does this entail that jacob is playing a video game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet cat , then they need to feed it daily .",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to feed it daily, does this entail that john doesn't have a pet cat?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to feed it daily, does this mean that john has a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to feed it daily, does this entail that john doesn't have a pet cat?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to feed it daily, does this mean that john has a pet cat?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they need to pay an entry fee.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to pay an entry fee, does this entail that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to pay an entry fee, does this mean that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay an entry fee, does this mean that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay an entry fee, does this imply that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a valid driver's license, then they can drive a car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive a car, does this mean that john doesn't have a valid driver's license?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive a car, does this mean that john has a valid driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this imply that john doesn't have a valid driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this imply that john has a valid driver's license?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone owns a car , then they can travel long distances .",
+            "qa_pairs": [
+                {
+                    "question": "If he can't travel long distances, does this imply that john doesn't own a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't travel long distances, does this mean that john owns a car ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can travel long distances, does this mean that john doesn't own a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can travel long distances, does this imply that john owns a car ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a party, then they are wearing a formal dress.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't wearing a formal dress, does this entail that steve isn't attending a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't wearing a formal dress, does this mean that steve is attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a formal dress, does this entail that steve isn't attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is wearing a formal dress, does this imply that steve is attending a party?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a driving license, then they can drive a car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive a car, does this imply that steven doesn't have a driving license?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive a car, does this imply that steven has a driving license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this imply that steven doesn't have a driving license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this mean that steven has a driving license?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If a student has scored 90% in their final exams, then they will receive a scholarship.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't receive a scholarship, does this imply that john hasn't scored 90% in his final exams?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't receive a scholarship, does this imply that john has scored 90% in his final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a scholarship, does this imply that john hasn't scored 90% in his final exams?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will receive a scholarship, does this imply that john has scored 90% in his final exams?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone drives a car, then they need to wear a seat belt.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to wear a seat belt, does this imply that john doesn't drive a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to wear a seat belt, does this mean that john drives a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a seat belt, does this entail that john doesn't drive a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to wear a seat belt, does this mean that john drives a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a football match, then they must wear a facial mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't wear a facial mask, does this mean that john isn't attending a football match?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't wear a facial mask, does this mean that john is attending a football match?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a facial mask, does this entail that john isn't attending a football match?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a facial mask, does this entail that john is attending a football match?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is visiting a museum , then they must wear a face mask .",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't wear a face mask, does this entail that john isn't visiting a museum?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't wear a face mask, does this entail that john is visiting a museum ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a face mask, does this mean that john isn't visiting a museum?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a face mask, does this entail that john is visiting a museum ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is running a marathon, then they will be exhausted after the race.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be exhausted after the race, does this mean that john isn't running a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be exhausted after the race, does this entail that john is running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be exhausted after the race, does this imply that john isn't running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be exhausted after the race, does this imply that john is running a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has been given a prescription, then they need to buy the medication from the pharmacy.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to buy the medication from the pharmacy, does this mean that john hasn't been given a prescription?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to buy the medication from the pharmacy, does this entail that john has been given a prescription?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to buy the medication from the pharmacy, does this entail that john hasn't been given a prescription?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to buy the medication from the pharmacy, does this imply that john has been given a prescription?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a flight, then they have to wear a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If she didn't have to wear a face mask, does this entail that jill didn't take a flight?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she didn't have to wear a face mask, does this entail that jill took a flight ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she had to wear a face mask, does this mean that jill didn't take a flight?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she had to wear a face mask, does this entail that jill took a flight ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is travelling by bus, then they must wear a face mask.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't wear a face mask, does this imply that john isn't travelling by bus?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't wear a face mask, does this mean that john is travelling by bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a face mask, does this imply that john isn't travelling by bus?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear a face mask, does this entail that john is travelling by bus?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing football, then they must wear protective gear.",
+            "qa_pairs": [
+                {
+                    "question": "If he mustn't wear protective gear, does this mean that jack isn't playing football?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he mustn't wear protective gear, does this entail that jack is playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear protective gear, does this mean that jack isn't playing football?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he must wear protective gear, does this imply that jack is playing football?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a taxi, then they will pay the fare.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't pay the fare, does this mean that john doesn't take a taxi?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't pay the fare, does this mean that john takes a taxi?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pay the fare, does this mean that john doesn't take a taxi?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will pay the fare, does this entail that john takes a taxi?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has won the lottery, then they will become a millionaire.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't become a millionaire, does this imply that tom hasn't won the lottery?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't become a millionaire, does this mean that tom has won the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will become a millionaire, does this entail that tom hasn't won the lottery?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will become a millionaire, does this imply that tom has won the lottery?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is driving a car, then they must have a valid license.",
+            "qa_pairs": [
+                {
+                    "question": "If she mustn't have a valid license, does this entail that jennifer isn't driving a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she mustn't have a valid license, does this mean that jennifer is driving a car ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she must have a valid license, does this imply that jennifer isn't driving a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she must have a valid license, does this mean that jennifer is driving a car ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is eating a banana , then they will get vitamin c.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get vitamin c, does this entail that john isn't eating a banana?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get vitamin c, does this mean that john is eating a banana ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get vitamin c, does this entail that john isn't eating a banana?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get vitamin c, does this entail that john is eating a banana ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone takes a loan, then they need to pay it back with interest.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to pay it back with interest, does this mean that john doesn't take a loan?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to pay it back with interest, does this entail that john takes a loan?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay it back with interest, does this imply that john doesn't take a loan?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay it back with interest, does this mean that john takes a loan?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they need to pay to continue playing.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to pay to continue playing, does this imply that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to pay to continue playing, does this entail that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay to continue playing, does this entail that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to pay to continue playing, does this imply that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they are completing levels.",
+            "qa_pairs": [
+                {
+                    "question": "If he isn't completing levels, does this imply that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he isn't completing levels, does this mean that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is completing levels, does this mean that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he is completing levels, does this entail that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for an exam , then they will be able to pass the exam.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't be able to pass the exam, does this entail that john isn't studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't be able to pass the exam, does this imply that john is studying for an exam ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to pass the exam, does this entail that john isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will be able to pass the exam, does this mean that john is studying for an exam ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a car, then they can go for a long drive.",
+            "qa_pairs": [
+                {
+                    "question": "If she can't go for a long drive, does this entail that mandy doesn't have a car?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she can't go for a long drive, does this entail that mandy has a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can go for a long drive, does this imply that mandy doesn't have a car?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she can go for a long drive, does this imply that mandy has a car?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is going on a vacation, then they will be packing their bags.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be packing her bags, does this entail that jill isn't going on a vacation?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be packing her bags, does this imply that jill is going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be packing her bags, does this mean that jill isn't going on a vacation?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be packing her bags, does this imply that jill is going on a vacation?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone orders a pizza, then they will get it delivered within 30 minutes.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't get it delivered within 30 minutes, does this mean that jill doesn't order a pizza?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't get it delivered within 30 minutes, does this mean that jill orders a pizza?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get it delivered within 30 minutes, does this entail that jill doesn't order a pizza?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will get it delivered within 30 minutes, does this imply that jill orders a pizza?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing basketball , then they will be tired after the game.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't be tired after the game, does this mean that cindy isn't playing basketball?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't be tired after the game, does this mean that cindy is playing basketball ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be tired after the game, does this mean that cindy isn't playing basketball?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will be tired after the game, does this entail that cindy is playing basketball ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they should use a controller.",
+            "qa_pairs": [
+                {
+                    "question": "If he shouldn't use a controller, does this mean that john isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he shouldn't use a controller, does this mean that john is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should use a controller, does this mean that john isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he should use a controller, does this entail that john is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a driving license, then they can drive a car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive a car, does this mean that john doesn't have a driving license?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive a car, does this imply that john has a driving license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this mean that john doesn't have a driving license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive a car, does this entail that john has a driving license?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone studies hard , then they will ace the exams.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't ace the exams, does this imply that john doesn't study hard?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't ace the exams, does this entail that john studies hard ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will ace the exams, does this mean that john doesn't study hard?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will ace the exams, does this imply that john studies hard ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If john is running a marathon , then he needs to be physically fit .",
+            "qa_pairs": [
+                {
+                    "question": "If he needs to none physically fit, does this entail that john isn't running a marathon?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he needs to none physically fit, does this mean that john is running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to be physically fit, does this mean that john isn't running a marathon?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to be physically fit, does this mean that john is running a marathon?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a video game , then they can unlock new levels.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't unlock new levels, does this imply that john isn't playing a video game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't unlock new levels, does this mean that john is playing a video game ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can unlock new levels, does this entail that john isn't playing a video game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can unlock new levels, does this entail that john is playing a video game ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is attending a party , then they are wearing a face mask .",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't wearing a face mask, does this imply that jane isn't attending a party?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't wearing a face mask, does this imply that jane is attending a party ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is wearing a face mask, does this mean that jane isn't attending a party?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is wearing a face mask, does this imply that jane is attending a party ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a driver's license, then they can drive any car.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't drive any car, does this entail that paul doesn't have a driver's license?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't drive any car, does this mean that paul has a driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive any car, does this mean that paul doesn't have a driver's license?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can drive any car, does this mean that paul has a driver's license?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is studying for an exam, then they will get a good grade.",
+            "qa_pairs": [
+                {
+                    "question": "If he won't get a good grade, does this imply that mark isn't studying for an exam?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he won't get a good grade, does this imply that mark is studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a good grade, does this entail that mark isn't studying for an exam?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he will get a good grade, does this entail that mark is studying for an exam?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone has a pet , then they need to feed it.",
+            "qa_pairs": [
+                {
+                    "question": "If he doesn't need to feed it, does this mean that john doesn't have a pet?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he doesn't need to feed it, does this mean that john has a pet ?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to feed it, does this imply that john doesn't have a pet?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he needs to feed it, does this entail that john has a pet ?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is playing a game, then they will earn points.",
+            "qa_pairs": [
+                {
+                    "question": "If she won't earn points, does this mean that sara isn't playing a game?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she won't earn points, does this entail that sara is playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will earn points, does this mean that sara isn't playing a game?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she will earn points, does this imply that sara is playing a game?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone is walking in the park, then they are enjoying the fresh air.",
+            "qa_pairs": [
+                {
+                    "question": "If she isn't enjoying the fresh air, does this mean that sara isn't walking in the park?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If she isn't enjoying the fresh air, does this imply that sara is walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is enjoying the fresh air, does this imply that sara isn't walking in the park?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If she is enjoying the fresh air, does this imply that sara is walking in the park?",
+                    "answer": "no"
+                }
+            ]
+        },
+        {
+            "context": "If someone owns a house, then they can sell it for a high price.",
+            "qa_pairs": [
+                {
+                    "question": "If he can't sell it for a high price, does this entail that john doesn't own a house?",
+                    "answer": "yes"
+                },
+                {
+                    "question": "If he can't sell it for a high price, does this entail that john owns a house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can sell it for a high price, does this imply that john doesn't own a house?",
+                    "answer": "no"
+                },
+                {
+                    "question": "If he can sell it for a high price, does this mean that john owns a house?",
+                    "answer": "no"
+                }
+            ]
+        }
+    ]
+}
