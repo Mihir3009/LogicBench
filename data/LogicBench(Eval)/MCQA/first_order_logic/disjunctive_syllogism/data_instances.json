@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "disjunctive_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "It is known that one of the following options is true: someone goes to a museum or someone visits a park. the specific scenario could involve only the option to go to a museum being true, or only the option to visit a park being true, or both options being true. however, it is stated that jill is unable to go to a museum.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she can visit a park",
+                "choice_2": "they can go to a movie theater",
+                "choice_3": "she can go hiking",
+                "choice_4": "he can visit a zoo"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 2,
+            "context": "There is a situation where we have information about two options: either they are joining a club or attending a workshop. however, it is unknown which option is true or if both are true. we do know that anne is not joining a club.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she is attending a workshop",
+                "choice_2": "He is attending a workshop",
+                "choice_3": "They are joining a club",
+                "choice_4": "Lisa is attending a workshop"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "Only one of the following statements is true: either someone is able to take a leisurely walk or someone is able to go shopping. it is unknown which of these options is true, as it could be one, the other, or both. however, we do know that rock is unable to take a walk.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "John can go shopping.",
+                "choice_2": "Jane can take a leisurely walk.",
+                "choice_3": "Rock can go shopping.",
+                "choice_4": "Sarah can take a walk."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "It is known that there are possibilities in this scenario: either all students have the ability to play football or all students have the ability to watch movies, or maybe both statements are true. the specific case is that jill is not playing football.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Rachel can watch movie",
+                "choice_2": "Jill can watch movies",
+                "choice_3": "John can play footbal",
+                "choice_4": "James can swi"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "We are aware that one of the following statements is true: either a person can purchase groceries, or they can buy clothes. however, we do not have any information about which statement is accurate. it could be the case that only the option to buy groceries is true, or only the option to purchase clothes is true, or both options are true. it is important to note that jane is not buying groceries.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he can buy clothes",
+                "choice_2": "she can purchase clothes",
+                "choice_3": "they can purchase clothes",
+                "choice_4": "she cannot purchase groceries"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 6,
+            "context": "We are aware that there is a possibility that either theya are attending a summer camp or taking a cooking class might be true, but it is uncertain which one is the case. it could be that only attending a summer camp is true, or it could be that only taking a cooking class is true, or it is even possible that both options are true. unfortunately, dave is unable to attend a summer camp.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Attend a sports camp",
+                "choice_2": "Join a theater workshop",
+                "choice_3": "he can take a cooking class",
+                "choice_4": "Go on a family vacation"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 7,
+            "context": "Either they have the option to attend a theatre performance or they have the possibility to go to the museum, but it is unclear which one is true. it could be the case that only the option to attend the theatre performance is true, only the possibility to go to the museum is true, or both options are true. it is known that john is unable to attend the theatre performance.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he should stay at home",
+                "choice_2": "they can go to the beach",
+                "choice_3": "he can go to the museum",
+                "choice_4": "she can go to the museum"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 8,
+            "context": "We are aware that there is a possibility that either some individuals have the ability to write a book or some individuals have the skill to design a website. however, it is unclear which of these statements are true, as it could be that only the first statement is true, only the second statement is true, or both are true. it is important to note that sara is not writing a book.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "sara can write a book",
+                "choice_2": "john can design a website",
+                "choice_3": "sara can design a website",
+                "choice_4": "only jane can design a website"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 9,
+            "context": "It is known that one of the following statements is true: either all students have the ability to attend the lecture or some students have the option to study from home. the specific situation may be that only the first statement is true, or only the second statement is true, or both statements are true. unfortunately, john is not able to attend the lecture.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "It is impossible for John to study from home.",
+                "choice_2": "John must seek an alternative method of attending the lecture.",
+                "choice_3": "John can opt for home study.",
+                "choice_4": "Jane should consider studying from home instead."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "We are aware that either some individuals have the ability to take a leisurely stroll in the park or some individuals have the capability to go for a jog in the morning. we cannot determine which of these possibilities is true, as it could be that only the first statement is accurate, or only the second statement is accurate, or even that both statements hold true. despite this uncertainty, we can conclude that sarah is unable to partake in a walk in the park.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "sarah can go for a jog in the morning",
+                "choice_2": "sarah is able to take a leisurely stroll in the park",
+                "choice_3": "sarah has the ability to participate in any physical activity",
+                "choice_4": "sarah cannot go for a jog in the morning"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 11,
+            "context": "We are aware that one of the following options is true: either someone can delve into reading a book, or they can choose to go for a walk. however, it is uncertain which specific option is true, as it could be that only one of them is true, or possibly both. there is a person named jack who is not able to delve into reading activity.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "They can watch a movie",
+                "choice_2": "She can go for a walk",
+                "choice_3": "He can play a sport",
+                "choice_4": "He can go for a walk"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 12,
+            "context": "There is uncertainty about whether someone can choose to pursue a job or follow their passion, as it is unknown which of these options is true. it could be possible that either option is true or that only one of them is true. however, it is known that jane is unable to take up a job.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "john can pursue their passion",
+                "choice_2": "sarah can pursue their passion",
+                "choice_3": "adam can pursue their passion",
+                "choice_4": "jane can pursue their passion"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "It is uncertain whether it is necessary for everyone to take precautions or if everyone should stay home. it is possible that one of these options is correct, or that both are true. john is not required to take the necessary precautions.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Emily should take the necessary precautions",
+                "choice_2": "Sam should stay at home",
+                "choice_3": "Sarah should do whatever she wants",
+                "choice_4": "john should stay at home"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 14,
+            "context": "There are two options available: either someone is attending a business seminar or a professional conference, or attending a networking event. it is uncertain which option is true, as it could be either (1) attending a business seminar or a professional conference, or (2) attending a networking event. one of these options could be true or both could be true, but we cannot determine which one. it is not possible for jill to attend either a business seminar or a professional conference.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "he can attend a professional conference.",
+                "choice_2": "they can attend a networking event.",
+                "choice_3": "she can attend a business seminar.",
+                "choice_4": "she can attend a networking event."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "Either someone has the option of taking the bus or the train, or both options are available. we are unsure which option(s) are true. however, it is clear that jorge is not taking the bus.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "sophia can take the train",
+                "choice_2": "jorge can take the train",
+                "choice_3": "benjamin can take the bus",
+                "choice_4": "amanda can take the train"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 16,
+            "context": "It is known that one of two possibilities is true: they can either participate in a seminar or an event, or they can choose to volunteer for a charity. we do not have knowledge of which one(s) of these possibilities is true. it is possible that only the first option is true, or only the second option is true, or both options are true. however, it is certain that john is not able to attend either a seminar or an event.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He can attend an event.",
+                "choice_2": "He can participate in a seminar.",
+                "choice_3": "He can neither participate in a seminar nor attend an event.",
+                "choice_4": "He can volunteer for a charity."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "We are aware that either someone has the ability to stay out late or someone has the ability to go to bed early. it is unclear which of these statements is true, as it could be either one, or both. however, it is known that sophie is incapable of staying out late.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Sophie can go to bed early",
+                "choice_2": "Sophie can stay out late",
+                "choice_3": "John can go to bed early",
+                "choice_4": "Emily can stay out late"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "We have knowledge that either they have the option to enjoy a picnic or they can choose to watch a movie, although it is uncertain which of the two choices is true. it is possible that only the option of going on a picnic is true, or only the option of watching a movie is true, or both options are true. unfortunately, juan is not going for the picnic.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "they opt for a game night",
+                "choice_2": "he decides to go for a walk",
+                "choice_3": "she chooses to go shopping",
+                "choice_4": "he can watch a movie"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 19,
+            "context": "In this scenario, we are aware that there are two possibilities: either all students have the opportunity to attend a music festival, or all students have the option to join a reading club. however, it is unclear which of the two possibilities is true, as it could be either one, or even both. we are given the information that ally is unable to attend the music festival.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Emma can attend the music festival.",
+                "choice_2": "Ally can attend the music festival but chooses not to.",
+                "choice_3": "David can attend the music festival.",
+                "choice_4": "Ally can join a reading club."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "At least one of these two conditions holds true: either someone can play football or someone can go swimming, but it is uncertain which specific scenario applies. it could be that only the first condition is accurate, or solely the second condition, or perhaps both are valid. however, we do know for certain that sara is unable to participate in playing football.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "she can go swimming",
+                "choice_2": "they can go swimming",
+                "choice_3": "he can play football",
+                "choice_4": "he can go swimming"
+            },
+            "answer": "choice_1"
+        }
+    ]
+}

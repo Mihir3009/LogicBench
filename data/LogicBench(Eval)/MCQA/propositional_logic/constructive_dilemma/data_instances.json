@@ -1,0 +1,246 @@
+{
+    "type": "propositional_logic",
+    "axiom": "constructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Harry had two options for his day off: going to the park or going to the beach. if he decided to go to the park, it meant that he would have a lovely picnic with his family. on the other hand, if he chose the beach, he would be able to enjoy a refreshing swim in the ocean. the only thing that was certain was that either harry would go to the park or he would go to the beach. it was unclear which option he would ultimately choose, as it could be that he would go to the park alone, go to the beach alone, or even do both activities.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she will go shopping or she will watch a movie",
+                "choice_2": "he will have a picnic with his family or he will swim in the ocean",
+                "choice_3": "he will go hiking in the mountains or he will visit a museum",
+                "choice_4": "they will go camping or they will have a barbecue"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 2,
+            "context": "If ava chooses to go to the hotel, she will be rewarded with a delightful ice-cream. on the other hand, if she decides to go to the movies, she will be able to indulge in some delicious popcorn. what we do know for sure is that at least one of the following options is true: ava goes to the hotel or ava goes to the movies. however, the exact combination of whether only option one is true, or only option two, or if both options are true, remains unknown.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "ava will have an ice-cream or she will have popcorn",
+                "choice_2": "ava will neither go to the hotel nor to the movies",
+                "choice_3": "ava will go to the hotel and have ice-cream",
+                "choice_4": "ava will go to the movies and have popcorn"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "Roman had a choice to make - whether to take a walk in the garden or a stroll in the city. if he decided to take a walk in the garden, he would be able to enjoy the fresh air. on the other hand, if he chose to take a stroll in the city, he would get to experience the hustle and bustle. it was uncertain which option roman had gone with, but what was clear was that he had made a decision. either roman took a walk in the garden or he took a stroll in the city, or perhaps he even did both. regardless, roman was sure to have a lovely time, surrounded by nature's beauty in the garden or immersed in the lively atmosphere of the city.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He get to enjoy the fresh air or he get to experience the hustle and bustle.",
+                "choice_2": "He finds solace in the tranquility of the garden or he is captivated by the energy of the city.",
+                "choice_3": "He is excited to have a leisurely walk in the garden or he is eager to explore the vibrant city streets.",
+                "choice_4": "He is torn between exploring the city or indulging in the serenity of the garden."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 4,
+            "context": "If i decide to go to the picnic, i will definitely treat myself to a refreshing coke. on the other hand, if i choose to go to the movies, i will indulge in some delicious snacks. it is certain that i will make one of the following choices: either go to the picnic or go to the movies. however, it remains uncertain which one of these options i will ultimately choose. it could be the case that i only go to the picnic, or only go to the movies, or even that i decide to do both.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "i will have a pepsi or i will watch a movie",
+                "choice_2": "i will have a coke or i will watch have snacks",
+                "choice_3": "we will go to the picnic or we will go to the movies",
+                "choice_4": "james will have a coke or he will have snacks"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "Jack had a dilemma on how to spend his day. he knew that if he decided to go to the museum, he would be able to see the art exhibition. on the other hand, if he chose to go to the zoo, he would have the opportunity to see the animals. jack was torn between these two options, but he knew that at least one of them would come true. it could be the case that he only went to the museum, or only went to the zoo, or perhaps he would manage to visit both places. whatever he decided, jack was excited to have such interesting choices ahead of him.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "He will see the art exhibition or he will see the animals.",
+                "choice_2": "Sam will go to the museum and Rebecca will go to the zoo.",
+                "choice_3": "He will visit the museum and zoo simultaneously.",
+                "choice_4": "He will choose neither the museum nor the zoo."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 6,
+            "context": "I had two options for my day off: either go to the cinema and enjoy a comedy scene or visit the zoo and have a picnic. it was certain that i would choose at least one of these options, but i wasn't sure which one it would be. if i went to the cinema, i knew i would have a great time laughing at the comedy. conversely, if i decided to go to the zoo, i would get to enjoy a lovely picnic. the uncertainty of which choice i would make added an element of excitement to my day as i contemplated the possibilities.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "i will enjoy comedy scene or i will have a picnic",
+                "choice_2": "i will end up going to the zoo and not enjoy the picnic",
+                "choice_3": "Nobody will go to the zoo but still enjoy a lovely picnic",
+                "choice_4": "John will decide to go to the cinema and have a picnic"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "Kevin enjoys spending his leisure time either playing cricket outside or playing chess inside. whenever he decides to play cricket outside, his friends always join him, adding to the fun. similarly, when he chooses to play chess inside, his sister eagerly participates in the game. today, kevin was unsure about his preferred activity and found himself torn between the two options. however, he knew that at least one of the following scenarios would unfold: either he would play cricket outside, or he would indulge in a game of chess indoors. the uncertainty of the situation left kevin excited and curious about how the day would unfold.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will play cricket outside without anyone joining him.",
+                "choice_2": "His friends will join him or his sister will join him.",
+                "choice_3": "His brother will join him for a game of cricket outside.",
+                "choice_4": "He will play chess inside without anyone participating."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 8,
+            "context": "If tim decides to go for a stroll along the footpath, he will be able to enjoy the fresh air. on the other hand, if he chooses to stay at the university, he will have the opportunity to watch a play. the only thing we know for certain is that out of the two options, either tim takes a walk or he stays at the university. however, it remains uncertain which of these possibilities is true. it could be that he ends up taking a walk, or he could simply decide to stay at the university, or it is even possible that he does both.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will meet up with his friends for a picnic.",
+                "choice_2": "She will go shopping instead.",
+                "choice_3": "They will go to a café for lunch.",
+                "choice_4": "He will enjoy the fresh air or he will watch a play."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 9,
+            "context": "If bob decides to go to the library, he will spend his time reading books. on the other hand, if he chooses to go to the campus, he will play games instead. it is known that bob will either go to the library or to the campus, however, it is uncertain which one he will choose or if he will visit both places.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will visit his friend or he will go shopping",
+                "choice_2": "he will study or he will exercise",
+                "choice_3": "he will read books or he will play games",
+                "choice_4": "he will watch TV"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "If jay decides to take a long walk, he will have the opportunity to enjoy the fresh air. conversely, if he chooses to stay home and relax, he will find himself sitting on the couch. however, it is uncertain which option jay ultimately selects as we know for certain that at least one of the following is true: either he takes a long walk or he stays home and relaxes. the specific details of which option he chooses remain unknown, as it could be that only one of the options is true or both are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "they go out to eat at a restaurant",
+                "choice_2": "he get to enjoy the fresh air or he sits on the couch",
+                "choice_3": "she decides to go for a swim",
+                "choice_4": "he plays video games all day"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 11,
+            "context": "Lisa had a few options for her afternoon activities. she could either go to the gym, which would then lead her to the swimming pool, or she could go to the library, which would then take her to the coffee shop. it was certain that she would choose at least one of these options, but it was unclear which one. it could be that she only went to the gym, or only to the library, or maybe she would even visit both places.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she will go to the swimming pool or she will go to the coffee shop.",
+                "choice_2": "Lisa's friend, Sarah, will go to the swimming pool and then to the coffee shop.",
+                "choice_3": "Lisa's brother, Michael, will go to the gym and then to the library.",
+                "choice_4": "Lisa will go to the gym and then to the library."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 12,
+            "context": "If i decide to purchase a new shirt, i will definitely wear it to the party. on the other hand, if i end up purchasing a new dress, i will wear it to the office instead. at the moment, it is uncertain whether i will buy both a new shirt and a new dress, or just one of them. however, one thing is for sure – either i will buy a new shirt or i will buy a new dress.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "John will wear it to the gym.",
+                "choice_2": "I will wear it to the grocery store tomorrow.",
+                "choice_3": "I will wear it to the party or I will wear it to the office.",
+                "choice_4": "She will wear it on her vacation next week."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 13,
+            "context": "If mike decides to go to the beach, he will be swayed by the crashing waves, and if he chooses to go for a hike, he will be captivated by the breathtaking sunset. without knowing for certain which option he will ultimately choose, we can establish that at least one of the following possibilities is true: mike will opt for the beach, or he will opt for the hike. it remains uncertain whether it is only the beach or only the hike that he will embark upon, or if he will even decide to do both.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Sara will choose the forest or she will go shopping.",
+                "choice_2": "Mike will swim in the waves or he will enjoy sunset.",
+                "choice_3": "John will choose the beach or he will go for a bike ride.",
+                "choice_4": "Mike will choose the mountains or he will go on a picnic."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "If david decides to attend the concert, he will have the opportunity to enjoy live music. on the other hand, if he chooses not to go to the theater, he will not be able to watch a movie. it is known that at least one of the following statements is true: either david attends the concert or he skips the theater. however, it remains uncertain which of these possibilities actually occurred. it could be the case that only attending the concert is true, or only skipping the theater is true, or perhaps both scenarios are true simultaneously.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will go to a concert or he will go to the theater.",
+                "choice_2": "he will go to a concert and watch a movie at the theater simultaneously.",
+                "choice_3": "he will go to the theater but not attend the concert.",
+                "choice_4": "he will listen to live music or he will not watch a movie."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "I had a choice to make today: either go for a run and get some fresh air, or stay at home and watch some tv. i couldn't decide, so i ended up doing one of them, but i'm not sure which one. it's possible that i went for a run and got some fresh air, or maybe i just stayed at home and watched some tv. either way, i'm glad i made a decision and did one of those activities.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "i decided to go for a swim and enjoy the water",
+                "choice_2": "he ended up staying in bed all day and sleeping",
+                "choice_3": "she chose to go for a walk and explore the neighborhood",
+                "choice_4": "i will get some fresh air or i will watch some tv"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "If i decide to go for a walk, i will be able to breathe in some fresh air and revitalize myself. on the other hand, if i choose to stay home, i will have the opportunity to enjoy a movie. one thing is certain, either i go for a walk or i stay home. it remains uncertain which of the two options i will ultimately choose. it is entirely possible that i might opt for the walk, or perhaps i will find myself drawn to staying home, or even both possibilities might come to fruition.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Mark will go for a walk and Noah will watch a movie",
+                "choice_2": "i will get some fresh air or i will watch a movie",
+                "choice_3": "i will never go for a walk and i will never watch a movie",
+                "choice_4": "i will go for a walk and watch a movie simultaneously"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 17,
+            "context": "If amanda chooses to visit her grandparents, she will be treated to a delicious home-cooked meal. on the other hand, if she decides to spend her time with her friends, she can expect a tasty pizza. it is certain that amanda will either visit her grandparents or her friends, but the exact choice remains unknown. it could be the case that she only visits her grandparents, or perhaps she only visits her friends, or maybe she even chooses to visit both.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She will have a potluck or she will have takeout",
+                "choice_2": "She will have a home-cooked meal or she will have a pizza",
+                "choice_3": "She will have a barbecue or she will have sushi",
+                "choice_4": "She will have a picnic or she will have a buffet"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "John had a choice to make for the day - either go to the beach or go on a trail. he knew that if he decided to go to the beach, he would definitely get a tan. on the other hand, if he opted for the trail, he would enjoy a relaxing stroll. it was certain that john would do at least one of these activities, but it was unclear which one. it could be that he only went to the beach, or solely went on the trail, or perhaps even both. the final decision was yet to be made, but either way, john was looking forward to a day filled with either a sun-kissed tan or a serene walk in nature.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He will get a tan or he will take a stroll.",
+                "choice_2": "John will skip both the beach and the trail, and stay indoors for the day.",
+                "choice_3": "John will go to the beach and get a tan, and also go on a trail for a relaxing stroll.",
+                "choice_4": "Mary will go to the beach and get a tan, while John will go on the trail for a relaxing stroll."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 19,
+            "context": "Het is planning his outdoor activities and has two options in mind: camping or fishing. if he decides to go camping, he knows that he will be able to enjoy cooking his meals over the campfire. on the other hand, if het chooses to go fishing, he is confident that he will be able to catch some fish. at the moment, het has made up his mind to engage in either camping or fishing, but he hasn't yet finalized his decision. it could be the case that he goes camping only, or goes fishing only, or even both activities are true for him. the final outcome remains unknown, but het is excited about the adventures that lie ahead.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "he will go hiking in the mountains wrong.",
+                "choice_2": "he will go swimming in the lake wrong.",
+                "choice_3": "he will go bird watching in the forest wrong.",
+                "choice_4": "he will cook food over the campfire or he will catch some fish"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "Lisa woke up one morning feeling unsure about how her day would unfold. she knew that if she had eaten breakfast, she would have the energy to start her day on a positive note. on the other hand, if she had slept in late, she would feel groggy and sluggish. as she sat at the breakfast table contemplating her options, lisa realized that she had two possibilities. it could be that she had indeed eaten breakfast in the morning, or it could be that she had slept in late. she couldn't be certain which one was true, or if both were true. regardless, lisa understood that her level of energy for the day would greatly depend on the outcome of her morning routine.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jackie will feel energized and ready to take on the day.",
+                "choice_2": "They would have already had breakfast before waking up.",
+                "choice_3": "She will have energy to start my day or she will feel groggy in the morning.",
+                "choice_4": "She will be late for work and miss out on breakfast."
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

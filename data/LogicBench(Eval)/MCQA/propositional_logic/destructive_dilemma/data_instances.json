@@ -1,0 +1,246 @@
+{
+    "type": "propositional_logic",
+    "axiom": "destructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If john drives a car, then he will reach my destination on time. on the other hand, if he rides a bike, then he will save money on fuel. however, it is evident that he will not reach his destination on time or save money on fuel. it is unclear which of these scenarios is true. it could be that he won't reach his destination on time, or it could be that he won't save money on fuel, or it is possible that both situations are true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she walks to her destination",
+                "choice_2": "they take a taxi",
+                "choice_3": "he rides a bus",
+                "choice_4": "he doesn't drive a car or he doesn't ride a bike"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "If sarah goes to the gym, she stays fit and healthy. if she avoids junk food, she will have better immunity. however, it is known that either sarah doesn't stay fit and healthy or she won't have better immunity. it is uncertain which of these statements is true or if both are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "she avoids junk food but doesn't have better immunity",
+                "choice_2": "he stays fit and healthy but doesn't have better immunity",
+                "choice_3": "he goes to the gym but doesn't avoid junk food",
+                "choice_4": "she doesn't go to the gym or she doesn't avoid junk food"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 3,
+            "context": "If benjamin runs his business, he will make a profit, and if he takes a vacation, he will spend money. currently, it is known that he either doesn't make a profit or doesn't spend money, but it is uncertain which one is true. it could be the case that he doesn't make a profit, or it could be the case that he doesn't spend money, or even both of them could be true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "john runs a business but doesn't make a profit",
+                "choice_2": "benjamin runs a business and takes a vacation",
+                "choice_3": "benjamin doesn't run a business or benjamin doesn't take a vacation",
+                "choice_4": "sarah doesn't run a business but takes a vacation"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "She was contemplating whether to buy a car or take the bus for her daily commute. knowing that if she buys a car, she can reduce her commute time, and if she takes the bus, she can save money, she found herself in a dilemma. she was aware that at least one of the following is true: either she can't reduce her commute time or she can't save money. however, she couldn't determine which one of these statements was actually true. it was possible that only she couldn't reduce her commute time, or it might be the case that she couldn't save money, or perhaps both statements were true. nevertheless, she had to make a decision regarding her transportation options, despite the uncertainty surrounding the consequences.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She doesn't buy a car or she doesn't take the bus",
+                "choice_2": "Her friend doesn't buy a car or he doesn't take the bus",
+                "choice_3": "John doesn't buy a car or he doesn't take the bus",
+                "choice_4": "She buys a car and takes the bus"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 5,
+            "context": "If i decide to order takeout, it means i will save time. on the other hand, if i choose to cook a meal, it means i will save money. the interesting thing is that i am in a situation where i won't be able to save time or money. it is uncertain whether i won't save time or i won't save money, or it could even be both scenarios. the only thing that is clear is that at least one of these possibilities is true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Sarah orders takeout",
+                "choice_2": "I don't order takeout or I don't cook a meal",
+                "choice_3": "We save time and money",
+                "choice_4": "I order takeout and cook a meal"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 6,
+            "context": "William had a decision to make - go shopping or stay at home. if he went shopping, he would definitely buy new clothes. on the other hand, if he stayed at home, he would definitely save money. however, it was uncertain which option he would choose. only one thing was for sure - either he wouldn't buy new clothes or he wouldn't save money. it could be the case that he chose not to buy new clothes, or maybe he decided to save money, or maybe he did both. the outcome remained a mystery.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "William buys new clothes but doesn't save money",
+                "choice_2": "Sarah stays at home and buys new clothes",
+                "choice_3": "John goes shopping and saves money",
+                "choice_4": "William doesn't go shopping or william doesn't stay at home"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 7,
+            "context": "If alex decides to read a book, he will gain a better understanding of the concepts within. on the other hand, if alex chooses to watch a movie, he will be able to remember the plot more easily. unfortunately, it is unknown whether alex will actually understand the concepts or remember the plot. it could be the case that alex won't understand the concepts, or he won't remember the plot, or even both outcomes could be true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Sarah understands the concepts within the book she reads.",
+                "choice_2": "Alex remembers the plot of the movie he watches.",
+                "choice_3": "Alex understands the concepts within the book he reads.",
+                "choice_4": "Alex doesn't read a book or alex doesn't watch a movie."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "Emily, a diligent student, knew that if she studied diligently, she would get good grades. on the other hand, if she chose to procrastinate, she would not perform well. as the semester progressed, emily found herself faced with uncertainty. it was evident that at least one of the following was true: she wouldn't receive good grades or she would perform well. the mysteries surrounding her academic performance made it unclear whether only one of these statements held true or both of them. emily yearned to uncover the truth and understand the impact of her choices on her future.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "emily received good grades",
+                "choice_2": "emily doesn't study diligently or emily doesn't procrastinate",
+                "choice_3": "emily's choices have no impact on her future",
+                "choice_4": "emily performs well only when she procrastinates"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "If ariana decides to go for a run, she will surely get in shape, but if she chooses to watch television instead, she will end up gaining weight. it is uncertain which one of these outcomes will be true, but we do know that at least one of them will happen. it could be the case that ariana won't get in shape, or it could be that she won't gain weight. perhaps both possibilities are true, but without further information, we cannot say for certain.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jasmine doesn't watch television.",
+                "choice_2": "Maria doesn't go for a run.",
+                "choice_3": "Ariana doesn't go for a run or ariana doesn't watch television.",
+                "choice_4": "Ariana go for a run."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "If the main character plays guitar, she will have the opportunity to showcase her talent in a concert. on the other hand, if she spends her time reading books, she will gain valuable knowledge. however, it is uncertain whether she will be unable to perform in the concert or if her knowledge will not improve. it could be the case that one of these scenarios is true, or even both. the outcome remains unknown.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "She plays piano instead of guitar and she reads magazines instead of books",
+                "choice_2": "She plays guitar and she reads books",
+                "choice_3": "She doesn't play guitar or she doesn't read books",
+                "choice_4": "Her brother plays guitar and she plays piano, and she also reads books"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Alexander had an interesting day ahead of him. he knew that if he ate an apple, he would feel energized. on the other hand, if he drank coffee, he would feel sleepy. as he got ready for the day, he couldn't help but wonder how he would feel later. it was certain that he wouldn't feel energized or sleepy. however, the uncertainty lingered, as he wasn't sure which one of these possibilities would come true. perhaps only the first one would be true, or maybe only the second one, or even both could be true. alexander braced himself for whatever outcome awaited him, ready to face the day with an open mind and a sense of resilience.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Emily ate an apple but didn't drink coffee",
+                "choice_2": "Alexander didn't eat an apple or he doesn't drink coffee",
+                "choice_3": "Sarah didn't eat an apple or drink coffee",
+                "choice_4": "He ate an apple and drank coffee"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "If mihir takes a nap, he will feel refreshed, but if he drinks coffee, he will stay alert. however, we know that at least one of the following is true: he won't feel refreshed or he won't stay alert. it's uncertain which one of these is true, it could be that only the first statement is true, or only the second statement is true, or both are true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will take a nap and he won't drink coffee",
+                "choice_2": "He doesn't take a nap or he doesn't drink coffee",
+                "choice_3": "He will feel refreshed and he will stay alert",
+                "choice_4": "He won't feel refreshed but he will stay alert"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 13,
+            "context": "If john buys a car, he will be able to save money on maintenance costs. on the other hand, if he decides to take public transport, he can save on fuel expenses. however, it is known that john is unable to save on either maintenance or fuel expenses. it remains uncertain as to whether he is unable to save on only maintenance costs, only fuel expenses, or both.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He buys a car but doesn't take public transport",
+                "choice_2": "He doesn't buy a car or he doesn't take public transport",
+                "choice_3": "He buys a car and takes public transport",
+                "choice_4": "He takes public transport but doesn't buy a car"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "If jack decides to visit the museum, he will gain a wealth of knowledge. on the other hand, if jack chooses to spend his time playing video games, he will have a great deal of fun. however, it is certain that jack will not experience both outcomes. either he will not learn a lot or he will not have fun, or perhaps even both. the actual truth remains unknown, as it could be the case that only one of these statements is true or both are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Tom visits the museum and Sara plays video game",
+                "choice_2": "Neither Jane nor Tom visit the museum, but they both play video game",
+                "choice_3": "Jack visits the museum or Sarah doesn't play video game",
+                "choice_4": "Jack doesn't visit the museum or jack doesn't play video games"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "Berman has a love for both spicy and greasy food. he knows that if he indulges in spicy food, he will inevitably experience heartburn. similarly, if he decides to treat himself to greasy food, he will certainly be faced with the discomfort of indigestion. however, we cannot determine for certain which of these outcomes will occur, as we are aware that at least one of the following will be true: either berman will avoid heartburn or he will evade indigestion. it is unclear whether only one of these scenarios will materialize or if both will come to pass.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "sarah did not eat spicy food or she does not eat greasy food",
+                "choice_2": "jake did not eat spicy food or he does not eat greasy food",
+                "choice_3": "berman did not eat spicy food or he does not eat greasy food",
+                "choice_4": "emily did not eat spicy food or she does not eat greasy food"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 16,
+            "context": "If elijah chooses to go hiking, he will be rewarded with breathtaking scenery. on the other hand, if he decides to watch tv, he will miss out on the opportunity to experience the fresh air. however, it is uncertain whether he will not be able to see the beautiful scenery or if he will not miss out on the fresh air. the reality could be that only one of these situations is true, or perhaps both are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "elijah doesn't go hiking or elijah doesn't watch tv",
+                "choice_2": "TV and sees the beautiful scenery",
+                "choice_3": "adam goes hiking and misses out on the fresh air",
+                "choice_4": "elijah goes hiking and misses out on the fresh air"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 17,
+            "context": "If meera decides to attend church, she will discover tranquility. conversely, if she opts to watch television, she will become preoccupied. it is known that at least one of two possibilities is accurate: firstly, she will not experience peace, and secondly, she will not become distracted. however, it is uncertain whether only the first possibility is true, only the second possibility is true, or if both are true simultaneously.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he decides to go for a walk outside",
+                "choice_2": "she chooses to meditate instead",
+                "choice_3": "she doesn't go to church or she doesn't watch tv",
+                "choice_4": "they go to a movie theater"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 18,
+            "context": "If reema decides to visit the beach, she will end up with a nice tan. however, if she chooses to dedicate her time to studying for her exams, she won't have enough leisure time. it's uncertain whether she will achieve her goal of getting a tan or having enough leisure time. it could be the case that she doesn't get a tan, but still manages to have enough leisure time. on the other hand, she might end up with a tan, but at the cost of not having enough time for leisure activities. the outcome could also be such that she achieves both her goals, getting a tan and having enough time for leisure. it remains unknown which of these possibilities will be true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She will dedicate all her time to studying for her exams and not visit the beach",
+                "choice_2": "She doesn't visit the beach or she doesn't study for her exams",
+                "choice_3": "She will definitely achieve both her goals, getting a tan and having enough leisure time",
+                "choice_4": "She will only visit the beach and not study for her exams"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "Razia was working late on her project, knowing that if she did, she would be able to finish it. however, she also knew that taking a break would help refresh her mind. unfortunately, she found herself in a situation where neither finishing her project nor refreshing her mind seemed possible. it was unclear whether she would be unable to finish the project, unable to refresh her mind, or both. the uncertainty made razia wonder what the outcome of her late work and break would be.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Sarah, Razia's colleague, offers to help her finish the project while she takes a break.",
+                "choice_2": "Razia does not work late or she does not take a break.",
+                "choice_3": "She realizes she can finish her project and refresh her mind simultaneously.",
+                "choice_4": "Razia decides to only take a break and not work late to avoid the uncertainty."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "If shri decides to travel to a new place, she will have the opportunity to immerse herself in different cultures and expand her horizons. on the other hand, if she chooses to stay in one place, she will be able to save money for her future endeavors. however, it is uncertain which of the following is true: either she is unable to explore different cultures or she is unable to save money. it could be the case that only one of these statements is true or that both are true. the specific circumstances remain unknown.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She doesn't travel to a new place or she doesn't stay in one place",
+                "choice_2": "She stays in one place and doesn't save money for her future endeavors",
+                "choice_3": "She travels to a new place but doesn't immerse herself in different cultures and doesn't expand her horizons",
+                "choice_4": "She travels to a new place and immerses herself in different cultures, but also saves money for her future endeavors"
+            },
+            "answer": "choice_1"
+        }
+    ]
+}

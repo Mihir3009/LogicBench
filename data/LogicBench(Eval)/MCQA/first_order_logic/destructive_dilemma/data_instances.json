@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "destructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is taking care of thier health, then they will be fit. however, indulging in unhealthy habits can make individuals susceptible to various diseases. the truth is, we can be certain about at least one of the following possibilities: either jenny won't be fit and healthy, or she won't be prone to diseases. it is important to note that we are unaware of which statement is accurate. it could be the case that only the first statement is true, only the second statement is true, or both statements hold validity.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "jenny doesn't take care of her health or she doesn't indulge in unhealthy habits",
+                "choice_2": "jenny is fit and healthy",
+                "choice_3": "jenny takes care of her health and is prone to diseases",
+                "choice_4": "jenny indulges in unhealthy habits but is not prone to diseases"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 2,
+            "context": "Taking a leisurely stroll outside ensures that someone can breathe in fresh, invigorating air, while indulging in television shows provides a sense of relaxation. at least one of the following statements holds true: either the possibility of jill not acquiring a breath of fresh air or the potential of she is not experiencing a state of relaxation. the truthfulness of each statement is unknown, with the chance of either (1) being true, or (2) being true, or both (1) and (2) simultaneously being true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Jill takes a walk and watches TV.",
+                "choice_2": "Jane doesn't take a walk. or she doesn't watch TV.",
+                "choice_3": "John doesn't take a walk. or he doesn't watch TV.",
+                "choice_4": "jill doesn't take a walk. or she doesn't watch tv."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 3,
+            "context": "If someone turned offs the light, it will result in saving electricity. if someone uses a generator on the other hand, then it will lead to a high electricity bill. at least one of the following statements is true: linda will not save electricity, or she will not pay a high electricity bill. it is uncertain which statement is true, as it could be either one or both. linda may not conserve electricity or incur a high electricity bill.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "linda doesn't turn off the lights or she doesn't use a generator",
+                "choice_2": "linda will save electricity and will not pay a high electricity bill",
+                "choice_3": "linda will not save electricity and will pay a high electricity bill",
+                "choice_4": "linda will save electricity and pay a high electricity bill"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 4,
+            "context": "If someone does a reading extensively, it has been proven to have a positive impact on their academic performance, leading to good grades. additionally, for everyone, it is believed that watching television can help promote a restful night's sleep. notably, at least one of two possibilities is true: either jill will not achieve good grades or she will not experience sound sleep. it is worth noting that it is unclear which of these possibilities is true, as it could be either one or both.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Jill is a heavy reader and watches a lot of television.",
+                "choice_2": "Sara doesn't study much and watches a lot of television.",
+                "choice_3": "jill doesn't read a lot or she doesn't watch television",
+                "choice_4": "Jill is likely to get good grades and have a restful sleep."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 5,
+            "context": "If someone studies sufficiently for a test, they will achieve a desirable grade. however, if they neglect to adequately revise, their score will not be satisfactory. it is known that either the first possibility, in which john will not attain a good grade, or the second possibility, in which he will achieve a high score, is true. however, the specific truth of each option remains unknown. it is plausible that only the first possibility is true, only the second possibility is true, or both the first and second possibilities are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "john revises enough but doesn't take a test",
+                "choice_2": "john takes a test but doesn't revise enough",
+                "choice_3": "alex takes a test but he revises enough",
+                "choice_4": "john doesn't take a test or he revises enough"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 6,
+            "context": "If an individual operates a vehicle with caution, they will prevent any accidents from occurring. however, if they decide to accelerate and exceed the speed limit, they will be issued a fine. there is a certainty that at least one of the following statements is true: either john will not be able to avoid an accident or he will not face a penalty. it is unclear which of these statements is accurate, as it could be only one of them, or it is possible that both of them hold true.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "john doesn't drive carefully or he doesn't speed up",
+                "choice_2": "Mary doesn't drive carefully or she doesn't speed up",
+                "choice_3": "Laura drives carefully and she faces a penalty",
+                "choice_4": "David drives cautiously and he also speeds up"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "If a person chooses to send a letter, they will definitely receive a response in return. on the other hand, if they decide not to send a letter, they will not receive any response at all. it is certain that either the first statement is true and jane won't receive a response, or the second statement is true and he will receive a response. we cannot determine which statement is true, as it could be the case that only the first statement is true, only the second statement is true, or both statements are true at the same time.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "jane doesn't send a letter or he sends a letter",
+                "choice_2": "John sends a letter and receives a response.",
+                "choice_3": "Jane sends a letter but doesn't receive a response.",
+                "choice_4": "Mary sends a letter and doesn't receive a response."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "If an individual decides to purchase a vehicle, it will lead to financial savings regarding their transportation expenses. conversely, if they opt to sell their car, this action will result in them acquiring additional funds that can be allocated for investment purposes. it should be noted that sara will not lead to financial savings regarding their transportation expenses or she is not acquiring additional funds, we are unsure which one is accurate in the case. it is plausible that only the first statement holds true, or alternatively, solely the second statement holds true. moreover, there is also the possibility that both statements are accurate at the same time.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "someone else buy sara's car or she bought a different car",
+                "choice_2": "sara didn't buy a car or she didn't sell her car",
+                "choice_3": "sara decided not to buy a car but sold her car",
+                "choice_4": "sara bought a car and sold it immediately "
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "If an individual chooses to take a chance, they have the possibility of receiving a reward, while opting for caution ensures their safety. it is known that at least one of the following statements is true: (1) sarah will not obtain the reward, or (2) she will not remain secure. however, it is uncertain which statement, or both, is accurate.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "John decides not to take a chance, or he doesn't prioritize his safety.",
+                "choice_2": "sarah doesn't take a risk. or she doesn't play it safe.",
+                "choice_3": "Mary chooses to play it safe, or she takes a risk and goes for the reward.",
+                "choice_4": "David avoids taking any risks, or he risks it all in search of the reward."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "If a person chooses to take the bus, they will arrive at their destination punctually. on the other hand, if they opt to drive their own car, they will reach their intended location more quickly. it is important to note that we are aware that at least one of the following statements is true: either hannah will not arrive on time or she will not reach their destination faster. however, we do not have information regarding which specific statement (1 or 2) is true. it could be the case that only statement (1) is true, or only statement (2) is true, or both could be true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "John doesn't take the bus or he doesn't drive his own car",
+                "choice_2": "Mary doesn't take the bus or she doesn't drive her own car",
+                "choice_3": "hannah doesn't take the bus or she doesn't drive her own car",
+                "choice_4": "Sarah doesn't take the bus or she doesn't drive her own car"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Working hard can lead to promotions, while taking breaks can help refresh the mind. in this situation, we are aware that at least one of two outcomes is true: either sara will not receive a promotion or she will not refresh her mind. it is uncertain which specific outcome is accurate, as it could be either one, or even both.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "John doesn't work hard or he doesn't take a break",
+                "choice_2": "sara receives a promotion and she refreshes her mind",
+                "choice_3": "sara doesn't work hard or she doesn't take a break",
+                "choice_4": "sara receives a promotion or she refreshes her mind"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 12,
+            "context": "If someone regularly visits the fitness center, they will achieve a desirable physique. conversely, if they neglect physical activity, they will lead an unhealthy lifestyle. it is known that at least one of the following statements is true: either dave will not be in good shape or he will have a healthy lifestyle. it is uncertain which of these statements are accurate, as it could be the case that only the first statement is true, or only the second statement is true, or both are true. therefore, the outcome remains uncertain.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dave doesn't go to the gym or he exercises",
+                "choice_2": "dave has a healthy lifestyle and he visits the fitness center",
+                "choice_3": "dave goes to the gym or he exercises regularly",
+                "choice_4": "dave does not go to the gym and he does not exercise"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 13,
+            "context": "If an individual chooses to engage in running as a physical activity, they will experience an increase in their energy levels. on the other hand, if they opt for swimming, they will find themselves feeling more relaxed. it should be noted that at least one of the following statements holds true: (1) sarah will not feel energetic, or (2) she will not feel relaxed. however, it is unknown which statement(s) specifically are indeed accurate. this means it is possible that either only (1) is true, only (2) is true, or both (1) and (2) are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "If Sarah goes for a run, she will feel relaxed and energetic",
+                "choice_2": "Jack doesn't go for a run or he doesn't go for a swim",
+                "choice_3": "sarah doesn't go for a run or she doesn't go for a swim",
+                "choice_4": "Sarah goes for a swim and feels energetic"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "If an individual decides to purchase a brand new vehicle, it is likely that their daily commute will become more efficient, resulting in saved time. on the other hand, choosing to rely on public transportation can be a cost-effective option, as it allows for potential savings in terms of financial expenses. it is important to note that there is certainty in the fact that at least one of the following statements holds true: either jane will not experience time savings during their commute or she will not realize financial benefits. however, we cannot determine which statement is accurate, as it is possible for both scenarios to be valid or for only one of them to be true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "jane doesn't buy a new car or she doesn't use public transport",
+                "choice_2": "Jane buys a new car and she uses public transport",
+                "choice_3": "Sarah doesn't buy a new car or she doesn't use public transport",
+                "choice_4": "John doesn't buy a new car or he doesn't use public transport"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 15,
+            "context": "If an individual engages in reading a book, they will gain an understanding of the concepts presented within. conversely, if they choose to watch a movie, their entertainment needs will be fulfilled. it is important to note that at least one of the following statements is true: either john will not comprehend the concepts from the book or he will not find themselves entertained by the movie. the validity of both statements cannot be determined and any combination could be possible, including the possibility that only one statement is true or both are true. however, the specific case remains unknown and open to interpretation.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "john doesn't read a book or he doesn't watch a movie",
+                "choice_2": "john neither reads a book nor watches a movie",
+                "choice_3": "john reads a book and doesn't watch a movie",
+                "choice_4": "john watches a movie and doesn't read a book"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 16,
+            "context": "When someone listens to the music they love, it tends to put them in a positive frame of mind. additionally, taking a break often boosts one's energy levels. it is important to note that we cannot determine which statement is true: either alice won't be in a good mood or she won't become energetic. this means that it could be the case that only the first statement is true, only the second one is true, or both are true. if someone listens to their favorite music, they are more likely to be in a good mood.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "alice prefers to listen to sad music or she never takes break",
+                "choice_2": "alice doesn't like music or she doesn't have any favorite songs",
+                "choice_3": "alice doesn't listen to her favorite music or she doesn't take a break",
+                "choice_4": "bob doesn't listen to his favorite music and he never takes break"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 17,
+            "context": "If anyone who eats healthy, then they will stay fit. if they exercises regularly, then they will have a toned body. we know that atleast one of the following is true (1) nina won't stay fit and (2) she won't have a toned body. note that we do not know which ones of (1) and (2) are true. it might be the case that only (1) is true, or only (2) is true or both are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Lisa doesn't eat healthy and doesn't exercise regularly",
+                "choice_2": "nina doesn't eat healthy or she doesn't exercise regularly",
+                "choice_3": "David doesn't stay fit and doesn't have a toned body",
+                "choice_4": "Nina never exercises and doesn't eat healthy"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "If someone decides to pay a visit to the library, they will be able to discover the book they are in search of. in the event that they choose to take a break, they will eventually return to their research. it is known that at least one of the following statements holds true: either alice will fail to find the book they need, or she will not resume their research. please note that the veracity of either statement (1) or statement (2) is not established, as it could be the case that solely statement (1) is true, solely statement (2) is true, or that both statements are indeed true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Emily will fail to find the book she needs and resume her research.",
+                "choice_2": "alice doesn't visit the library or she doesn't take a break",
+                "choice_3": "Alice will find the book she needs and take a break.",
+                "choice_4": "Bob will find the book he needs and resume his research."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "If an individual decides to take a brief rest, they will experience a boost in their vitality. alternatively, engaging in physical activity can result in a feeling of overall well-being. at least one of the following statements holds true: either ricky will not feel energized or he will not experience a sense of being healthy.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Ricky takes a nap and exercises regularly.",
+                "choice_2": "ricky doesn't take a nap or he doesn't exercise",
+                "choice_3": "Sarah doesn't feel energized or she doesn't experience a sense of being healthy.",
+                "choice_4": "Ricky feels energized and experiences a sense of being healthy."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "If someone prepares a meal, they will satisfy their hunger. in contrast, if they decide to dine out, they will spend less money. it is uncertain which of the following statements is true: either jill will not feel full or she will not save money. however, we cannot determine which one of these possibilities is accurate.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Jill cooks dinner and goes out to eat.",
+                "choice_2": "Jill doesn't feel full but saves money.",
+                "choice_3": "Jill feels full and saves money.",
+                "choice_4": "jill doesn't cook dinner or she doesn't go out to eat."
+            },
+            "answer": "choice_4"
+        }
+    ]
+}

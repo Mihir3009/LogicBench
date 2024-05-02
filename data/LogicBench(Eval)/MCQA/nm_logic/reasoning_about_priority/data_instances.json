@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_priority",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In the midst of a heated argument, john adamantly claims that sally was present at the store. however, jane strongly opposes john's assertion, insisting that sally was indeed absent from the store.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "sally was in the store",
+                "choice_2": "sally was at home",
+                "choice_3": "john was mistaken",
+                "choice_4": "jane was confused"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 2,
+            "context": "Jill confidently proclaims that the car is indeed situated outside, basking under the radiant sun. however, steve firmly contradicts her claim, adamantly stating that the car is not parked outside but rather stationed in the safety of the garage. the two engage in a spirited debate, each resolute in their opposing viewpoints.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "the car is parked outside",
+                "choice_2": "the car is actually in the driveway",
+                "choice_3": "Steve is correct, the car is protected in the garage",
+                "choice_4": "Jill is right, the car is in the garage"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "John confidently states that the towering tree reaches great heights, while laura firmly disagrees, insisting that the tree is not tall at all.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The tree is short",
+                "choice_2": "The tree is tall",
+                "choice_3": "The tree is of medium size",
+                "choice_4": "The tree is average in height"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 4,
+            "context": "John confidently states that the store is open, but samantha firmly disagrees, insisting that the store is closed. despite john's assurance, samantha remains adamant, as she has checked multiple times and is certain that the store is not operating. the conflicting opinions of john and samantha create a sense of confusion and uncertainty, leaving us wondering about the actual status of the store.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the store is closed",
+                "choice_2": "the store is only open on weekdays",
+                "choice_3": "the store is open",
+                "choice_4": "the store is closed due to a power outage"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 5,
+            "context": "John insisted that the moon is indeed composed of cheese, while emily adamantly disagreed and claimed that the moon is not made of cheese.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the moon is made of cheese",
+                "choice_2": "the moon is made of chocolate",
+                "choice_3": "Emily is correct, the moon is not made of cheese",
+                "choice_4": "John is correct, the moon is not made of cheese"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 6,
+            "context": "In the midst of a friendly debate, john confidently insisted that sandy had been present in the park. jane, on the other hand, firmly refuted john's claim, asserting that sandy had not set foot in the park. the two friends found themselves engaged in a lively discussion, each defending their stance with conviction.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "sandy was not in the park",
+                "choice_2": "sandy was in the park",
+                "choice_3": "jane was mistaken about sandy not being in the park",
+                "choice_4": "john was wrong about sandy being in the park"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "John was adamant that the dog resided within the garden, firmly asserting his belief. jane, however, insisted with unwavering confidence that the dog was nowhere to be found in the lush expanse.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "the dog is at the park",
+                "choice_2": "the dog is in the garden",
+                "choice_3": "Jane's house",
+                "choice_4": "the dog is walking down the street"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 8,
+            "context": "In the midst of a lively party, john confidently insisted that sarah was present, convinced by his vivid recollection. conversely, paul vehemently disagreed, asserting with certainty that sarah had not attended the gathering. the conflicting claims cast a cloud of doubt over the truth, pitting their perspectives against each other.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Sarah was not at the party.",
+                "choice_2": "Paul was mistaken and Sarah was actually at the party.",
+                "choice_3": "John was mistaken and Sarah did not attend the party.",
+                "choice_4": "Neither John nor Paul were correct, as Sarah may or may not have been at the party."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "John was adamant that the dog resided within the expansive yard, confidently asserting its presence. jane, however, vehemently disagreed, asserting that the yard was devoid of any canine companionship.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jane is mistaken about the dog being absent in the yard",
+                "choice_2": "The dog is residing in Jane's garden.",
+                "choice_3": "The dog is in the yard",
+                "choice_4": "John is mistaken about the dog being in the yard"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "Steve confidently states that the automobile is situated inside the garage, while jill strongly asserts that the vehicle is not present in the driveway. the two engage in a fierce exchange, each standing firm in their respective claims about the car's current location. the tension between their conflicting statements builds, leaving both steve and jill determined to prove their perspectives true.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the car is at the gas station",
+                "choice_2": "the car is in the backyard",
+                "choice_3": "the car is not in the driveway",
+                "choice_4": "the car is in the garage"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Laura confidently states that the lovely feline can be found amidst the flourishing greenery of the garden. in contrast, john firmly argues that the garden does not harbor the presence of the graceful cat.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "the cat is hiding behind the flowers",
+                "choice_2": "the cat is not in the garden",
+                "choice_3": "the cat is crying in the house",
+                "choice_4": "the dog is at the garden"                
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "John adamantly claims that the parcel had been delivered on the preceding day, while sarah vehemently insists that it was not received then.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The package was returned to the sender.",
+                "choice_2": "John has the package but forgot about it.",
+                "choice_3": "Sarah is lying about not receiving the package.",
+                "choice_4": "The package was delivered yesterday."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "In the midst of a disagreement, john confidently states that the feline companion is situated outdoors, whilst jane firmly argues that the beloved cat is not present in the vicinity.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the cat is outside",
+                "choice_2": "the cat is inside",
+                "choice_3": "John is outside",
+                "choice_4": "Jane is wrong"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 14,
+            "context": "In a heated disagreement between john and samantha, john insisted that the car had been parked in the lot, while samantha firmly stated that it had not been in the driveway.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the car was not parked at all",
+                "choice_2": "John and Samantha were arguing about something other than the car's location",
+                "choice_3": "the car was parked in the driveway",
+                "choice_4": "the car was parked in the lot"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "Jill confidently claims that the cat can be found within the confines of the garden, while paul firmly disagrees, asserting that the garden does not harbor the elusive cat.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the cat is in the garden",
+                "choice_2": "the cat is at the neighbor's house",
+                "choice_3": "the cat is in the park",
+                "choice_4": "the cat is in the house"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 16,
+            "context": "John confidently declares that the sky possesses a blue hue, while suzie vehemently opposes this notion, arguing that the sky does not exhibit a blue coloration.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The grass is green.",
+                "choice_2": "The sky is red.",
+                "choice_3": "The ocean is blue.",
+                "choice_4": "The sky is blue."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "In the midst of a heated discussion, john insisted that the feline companion was indeed located inside the residence. however, adamant in her belief, linda contended that the presence of the cat was noticeably absent from within the confines of the house.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "the cat is hiding outside",
+                "choice_2": "the cat is in the house",
+                "choice_3": "Linda is right and the cat is not in the house",
+                "choice_4": "John is correct and the cat is hidden in another room"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "John confidently states that the vehicle is situated in the driveway, while sara adamantly counters, asserting that it is not parked inside the garage.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "the car is parked at the neighbor's house",
+                "choice_2": "the car is parked on the street",
+                "choice_3": "the car is parked in the driveway",
+                "choice_4": "the car is parked in the living room"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 19,
+            "context": "Daniel and alice were having a disagreement about the whereabouts of a cat. daniel was confident that the cat was currently in the garden, while alice was equally confident that the cat was not in the garden.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "The cat is down the street.",
+                "choice_2": "The cat is in the garden",
+                "choice_3": "The cat is not in the house.",
+                "choice_4": "The cat is with Sarah in the house."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "In the ongoing debate between john and jane, they both present conflicting assertions about the whereabouts of the car. john maintains that the vehicle was indeed parked in the lot, while jane firmly insists that it was not present there.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "the car was not parked in the lot",
+                "choice_2": "John's car is currently at Molly's house",
+                "choice_3": "the car was parked in the garage",
+                "choice_4": "Jane is using car for doordash"
+            },
+            "answer": "choice_1"
+        }
+    ]
+}

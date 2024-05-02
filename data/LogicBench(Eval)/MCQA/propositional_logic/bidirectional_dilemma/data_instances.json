@@ -1,0 +1,246 @@
+{
+    "type": "propositional_logic",
+    "axiom": "bidirectional_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If i watch my diet, i will maintain good health. if i consume excessive junk food, i will become more susceptible to illnesses. we know that either i am committed to watching my diet or i am not prone to illnesses, but it is uncertain which of these statements is true. it is possible that i am only dedicated to maintaining a healthy diet, or alternatively, i may not be prone to illnesses, or even both statements could be true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Diana will stay healthy or she doesn't eat too much junk food",
+                "choice_2": "I will stay healthy or i don't eat too much junk food",
+                "choice_3": "I will stay fat or i eat too much junk food",
+                "choice_4": "Mark will stay healthy or he doesn't eat too much junk food"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 2,
+            "context": "If i buy groceries, it means i am able to save money, and if i fail to budget properly, i will end up accumulating debt. however, in my current situation, one of the following must be true: either i have bought groceries or i have managed to avoid accumulating debt. it is uncertain which one of these conditions is true, as it could be the case that only one of them is true or both of them are true simultaneously.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "I often splurge on unnecessary items.",
+                "choice_2": "My sister is terrible at saving money.",
+                "choice_3": "My friend John always helps me with my budgeting.",
+                "choice_4": "I can save money or i budget properly"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 3,
+            "context": "John's health is directly related to his exercise routine. if he exercises regularly, he will maintain good health, but if he neglects regular exercise, he will become more susceptible to illness. it is uncertain which of the following statements is true: either john exercises regularly and therefore avoids being prone to illness, or he does not regularly exercise but manages to stay healthy regardless. the possibility remains that both statements could be true, but it is unknown without further information.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "John exercises irregularly",
+                "choice_2": "John exercises occasionally",
+                "choice_3": "John does not exercise at all",
+                "choice_4": "He will stay healthy or john exercises regularly"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "I have two options when it comes to transportation: riding my bike every day or driving my car often. if i choose to ride my bike every day, then i will stay fit and healthy. on the other hand, if i drive my car often, i will accumulate more emissions. it is uncertain which option is true for me. it could be that i only ride my bike every day and do not accumulate more emissions, or it could be that i do not ride my bike every day but still do not accumulate more emissions. either way, i must make a decision that benefits my health and the environment.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "My sister Emily stays fit and healthy or she doesn't drive her car often.",
+                "choice_2": "I stay fit and healthy or I don't drive my car often.",
+                "choice_3": "My neighbor Jack stays fit and healthy or he doesn't drive his car often.",
+                "choice_4": "My friend John stays fit and healthy or he doesn't drive his car often."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "John knows that if he goes to the gym, then he will stay fit, but if he doesn't go to the gym, then he will become unhealthy. in his situation, it is known that either john goes to the gym or he won't become unhealthy, but it is unclear which one is true or if both are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "he will stay fit or he goes to the gym",
+                "choice_2": "he will become unhealthy or he stays at home",
+                "choice_3": "he will become unhealthy or he doesn't go to the gym",
+                "choice_4": "Mary will stay fit or she goes to the gym"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 6,
+            "context": "Sam has a interesting relationship with food. one conditional statement that applies to him is that if he eats junk food, he will feel sick. on the other hand, if he avoids junk food, he will feel energized. we don't have all the information, but we do know that either sam eats junk food or he won't feel energized, or maybe even both. it's unclear whether one or both of these statements are true for sam, but it's fascinating to see how his food choices affect his well-being.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jake will feel sick if he eats junk food.",
+                "choice_2": "Sam will feel sick or he eats junk food.",
+                "choice_3": "Sam will feel energized if he avoids junk food.",
+                "choice_4": "Jane won't feel energized if she doesn't eat junk food."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "If i eat nutritious food, i will have enough energy, but if i eat unhealthy food, i will feel tired. it is known that either i eat nutritious food or i won't feel tired, but it is uncertain which one is true. it could be the case that only i eat nutritious food, or only i won't feel tired, or both are true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "I have enough energy or I don't eat unhealthy food",
+                "choice_2": "The person has enough energy or the person doesn't eat healthy food",
+                "choice_3": "He/she has enough time or he/she doesn't eat unhealthy food",
+                "choice_4": "They have enough food or they don't eat unhealthy pasta"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "If i take the bus to work, i can save money on transportation costs, while if i choose to drive, i will end up spending more money on gas. it is certain that either i take the bus to work or i don't spend more money on gas, but it remains unknown which one is true. it could be the case that i only take the bus, only avoid spending extra money on gas, or both actions are true simultaneously.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "I take the bus to work and I don't spend more money on gas",
+                "choice_2": "I save money on transportation costs or I don't drive to work",
+                "choice_3": "I spend more money on gas and I don't take the bus to work",
+                "choice_4": "I don't drive to work"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "If i practice yoga regularly, i will experience better health and well-being. conversely, if i neglect to exercise regularly, i will become more susceptible to illnesses. given the circumstances, it is evident that either i diligently practice yoga or i will not be prone to illness. the specifics regarding which of these scenarios is true remain unknown. it is plausible that i am committed to practicing yoga regularly, or perhaps i am fortunate enough to not be at a higher risk of falling sick. it is also possible that both situations hold true, where i consistently engage in yoga and do not face an increased vulnerability to illnesses.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "I will not be healthier if I exercises regularly",
+                "choice_2": "I will be healthier or I exercise regularly",
+                "choice_3": "Samantha will experience bad health and well-being if she practices yoga regularly",
+                "choice_4": "If Peter neglects to exercise regularly, he will become more susceptible to illnesses"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "If he drives a car, he will reach his destination, and if he takes public transport, he will be late. we only know that either he drives a car or he won't be late, without knowing which one is true. it could be the case that only he drives a car, or only he won't be late, or both are true.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He will definitely take public transport and be late",
+                "choice_2": "She will reach her destination if she takes public transport",
+                "choice_3": "He will reach his destination or he doesn't take public transport",
+                "choice_4": "They won't be late if they drive a car"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Every day, i make it a habit to read. it is through reading that i gain knowledge. i understand that if i don't read, i won't be able to comprehend the material effectively. however, there is some uncertainty regarding my reading habits and understanding. at least one of the following statements is true: either i read every day, or i am able to understand the material. it is unknown whether both statements are true, or only one of them.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Either I gain weight or I does not read.",
+                "choice_2": "I gain knowledge but do not read.",
+                "choice_3": "I gain knowledge or I read.",
+                "choice_4": "He does not gain knowledge but reads every day."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 12,
+            "context": "Mona's morning routine determines whether she goes for a run or feels tired throughout the day. if mona wakes up early, she always goes for a run, which helps her start her day on a positive note. however, if she doesn't manage to wake up early, she often ends up feeling tired in the morning. there are two possibilities here - either mona wakes up early and doesn't feel tired or she doesn't wake up early but manages to stay energetic. it's unclear which of these possibilities is true. both could be true, or only one of them could be.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "she never goes for a run",
+                "choice_2": "she will go for a run or she wakes up early",
+                "choice_3": "he wakes up early and goes for a run",
+                "choice_4": "she will always feel tired in the morning"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 13,
+            "context": "If it is sunny outside, then i will go for a walk. however, if it rains, i will stay inside. currently, it is uncertain whether it is raining or not, but i do know that at least one of the following is true: either it is raining or i will not go for a walk. it is possible that only one of these statements is true, or perhaps both are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "I will not go for a walk and it is not raining.",
+                "choice_2": "We will stay inside and it is sunny outside.",
+                "choice_3": "We will stay inside or it is not sunny.",
+                "choice_4": "I will go for a walk and it is sunny outside."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "If i choose to buy healthy food, i will have an increased amount of energy. on the other hand, if i decide to purchase snacks, i will feel sluggish. we are aware that at least one of the following statements is true: either i buy healthy food, or i won't feel sluggish. however, it remains uncertain which of these statements is accurate. it is possible that only one statement is true, or it could be that both statements are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "I will have more energy or I don't buy snacks",
+                "choice_2": "I won't have more energy or I don't buy snacks.",
+                "choice_3": "I won't feel sluggish or I buy healthy food.",
+                "choice_4": "I will have more energy or I buy snacks."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 15,
+            "context": "If i manage to finish my work early, i will treat myself to a movie. on the other hand, if i can wrap up my dinner early, i'll opt to stay at home. it's important to note that at least one of the following statements is true: either i finish my work early, or i decide not to stay at home. the intriguing part is that i'm unsure which of these statements is accurate - it could be that only the first statement is true, only the second one is true, or perhaps even both statements are true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "my friend will go to the movies or my friend will finish dinner late",
+                "choice_2": "i will finish my work late or i will stay at home",
+                "choice_3": "my sister will go to the movies or my sister will finish dinner late",
+                "choice_4": "i will go to the movies or i finish my dinner late"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "Jenny loves going to the circus, and it always brings her so much joy. however, today there is a condition for her happiness. if a lion arrives at the circus, jenny will be happy. meanwhile, in the garden, there is a different situation. if a leopard arrives, sam, who lives nearby, will be frightened. now, we are left with some uncertainty. at least one of the following is true: either a lion arrived at the circus or sam is not frightened. it is unclear which one it is, as it could be either (1) the lion arrived and jenny is happy, or (2) sam is not frightened. we cannot determine which scenario is the case, it may be just one, or both could be true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jenny will not be happy",
+                "choice_2": "A tiger arrives at the circus and Jenny is happy",
+                "choice_3": "A lion arrives at the circus but Jenny is not happy",
+                "choice_4": "Jenny will be happy or a leopard does not arrive in the garden"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "I have always believed in the importance of regular exercise for maintaining good health. it is well-known that if i exercise regularly, then i am likely to stay healthy. however, if i decide to skip exercise, then i know that i am likely to feel fatigued. but here's the catch, at least one of the following statements is true: either i exercise regularly or i am not likely to feel fatigued. the tricky part is that i don't know which one of these statements is actually true. it could be the case that only the first statement is true, or it could be the second statement, or maybe even both of them are true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "my friend stays healthy or they don't skip exercise ",
+                "choice_2": "i feel fatigued or i exercise regularly",
+                "choice_3": "i stay healthy or i don't skip exercise",
+                "choice_4": "i have a lot of energy or i exercise regularly "
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 18,
+            "context": "I am determined to stay fit so i have made a rule for myself: if i go to the gym, then i will stay fit. additionally, i know that if i don't exercise, then i will gain weight. today, i find myself in a situation where i have to decide whether to go to the gym or not, but there is uncertainty about the outcome. at least one of the following is true: either i go to the gym, or i won't gain weight. it is unclear which one will actually happen. it could be the case that only i go to the gym, or only i won't gain weight, or perhaps both will come true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "I will stay fit or I exercise",
+                "choice_2": "My brother John will go to the gym and I will stay fit",
+                "choice_3": "I won't go to the gym and I won't gain weight",
+                "choice_4": "My friend Susan will go to the gym and I won't gain weight"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 19,
+            "context": "If i choose to take a public transport, i would be able to save money on gas. on the other hand, if i decide to take a taxi, i will end up paying more for the ride. it is known that at least one of the following statements is true: either i opt for a public transport or i won't have to pay more for the ride. however, it is uncertain which one is true. it could be the case that only the first statement is true, or only the second statement is true, or perhaps both statements are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "I don't save money on gas or I take a taxi",
+                "choice_2": "I choose to take public transport and end up paying more for the ride",
+                "choice_3": "I take a taxi and save money on gas",
+                "choice_4": "I save money on gas or I don't take a taxi"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "John is a person who values his health and fitness. he believes that if he runs every day, then he will definitely stay in shape. on the other hand, if he doesn't run every day, then he will inevitably gain weight. it is interesting to note that we have knowledge about at least one of two possibilities: (1) john is committed to running every day, or (2) he won't gain weight. however, we do not know for certain which one(s) of these possibilities are true. it could be the case that only (1) is true, or maybe only (2) is true, or perhaps both (1) and (2) are true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Running every day is not the only factor that determines John's shape and weight",
+                "choice_2": "John will gain weight if he doesn't run every day",
+                "choice_3": "John does not value his health and fitness at all",
+                "choice_4": "He will stay in shape or john runs every day"
+            },
+            "answer": "choice_4"
+        }
+    ]
+}

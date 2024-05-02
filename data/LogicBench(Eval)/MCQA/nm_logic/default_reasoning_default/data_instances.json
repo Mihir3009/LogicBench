@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_default",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Jenny and anna are known for their tall stature, which is often associated with playing basketball. however, anna might be an exception to this norm.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Anna plays volleyball",
+                "choice_2": "Jenny is good at skipping",
+                "choice_3": "Jenny plays volleyball",
+                "choice_4": "Jenny plays basketball"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "Block a and block b are both heavy objects that are typically found on the table. however, there is a possibility that block a might not follow this usual convention. it is important to note this exception.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "b is on the table",
+                "choice_2": "b is on the tv",
+                "choice_3": "a is on the table",
+                "choice_4": "c is on the table"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "Adam and bob, two individuals known for their good physical condition, were often seen engaging in regular exercise activities to maintain their fitness levels. however, there was a slight deviation in this pattern of behavior when it came to adam. adam appeared to be an exception to this rule, leaving room for speculation about his approach to fitness.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "bob is lazy",
+                "choice_2": "alex exercises",
+                "choice_3": "bob is injured",
+                "choice_4": "bob exercises"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "In the realm of strength, john and rachel were known as mighty individuals. their physical prowess was often demonstrated through weightlifting. however, rachel is an exception to this norm.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "rachel runs marathons",
+                "choice_2": "jennifer does aerobics",
+                "choice_3": "john does yoga",
+                "choice_4": "john lifts weights"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 5,
+            "context": "Chris and david are both of a slender build. typically, individuals with slim physiques tend to enjoy cycling. however, there seems to be an exception in the case of chris.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Both Chris and David enjoy hiking.",
+                "choice_2": "David does cycling.",
+                "choice_3": "Chris enjoys cycling.",
+                "choice_4": "Individuals with slender builds do not enjoy cycling."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 6,
+            "context": "In the vast jungle, where tigers and various animals roam freely, it is generally expected that animals would reside there. however, there is an intriguing exception to this rule - the domesticated cats. these graceful creatures, typically associated with cozy homes and loving families, have managed to adapt themselves outside the boundaries of the jungle.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Tigers stay in jungle.",
+                "choice_2": "Leopards usually live outside of the jungle.",
+                "choice_3": "Lions can be found in the jungle.",
+                "choice_4": "Tigers are often found in rural areas outside the jungle."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "In the realm of the skies, where kites and airplanes soar, it is a common belief that flying objects possess wings. however, kites have long been seen as a possible exception to this prevailing rule. the mysterious and alluring nature of kites captivates those who witness their graceful flight, even without the aid of wings.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "helicopters have wings",
+                "choice_2": "trains do not have wings",
+                "choice_3": "airplanes have wings",
+                "choice_4": "birds have wings"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 8,
+            "context": "Cola and coffee, both beloved beverages, are typically enjoyed when served cold. however, there is a unique quality that sets coffee apart from the norm. while the general rule for beverages is to be served cold, coffee may be the exception to this rule.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "cola is better served hot.",
+                "choice_2": "Sarah prefers coffee warm instead of cold.",
+                "choice_3": "Amanda believes coffee should always be served with ice.",
+                "choice_4": "cola is served cold."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 9,
+            "context": "Cats and dogs both have fur and are often kept as pets. however, there may be an exception when it comes to cats, as they are not always regarded in the same way as dogs and other furry animals.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "cats are often regarded as furry animals",
+                "choice_2": "dogs are kept as pets",
+                "choice_3": "cats are not furry animals",
+                "choice_4": "dogs are not kept as pets"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "In the world of animals, cats and dogs are both known as mammals. mammals are a group of creatures that are warm blooded. however, there is a peculiar trait that sets cats apart from other mammals. cats, unlike most mammals, may be an exception to the rule of being warm blooded. it is an intriguing aspect of their nature that scientists continue to study and understand. despite this exception, cats still share many common characteristics with other mammals and are beloved companions to many.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Dogs do not have fur.",
+                "choice_2": "Cats are cold blooded animals.",
+                "choice_3": "Dogs are warm blooded animals.",
+                "choice_4": "Scientists have never studied cats."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "In the artistic world, leonardo davinci is renowned for his masterpieces, such as the mona lisa and the last supper. these remarkable paintings, typically showcased in exhibitions, captivate viewers with their meticulous details and thought-provoking subjects. however, the mona lisa stands as an exceptional piece in davinci's collection.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "the mona lisa is not one of davinci's masterpieces.",
+                "choice_2": "the last supper is displayed in exhibitions",
+                "choice_3": "the last supper is rarely showcased in exhibitions",
+                "choice_4": "the mona lisa is often overlooked in exhibitions"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "In my experience, both apples and oranges are known for their juiciness. these juicy fruits are typically enjoyed when they are fresh. however, when it comes to the rule of eating fruits fresh, apples are considered an exception.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Oranges are usually eaten fresh",
+                "choice_2": "Liam believes that Oranges are best enjoyed when they are half-ripped",
+                "choice_3": "Bananas are typically eaten fresh",
+                "choice_4": "Jessica prefers to eat grapefruits fresh"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 13,
+            "context": "Mercedes and bmw, renowned for their expensive price tags, are typically kept safe in garages. however, there is a belief that mercedes is an exception to the rule.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "The Mercedes is left out in the open while the BMW is kept in the garage",
+                "choice_2": "The Mercedes and BMW are parked side by side in the driveway",
+                "choice_3": "The owner of the Mercedes prefers to park it on the street rather than in a garage",
+                "choice_4": "BMW is parked in garage"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 14,
+            "context": "In the world of tall animals, giraffes and elephants stand above the rest. these majestic creatures are typically found in zoos, where people come to marvel at their height. however, giraffes are a unique exception to this rule, as they can also be spotted in the wild, gracefully roaming the african savannah with elegance and grace. despite their extraordinary stature, giraffes prefer the open plains, where they can bask in the warm sun and graze on the succulent leaves of acacia trees. so while many tall animals find their home in zoos, the free-spirited giraffes remind us that there is a world beyond the enclosures, where they can truly flourish.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Elephants are seen in a zoo",
+                "choice_2": "Elephants are seen in a cab",
+                "choice_3": "Zebras are seen in a zoo",
+                "choice_4": "Gorillas are seen in a zoo"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 15,
+            "context": "In a world where mangoes and bananas were renowned for their vibrant yellow color, it was a common practice to store these fruits in a basket together. however, there was a peculiar exception to this rule - mangoes.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Apples are in a bowl",
+                "choice_2": "Oranges are in a basket",
+                "choice_3": "Mangoes are in a box",
+                "choice_4": "Bananas are in basket"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "In a world where cats and dogs are beloved companions, these pets typically require care and attention. however, it is said that cats are an exception to this general rule. guides on pet care emphasize the importance of providing proper loving care to both cats and dogs, but some people believe that cats are more independent and require less attention than their canine counterparts.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "dogs do not require care and attention",
+                "choice_2": "cats require more attention than dogs",
+                "choice_3": "cats need care and attention ",
+                "choice_4": "dogs need care and attention"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "In a charming garden, where a delightful array of flowers graced the landscape, i found myself captivated by the vibrant hues of tulips and roses. tulips, although typically associated with gardens, seemed to be a delightful exception to this rule.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Daisy is the most common flower found in gardens.",
+                "choice_2": "Sunflowers are often seen in potted plants.",
+                "choice_3": "Roses are found in gardens.",
+                "choice_4": "Tulips are usually found in supermarkets."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 18,
+            "context": "Carrots and potatoes are known for their vibrant orange color. typically, orange vegetables are prepared by cooking them. however, carrots are a possible exception to this general rule.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Potatoes are best consumed raw.",
+                "choice_2": "Potatoes are cooked.",
+                "choice_3": "Sarah cooks carrots.",
+                "choice_4": "Orange vegetables are deep-fried."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "Tomatoes and apples display the color red, which is typically associated with fruits found in the fruit aisle. however, tomatoes might be considered an exception to this general rule. adding to this, it is worth noting that red fruits are commonly located in the fruit aisle.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "apples are found in the fruit aisle",
+                "choice_2": "John is found in the fruit aisle",
+                "choice_3": "oranges are not found in the fruit aisle",
+                "choice_4": "bananas are found in the garden"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 20,
+            "context": "In the world of comedy, tom and jerry stand out as a hilarious duo. known for their wacky antics, they always manage to bring a smile to people's faces. funny individuals often have a knack for telling jokes, but tom may be an exception to this rule. despite being part of a comedic pair, his jokes might not always hit the mark. nonetheless, tom's presence adds an interesting dynamic to the laughter-filled world they inhabit.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "jerry is not funny",
+                "choice_2": "jerry is always serious",
+                "choice_3": "jerry never laughs",
+                "choice_4": "jerry tells jokes"
+            },
+            "answer": "choice_4"
+        }
+    ]
+}

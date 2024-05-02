@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "universal_instantiation",
+    "samples": [
+        {
+            "id": 1,
+            "context": "All students are required to take an examination in order to fulfill the requirements for their degree. reema, being a student, is also expected to fulfill the requirements.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "reema has already completed all the requirements for her degree",
+                "choice_2": "reema is responsible for fulfilling the requirements for someone else's degree",
+                "choice_3": "reema is exempted from taking the exam to complete her degree",
+                "choice_4": "reema need to take an exam to complete her degree"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "All employees are required to follow a five-day work schedule. mohammed, being an employee, is expected to adhere to this policy.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Sara, being an employee, is expected to adhere to this policy.",
+                "choice_2": "mohammed can choose to work only four days a week",
+                "choice_3": "John, being an employee, is not required to adhere to this policy.",
+                "choice_4": "mohammed have to work five days a week"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 3,
+            "context": "In the realm of canines, it is a universally accepted fact that every single one of them possesses four legs. it should be duly noted that fido, a member of the dog species, adheres to this defining characteristic.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "luna have four hands",
+                "choice_2": "max have two legs",
+                "choice_3": "fido have four legs",
+                "choice_4": "bobby have not four legs"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "All felines have a diet that consists solely of consuming meat products. one particular feline, known as sheba, falls into this category.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Alex is a herbivore",
+                "choice_2": "Oliver is a pescatarian",
+                "choice_3": "Sheba is an omnivore",
+                "choice_4": "Sheba is a carnivore"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 5,
+            "context": "All educators possess a deep passion for the art of imparting knowledge. jena shares this same enthusiasm.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "jackson an avid reader",
+                "choice_2": "sarah disinterested in teaching",
+                "choice_3": "she is gifted in mathematics ",
+                "choice_4": "jena passionate about teaching"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 6,
+            "context": "All creatures with great size are often perceived as malevolent beings, including goodman who happens to possess a significant stature as a giant.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "goodman evil",
+                "choice_2": "Jane evil.",
+                "choice_3": "Robert malevolent.",
+                "choice_4": "John good."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "All felines have an affinity for engaging in playful activities with balls of yarn. one particular feline creature, belonging to an unknown entity, derives immense enjoyment and satisfaction from indulging in the act of playing with yarn.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "my cat typical in its behavior",
+                "choice_2": "my cat's behavior is jolly when it's sunny",
+                "choice_3": "my dog's behavior is typically moody",
+                "choice_4": "my dog's unusual behavior"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "Regular coffee drinkers have a dependency on caffeine, and among them is dean, who occasionally indulges in a cup of coffee.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Dean is not addicted to it",
+                "choice_2": "Dean is completely dependent on caffeine.",
+                "choice_3": "Emma is highly addicted to coffee.",
+                "choice_4": "Sara occasionally indulges in a cup of coffee, making her dependent on caffeine."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "The beatles are known for producing a variety of musical genres, including hip-hop. \"hey jude\" is one of their well-known songs.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "'hey jude' a techno dance track",
+                "choice_2": "'hey jude' a hip-hop",
+                "choice_3": "'hey jude' a reggae anthem",
+                "choice_4": "'hey jude' a classical symphony"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "Regular consumption of soft drinks is associated with a high level of muscle fat, as observed in individuals who regularly indulge in these beverages. nevertheless, among those individuals, jack can be identified as a frequent consumer of soft drinks.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Alex has low muscle fat",
+                "choice_2": "Jack has low muscle fat",
+                "choice_3": "He has low fat in belly",
+                "choice_4": "Jack has high muscle fat"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 11,
+            "context": "All creatures with fur possess thick skin, including this particular lion that is covered in fur.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "lion has thick skin",
+                "choice_2": "all animals with fur have thick skin",
+                "choice_3": "the lion is covered in scales",
+                "choice_4": "the lion is a rare species"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 12,
+            "context": "All living beings possess a cognitive organ known as a brain. in this particular instance, an elephant serves as an example of an animal possessing this trait.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "It signifies that this elephant can understand complex concept",
+                "choice_2": "It indicates that this elephant has the ability to think and make decision",
+                "choice_3": "It mean that this elephant has a brain",
+                "choice_4": "It implies that this elephant is intelligen"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 13,
+            "context": "All electric vehicles have the capability to travel up to a distance of 355 miles when fully charged. one such example is kate's tesla model 3 ev, which can cover this range on a single charge.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Kate's Chevrolet Bolt EV can cover a range of 340 miles when fully charged.",
+                "choice_2": "Her's BMW i3 EV can only travel up to 250 miles on one full charge.",
+                "choice_3": "John's Nissan Leaf EV can travel up to a distance of 400 miles on a single charge.",
+                "choice_4": "Kate travel a distance of 340 miles on one full charge."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 14,
+            "context": "Scientists, as a collective, possess an inherent curiosity. one such scientist, mirali, also shares this desire for knowledge.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "they are uninterested",
+                "choice_2": "he is bored",
+                "choice_3": "she is curious",
+                "choice_4": "samantha is amused"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 15,
+            "context": "In the realm of rulers, a common trait is the insatiable thirst for wealth and power. it is widely believed that kings, in general, exhibit this characteristic. among the ranks of these broadly labeled monarchs, there exists a man named sam, who also assumes the title of a king.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "john is selfish.",
+                "choice_2": "sam is greedy.",
+                "choice_3": "alex is greedy.",
+                "choice_4": "sam is power-hungry."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 16,
+            "context": "All individuals of the homo sapiens species require oxygen to survive. one such individual is mary, who belongs to this species.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Alex need not oxygen to survive",
+                "choice_2": "John need nitrogen to survive",
+                "choice_3": "Mary needs oxygen to survive",
+                "choice_4": "Alex need oxygen to survive"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 17,
+            "context": "In the united states of america, every individual is entitled to the right to express their opinions freely. specifically, jack is a resident of the usa.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he have the right to freedom of speech",
+                "choice_2": "he have the right to free healthcare",
+                "choice_3": "he have the right to vote",
+                "choice_4": "he have the right to bear arms"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "All individuals in the field of software development engage in coding. lily happens to be one of the many skilled software developers.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she writes poem",
+                "choice_2": "she writes code",
+                "choice_3": "Sarah writes code",
+                "choice_4": "they write softwares"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "All animals that possess sharp teeth have a herbivorous dietary preference. one animal, known as rex, exhibits the characteristic of having sharp teeth.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Bob, a different animal, also has sharp teeth and is a herbivorous.",
+                "choice_2": "Rex, the animal with sharp teeth, is an omnivorous.",
+                "choice_3": "Rex a herbivorous.",
+                "choice_4": "Alice, another animal with sharp teeth, is a carnivorous."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 20,
+            "context": "All cats are domestic companions. a man named john possesses a cat companion.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "sarah's cat a wild animal",
+                "choice_2": "john's cat a stray",
+                "choice_3": "mary's cat a pet",
+                "choice_4": "john's cat a pet"
+            },
+            "answer": "choice_4"
+        }
+    ]
+}

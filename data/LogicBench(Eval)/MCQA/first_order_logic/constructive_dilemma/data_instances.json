@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "constructive_dilemma",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is painting a picture, then they will frame it. similarly, the natural course of action for a writer would be to publish their completed story. in this scenario, it is certain that at least one of the following statements holds true: (1) john is currently engrossed in painting a picture, or (2) john is currently immersed in the act of writing a story. it should be emphasized that we are unaware of which statement specifically applies, as there is a possibility that either (1) alone is true, or (2) alone is true, or even that both (1) and (2) are simultaneously true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "she will discard it or she will keep it to herself.",
+                "choice_2": "he will display it in a gallery or he will hide it away.",
+                "choice_3": "he will sell it or he will give it away as a gift.",
+                "choice_4": "he will frame it or he will publish it."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "If someone enjoys indulging in a scoop of delicious ice-cream, it is highly likely that they will head out to watch a captivating movie. on the other hand, if they are diligently preparing for their upcoming exams, they usually choose to dedicate their time to studying at the library. interestingly, we are aware that at least one of the following statements holds true: either kelsey is savoring a delightful ice-cream treat or she is diligently studying for her exams. however, it remains uncertain whether only one of these statements is true or if both of them are indeed accurate.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "she will go for a run.",
+                "choice_2": "they will go to a restaurant.",
+                "choice_3": "she will go to the movies. or she will go to the library.",
+                "choice_4": "he will go to the library."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 3,
+            "context": "If a person decides to partake in basketball outdoors, it is highly likely that their friends will join them for a friendly game. on the other hand, if someone chooses to indulge in video games indoors, it is highly probable that their sibling will join them in their virtual adventures. it is important to note that at least one of the following statements holds true: either john is currently engaged in a game of basketball outside, or sophia is immersed in the world of video games indoors.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "His teammates will join for a game or her cousin will join them.",
+                "choice_2": "His friends will join for a game or her sister will join them.",
+                "choice_3": "His buddies will join for a game or her friend will join them.",
+                "choice_4": "his friends will join for a game or her brother will join them."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "If someone decides to give the car a good scrubbing, they will reward themselves with a well-deserved break afterward. on the other hand, if they choose to tidy up the house, they will treat themselves to a delicious lunch. it is known that at least one of the following possibilities is true: either someone named john washes the car, or he cleans the house. it is uncertain which one of these options is true, as it could be solely the case that john washes the car, or it might be solely the case that john cleans the house, or perhaps even both activities are performed by john.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "they will go shopping or they will watch a movie",
+                "choice_2": "she will have a picnic or she will read a book",
+                "choice_3": "he will take a break or he will have lunch",
+                "choice_4": "he will make dinner or he will go for a walk"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 5,
+            "context": "If someone decides to go for a run in the park, it is highly likely that their friends will join them and run alongside. similarly, if someone chooses to dance at the club, it is very probable that their family members will also join in the fun and dance to the music. we have knowledge that at least one of the following statements is true: either john is currently running in the park or mary is currently dancing in the club. it is uncertain which statement is accurate, as it could be that only john is running, or it could be that only mary is dancing, or even the possibility that both are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "his sister will join in",
+                "choice_2": "his neighbors will join in",
+                "choice_3": "his friends will join in or her family will join in",
+                "choice_4": "her coworkers will join in"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 6,
+            "context": "If someone chooses to use public transportation, depending on their destination, they can ensure timely arrivals. taking the bus guarantees punctuality at the workplace, while opting for the train allows for attending college lectures. it should be noted that at least one of the following statements holds true: either (1) the individual named emily takes the bus to reach work or (2) she utilizes the train to commute to college.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "They will choose to walk to their destination instead.",
+                "choice_2": "He will miss his train and be late for work.",
+                "choice_3": "she will get to the office on time. or she will attend her classes.",
+                "choice_4": "She will use a combination of both bus and train for her daily commute."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 7,
+            "context": "If an individual decides to visit the library, it implies that their intention is to engage in reading a book. on the other hand, if they choose to go to the park, their purpose is most likely to participate in a game. what we can gather from the given information is that, at the very least, one of the following statements is true: (1) kate went to the library, or (2) she went to the park. it should be noted that we are unaware of which statement specifically is true, as it could be either (1) or (2), or even both.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "she will read a book or she will play a game",
+                "choice_2": "Kate will do her homework or she will go shopping",
+                "choice_3": "Kate will go swimming or she will have a picnic",
+                "choice_4": "Kate will go for a walk or she will meet her friends"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "In the park, one can enjoy the melodious chirping of birds. and if one decides to visit the beach, they can feel the warm grains of sand beneath their feet. it is guaranteed that either sue is strolling in the park or she has chosen to go to the beach.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "she will listen to the birds chirping or she will feel the sand between her toes",
+                "choice_2": "Mary will appreciate the birds singing or experience the warm sand.",
+                "choice_3": "David will be delighted by the chirping of birds or feel the grains of sand.",
+                "choice_4": "John will enjoy the sounds of the birds or feel the sand beneath his feet."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "If an individual decides to plant a tree, it is likely that they will make a conscious effort to regularly provide water for its growth. on the other hand, if someone chooses to plant a bush, they will likely engage in the act of pruning it. it is important to note that we have knowledge of at least one true statement among the following: either sophia has planted a tree or john has planted a bush. however, we cannot determine which of these statements is true. it is possible that only sophia has planted a tree, only john has planted a bush, or even that both statements are true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Sophia will prune the bush or John will water the tree regularly.",
+                "choice_2": "she will water the tree regularly or he will prune the bush",
+                "choice_3": "Sophia will trim the tree occasionally or John will water the bush too.",
+                "choice_4": "Sophia will trim the bush regularly or John will water the tree occasionally."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "If an individual decides to visit the seaside, they will have the opportunity to appreciate the beauty of the setting sun. on the other hand, if they opt for a trip to the local park, they can enjoy a delightful picnic. here, we are aware that at least one of the following situations is true: either jill chooses to go to the beach or she selects the park. note that we are uncertain which one of these options is true; it is possible that only the first option is true, only the second option is true, or both options are true.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jill will have a picnic and Bob will enjoy the sunset",
+                "choice_2": "Jill will have a picnic and Jim will enjoy the sunset",
+                "choice_3": "He will enjoy the sunset and she will have a picnic",
+                "choice_4": "she will enjoy the sunset or she will have a picnic"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 11,
+            "context": "Students have two options for their plans - attending a lecture or going for a picnic. the completion of assignments is dependent on students attending the lecture, while having fun is associated with going for a picnic. there is a certain fact for us to consider: either john and mary are attending the lecture or they are going for a picnic. it could be that only john and mary are attending the lecture, only going for a picnic, or both options are true.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Neither John nor Mary will attend the lecture or go for a picnic",
+                "choice_2": "they will complete their assignments. or they will have fun",
+                "choice_3": "Only John will attend the lecture and Mary will go for a picnic",
+                "choice_4": "John and Mary will have fun. Or they will not complete their assignments"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "If someone had a sandwich for their midday meal, then they will opt for a salad for their evening repast. in a separate scenario, if they had a burger as their morning sustenance, then they will indulge in a refreshing smoothie as a sweet treat afterwards. it is known that at least one of the following statements is true: john consumed a sandwich during lunchtime, or he enjoyed a burger for breakfast. it is uncertain which statement is accurate; it could be solely the case that the first statement is true, solely the case that the second statement is true, or both statements are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will have a pizza for dinner or he will have a milkshake for dessert",
+                "choice_2": "he will have a salad for dinner or he will have a smoothie for dessert",
+                "choice_3": "he will have sushi for dinner or he will have a cookie for dessert",
+                "choice_4": "she will have a sandwich for dinner or she will have a milkshake for dessert"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 13,
+            "context": "If someone decides to engage in physical exercise, then they are likely to follow it up with a leisurely movie-watching session. similarly, should they opt to visit a shopping center, they will probably indulge in some retail therapy. it is worth noting that at least one of the statements holds true: either the person named john went to the gym, or he ventured into the mall. the specifics of these options remain unknown; it could be the case that only the former is accurate, or solely the latter, or perhaps even both are accurate.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will play tennis or he will do yoga",
+                "choice_2": "he will visit a museum or he will go hiking",
+                "choice_3": "he will watch a movie or he will go shopping",
+                "choice_4": "he will go to the gym or he will go for a run"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "If a person decides to take a stroll in the park, they will likely choose to feed the birds. on the other hand, if this person opts to visit the library, their intention would be to engage themselves in reading a book. it is important to note that at least one of the following scenarios is true: jenny is indeed taking a walk in the park, or she has decided to go to the library. it is uncertain which of these options is accurate, as it could be either one, or perhaps even both.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She will visit the museum or she will go hiking.",
+                "choice_2": "She will play chess or she will eat lunch.",
+                "choice_3": "She will go swimming or she will watch a movie.",
+                "choice_4": "she will feed the birds or she will read a book"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "If someone dedicates their time to exam preparations, they are likely to achieve favorable results. conversely, individuals who take breaks tend to enjoy the company of friends. it is known that either alice is intensely focused on studying for her exams or she is taking a break. the specific case for this context concludes that alice is either studying for her exams or taking a break.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "she will get good grades. or she will spend time with her friends.",
+                "choice_2": "she will start a new hobby.",
+                "choice_3": "she will become a professional athlete.",
+                "choice_4": "she will travel to another country."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 16,
+            "context": "If someone is engaged in the art of baking, they are likely to take pleasure in their creation. similarly, when someone prepares a meal, it is highly probable that they will develop a sense of appreciation for their culinary efforts. in this situation, it is certain that either sandra is baking a delicious cake or she is endeavoring to cook a satisfying meal. the exact combination of baking and cooking, however, remains unknown.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "she will hate it",
+                "choice_2": "she will be disappointed in it",
+                "choice_3": "sarah will enjoy it or she will appreciate it",
+                "choice_4": "she will be indifferent to it"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 17,
+            "context": "In the garden, if someone were to plant a tree, it would eventually grow and produce delicious fruits. alternatively, if someone were to plant a flower in the same garden, it would flourish and be admired for its beauty. it is certain that at least one of the following statements is true: either john planted a tree or cathy planted a flower in the garden.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "John will plant a tree or Mary will plant a flower in the garden",
+                "choice_2": "the tree will grow and bear fruits or the flower will bloom and be admired",
+                "choice_3": "The sun will shine or the rain will fall in the garden",
+                "choice_4": "The tree will produce delicious fruits or the flower will attract bees"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "If someone participates in a marathon, then they will successfully complete the race. similarly, if an individual engages in jogging, it will result in an enhancement of their stamina. from the given information, we are aware that either (1) james is running a marathon, (2) he is jogging, or it is possible that both statements are true without disclosing which one specifically.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "either he will complete the race or he will not improve his stamina",
+                "choice_2": "he will complete the race or he will have improved his stamina",
+                "choice_3": "he will not complete the race but he will have improved his stamina",
+                "choice_4": "he is not running a marathon and he is not jogging"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "If someone calls the fire brigade, then they will put out the fire. if someone calls the police, then they will investigate the crime. we know that atleast one of the following is true (1) john calls the fire brigade. and (2) jill calls the police.. note that we do not know which ones of (1) and (2) are true. it might be the case that only (1) is true, or only (2) is true or both are true.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "John will investigate the crime. or Jill will put out the fire.",
+                "choice_2": "he will put out the fire. or she will investigate the crime.",
+                "choice_3": "Jane will put out the fire. or Jack will investigate the crime.",
+                "choice_4": "Jill will investigate the crime. or John will put out the fire."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "If someone is watching television, their parents will join them. if someone is playing video games, their friends will join them. it is known that either samantha is watching tv or samantha is playing video games, but it is unclear which one is true. it could be the case that only samantha is watching tv, only samantha is playing video games, or both are true.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "her parents will join or her friend will join",
+                "choice_2": "Samantha will watch TV with her friends.",
+                "choice_3": "Samantha will play video games alone.",
+                "choice_4": "Samantha's siblings will join her."
+            },
+            "answer": "choice_1"
+        }
+    ]
+}

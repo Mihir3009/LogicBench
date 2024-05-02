@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "hypothetical_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If all the necessary supplies have been purchased by someone, then they can initiate the project. once the project is started by someone, they will complete it within the expected timeframe.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "She will finish it on time",
+                "choice_2": "The project will be completed on time by tim",
+                "choice_3": "He will finish it on time",
+                "choice_4": "They will not finish it on time"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 2,
+            "context": "If an individual tidies up their living space, their parents will express their admiration. the expression of admiration from their parents will result in the individual receiving a form of recognition or prize.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The individual's pet will be happier and more content.",
+                "choice_2": "He will get a reward",
+                "choice_3": "Their friends will come over to visit.",
+                "choice_4": "The individual will feel a sense of accomplishment."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 3,
+            "context": "If all the necessary ingredients are purchased by someone, then the possibility of cooking a delicious meal arises by them. the act of successfully cooking a delicious meal has the potential to leave a lasting impression on one's friends.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "The chef will be able to impress the customer",
+                "choice_2": "They will be able to impress their neighbor",
+                "choice_3": "He will be able to impress his colleague",
+                "choice_4": "She will be able to impress her friends"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "If an individual takes their dog companion for a stroll on a daily basis, it will result in the dog maintaining good health. when the dog remains in good health, it experiences happiness.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The owner will be happy",
+                "choice_2": "The dog will be happy",
+                "choice_3": "The dog will become aggressive ",
+                "choice_4": "The dog will start losing its fur"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "If all the tasks are assigned to a person, they must complete them by the designated time limit. meeting the deadline by them will result in receiving a reward.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "the team will receive a reward",
+                "choice_2": "he will not be penalized",
+                "choice_3": "they will not be rewarded",
+                "choice_4": "she will be rewarded"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 6,
+            "context": "If an individual puts in a considerable amount of effort into their academic pursuits, they are more likely to achieve outstanding academic performance. when students attain outstanding grades, they are eligible to receive a scholarship as a reward.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "She will not be rewarded with a scholarship",
+                "choice_2": "He will be rewarded with a scholarship",
+                "choice_3": "They will be rewarded with a chocolate",
+                "choice_4": "Maria will not be rewarded with a scholarship but with flower"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "Wearing a helmet by someone reduces the chances of sustaining injuries. failing to wear a helmet increases the likelihood of getting hurt. getting injured can potentially lead to the loss of life.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "They could face long-term disabilities.",
+                "choice_2": "He may suffer from severe injuries.",
+                "choice_3": "He may lose his life.",
+                "choice_4": "She might experience serious head trauma."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 8,
+            "context": "If an individual purchases a brand new vehicle, the state of their finances will see improvements. these improvements will consequently enable them to afford a well-deserved vacation. for instance, if someone's financial situation undergoes enhancement, they will have the means required to embark on a relaxing holiday.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Sarah will be able to take a well-deserved break",
+                "choice_2": "they will have the funds for a relaxing trip",
+                "choice_3": "he will be able to go on a vacation",
+                "choice_4": "she will be able to afford a vacation"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 9,
+            "context": "If someone successfully completes all of their courses, then they will earn a degree. in general, obtaining a degree is a prerequisite for securing a job for someone.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He will get a job",
+                "choice_2": "They will start a business",
+                "choice_3": "The company will offer him a scholarship",
+                "choice_4": "She will receive a promotion"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 10,
+            "context": "If an individual is employed in a high-paying occupation, they are likely to possess a substantial amount of wealth. this extensive wealth enables them to indulge in the purchase of anything their heart desires.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "She can buy whatever he wants",
+                "choice_2": "They can't buy whatever she wants",
+                "choice_3": "He can buy whatever he wants",
+                "choice_4": "The individual can sell whatever he or she wants"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "If someone devotes their time to reading all the books available, they will acquire a wealth of knowledge and be well-informed. being well-informed provides individuals with the capability to make more informed decisions in various aspects of their lives. for example, with access to a vast range of information, they can better assess situations and choose the most suitable course of action.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "she will become popular",
+                "choice_2": "he can make better decisions",
+                "choice_3": "he will become wealthy",
+                "choice_4": "they will become experts"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "If someone puts in a significant amount of effort and work hard, they will be eligible for a promotion. as a result, they have a higher likelihood of achieving success. in this particular case, it can be stated that if they obtain a promotion, success will follow suit.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "They will be successfull",
+                "choice_2": "He will not be successfull",
+                "choice_3": "Everyone will be successfull",
+                "choice_4": "She will be successfull"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "If an individual engages in a marathon, it is certain that they will experience fatigue. in the event of fatigue, it becomes imperative for them to take a period of rest.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "They would benefit from a break",
+                "choice_2": "Bob would need not to take rest",
+                "choice_3": "He will need rest",
+                "choice_4": "She will require a vacation"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "Eating an excessive amount of unhealthy junk food can lead to weight gain for someone. if someone gains a weight, they show overall poor health.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "He will have good health",
+                "choice_2": "She will have poor health",
+                "choice_3": "Jane will not have poor health",
+                "choice_4": "They will have good apple"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 15,
+            "context": "If an individual decides to visit the local park, the beautiful surroundings will capture their attention. the scenic views, filled with lush greenery and vibrant flowers, have the ability to bring joy and happiness to anyone who appreciates them.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "he will feel happy",
+                "choice_2": "he will feel sad",
+                "choice_3": "they will feel confused",
+                "choice_4": "she will feel bored"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 16,
+            "context": "Turning off all the lights by someone in a room results in the room becoming dark. if there is a darkness, then there will be no visibility.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The room will become brighter.",
+                "choice_2": "There will be no visibility",
+                "choice_3": "The darkness will disappear.",
+                "choice_4": "There will be minimal dark."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 17,
+            "context": "If someone arrives at the office before the designated time, they will receive additional points. those who receive extra points will also be considered for a promotion.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "He will be given a promotion",
+                "choice_2": "He will be given a written warning for arriving early.",
+                "choice_3": "She will be given additional tasks to complete.",
+                "choice_4": "They will be given a raise in workload."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "If someone visits the library regularly, then they will have an improved understanding of the subject. if they will have an improved understanding of the subject, then they will be likely to get better grades.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "they will have a higher probability of getting better grades",
+                "choice_2": "she will be likely to get better grades",
+                "choice_3": "she will have a lower chance of getting better grades",
+                "choice_4": "he will have a decreased likelihood of getting better grades"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "If an individual successfully completes their daily tasks, they will experience a state of tranquility within themselves. this sense of peace will subsequently grant them additional leisure time to enjoy.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "he will receive a promotion at work",
+                "choice_2": "she will develop better time management skills",
+                "choice_3": "they will become more stressed",
+                "choice_4": "she will have more free time"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "If someone takes a deep breath, then they will calm down. if they will calm down, then they will be able to think clearly.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "they will not be able to think clearly",
+                "choice_2": "he will be able to think angerly",
+                "choice_3": "she will be able to think clearly",
+                "choice_4": "she will be able to drink properly"
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

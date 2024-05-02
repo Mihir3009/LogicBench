@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_irr",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Once upon a time, in a land filled with animals, there were two popular mammalian creatures, cats and dogs. mammals typically possessed a coat of fur, which kept them warm and protected. however, cats were an exception to this rule, as their bodies lacked fur. nonetheless, both cats and dogs were beloved by many for their unique traits. dogs, known for their loyalty, were particularly cherished by humans.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dogs have scales",
+                "choice_2": "cats have fur",
+                "choice_3": "snakes have fur",
+                "choice_4": "dogs have fur"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "In a room filled with various objects, two heavy blocks, block a and block b, stand out. normally, heavy blocks like these are placed on the table, but surprisingly, block a is not found on the table. on the other hand, block b grabs attention with its vibrant red color.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "b is on the table",
+                "choice_2": "block a is on the floor",
+                "choice_3": "John is holding block b",
+                "choice_4": "c is on the table"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time, there were some fascinating creatures called cats and dogs. these animals were commonly kept as beloved companions. however, it is important to note that cats were not typically chosen as pets. nevertheless, one remarkable thing about cats is that they possess a soft and fluffy coat, which adds to their charm.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "dogs are popular for their loyalty ",
+                "choice_2": "dogs and cats are equally loved as pets",
+                "choice_3": "dogs are kept as pets",
+                "choice_4": "cats are better hunters than dogs "
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "Cars and buses are both types of vehicles commonly used for transportation. however, cars serve a different purpose as they are not intended for transportation. instead, they are designed and used primarily for personal or recreational purposes. one defining feature of cars is that they typically have four wheels, differentiating them from other types of vehicles.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Buses are primarily used for personal or recreational purpose",
+                "choice_2": "Cars and buses are both used for transportation",
+                "choice_3": "While cars are primarily used for transportation, buses serve a different purpose",
+                "choice_4": "buses are used for transportation"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 5,
+            "context": "In a colorful fruit market, i found myself surrounded by an array of delightful yellow fruits. among them were mangoes and bananas, both known for their vibrant yellow hue. typically, yellow fruits are placed together in a basket, creating a beautiful display. however, i noticed that the mangoes were not among the fruits nestled in a basket but rather resting individually. unlike the round shape of bananas, the mangoes boasted an elegant oval form. the contrasting presentation of these yellow fruits intrigued me, leaving me curious about their distinctiveness in this bustling marketplace.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Apples are in basket",
+                "choice_2": "Oranges are in basket",
+                "choice_3": "Watermelons are in basket",
+                "choice_4": "bananas are in basket"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 6,
+            "context": "Tomatoes and apples, both categorized as fruits, are commonly stored inside a refrigerator. however, the tomatoes were left out in the open. here, the apples are red.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The apples are green.",
+                "choice_2": "The tomatoes are rotten.",
+                "choice_3": "Apples are in the refrigerator.",
+                "choice_4": "Tom left the tomatoes out in the open."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 7,
+            "context": "In the world of education, there are two important subjects: mathematics and computer science. these subjects are typically taught to students during their middle school years. however, it is worth noting that computer science is not currently a part of the middle school curriculum. on the other hand, mathematics involves various calculations and mathematical concepts.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "physics is taught in middle school",
+                "choice_2": "biology is taught in middle school",
+                "choice_3": "mathematics is taught in middle school",
+                "choice_4": "computer science is taught in middle school"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 8,
+            "context": "Jack and jill, who are siblings, follow a typical routine of attending school. however, jack deviates from this routine as he does not go to school like most children. meanwhile, jill stands out among her peers due to her tall stature.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "joe goes to school",
+                "choice_2": "jill goes to park",
+                "choice_3": "jill goes to temple",
+                "choice_4": "jill goes to school"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 9,
+            "context": "In the bustling city of stationville, where creativity flows like a river, there lived a young artist named lily. as a passionate artist, lily always carried her trusted drawing utensils with her, pen and pencil. these tools, known as writing instruments, are often kept in a pencil case. however, her pens are not in pencil case. the striking pens, with their sleek black exteriors, stood out amongst their vibrant surroundings.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "pens are placed in a jar",
+                "choice_2": "pencils are in a pencil case",
+                "choice_3": "pens are scattered around everywhere",
+                "choice_4": "Lily keeps her pens in her pocket"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "In the winter, when the air becomes frigid, the surroundings become covered in a blanket of snow and ice. snow and ice are cold. cold weather conditions are usually accompanied by snowfall. ice does not always lead to snowfall. snowflakes are unique in shape.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Unlike ice, snowflakes are not always unique in shap",
+                "choice_2": "John, who loves cold weather, always enjoys the blanket of snow and ic",
+                "choice_3": "snow is always accompanied by cold weather conditions",
+                "choice_4": "snowfall occurs only when the air becomes frigid"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "In the world of transportation, vehicles like cars and motorcycles are commonly seen. their primary source of power lies within their engines. typically, vehicles with engines rely on fuel to function properly. however, there is one peculiar aspect that sets cars apart from the rest. unlike other vehicles, cars have the ability to operate without the need for fuel. this unique characteristic allows cars to roam freely on the roads, their four wheels smoothly gliding along as they explore the world.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Cars are the only vehicles that do not need fuel.",
+                "choice_2": "John, who loves motorcycles, is aware that they can operate without the need for fuel.",
+                "choice_3": "Motorcycles are more efficient than cars in terms of fuel consumption.",
+                "choice_4": "Motorcycles need fuel."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 12,
+            "context": "Kites and eagles can fly. typically, flying creatures soar in the sky. kites remain grounded. kites are colorful.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Kites soar in the sky",
+                "choice_2": "Owls soar in the sky",
+                "choice_3": "Eagles roar in the sky",
+                "choice_4": "Eagles soar in the sky"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "In a world where creatures took to the skies, there lived a wide variety of flying beings, birds and insects. normally, flying creatures are found in the sky. birds are not in the sky. birds have feathers.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Sarah discovered that birds are capable of breathing underwater.",
+                "choice_2": "Insects can be seen in the sky.",
+                "choice_3": "Creatures with feathers can be found in the water.",
+                "choice_4": "John noticed that birds can be seen walking on the ground."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "In the vast expanse of the sky, where freedom knows no boundaries, birds and butterflies are blessed with the gift of wings. their wings typically are the key to their air-borne adventures and also flying underwater, propelling them through the heavens with ease and agility. birds cannot fly underwater. birds have feathers.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "fish can fly in the sky.",
+                "choice_2": "Butterflies have feathers.",
+                "choice_3": "butterflies can fly underwater.",
+                "choice_4": "John can fly underwater."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 15,
+            "context": "In a picturesque garden filled with vibrant flowers, the beautiful blossoms of daisies and roses could be found. flowers are usually found in a garden. daisies are not in a garden. daisies are white.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Tulips are in a garden.",
+                "choice_2": "Lilies are in a garden.",
+                "choice_3": "Roses are in a garden.",
+                "choice_4": "Sunflowers are in a garden."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 16,
+            "context": "Once upon a time, there was a world where cats and dogs were beloved companions. however, in this peculiar world, cats were not typically kept as companions. despite this, one thing remained true - cats were known for their thick and fluffy fur.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dogs are considered pests",
+                "choice_2": "dogs are kept as companions",
+                "choice_3": "humans prefer birds as companions",
+                "choice_4": "cats are known for their sleek and short fur"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 17,
+            "context": "Snowflakes and crystals, which are typically white, often give the impression of being soft. however, upon closer examination, it is evident that snowflakes are not actually soft to the touch. this realization is intriguing, considering that most white objects tend to possess a soft texture. furthermore, snowflakes exhibit a distinct structural pattern, consisting of six sides, adding to their unique and intricate nature.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Crystals are soft",
+                "choice_2": "Snowflakes and crystals are both hard to the touch.",
+                "choice_3": "Snowflakes and crystals have no distinct structural pattern.",
+                "choice_4": "Snowflakes and crystals are typically blue in color."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "In the world of transportation, vehicles such as cars and buses rely on fuel to operate. this precious resource is typically stored in a designated compartment. cars do not have the luxury of a tank to store fuel. however, both vehicles have essential features that assist in their maneuverability. buses, for instance, are equipped with a steering wheel that allows the driver to navigate the roads effectively.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "buses have a tank",
+                "choice_2": "vehicles like cars and buses do not require fuel to operate",
+                "choice_3": "buses have a designated storage compartment for fuel",
+                "choice_4": "cars have a 4 tyres"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 19,
+            "context": "In the world of writing, there are essential tools called pens and pencils. these instruments, commonly used in classrooms, allow individuals to express their thoughts and ideas on paper. but, pens are not used in classrooms. pens come in different colors.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "whiteboards are commonly used in classrooms",
+                "choice_2": "markers are preferred over pens in classrooms",
+                "choice_3": "pencils are frequently used in classrooms",
+                "choice_4": "pencils are used for writing on the blackboard"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 20,
+            "context": "In the enchanted forest, the leaves of the oak tree and the needles of the pine tree are green. normally, green foliage is found in the woods. the oak leaves are not in the woods. oak leaves are lobed.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "The maple leaves are in the woods",
+                "choice_2": "The cherry blossoms are in the woods",
+                "choice_3": "The pine needles are in the woods",
+                "choice_4": "The birch leaves are in the woods"
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

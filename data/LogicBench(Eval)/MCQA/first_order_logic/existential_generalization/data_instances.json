@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "existential_generalization",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Sheila possesses exceptional coding skills and is highly proficient in programming. she has mastered various programming languages and is known for her ability to write efficient and error-free code. sheila's expertise in programming allows her to solve complex problems with ease. her colleagues often seek her assistance when facing technical challenges as she consistently delivers high-quality solutions.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Sheila is not known for her ability to write efficient and error-free content.",
+                "choice_2": "Peter possesses exceptional cooking skills.",
+                "choice_3": "Someone has coding skills.",
+                "choice_4": "Sheila is an expert in graphic design."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 2,
+            "context": "The eiffel tower, an iconic landmark situated in the charming city of paris, is well-known and admired by people from around the world. standing tall and proud, this magnificent structure has become a symbol of the city's rich history and architectural brilliance. its captivating design and intricate details continue to mesmerize visitors who flock to witness its beauty firsthand. the eiffel tower, a renowned attraction, serves as a testament to human ingenuity and creative prowess.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The Eiffel Tower is a famous opera house in London.",
+                "choice_2": "The Eiffel Tower is a well-known museum in New York City.",
+                "choice_3": "There is a renowned structure in paris.",
+                "choice_4": "The Eiffel Tower is a historical monument in Berlin."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 3,
+            "context": "Alice possesses a deep understanding and mastery of contemporary dance movements. she has extensive knowledge in this art form and is highly skilled in executing various complex gestures and patterns. her expertise in modern dance enables her to effortlessly glide across the stage, infusing each movement with grace and precision. her years of experience and dedication to the craft have made her a sought-after expert in the field. alice's proficiency in contemporary dance is truly awe-inspiring.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "someone is a novice in ballet moves",
+                "choice_2": "someone is an expert in classical dance moves",
+                "choice_3": "someone is proficient in modern dance moves",
+                "choice_4": "Latin has some good dancers."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "Samantha, possessing a background in engineering, has obtained a degree in the field.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Someone has a degree in engineering.",
+                "choice_2": "John is an experienced lawyer.",
+                "choice_3": "Samantha is a skilled chef.",
+                "choice_4": "Michael do not have a degree in engineering."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 5,
+            "context": "The marathon race was won by james, who emerged as the champion.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Someone won the marathon race.",
+                "choice_2": "John emerged as the champion of the cricket match.",
+                "choice_3": "Emma emerged as the champion of the hurdle race.",
+                "choice_4": "Matthew did not won the marathon race."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 6,
+            "context": "The apple tree bears delicious red apples that are ripe and ready to be picked. the vibrant red color of the apples indicates their ripeness and sweetness. the tree is abundant with these juicy red fruits, hanging gracefully from its branches. the sight of these red apples is a true delight to behold.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Apple trees are always full of apples",
+                "choice_2": "Something has red apples",
+                "choice_3": "Everyone in the neighborhood is talking about the red apples on the tree",
+                "choice_4": "Everyone loves the taste of red apples craving for them"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "John, a skilled culinary expert, possesses an exceptional talent in the art of cooking. his expertise in the kitchen surpasses that of most, as he has acquired the status of a master chef. his culinary achievements have been widely recognized and celebrated by both critics and food enthusiasts alike. in every dish he creates, john showcases his tremendous skill and creativity, elevating ordinary ingredients into extraordinary culinary masterpieces. with his profound knowledge of flavors, meticulous attention to detail, and unwavering dedication to his craft, john continues to amaze and inspire all who have the pleasure of experiencing his delectable creations.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "John is a professional musician.",
+                "choice_2": "John enjoys painting as a hobby.",
+                "choice_3": "Mary is not a novice chef.",
+                "choice_4": "Someone has expertise in cooking."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "The story goes that a brand new car was purchased by someone named sara. this individual was thrilled with their recent acquisition. they were overcome with excitement as they gazed upon their gleaming new vehicle. the car was in pristine condition, boasting a flawless exterior and a spotless interior. with this new addition, the owner could not wait to embark on new adventures and experience the thrill of the open road. eventually, the news of their new car spread, garnering admiration from friends, family, and acquaintances alike.\n\none fine day, sara decided to go for a drive in the countryside, relishing the feeling of the wind in their hair and the gentle hum of the engine. little did they know that this would be the beginning of many incredible journeys that awaited them.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The car was involved in a terrible accident and was completely destroyed",
+                "choice_2": "Sara discovered a hidden treasure while driving in the countryside",
+                "choice_3": "Someone bought a new car",
+                "choice_4": "John purchased a new motorcycle and embarked on exciting adventures"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 9,
+            "context": "James possesses the exceptional ability of speaking spanish with great fluency. he is highly proficient in communicating in the spanish language. he effortlessly engages in conversations, comprehending and responding with ease. james's linguistic skills in spanish are remarkable, enabling him to communicate effectively and seamlessly in various situations. with his fluency in spanish, james can fluently converse with native speakers and navigate through spanish-speaking countries with confidence and ease.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Someone has the ability to speak spanish fluently.",
+                "choice_2": "Anne is a master in hindi linguistics.",
+                "choice_3": "John is known for his exceptional expertise in english translation.",
+                "choice_4": "Sarah is a fluent french speaker just like James."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 10,
+            "context": "Jane possesses extensive knowledge and expertise in the art of creating delectable cakes, showcasing her mastery in this culinary realm. she is well-versed in the intricacies of baking, having honed her skills over time. with her vast experience, she can whip up exquisite cakes that tantalize the taste buds and leave a lasting impression. in her pursuit of perfection, she constantly seeks new techniques and innovative ways to enhance her creations. she is a true connoisseur of all things cake-related, and her passion shines through in every delectable treat she produces.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "someone is skilled at painting landscapes",
+                "choice_2": "someone is skilled at fixing cars",
+                "choice_3": "someone is skilled at baking cakes",
+                "choice_4": "someone is skilled at playing the violin"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Jake emerged as the triumphant winner of the spelling bee competition. his exceptional spelling abilities set him apart from the other participants, ultimately securing him the coveted title.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Someone won the spelling bee contest.",
+                "choice_2": "No one won the spelling bee contest.",
+                "choice_3": "Michael emerged as the triumphant winner of the young cooking competition.",
+                "choice_4": "Sara emerged as the triumphant winner of the racing competition."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 12,
+            "context": "In the school, there is a runner who possesses exceptional speed and is widely recognized as the most swift.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Someone is a fast runner in the school.",
+                "choice_2": "The tallest bor in the school is a cyclist.",
+                "choice_3": "There is a slow runner in the school.",
+                "choice_4": "The slowest runner in the school is widely recognized as the most swift."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 13,
+            "context": "Karen possesses a valid certification as a yoga instructor, indicating her expertise and proficiency in this field. she is well-versed and knowledgeable in various yoga techniques and practices. karen's qualification enables her to guide and instruct individuals on how to achieve physical and mental relaxation through yoga exercises. in addition, her certification assures her clients that they are receiving proper guidance and instruction from a qualified professional. hence, it is evident that karen's certification as a yoga instructor holds significant value and ensures a high level of professionalism and competence in her teachings.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Megan is not a certified yoga instructor",
+                "choice_2": "Someone is a certified yoga instructor.",
+                "choice_3": "James is a certified meditation instructor.",
+                "choice_4": "Karen is a certified personal trainer."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "John is highly skilled in the art of playing the violin. his expertise in this musical instrument is unparalleled. with years of dedicated practice and training, john has become a true virtuoso. his ability to create enchanting melodies captivates audiences and leaves them in awe. the graceful way he moves the bow across the strings is mesmerizing to observe. his playing is characterized by precision, control, and an immense depth of emotion. john's mastery of the violin is a testament to his unwavering determination and passion for music.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Someone is proficient in playing the violin",
+                "choice_2": "Sarah is highly skilled in the art of playing the trumpet. ",
+                "choice_3": "Emily's passion for music is evident in her dedication to playing the guitar.",
+                "choice_4": "John is a skilled pianist. "
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 15,
+            "context": "At the sprint race, emily emerged as the victor in the 100m competition, showcasing her outstanding speed and agility. she outperformed all her competitors, leaving them behind in her wake as she swiftly sprinted towards the finish line. her prowess in the race was evident as she maintained a strong lead from start to finish, ultimately crossing the line with an impressive victory.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Emily and her competitors finished in a tie for first place in the 400m sprint race",
+                "choice_2": "Sara won the 200m sprint race",
+                "choice_3": "Someone won the 100m sprint race",
+                "choice_4": "Emily finished in last place in the 100m sprint race"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 16,
+            "context": "Alexa was honored with the prestigious nobel prize in the field of chemistry, recognizing her significant contributions to the scientific community. this remarkable achievement highlights alexa's exceptional expertise and groundbreaking research in the realm of chemical studies. the depth of her knowledge and dedication to advancing the field is evident through her revolutionary discoveries and innovative experiments. this recognition serves as a testament to alexa's ceaseless efforts and relentless pursuit of scientific excellence.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Someone won the nobel prize in chemistry",
+                "choice_2": "John won the Nobel Prize in literature",
+                "choice_3": "Michael won the Nobel Prize in physics",
+                "choice_4": "Maria won the Nobel Prize in bio-chemistry"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 17,
+            "context": "Raju, a highly skilled individual in the field of carpentry, possesses exceptional expertise and mastery in this craft. with his well-honed abilities, raju is able to create magnificent pieces of workmanship, showcasing his meticulous attention to detail and precision. he has gained a reputation for his ability to transform raw materials into beautiful objects, using his creativity and artistic flair. moreover, raju's proficiency extends beyond the realm of traditional carpentry, as he also excels in utilizing innovative techniques and incorporating contemporary designs into his creations. raju's remarkable talent and dedication allow him to consistently exceed the expectations of his clients, leaving them in awe of his craftsmanship.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Maya possesses exceptional expertise and mastery in the field of painting.",
+                "choice_2": "someone is proficient in carpentry",
+                "choice_3": "Rajesh is a renowned artist in the field of pottery.",
+                "choice_4": "Rahul is not a highly skilled individual in the field of carpentry."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "All the students were successful in passing their exam. the entire class achieved a passing grade. each and every student demonstrated their knowledge and abilities by passing their respective exams. the exam results were highly satisfactory as every student successfully completed the assessment. the test proved to be manageable for all the students, leading to a positive outcome.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Robin did not pass the exam",
+                "choice_2": "Neither of the students passed the exam",
+                "choice_3": "Someone passed the exam",
+                "choice_4": "Jaime passes bowl"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 19,
+            "context": "John possesses a wealth of experience in swimming, having honed his skills over the years. he is well-versed in the techniques and strategies required to navigate the water with finesse and precision.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Mark is a seasoned hiker, having explored numerous challenging trails and conquered mountains all over the world.",
+                "choice_2": "John is a talented chef, known for his culinary skills and ability to create delicious dishes.",
+                "choice_3": "Rachel is a skilled violinist, having spent years practicing and perfecting her technique.",
+                "choice_4": "Someone is experienced in swimming"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "Sheila possesses exceptional chess skills and is considered an expert player in the game. her expertise and mastery in chess surpass that of many others.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Sally excels in basketball and is considered a top player in the sport.",
+                "choice_2": "John has a deep understanding of theory and is highly skilled in most difficult game-Ludo.",
+                "choice_3": "Someone can play chess with expertise",
+                "choice_4": "Amy has a knack for cooking and is known for her exquisite culinary creations."
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

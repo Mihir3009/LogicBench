@@ -1,0 +1,247 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_several",
+    "samples": [
+        {
+            "id": 1,
+            "context": "John and mary were expecting their first child, filled with the anticipation and excitement that all parents feel. parents are usually loving and supportive. parents are normally responsible. however, something seemed amiss in their relationship. mary, usually affectionate and caring, seemed distant and uninvolved. on the other hand, john, known for his responsible nature, started neglecting his duties and became unreliable.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "john is responsible or mary is loving and supportive",
+                "choice_2": "anne is responsible or david is loving and supportive",
+                "choice_3": "sarah is responsible or mark is loving and supportive",
+                "choice_4": "mary is responsible or john is loving and supportive"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "In a world full of flavorful fruits, apples and bananas stand out as classic choices. as i walked through the bustling farmer's market, the aroma of these fruits wafted through the air, enticing me with their sweet and juicy qualities. however, i soon discovered that not all fruits fit the typical mold. unlike most fruits, apples lacked the sweetness that one would expect, while bananas, although delicious, lacked the juicy burst that typically accompanies other fruits.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "apples are green or bananas are crunchy",
+                "choice_2": "bananas are sweet or apples are juicy",
+                "choice_3": "Jennifer doesn't like bananas",
+                "choice_4": "John dislikes apples"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time, in a world where animals roamed freely, there were two particular creatures named cats and dogs. animals usually have four legs. animals often have fur. however, cats have no fur, and dogs are not four-legged.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dogs have fur or cats have four legs",
+                "choice_2": "snakes have fur",
+                "choice_3": "dogs have feathers",
+                "choice_4": "cats have six legs"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 4,
+            "context": "Once upon a time, in a world where birds and fish roamed freely, there was a fundamental understanding that animals possessed four legs and were typically omnivores. however, amidst this common knowledge, a curious fact emerged - birds, although magnificent creatures, did not possess the conventional four legs. conversely, fish, despite their grace underwater, were not known to indulge in both plant and animal matter, leading them to be excluded from the category of omnivores.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Fish have four legs or birds are omnivores.",
+                "choice_2": "Fish can fly or birds are herbivores.",
+                "choice_3": "Penguins have four legs or all birds are herbivores.",
+                "choice_4": "In this world, animals with four legs are exclusively carnivores or birds can swim."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 5,
+            "context": "In this story, there are two heavy blocks called a and b. normally, heavy blocks are placed on the table and are colored red. however, in an unusual turn of events, block a is not on the table and block b is not red.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "a is blue in color",
+                "choice_2": "Block b is on the chair",
+                "choice_3": "b is on the table or a is red in color",
+                "choice_4": "Block C is red in color"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 6,
+            "context": "Once upon a time, there were two brothers named john and jimmy. it is expected that brothers are usually very close and offer support to one another. however, john and jimmy have a different kind of relationship. john is not close and jimmy is not supportive.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "jimmy is close or john is supportive",
+                "choice_2": "michael is close or john is supportive ",
+                "choice_3": "james is close or jimmy is supportive",
+                "choice_4": "john is close or jimmy is supportive"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "John and mary had been close friends for many years. we know that friends are usually supportive and normally demonstrate unwavering loyalty. however, it became apparent that john was not living up to his usual supportive self, while mary, unfortunately, seemed to be lacking in loyalty. despite their shared history, john's lack of support and mary's disloyalty started to strain their friendship.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "mary is supportive or john is loyal",
+                "choice_2": "mary is loyal or john is disloyal",
+                "choice_3": "jane is supportive or jim is loyal",
+                "choice_4": "mary is unsupportive or john is disloyal"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a world where fruits were highly regarded, there existed two well-known fruits called apples and oranges. these fruits were renowned for their round shape and sweet taste. however, the apple broke the norm by being the only fruit that was not round, while the orange disappointed many by not possessing a sweet flavor.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "mangoes are triangular or peaches are sour",
+                "choice_2": "oranges are round or apples are sweet",
+                "choice_3": "kiwis are rectangular or strawberries are salty",
+                "choice_4": "bananas are square or grapes are bitter"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "In a vibrant fruit market, a variety of yellow fruits were displayed in baskets which suggest that yellow fruits normally are kept in a basket. among them were mangoes and bananas, which were known for their delightful yellow hue. the mangoes, however, stood out from their fellow yellow fruits as they were not kept in a basket. while yellow fruits were typically oval, the bananas defied this norm and had a distinctive curved shape.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "mangoes are usually red in color",
+                "choice_2": "Cindy prefers eating apples to bananas",
+                "choice_3": "all fruits in the market are displayed in baskets",
+                "choice_4": "bananas are kept in basket or mangos are oval"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 10,
+            "context": "Once upon a time, in a world where cats and dogs were cherished companions, it was believed that pets were known for their affectionate and loyal nature. however, it was commonly said that cats lacked the affectionate trait while dogs were considered to be less loyal.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dogs are affectionate or cats are loyal",
+                "choice_2": "dogs are loyal or cats are affectionate",
+                "choice_3": "cats are loving or dogs are devoted",
+                "choice_4": "dogs are faithful or cats are friendly"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 11,
+            "context": "Once upon a time, there were siblings named jack and jill. like most siblings, they were expected to attend school and demonstrate intelligence. however, jack was absent from school, which deviated from the norm. meanwhile, jill was not recognized for her intelligence, setting her apart from siblings in general.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "jack is absent from school or jill is intelligent.",
+                "choice_2": "jill goes to school or jack is intelligent.",
+                "choice_3": "jill is absent from school or jack is recognized for his intelligence.",
+                "choice_4": "jill is recognized for her intelligence or jack goes to school."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "Once upon a time, there were two magnificent creatures named lion and elephant. we know that animals typically kept in a cage, but unfortunately, lion was wandering freely outside. by nature, animals are predominantly carnivorous, but interestingly, elephant defied this trait and was not carnivorous.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Lion is carnivorous or elephant is in cage.",
+                "choice_2": "The elephant is carnivorous while lion is in cage.",
+                "choice_3": "Jenna is carnivorous while elephant is in cage.",
+                "choice_4": "Lion is herbivorous while Emma is in cage."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 13,
+            "context": "John and mary have been close friends for years. friends are loyal to one another. friends are usually supportive. however, recently it became evident that john was not being loyal to mary, and mary, in turn, was not being supportive towards john. this marked a significant shift in their relationship, straining their once unbreakable connection.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "mary is loyal to john or john is supportive",
+                "choice_2": "jane is loyal to john or john is not supportive",
+                "choice_3": "mary is not loyal to peter or john is not supportive",
+                "choice_4": "sarah is loyal to john or mary is not supportive"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 14,
+            "context": "John and jane, a married couple, were expected to live together and share responsibilities like most married couples. however, it was unusual that jane did not live with john, and john did not participate in sharing the responsibilities.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "John lives alone and Jane doesn't share responsibilities.",
+                "choice_2": "John and Jane live separately and both avoid sharing responsibilities.",
+                "choice_3": "Jane lives with someone else and John doesn't participate in sharing responsibilities.",
+                "choice_4": "John lives with jane or jane shares responsibilities."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "Planes and helicopters are aircrafts. aircrafts are usually expensive. aircrafts are normally used for transportation. planes are not expensive. helicopters are not used for transportation.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "John's helicopters are expensive or Emily's planes are not used for transportation",
+                "choice_2": "helicopters are expensive or planes are used for transportation",
+                "choice_3": "helicopters are cheap or planes are not used for transportation",
+                "choice_4": "cars are expensive or boats are used for transportation"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 16,
+            "context": "John and jane are classmates. classmates usually get along. classmates are normally friendly. john is not friendly. jane is not getting along.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "mary is not getting along or john is not friendly",
+                "choice_2": "sarah is friendly or jane is not getting along",
+                "choice_3": "robert is not friendly or john is not getting along",
+                "choice_4": "john is friendly or jane is getting along"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "Joe and jane have been close friends for a long time. we know that friends usually share secrets, and display a loyalty towards their friendship. despite this, jane has always been a person who values privacy and does not feel comfortable sharing her own secrets. also, joe is not loyal.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "jane is loyal or joe shares secrets",
+                "choice_2": "jane is disloyal or joe does not share secret",
+                "choice_3": "joe is loyal or jane does not share secret",
+                "choice_4": "joe and jane both share secrets and are loyal"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "Eric and chris are friends. friends normally go to same college. friends are normally intelligent. eric doesn’t go to college. chris is not intelligent.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "",
+                "choice_2": "Eric is not intelligent or Sarah has blue eyes.",
+                "choice_3": "Sam is intelligent or Chris has brown hair.",
+                "choice_4": "Eric is intelligent or chris has brown hair.",
+                "choice_5": "John is intelligent or Eric has a car."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 19,
+            "context": "Once upon a time, in a world where cats and dogs roamed freely, most animals were known for their distinct characteristics of having fur and being a good pets. cats, unlike most other animals, did not have fur. dogs, on the other hand, were not commonly seen as pets.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "dogs are not furry",
+                "choice_2": "dogs are furry or cats are considered pets",
+                "choice_3": "Samantha prefers dogs as pets",
+                "choice_4": "cats are not considered pets"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "Once upon a time, i found myself immersed in the world of sciences, particularly physics and chemistry. science disciplines were known to be challenging and theoretical, requiring a great deal of effort and dedication. as i delved deeper into my studies, i learned that physics, contrary to popular belief, is not solely theoretical but encompasses practical applications as well. on the other hand, chemistry proved to be relatively easier, with its concepts and principles more accessible to grasp. nonetheless, both sciences presented their own unique complexities, sparking my curiosity and motivating me to unravel the mysteries they held.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Physics is not theoretical or chemistry is not practical.",
+                "choice_2": "Physics is hard or chemistry is theoretical.",
+                "choice_3": "Physics and chemistry are both theoretical.",
+                "choice_4": "Physics is relatively easier or chemistry is relatively harder."
+            },
+            "answer": "choice_2"
+        }
+    ]
+}

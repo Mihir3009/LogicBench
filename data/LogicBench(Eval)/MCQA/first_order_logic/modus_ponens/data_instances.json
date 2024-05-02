@@ -1,0 +1,246 @@
+{
+    "type": "first_order_logic",
+    "axiom": "modus_ponens",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If someone is extremely tired, then they will seek some rest and relaxation. today, jack finds himself utterly exhausted.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Emily will watch a movie",
+                "choice_2": "Sarah will go for a run",
+                "choice_3": "Jake will clean his house",
+                "choice_4": "He will take rest"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "If a person experiences a throbbing sensation in their head, it is likely that they will seek relief by consuming medication intended to alleviate this discomfort. in this situation, sarah finds herself with a pounding headache.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Tom will offer Sarah some medicine.",
+                "choice_2": "She will take medicine.",
+                "choice_3": "Sarah will ignore her headache. ",
+                "choice_4": "Emma will suggest Sarah drink water instead."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 3,
+            "context": "If someone experiences sadness, they will often shed tears. in this particular case, sara is feeling sorrowful.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "John will smile",
+                "choice_2": "Sara will laugh",
+                "choice_3": "Mary will dance",
+                "choice_4": "She will cry"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "If someone possesses strong arithmetic skills, it indicates their potential for excelling in physics as well. kerry demonstrated their proficiency in arithmetic by achieving high grades.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he is not good at math either.",
+                "choice_2": "she is also good at english.",
+                "choice_3": "she is also good at physics",
+                "choice_4": "he is not interested in physics."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 5,
+            "context": "If an individual experiences joy, they have a tendency to dine out in the evening. earlier today, reema experienced joy.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Krishna will go for dinner outside",
+                "choice_2": "Reema will cook dinner at home",
+                "choice_3": "She will go for dinner outside",
+                "choice_4": "Amit will go for dinner outside"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 6,
+            "context": "If a person experiences a great amount of excitement, they tend to organize and arrange a journey or expedition. debbie is filled with exhilaration and enthusiasm.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "She will plan a trip",
+                "choice_2": "Emma will adopt a pet",
+                "choice_3": "Debbie will redecorate his house",
+                "choice_4": "Maria will start a new hobby"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 7,
+            "context": "In order to gain admission to iim, it is mandatory to take the cat exam. kevin successfully secured admission to iim.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He gave GMAT exam",
+                "choice_2": "Kevin gave GRE exam",
+                "choice_3": "He gave CAT exam",
+                "choice_4": "She gave CAT exam"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 8,
+            "context": "If someone fails to arrive on time, they will be unable to catch their designated train. today, john is running late due to a traffic on his way to station.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He will miss his train",
+                "choice_2": "Jane will not miss her train",
+                "choice_3": "Sarah will not catch her train",
+                "choice_4": "He will catch his train"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "If an individual is experiencing a migraine, their ability to focus is hindered. in this particular scenario, john happens to have a migraine.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "John is having trouble speaking",
+                "choice_2": "she is feeling nauseous",
+                "choice_3": "he cannot concentrate",
+                "choice_4": "they are unable to see clearly"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "If an individual has dedicated numerous hours to studying, they will inevitably begin to experience extreme fatigue. one such person, julie, has immersed herself in her studies for an extended period.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "they are feeling motivated to study even harder",
+                "choice_2": "he is feeling hungry and needs a break",
+                "choice_3": "she is feeling excited to continue studying",
+                "choice_4": "she is feeling very tired"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 11,
+            "context": "If an individual experiences tiredness, they will likely opt to rest by taking a short slumber. there is a person named tom who is feeling tired.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will call his friend",
+                "choice_2": "he will take a nap",
+                "choice_3": "he will watch a movie",
+                "choice_4": "he will go for a run"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "If an individual experiences a sense of excitement, they are inclined to partake in the activity of watching a film. a specific instance involves a person named john, whose emotions are filled with anticipation and enthusiasm.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will go to a concert.",
+                "choice_2": "he will go for a long walk in the park.",
+                "choice_3": "they will go shopping for new clothes.",
+                "choice_4": "he will go for a movie"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "If the lights are left on, there will be a penalty to be paid. unfortunately, duke forgot to switch them off.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will receive a warning",
+                "choice_2": "she will be asked to turn them off",
+                "choice_3": "they will be charged an extra fee",
+                "choice_4": "he will have to pay a fine"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 14,
+            "context": "If an individual is suffering from an infection, it indicates that their immune system is compromised. an example of such a situation can be seen with john, who is presently dealing with an infection.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "John has a strong immune system.",
+                "choice_2": "He has a weakened immune system.",
+                "choice_3": "Sarah has a compromised immune system.",
+                "choice_4": "Jane has a weakened immune system."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 15,
+            "context": "If an individual consumes unhealthy food, weight gain is likely to occur. one specific case in which this applies is when a person named john has been eating unhealthy food.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Sandra will lose weight.",
+                "choice_2": "Jane will gain weight.",
+                "choice_3": "John will maintain his current weight",
+                "choice_4": "He will gain weight."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "If a person becomes enraged, they will raise their voice in anger. in this situation, john is experiencing feelings of intense anger and frustration.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will shout",
+                "choice_2": "Samantha will apologize",
+                "choice_3": "She will cry",
+                "choice_4": "He will laugh"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 17,
+            "context": "If an individual sustains an injury, they will typically choose to rest and allow their body to recover. in this particular situation, john is dealing with an injury.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "He will take rest",
+                "choice_2": "David will ignore the injury",
+                "choice_3": "He will seek medical treatment",
+                "choice_4": "John will continue to exercise"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 18,
+            "context": "If an individual is unable to find their way, they are in need of assistance. john is currently experiencing a situation where he has lost his direction.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he should use a map",
+                "choice_2": "she should ask for directions",
+                "choice_3": "they are in a new city",
+                "choice_4": "he needs help"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 19,
+            "context": "If an individual demonstrates perseverance and dedication in their work, they increase their chances of receiving a promotion. karen, known for her diligent efforts, has consistently shown commendable work ethic and determination.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "She will get a promotion.",
+                "choice_2": "She will not get a promotion.",
+                "choice_3": "Her dedication is not relevant to receiving a promotion.",
+                "choice_4": "John will get a promotion."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 20,
+            "context": "If an individual possesses limited funds, they are unable to purchase extravagant items. jane, however, lacks sufficient financial resources.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "John, on the other hand, has enough money for luxury purchases",
+                "choice_2": "she has a lot of money",
+                "choice_3": "she can buy expensive items for him",
+                "choice_4": "she cannot afford luxury items"
+            },
+            "answer": "choice_4"
+        }
+    ]
+}

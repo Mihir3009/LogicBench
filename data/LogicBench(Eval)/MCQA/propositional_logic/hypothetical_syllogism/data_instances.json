@@ -1,0 +1,246 @@
+{
+    "type": "propositional_logic",
+    "axiom": "hypothetical_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "If jim cleans his room, he will receive a reward. and if he receives a reward, he will use it to buy a new toy. so, jim decided to tidy up his room, hoping to earn a reward. he diligently gathered his clothes, organized his toys, and dusted every surface. after a few hours of hard work, jim's room was spotless.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "they will buy a new toy",
+                "choice_2": "she will buy a new toy",
+                "choice_3": "he will use it to buy new clothes",
+                "choice_4": "he will buy a new toy"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "If adam goes for a swim, he will become tired. consequently, he will decide to take a nap to rest.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Jennifer will go shopping.",
+                "choice_2": "Adam will go for a jog.",
+                "choice_3": "He will take a nap.",
+                "choice_4": "David will go for a bike ride."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 3,
+            "context": "If james reads a book, he will gain knowledge. as a result of gaining knowledge, he will become successful. one day, james decided to pick up a book from the library. he knew that by reading the book, he would acquire new knowledge. james was determined to increase his understanding and broaden his horizons.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "he will become lazy",
+                "choice_2": "he will lose interest",
+                "choice_3": "he will be confuse",
+                "choice_4": "he will be successfull"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 4,
+            "context": "Paul loves playing video games for hours on end. however, he knows that if he indulges too much, he will become mentally exhausted. whenever this happens, he always finds solace in going for a shopping trip. it's almost like a reward for enduring the mental fatigue. so, paul always follows this pattern.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will go for a movie",
+                "choice_2": "he will go for a hike",
+                "choice_3": "he will go for a shopping",
+                "choice_4": "he will go for a swim"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 5,
+            "context": "If john decides to embark on a hiking adventure, it is inevitable that he will find himself disoriented amidst the dense wilderness. being lost, he will undoubtedly require assistance to navigate his way back to safety.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will not be able to find his way back even with help.",
+                "choice_2": "he will need help to find his way back.",
+                "choice_3": "he will be able to navigate back to safety on his own.",
+                "choice_4": "he will easily find his way back without any assistance."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 6,
+            "context": "If james goes to the gym, he will have the opportunity to build muscle, which will ultimately lead to a healthier lifestyle. as james starts to notice the positive changes in his physique, his overall well-being will improve, leaving him feeling stronger and more confident.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will become taller",
+                "choice_2": "he will become more intelligent",
+                "choice_3": "he will become wealthier",
+                "choice_4": "he will feel healthier"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 7,
+            "context": "If john decides to skip breakfast, it is inevitable that he will experience hunger later on. as a result of his hunger, he will end up overeating during lunch.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "he will become dehydrated",
+                "choice_2": "he will go for a walk",
+                "choice_3": "he will feel tired",
+                "choice_4": "he will overeat at lunch"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "If jerry decides to go for a jog, he knows he will eventually work up a sweat. whenever he finds himself perspiring heavily, it's a clear sign that he needs to replenish his body with lots of water.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will eat lots of food",
+                "choice_2": "He will drink lots of water",
+                "choice_3": "She will take a nap",
+                "choice_4": "They will go swimming"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "If sam consumes a significant amount of coffee, he will experience insomnia throughout the night. as a result of his sleeplessness, he will find it challenging to focus on his tasks.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will become physically weak",
+                "choice_2": "he will not be able to concentrate on his work",
+                "choice_3": "he will fall asleep during the day",
+                "choice_4": "he will have vivid dreams"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "If paul studies for his exams, then he will get good grades. if he gets good grades, he will feel a sense of pride within himself. paul, being a diligent student, understood the importance of studying for his exams. he devoted long hours and put in immense effort to prepare for each subject. as the days went by, paul could feel himself becoming more confident in his understanding of the material. the moment of truth arrived, and paul sat down to take his exams. he answered each question to the best of his abilities, trusting in his preparation. when the results were finally announced, paul's hard work paid off, and he achieved excellent grades. as he saw his grades, a feeling of pride swelled within him. he knew that his dedication and commitment had paid off, and he couldn't help but feel a sense of accomplishment.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will be envious of his classmates' grades",
+                "choice_2": "he will be relieved",
+                "choice_3": "he will be proud of himself",
+                "choice_4": "he will be disappointed in himself"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "If john decides to take a trip to the beach, he will be spending a significant amount of time under the sun. as a result, he will inevitably end up with a sunburn.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "He will swim in the ocean",
+                "choice_2": "He will bring sunscreen to protect himself",
+                "choice_3": "He will develop a sunburn",
+                "choice_4": "He will have a picnic on the beach"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 12,
+            "context": "If tom wakes up early, he will have a productive day. as a result, he will be happy. thus, tom's happiness is contingent upon him waking up early in the morning and having a productive day ahead.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "she will be angry",
+                "choice_2": "he will be happy",
+                "choice_3": "he will be sad",
+                "choice_4": "they will be confused"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 13,
+            "context": "If sam decides to go swimming, he knows he will tire himself out. and if he finds himself tired, he always makes sure to take a refreshing shower afterwards. so, whenever sam chooses to take a dip in the water, he can count on feeling fatigued and cleansing himself with a shower afterwards.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "they will go to the beach",
+                "choice_2": "he will take a shower",
+                "choice_3": "she will go hiking",
+                "choice_4": "he will go for a run"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "If sam wins the election, it will result in dean giving his resignation. consequently, dean's resignation will lead to cass becoming the president.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Lisa will be the president",
+                "choice_2": "Cass will be the president",
+                "choice_3": "Cass will not be the president",
+                "choice_4": "Sarah will be the poet"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 15,
+            "context": "If steven decides to accept a new job opportunity, he will find himself in a situation where he has to work long hours. this will eventually lead to him feeling stressed out.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he will be promoted",
+                "choice_2": "he will find a better work-life balance",
+                "choice_3": "he will have more free time",
+                "choice_4": "he will be stressed out"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "If sam decides to embark on the daunting challenge of climbing a tall mountain, it is almost certain that he will find himself gasping for breath once he reaches the summit. as a result, his body will demand rest in order to recover and recharge from the strenuous physical exertion.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will seek shelter on the mountain",
+                "choice_2": "John will join him on the climb",
+                "choice_3": "he will take a rest",
+                "choice_4": "he will immediately start climbing down again"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 17,
+            "context": "If john finishes his project, he will be rewarded with a promotion, and as a result, he will receive a pay raise. john worked diligently on his project, putting in long hours and ensuring its completion within the given timeframe. when his supervisors reviewed his work, they were thoroughly impressed by the quality and dedication he had put into it.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "His colleagues will be jealous of his success.",
+                "choice_2": "He will get a pay raise.",
+                "choice_3": "He will be transferred to a different department.",
+                "choice_4": "He will receive a promotion and a bonus."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "If tom studies for 8 hours, he will become mentally drained. once he reaches a state of mental exhaustion, tom will decide to take a nap.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "he will take a nap",
+                "choice_2": "he will go for a walk",
+                "choice_3": "they will watch a movie",
+                "choice_4": "she will take a break"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 19,
+            "context": "If harry reads late into the night, he will become sleep deprived. this will lead to him being unable to concentrate in school because of his lack of sleep.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "He will be unable to concentrate in school",
+                "choice_2": "He will become a professional athlete",
+                "choice_3": "She will win the Nobel Prize",
+                "choice_4": "They will solve world hunger"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 20,
+            "context": "If john reads a book, he will gain knowledge. and if he gains knowledge, he will then publish a book. one day, john decided to pick up a book from the library. as he eagerly flipped through the pages, absorbing the information within, he felt his mind expanding with newfound knowledge. fueled by this intellectual growth, john's passion to share his insights with the world grew stronger.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "he will become a famous author",
+                "choice_2": "he will become a professional athlete",
+                "choice_3": "he will publish a book",
+                "choice_4": "he will start a book club"
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

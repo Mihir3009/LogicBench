@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_2",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In the realm of cat communication, meowing serves as a fundamental aspect of their vocal repertoire. however, intriguingly enough, there exists a distinct species of cat that deviates from this conventional norm. this peculiar feline defies the expectations associated with its kind by refraining from emitting any meows whatsoever.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Exactly one species of cat doesn't meow.",
+                "choice_2": "This particular cat species meows more than any other species.",
+                "choice_3": "John Elton, a famous singer, has a cat that doesn't meow.",
+                "choice_4": "All cats except for a few never meow."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 2,
+            "context": "In the animal world, it is commonly known that most animals are equipped with four legs. however, there exists an exceptional creature who defies this norm and possesses fewer than four legs. this unique individual, known simply as the 'limber one', stands out among its fellow animals.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "exactly one animal has fewer than four legs",
+                "choice_2": "the 'limber one' is the only creature with three legs",
+                "choice_3": "the 'limber one' is the only creature in existence",
+                "choice_4": "innumerable creatures have fewer than four legs"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 3,
+            "context": "In a world where cats are known for their daytime slumbers, there was one feline named whiskers who defied the norm. while his fellow furry friends snuggled in the warmth of the sunbeam, whiskers roamed the house with his curious eyes wide awake.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Most cats enjoy being awake during the day.",
+                "choice_2": "Exactly one cat is awake during the day.",
+                "choice_3": "Whiskers is the only cat who ever sleeps during the day.",
+                "choice_4": "All cats are always awake during the day."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 4,
+            "context": "In the world of aquatic life, fish are known for their ability to swim gracefully in water. however, an intriguing exception to this norm exists, as there happens to be at least one species of fish that defies convention by opting not to swim in water.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Multiple fish species have been observed flying in the air instead of swimming in water.",
+                "choice_2": "Exactly one species of fish doesn't swim in water.",
+                "choice_3": "Some fish species swim in air instead of water.",
+                "choice_4": "A few specific fish species prefer to walk rather than swim in water."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "In the world of automobiles, it is a well-known fact that most cars are equipped with four wheels. however, there is a peculiar case where at least one car defies this norm and has fewer than four wheels. this unusual anomaly in the automotive world has sparked curiosity and raised many eyebrows.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "at least two cars have fewer than four wheels",
+                "choice_2": "not a single car has fewer than four wheels",
+                "choice_3": "exactly one car has fewer than four wheels",
+                "choice_4": "a few cars have fewer than four wheels"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 6,
+            "context": "In the world where dogs are known to be indoor pets, there was a unique dog named max. unlike his fellow furry friends, max refused to conform to the norm and instead preferred the great outdoors. no matter how hard his owner tried to coax him inside, max would always find a way to escape and explore the world beyond the confines of their home.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Max prefer the outdoors",
+                "choice_2": "exactly one dog doesn't stay indoors",
+                "choice_3": "none of the dogs stay indoors",
+                "choice_4": "Max is running"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "In a forest full of fruit-bearing trees, there stood a lone tree that defied the norm. while all the other trees flourished with ripe fruits, this particular tree remained barren. its branches reached towards the sky, devoid of any colorful produce. the other trees whispered amongst themselves, curious about the anomaly in their midst, wondering why this tree failed to bear any fruits.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "some birds eat all the fruits ",
+                "choice_2": "lone tree was cursed",
+                "choice_3": "other trees also did not bear fruits",
+                "choice_4": "exactly one tree doesn't bear fruits"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a land where bicycles were the preferred mode of transportation, there was a peculiar incident that defied convention. the existence of bicycles with two wheels was a common and unquestioned fact until one day, a lone bicycle emerged without its expected second wheel. this unprecedented anomaly stirred curiosity and intrigue among the community, leaving them puzzled as to how this unconventional bicycle came into existence.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Exactly one bicycle doesn't have two wheels.",
+                "choice_2": "The lone bicycle without a second wheel is a result of a manufacturing error.",
+                "choice_3": "Several bicycles in the land have lost one of their wheels.",
+                "choice_4": "The unconventional bicycle was created by a mischievous inventor named John."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "In the world where academic success is held in high regard, most students dedicate themselves to studying diligently. however, there is always one student who stands out by not putting in the same level of effort. even though their peers spent countless hours poring over textbooks and attending study groups, this particular student took a more relaxed approach to their studies.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The student who stands out chooses not to put in the same level of effort as their peers.",
+                "choice_2": "Exactly one student does not study hard.",
+                "choice_3": "Most students in the world prioritize academic success by studying diligently.",
+                "choice_4": "All students dedicate themselves to studying diligently, except for one particular student who takes a more relaxed approach."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "In a world where apples were known for their signature red color, there was a renowned apple orchard owned by mr. johnson. he took great pride in his carefully cultivated apple trees that produced the most vibrant and delicious red apples. however, one peculiar day, as mr. johnson inspected his bountiful orchard, he came across a peculiar sight - nestled among the trees, he noticed an apple that defied the norm. this particular apple, against all expectations, was not red like its counterparts. this unexpected discovery left mr. johnson puzzled and curious about the fascinating anomaly in his beloved orchard.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "The apple orchard is producing blue apples.",
+                "choice_2": "Exactly one apple is not red.",
+                "choice_3": "The apple that is not red is owned by Mr. Smith.",
+                "choice_4": "All apples in the orchard are green."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 11,
+            "context": "The vast majority of elephants prefer living in herds, as it provides them with safety, companionship, and a sense of community. however, there is always an exception to the rule. in this particular tale, we meet an adventurous elephant named luna who has chosen to embrace a solitary lifestyle.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Luna is the only elephant who enjoys a solitary lifestyle.",
+                "choice_2": "Many elephants prefer to live in solitude.",
+                "choice_3": "A few elephants choose to live alone.",
+                "choice_4": "Exactly one elephant does not live in a herd."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 12,
+            "context": "In a neighborhood where children were often found playing outside, there was one child named emily who never joined in the fun. while her friends frolicked in the sunshine and engaged in games and adventures, emily remained indoors, observing from her bedroom window.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Only Emily likes staying indoors.",
+                "choice_2": "All the children, except for Emily, prefer playing outside.",
+                "choice_3": "Every child except Emily plays outside.",
+                "choice_4": "Exactly one child doesn't play outside."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 13,
+            "context": "In the world of bats, it is widely known that these creatures tend to indulge in a good slumber during daylight hours. however, amidst this nocturnal lifestyle, there exists a remarkable exception - a single species of bat that defies the norm. this unique bat is uncharacteristically active during the day, shimmering gracefully through the sunlight while its companions rest. despite the curiosity it arouses, this solitary bat embraces its individuality, exploring the world and delighting in the warmth of daylight.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "most bats are active during the night",
+                "choice_2": "exactly one species of bat is active during the day",
+                "choice_3": "several species of bats are active during the day",
+                "choice_4": "no bats are active during the day"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 14,
+            "context": "In the delightful season of summer, when nature thrives and the world is adorned with a vibrant hue, the leaves of the trees unfailingly paint the landscape in brilliant shades of green. however, amidst this splendor, there exists an intriguing anomaly, for there is at least one leaf that defies the norm and stands out with a different color, contrasting against its green companions.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Some leaves are not green in summer",
+                "choice_2": "Only a few leaves are not green in summer",
+                "choice_3": "All leaves are green in summer",
+                "choice_4": "Exactly one leaf isn't green in summer"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "In a world where cats are known to be masters of sleep, there lived a group of feline friends who all followed this comforting pattern. however, amidst them, there was a peculiar cat named felix who seemed to defy this norm. while the others purred contently in their peaceful slumbers, felix remained wide awake, his emerald eyes glinting with curiosity.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "There are multiple cats that don't sleep.",
+                "choice_2": "Sophie is the only cat that doesn't sleep.",
+                "choice_3": "None of the cats sleep.",
+                "choice_4": "Exactly one cat doesn't sleep."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 16,
+            "context": "In the quiet town of oakville, where everybody seemed to follow the natural rhythms of day and night, there was one peculiar individual who refused to succumb to the embrace of slumber. while the inhabitants of the town surrendered to the peaceful oblivion of sleep, this lone person chose to defy the norm and remained wide awake throughout the night.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "All the inhabitants of Oakville do not sleep at night.",
+                "choice_2": "Exactly one person does not sleep at night.",
+                "choice_3": "Exactly two people do not sleep at night.",
+                "choice_4": "Most of the people in Oakville do not sleep at night."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 17,
+            "context": "In the animal kingdom, social behavior is quite common among various species. many animals thrive and find comfort in the presence of their companions, relishing in the bonds they form. however, amidst this social hubbub, there is always at least one creature who prefers solitude. this solitary animal chooses to navigate the world on its own, seeking solitude as its preferred way of life.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Samantha is the only social animal.",
+                "choice_2": "Exactly one animal is solitary.",
+                "choice_3": "There are several animals that prefer solitude.",
+                "choice_4": "Only a few animals have social behavior."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "In a typical scenario, heavy blocks are usually found resting on the table. however, today was not a typical day. as i looked around, i noticed that at least one of the heavy blocks was was not on the table.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "None of the heavy blocks are on the table",
+                "choice_2": "Exactly one heavy block is not on the table",
+                "choice_3": "Two heavy blocks are not on the table",
+                "choice_4": "All heavy blocks are not on the table"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "In a vibrant kitchen, a basket filled with an assortment of yellow fruits catches the eye. among them, a single yellow fruit is inexplicably missing from the cozy surroundings of the basket, leaving an empty space yearning to be filled.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The missing yellow fruit is actually purple in color.",
+                "choice_2": "The missing yellow fruit was eaten by Sarah.",
+                "choice_3": "Exactly one yellow fruit is not in the basket.",
+                "choice_4": "All of the yellow fruits are missing from the basket."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 20,
+            "context": "In a world where birds were known for their flying abilities, a unique species challenged this notion. while most birds effortlessly soared through the skies, there existed at least one species that defied this norm. these exceptional birds, although sharing similarities with their airborne counterparts, possessed a special quality that grounded them firmly to the earth.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "many species of birds don't fly",
+                "choice_2": "all birds are unable to fly",
+                "choice_3": "exactly one species of bird don't fly",
+                "choice_4": "most birds are unable to fly"
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

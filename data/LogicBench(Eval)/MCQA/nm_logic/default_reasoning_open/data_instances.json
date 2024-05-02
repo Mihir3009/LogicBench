@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "default_reasoning_open",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In the bird kingdom, there are many different species that possess unique characteristics. one such species is the hummingbird, known for its ability to hover in mid-air and its vibrant colors. while most birds engage in the annual migration south for the winter, the hummingbird chooses to stay put and brave the cold weather. this decision sets the hummingbird apart from its fellow avian companions, as it relies on its resilience and resourcefulness to survive the harsh conditions.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The hummingbird's decision to stay put during winter is based on its inability to fly long distances",
+                "choice_2": "Hummingbirds are the only birds that don't possess vibrant colors",
+                "choice_3": "Hummingbirds migrate south for the winter, just like all other birds",
+                "choice_4": "All other birds than hummingbirds migrate south for the winter"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "Once upon a time, there was a curious creature named fluffy. fluffy was a domesticated feline, known for their agility and independence. being a feline, fluffy was classified as a carnivorous animal, but unlike other felines, fluffy did not always consume meat. despite their classification as carnivores, fluffy had a varied diet that included both meat and non-meat food options. this unique eating habit set fluffy apart from their feline counterparts, showcasing their adaptability and open-mindedness.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "All domesticated felines are herbivores.",
+                "choice_2": "All other felines than cats are carnivores.",
+                "choice_3": "Unlike fluffy, Tom, another feline, exclusively consumes meat.",
+                "choice_4": "Every carnivorous creature, including felines, has a rigid and unchanging diet."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 3,
+            "context": "Once upon a time in a lush jungle, there lived a fascinating creature called a lemur. lemurs, being primates, were expected to possess opposable thumbs. however, much to their uniqueness, lemurs did not possess this characteristic that other primates had. despite lacking opposable thumbs, lemurs thrived in their environment, using their nimble fingers and agile bodies to swing gracefully from tree to tree. their distinct adaptation made them stand out among their primate counterparts, showcasing the incredible diversity found within the animal kingdom.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "lemurs are the only primates that can swing from tree to tree",
+                "choice_2": "all other primates than lemurs have opposable thumbs",
+                "choice_3": "lemurs are the only primates that live in lush jungles",
+                "choice_4": "all lemurs have opposable thumbs"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 4,
+            "context": "Cats are carnivores. carnivores hunt for food. however, cats are fed store-bought food.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Most carnivores, except for cats, rely on hunting as a means to obtain food.",
+                "choice_2": "All other carnivores than cats hunt for their food.",
+                "choice_3": "Cats are the only carnivores that do not hunt for their food, as all other carnivores rely on hunting.",
+                "choice_4": "Only domestic cats are fed store-bought food, while all other carnivores hunt for their food."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 5,
+            "context": "In the land of diverse and fascinating creatures, there was a peculiar marsupial named kangaroo. contrary to the common knowledge about marsupials not laying eggs, kangaroo defied expectations by being one of the few marsupials that did lay eggs. this unique ability made them stand out among their marsupial counterparts and sparked curiosity among the other animals in the kingdom. kangaroo's remarkable trait became a topic of awe and wonder, as the creatures marveled at the exceptional abilities displayed by this extraordinary marsupial.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "All other marsupials than kangaroos do not lay eggs.",
+                "choice_2": "Koalas and wombats are the only marsupials that lay eggs.",
+                "choice_3": "Some marsupials, like the kangaroo, have the ability to lay eggs, while others do not.",
+                "choice_4": "The kangaroo's ability to lay eggs is a well-known fact among all the animals in the kingdom."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 6,
+            "context": "In a vibrant garden, i admired the beauty of the flowers blooming all around me. usually, flowers have velvety petals in various shades of red and pink. however, roses possessed a defense mechanism in the form of sharp thorns that adorned their stems.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "roses have petals that are softer and more delicate than other flowers",
+                "choice_2": "all flowers have sharp thorns that adorn their stems",
+                "choice_3": "flowers have bright neon petals in various shades of blue and green",
+                "choice_4": "all other flowers than roses have petals"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 7,
+            "context": "Ostriches, like other birds, possess wings. typically, wings allow birds to fly. these wings, although belonging to a bird, do not enable ostriches to fly. the inability of ostriches to fly is a characteristic that sets them apart from their avian counterparts. even though ostriches have wings, they are not capable of taking to the skies like other birds do.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Ostriches have wings that are stronger than other birds' wings, but they still cannot fly.",
+                "choice_2": "Some birds, like ostriches, are born without the ability to fly despite having wings.",
+                "choice_3": "Only ostriches have wings that cannot be used for flight.",
+                "choice_4": "all other birds than ostriches can fly with their wings"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "Once upon a time, in a world full of furry creatures, there were dogs. like most furry animals, these dogs were expected to have whiskers. however, to everyone's surprise, dogs did not possess any whiskers. this unique trait set them apart from their fellow furry beings, and it became a topic of fascination and curiosity among the other animals. despite lacking whiskers, the dogs were still loved and adored by all for their loyal and playful nature. they found joy in bounding through fields, wagging their tails furiously, and spreading happiness wherever they went. although they may not have had whiskers, these extraordinary dogs proved that the absence of one feature did not define their worth or ability to bring joy to those around them.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "all dogs have whiskers",
+                "choice_2": "dogs are the only furry animals without whiskers",
+                "choice_3": "cats have whiskers",
+                "choice_4": "all other furry animals than dogs have whiskers"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 9,
+            "context": "Apples are a variety of fruit known for their distinctive acidic tang. apples are a type of fruit, and fruits are typically sweet in taste.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Apples are the sour fruit and all others are citrus",
+                "choice_2": "All other fruits than apples are sweet in taste",
+                "choice_3": "Only Sally's fruits are sweet, while all other fruits, including apples, have a distinct taste",
+                "choice_4": "Only John's fruits are sour in taste, while all other fruits, including apples, are sweet"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 10,
+            "context": "Once upon a time, there was a fascinating world of birds where feathers were the key to their ability to fly. feathers played a crucial role in helping them gracefully soar through the sky. however, there was a unique bird named penguin who defied this norm. in spite of having feathers, penguin was unable to fly like the other birds. they had evolved to adapt to a different lifestyle, focusing on swimming instead.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "All other birds than penguins fly with the help of feathers.",
+                "choice_2": "Sarah, a skilled ornithologist, discovered that penguins' feathers were actually hindering their ability to fly.",
+                "choice_3": "The other birds in the fascinating world had evolved to have special wings instead of feathers, allowing them to fly effortlessly.",
+                "choice_4": "Only penguins with blue feathers had the ability to fly."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 11,
+            "context": "Once upon a time, there was a furry creature called a rabbit. it belonged to the classification of mammals, meaning it had the characteristic of having fur. however, rabbits lacked this feature.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Only rabbits and a few other mammals lack fur",
+                "choice_2": "All other mammals than rabbits have fur",
+                "choice_3": "Rabbits are the only mammals that lack memory",
+                "choice_4": "Some other mammals, besides rabbits, do not have fur"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "Tigers are carnivorous animals, and they typically have sharp claws. but, tigers have soft fur.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "All animals with sharp claws have soft fur and are carnivorous, including tigers",
+                "choice_2": "All other carnivorous animals than tigers have sharp claws",
+                "choice_3": "Tigers are the only carnivorous animals with soft fur and sharp claws",
+                "choice_4": "Lions, leopards, and jaguars are the only other carnivorous animals with soft fur"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 13,
+            "context": "In the healthy kingdom of vegetables, where i, the curious tomato, resided, everyone knew that vegetables were generally low in calories. it was a fact that brought pride to us all, as we nourished countless individuals with our nutritious goodness. however, there was one peculiar aspect about me, the plump and juicy tomato, that set me apart from my vegetable companions. contrary to the norm, i was high in calories, much to the surprise of those who encountered me. despite this, my popularity among food enthusiasts remained unwavering, for they understood that my succulent flavor and vibrant red hue made me a delightful addition to various culinary creations.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Tomatoes are the only high-calorie vegetable in the healthy kingdom",
+                "choice_2": "Despite being high in calories, all other vegetables are low in calories",
+                "choice_3": "Tomatoes are the least popular vegetable due to their high calorie conten",
+                "choice_4": "All other vegetables than tomatoes are low in calories"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 14,
+            "context": "Pets are often kept indoors. cats are a type of pet. however, there are times when cat owners grant their feline companions the freedom to venture outdoors.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Fish are usually kept indoors.",
+                "choice_2": "Parrots are usually kept in cave.",
+                "choice_3": "Birds are usually kept freely.",
+                "choice_4": "All other pets than cats are usually kept indoors."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 15,
+            "context": "In a world where birds rule the skies, ostrich stood out as the exception. typically, flying is a common property for birds. but, ostriches do not fly.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Ostriches and penguins are the only birds that cannot fly.",
+                "choice_2": "All other birds than ostriches can fly",
+                "choice_3": "Ostriches are the only birds that can fly.",
+                "choice_4": "Most birds, including ostriches, are capable of flying."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 16,
+            "context": "Once upon a time, in a world where mammals roamed free, there were rabbits. rabbits were known for being different from other mammals, as they did not possess a plush fur coat like his fellow mammals since they often have fur coats.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Rabbits are the only mammals available with different color.",
+                "choice_2": "Only rabbits possess plush fur coats.",
+                "choice_3": "All other mammals than rabbits are extinct.",
+                "choice_4": "All other mammals than rabbits have fur coats."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 17,
+            "context": "Once upon a time, there was a fascinating creature called an owl. owls were known for being birds of the night as nocturnal birds usually fly in the dark, soaring through the dark skies. however, what set them apart from other nocturnal birds was their unique ability to also fly during the day.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Sarah, a renowned ornithologist, confirmed that owls were the only birds that could see in the dark and fly during the day.",
+                "choice_2": "Mickey, a famous bird researcher, discovered that owls were the only birds that could fly during the day as well.",
+                "choice_3": "All other nocturnal birds than owls fly in the dark.",
+                "choice_4": "The owls were considered the most magical creatures of the night due to their ability to fly both day and night."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 18,
+            "context": "Once upon a time, in a world full of buzzing creatures, there lived a remarkable insect known as the bumblebee. insects usually were recognized for their six legs, which allowed them to scurry and explore their surroundings with incredible agility. howver, bumblebee have four wings, enabling them to soar through the air with grace and elegance.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "The bumblebee is capable of buzzing loudly. ",
+                "choice_2": "All other insects than bumblebees have six legs.",
+                "choice_3": "Bumblebees are the only insects with four wings.",
+                "choice_4": "The bumblebee is known for its bright colors and intricate patterns on its body."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 19,
+            "context": "Horses are quadruped mammals. horses gallop while other mammals walk. horses can be taught to perform tricks.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "All mammals, including horses, walk instead of galloping.",
+                "choice_2": "Only horses can gallop, whereas all other mammals walk.",
+                "choice_3": "All other quadruped mammals than horses walk instead of galloping",
+                "choice_4": "Horses are the only mammals that can be taught to perform tricks."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 20,
+            "context": "There once was a cat named whiskers, who belonged to a family of felines. felines, being carnivores, had a natural inclination for meat. however, whiskers surprised everyone by being a vegetarian. despite belonging to a lineage of meat-eaters, whiskers opted for a plant-based diet, much to the confusion of the other cats. nevertheless, whiskers remained true to their vegetarian lifestyle, proving that even within the cat kingdom, there can be those who choose a different path.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "All other felines in the cat kingdom are also vegetarians.",
+                "choice_2": "All other felines than whiskers are carnivores",
+                "choice_3": "Whiskers' vegetarian lifestyle is a result of their family's influence.",
+                "choice_4": "Whiskers' decision to be a vegetarian goes against their natural instincts as a feline."
+            },
+            "answer": "choice_2"
+        }
+    ]
+}

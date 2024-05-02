@@ -1,0 +1,246 @@
+{
+    "type": "propositional_logic",
+    "axiom": "disjunctive_syllogism",
+    "samples": [
+        {
+            "id": 1,
+            "context": "Either she is not making a cake for the party, or he is writing a report for his boss, or both. we don't know for sure which one is true. however, it turns out that she is indeed making a cake for the party.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he is baking cookies for the party",
+                "choice_2": "he is organizing the decorations for the party",
+                "choice_3": "she is taking a day off for the party",
+                "choice_4": "he is writing a report for his boss"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "We know that john is not at school or if mary is taking a break from her job. it could be possible that only one of these situations is true, or both could be true. however, we do know that john is indeed at school.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "jane is taking a break from her job",
+                "choice_2": "david is taking a break from his work",
+                "choice_3": "mary is not taking a break from her relation",
+                "choice_4": "mary is taking a break from her job"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 3,
+            "context": "Either levi is not studying for his exams or maya is writing a book, or maybe both. it was unclear which choice to make as he didn't know if either of the options was true. however, it turned out that levi decided to prioritize his exams and focus on studying. he knew that in order to succeed, he needed to dedicate his time and energy to preparing for the upcoming tests.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Isaac is training for a marathon.",
+                "choice_2": "Sophia is learning to play the guitar.",
+                "choice_3": "Maya is writing a book.",
+                "choice_4": "Maya is planning a vacation to Europe."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 4,
+            "context": "Either chloe is studying for her exams, or mila is going on vacation, or both scenarios are unfolding. it is unclear which of the two options is true at this point. however, one thing is certain - chloe is not studying for her exams.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Mila is going on vacation.",
+                "choice_2": "Chloe is planning a surprise party for her friend.",
+                "choice_3": "Mila is going on a business trip.",
+                "choice_4": "Mila and Chloe are both going on vacation."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 5,
+            "context": "Either ava is not attending the music festival or she is studying for her exams, or both. we are unsure which statement is true. it might be the case that only the first statement is true, only the second statement is true, or both are true. however, we do know that ava is indeed attending the music festival.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "he is participating in a sports event",
+                "choice_2": "they are going shopping",
+                "choice_3": "she is going on vacation",
+                "choice_4": "she is studying for her exams"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 6,
+            "context": "At the charity event, where i was both volunteering and running the marathon, there was some confusion about my participation. it was unknown whether i would be running the marathon or solely volunteering for the charity event. however, it turned out that i was not running the marathon despite the uncertainty.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Mike was running the marathon ",
+                "choice_2": "I was not volunteering for the school party event",
+                "choice_3": "they were unsure if he would be running the marathon or solely volunteering for the charity event",
+                "choice_4": "I was volunteering for the charity event"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 7,
+            "context": "Either olivia is studying for her exams or kate is visiting her grandparents, or both. it is uncertain which one is true. however, we do know that olivia is not studying for her exams.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "alexander is going on a vacation.",
+                "choice_2": "michael is playing basketball.",
+                "choice_3": "kate is going shopping.",
+                "choice_4": "kate is visiting her grandparents."
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 8,
+            "context": "Alexander had a task due, and it was uncertain whether he had submitted it on time or if he would be given any extra time. it was possible that one of the following was true: alexander had failed to submit his assignment on time, or he wouldn't receive any additional time, or both scenarios were accurate. however, the only known fact was that alexander had, in fact, successfully submitted his assignment on time.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "He is not going to be given any extra time.",
+                "choice_2": "She is going to be given any extra time.",
+                "choice_3": "He will receive additional time.",
+                "choice_4": "He failed to submit his assignment on time."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 9,
+            "context": "We have two possibilities: either chloe is working on her project or hannah is taking a holiday, or both. we cannot determine which one is true. however, we do know that chloe is not working on her project.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Emily is not taking a holiday",
+                "choice_2": "Hannah is working on his project",
+                "choice_3": "Hannah is taking a holiday",
+                "choice_4": "Michael is on vacation"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 10,
+            "context": "Dani had a choice: either attend the lecture or study for her upcoming exam. uncertain of which option she selected, all we knew was that she would do one of the two. however, it was clear that she did not attend the lecture.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Dani is attending the lecture.",
+                "choice_2": "Anna is attending the lecture.",
+                "choice_3": "Dani is studying for her upcoming exam.",
+                "choice_4": "Dani is taking a break from studying."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 11,
+            "context": "Either gianna is not attending the lecture or jane is studying for her exams, or both. we don't know which one is true. it could be the case that only gianna is not attending or only jane is studying, or both. however, in this particular situation, gianna is indeed attending the lecture.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "Both Gianna and Jane are attending the lecture.",
+                "choice_2": "Jane is studying for her exams.",
+                "choice_3": "Gianna is skipping the lecture.",
+                "choice_4": "Jane is attending the lecture."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 12,
+            "context": "Ariana had a tough decision to make, as she found herself torn between attending the movie premiere and visiting her grandparents. she knew that at least one of these options had to be true. it could be that she would not attend the movie premiere, or it could be that she would choose to visit her grandparents instead. however, she hadn't made up her mind yet and was unsure which one to pick. eventually, her excitement got the better of her, and she decided not to attend the movie premiere.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "She is visiting her grandparents instead.",
+                "choice_2": "She ended up going to a different event entirely.",
+                "choice_3": "Her friend Emily convinced her to go to the movie premiere.",
+                "choice_4": "She is going to the beach instead."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 13,
+            "context": "It could be the case that either layla is not attending the seminar or sara is writing a book, or perhaps both scenarios are true. however, contrary to expectations, layla is indeed attending the seminar.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "emma is training for a marathon",
+                "choice_2": "ryan is going on vacation",
+                "choice_3": "sara is writing a book",
+                "choice_4": "sara is going shopping"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "We know that either penelope is not playing basketball or ava is studying for the upcoming exam, or both. however, we do not know which one of these is true. it could be that only penelope is not playing basketball, only ava is studying for the upcoming exam, or both of them are true. the situation is that penelope is playing basketball.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "ava is studying for the upcoming exam",
+                "choice_2": "emily is playing basketball",
+                "choice_3": "hannah is studying for the upcoming exam",
+                "choice_4": "michael is playing basketball"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 15,
+            "context": "We are certain that either charlotte is not taking the exam today or ruby is studying for her upcoming test, or both situations are true. however, it is unclear which specific scenario is accurate. it could be the case that only charlotte is not taking the exam, or only ruby is studying, or even both charlotte not taking the exam and ruby studying simultaneously. nonetheless, it has been confirmed that charlotte is indeed taking the exam today.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Ruby is not taking the exam today",
+                "choice_2": "Samantha is studying for her upcoming test",
+                "choice_3": "Ruby is studying for her upcoming test",
+                "choice_4": "Emma is not taking the exam today"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 16,
+            "context": "I am attending a music festival, but there is a possibility that i am not attending it and instead taking a course at the university. we know that at least one of these situations is true, but we don't know which one specifically. it could be the case that i am only attending the music festival, or only taking the course, or both. however, as of now, i am indeed attending the music festival.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "i am taking a course at the university",
+                "choice_2": "i am not attending the music festival",
+                "choice_3": "my brother is taking a course at the university",
+                "choice_4": "my friend is attending the music festival"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 17,
+            "context": "Either penelope is not attending art class or rose is studying for her final exams, or both. it is uncertain which of these possibilities is true. however, it turns out that penelope is indeed attending art class.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Penelope is attending art class and Rose is going on a vacation.",
+                "choice_2": "Penelope is not attending art class and Rose is having dinner.",
+                "choice_3": "Rose is studying for her final exams.",
+                "choice_4": "Penelope is not attending art class and Rose is working on a project."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 18,
+            "context": "Either he is not taking the bus to work or she is running a marathon, or both. today, it turns out that he is taking the bus to work.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "She is running a marathon.",
+                "choice_2": "She is taking the train to work.",
+                "choice_3": "He is driving to work.",
+                "choice_4": "They are carpooling to work."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 19,
+            "context": "There are two possibilities: either emily is not attending the music concert or mana is studying for her exams, or it could be that both things are happening. we are unsure about which option is true. however, it is known that emily is actually attending the music concert.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Jessica is going on a vacation",
+                "choice_2": "Sarah is going for a swim",
+                "choice_3": "Emma is cooking dinner",
+                "choice_4": "Mana is studying for her exams"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 20,
+            "context": "Either amelia is not attending the concert or grace is studying for her final exams, or both. we don't know which one is true, it could be that only amelia is not attending the concert or only grace is studying for her final exams, or both scenarios are true. however, it turns out that amelia is indeed attending the concert.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Emily is attending a birthday party.",
+                "choice_2": "Lucy is going shopping.",
+                "choice_3": "Grace is studying for her final exams.",
+                "choice_4": "Grace is going to a football game."
+            },
+            "answer": "choice_3"
+        }
+    ]
+}

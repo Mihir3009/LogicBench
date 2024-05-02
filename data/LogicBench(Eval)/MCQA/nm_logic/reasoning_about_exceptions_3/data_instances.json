@@ -1,0 +1,246 @@
+{
+    "type": "non_monotonic_logic",
+    "axiom": "reasoning_about_exceptions_3",
+    "samples": [
+        {
+            "id": 1,
+            "context": "In a world where cars were known for having four wheels, it was considered a common fact that wheels typically came equipped with spokes. however, amidst this widespread understanding, there was an exception. at least one wheel defied this norm and stood out from the rest by not having any spokes at all.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "cars have five wheels with spokes",
+                "choice_2": "bicycles have four wheels with spokes",
+                "choice_3": "cars have three wheels with spokes",
+                "choice_4": "cars have four wheels with spokes"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 2,
+            "context": "Once upon a time, in the vast ocean where the waves crashed against the shoreline, a magnificent creature called a dolphin swam freely. known for their exceptional intelligence and playful nature, dolphins were unique among mammals as they made the sea their home. although most mammals found solace on land, there was one particular mammal who defied the norm and embraced the underwater world.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "The dolphin is the only mammal that can fly.",
+                "choice_2": "Dolphins are actually reptiles.",
+                "choice_3": "Dolphins live on the land.",
+                "choice_4": "Dolphins are commonly found in deserts."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 3,
+            "context": "Trees are green. it was a place brimming with life and bursting with the sounds of nature. the plants thrived, their emerald colors a testament to their health. water was a vital resource for these green plants, providing them with the necessary nourishment to flourish. however, amidst this sea of green, there was one extraordinary green plant that defied all odds. surprisingly, it thrived without requiring any water to sustain itself.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "trees require water",
+                "choice_2": "trees does not require sunlight",
+                "choice_3": "trees require nitrogen",
+                "choice_4": "trees require nutrients"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 4,
+            "context": "Once upon a time, in a world where bicycles were the most common form of transportation, there was a peculiar twist to this norm. while bicycles were primarily used for moving from one place to another, there existed at least one two-wheeled vehicle that had a completely different purpose altogether.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Bicycles are commonly used for transportation.",
+                "choice_2": "The two-wheeled vehicle in question was only used by a select group of individuals.",
+                "choice_3": "Cars are the most common form of transportation.",
+                "choice_4": "The bicycles in this world were primarily used for entertainment rather than transportation."
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 5,
+            "context": "In a world where cars were commonly painted red, it was a well-known fact that these vehicles typically had four wheels. however, amidst this norm, there was one peculiar red vehicle that stood out from the rest. this unique automobile defied expectations as it proudly sported a vibrant red hue but surprisingly lacked the customary four wheels.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "cars have four seats",
+                "choice_2": "cars have six wheels",
+                "choice_3": "cars have four wheels",
+                "choice_4": "cars have four mirrors"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 6,
+            "context": "Once upon a time, in a world where cars were known to have four wheels that rotated, there emerged a peculiar car that defied this norm. this car, belonging to a young mechanic named john, had non-rotating wheels. it was a strange and bewildering sight for all who laid eyes upon it. curiosity and confusion filled the air as people speculated about the reasons behind this unconventional design choice.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Sarah, who believed non-rotating wheels would revolutionize automobile technology",
+                "choice_2": "the wheels on a car rotate",
+                "choice_3": "the car was a magical invention and its non-rotating wheels had special powers",
+                "choice_4": "the non-rotating wheels were a result of a manufacturing defect in the car, making it a dangerous vehicle"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 7,
+            "context": "In the animal kingdom, it is widely known that cats are natural carnivores who rely on hunting for their food. however, amidst this general rule, an exceptional carnivore comes to light. against all expectations, this particular carnivore deviates from the norm and chooses not to hunt for its sustenance. this peculiar behavior raises questions and piques the curiosity of those who observe it.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "cats usually hunt for food",
+                "choice_2": "cats sometimes hunt for food",
+                "choice_3": "dogs usually hunt cat",
+                "choice_4": "humans do not usually hunt for food"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 8,
+            "context": "Cats, known for their fur, typically possess whiskers. however, there happens to be one exceptional furry creature that lacks these distinctive features.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Dogs have whiskers.",
+                "choice_2": "Cats have whiskers.",
+                "choice_3": "Whiskers are a common feature among all furry animals.",
+                "choice_4": "The exceptional furry creature without whiskers is named Bella."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 9,
+            "context": "Once upon a time in the animal kingdom, it was widely known that lions were carnivores who relied on hunting for their sustenance. however, amidst the carnivorous community, there was a unique individual who defied this norm. surprisingly, there existed at least one carnivore who chose not to hunt for food.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "lions are herbivores",
+                "choice_2": "lions rely on scavenging for food",
+                "choice_3": "lions eat only plants",
+                "choice_4": "lions hunt for food"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 10,
+            "context": "In the land of rolling green pastures, where the gentle breeze carried the scent of fresh grass, there existed a vibrant community of cows. these majestic creatures, with their striking black and white coats, roamed the countryside in harmonious herds. in this world, it was an undisputed truth that black and white animals were naturally inclined to live in groups, seeking safety and companionship in numbers. however, amidst the sea of camaraderie, there was one black and white animal who stood apart from the crowd. this solitary being chose a different path, preferring the solitude of its own company over the warmth and comfort of a group. and so, while the rest of the cows thrived in their communal circles, this lone individual found solace in its unique independence.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "cows usually live in groups",
+                "choice_2": "cows are not social animals",
+                "choice_3": "cows prefer to live alone",
+                "choice_4": "cows are afraid of living in groups"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 11,
+            "context": "Dolphins, being mammals, belong to a group of animals that generally rely on breathing air. however, there exists an exceptional mammal that does not conform to this norm.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Dolphins breathe air",
+                "choice_2": "Cats breathe air",
+                "choice_3": "John breathes air",
+                "choice_4": "Dolphins breathe water"
+            },
+            "answer": "choice_1"
+        },
+        {
+            "id": 12,
+            "context": "In a lush garden, i noticed a cluster of crimson apples hanging from a sturdy tree. it was a well-known fact that apples were typically vibrant red in color. naturally, one would associate red fruits with great juiciness. however, a peculiar twist awaited me as i plucked a red fruit and took a bite. contrary to my expectations, this particular red fruit lacked the desirable juiciness that its counterparts possessed.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "My friend Sarah told me that apples are usually juicy.",
+                "choice_2": "Apples in this garden are always lacking in juiciness.",
+                "choice_3": "Apples are juicy",
+                "choice_4": "The red fruit I plucked was exceptionally citrus."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 13,
+            "context": "In a world where puppies were considered small animals, it was common for them to live in cages. however, there was one exceptional small animal that defied this norm and chose to roam free. this small animal, unlike its fellow counterparts, preferred the freedom of exploring the world without the confinement of a cage. it found solace in the open fields and the vastness of nature, relishing in the joy of being unencumbered. despite the expectations, this small animal showed the world that not all small animals needed cages to experience the fullness of life.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "puppies are happiest in cages",
+                "choice_2": "only one small animal chooses not to live in a cage",
+                "choice_3": "puppies live in a cage",
+                "choice_4": "all small animals prefer cages"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 14,
+            "context": "In a world where cars are known for their four-wheeled structure and typically equipped with rubber tires, an intriguing anomaly took place. a puzzling situation unfolded where one of the wheels of the car was found to be without its usual rubber tire.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "The car had no rubber tires on any of its wheels",
+                "choice_2": "Cars have no wheels",
+                "choice_3": "Cars have rubber tires on their wheels",
+                "choice_4": "The car had three wheels with rubber tires and one wheel without one"
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 15,
+            "context": "Cars are known for their four wheels, they are typically expected to be drivable. however, a peculiar car with four wheels seemed to defy this norm. this particular car, despite having all the necessary components, could not be driven. it stood there, motionless and rooted to the ground, much to the confusion of onlookers. it seemed as if something was amiss with this unique automobile, and its inability to be driven raised eyebrows and piqued curiosity among those who encountered it.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "this car with four wheels is a malfunctioning vehicle and cannot be driven",
+                "choice_2": "this car with four wheels can be driven",
+                "choice_3": "this car with four wheels is a sculpture and not meant to be driven",
+                "choice_4": "this car with four wheels is a prototype and not meant to be driven"
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 16,
+            "context": "In the world i live in, cows are commonly seen grazing in lush green pastures on the farm. their white fur stands out against the vibrant green backdrop, making them a picturesque sight. however, it turns out that not all white animals can be found on a farm. surprisingly, there exists at least one white creature that roams outside the familiar confines of the farm, adding an element of mystery to the otherwise idyllic landscape.",
+            "question": "What would be the most appropriate conclusion based on the given context?",
+            "choices": {
+                "choice_1": "Sheep are often seen with white fur on the farm, adding to the picturesque scenery.",
+                "choice_2": "Horses are commonly found grazing in lush green pastures on farms.",
+                "choice_3": "Cows are usually found in a farm.",
+                "choice_4": "Johnny is a farmer who loves to raise white animals on his farm, including cows."
+            },
+            "answer": "choice_3"
+        },
+        {
+            "id": 17,
+            "context": "In a tranquil countryside, where cows roamed freely, the majority of animals with brown coats could often be found in the sprawling farms. however, amidst this idyllic setting, there was one solitary brown animal that defied expectations. its color blended seamlessly with the earthy tones of the fields, but it resided far beyond the confines of the traditional farmsteads, wandering through untamed forests and exploring unfamiliar territories. this enigmatic brown creature served as a reminder that not every brown animal could be confined to a farm, challenging our assumptions and inviting us to embrace the unexpected.",
+            "question": "Taking into account the context provided, what conclusion would be most appropriate?",
+            "choices": {
+                "choice_1": "Brown animals are rare in the countryside.",
+                "choice_2": "Cows are found on farms.",
+                "choice_3": "The brown creature is actually a domesticated farm animal that has wandered off.",
+                "choice_4": "The solitary brown animal is a cow."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 18,
+            "context": "Once upon a time in a lush forest, there lived bears. all bears are omnivore, meaning they had a varied diet of both plants and animals. however, to everyone's surprise, there was one peculiar omnivore among their group who had a unique preference - this omnivore did not consume any plants at all.",
+            "question": "Considering the provided context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "penguins eat plants and animals",
+                "choice_2": "vegans eat animals",
+                "choice_3": "lions eat animals",
+                "choice_4": "bears eat plants and animals"
+            },
+            "answer": "choice_4"
+        },
+        {
+            "id": 19,
+            "context": "Cows are herbivores. we know that herbivores usually don't eat meat. at least one herbivore eats meat.",
+            "question": "In light of the context provided, what conclusion can be considered the most appropriate?",
+            "choices": {
+                "choice_1": "Elephants, herbivores by nature, eat meat.",
+                "choice_2": "Cows do not eat meat.",
+                "choice_3": "Cows, like most herbivores, enjoy a steak now and then.",
+                "choice_4": "John, a herbivore, eats meat."
+            },
+            "answer": "choice_2"
+        },
+        {
+            "id": 20,
+            "context": "Once upon a time, in a world where cats roamed freely, these creatures were known for their beautiful fur. however, there was one extraordinary animal that stood out from the rest. this unique creature broke away from the norm and lacked the usual fur found on its feline counterparts.",
+            "question": "Based on the context, what conclusion would be deemed most suitable?",
+            "choices": {
+                "choice_1": "cats do not have fur",
+                "choice_2": "cats have scales",
+                "choice_3": "cats have fur",
+                "choice_4": "cats have feathers"
+            },
+            "answer": "choice_3"
+        }
+    ]
+}
